@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-06T04:57:49.971Z",
+  "passed": true,
+  "checks": [
+    "Public enquiry persists actual form data and creates an Activity entry",
+    "Career form persists candidate data and private resume bytes",
+    "Admin and thank-you emails are composed correctly (captured, not sent)",
+    "Invalid form fields and invalid resume file are rejected without storage",
+    "Admin pages and private resumes require authentication",
+    "Real login form, dashboard, record lists and Activity render test records",
+    "Admin create lead form saves a record and redirects to its details",
+    "Lead edit form saves changed fields with before-and-after Activity values",
+    "Internal note form saves and records the previous note",
+    "Lead and career statuses persist; no-op changes do not add misleading history",
+    "Career edit form persists changes and records them in history",
+    "Resume endpoint returns exact bytes, safe headers, and an attributed log",
+    "Search treats regex characters literally; lists filter by status and source",
+    "Viewer pages are read-only; staff cannot delete or manage the team",
+    "Direct viewer mutation requests are rejected and validation errors preserve data",
+    "External CV links are private, redirect safely and create an activity event",
+    "Team creation form validates and creates a staff account",
+    "Team deactivate and password reset forms revoke existing sessions",
+    "Delete forms remove records while preserving attributable Activity history",
+    "Invalid and missing record IDs return a controlled not-found page",
+    "Pagination produces a second page using actual inserted records",
+    "Logout invalidates the session cookie"
+  ],
+  "browserPreview": false,
+  "database": "Isolated real MongoDB database, removed after checks",
+  "email": "Captured transport; no external email sent"
+}

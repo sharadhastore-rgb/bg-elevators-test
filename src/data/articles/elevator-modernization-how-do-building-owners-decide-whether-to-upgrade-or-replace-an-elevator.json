@@ -1,0 +1,1234 @@
+{
+  "slug": "elevator-modernization-how-do-building-owners-decide-whether-to-upgrade-or-replace-an-elevator",
+  "title": "Elevator Modernization: How Do Building Owners Decide Whether to Upgrade or\n                            Replace an Elevator?",
+  "date": "August 18, 2026",
+  "image": "/images/elevator-modernization-how-do-building-owners-decide-whether-to-upgrade-or-replace-an-elevator.webp",
+  "imageAlt": "",
+  "eyebrow": "Latest News",
+  "headings": [
+    {
+      "id": "section-1",
+      "title": "What Elevator Modernization Actually Covers",
+      "level": "h2"
+    },
+    {
+      "id": "section-2",
+      "title": "Controller and drive",
+      "level": "h3"
+    },
+    {
+      "id": "section-3",
+      "title": "Doors, safety gear and cabin",
+      "level": "h3"
+    },
+    {
+      "id": "section-4",
+      "title": "When Elevator Replacement Is the Honest Answer",
+      "level": "h2"
+    },
+    {
+      "id": "section-5",
+      "title": "Elevator Lifecycle: Matching Age to Action",
+      "level": "h2"
+    },
+    {
+      "id": "section-6",
+      "title": "Elevator Modernization Against Full Replacement",
+      "level": "h2"
+    },
+    {
+      "id": "section-7",
+      "title": "Compliance and Licensing You Can’t Skip",
+      "level": "h2"
+    },
+    {
+      "id": "section-8",
+      "title": "Building the Decision Case",
+      "level": "h2"
+    },
+    {
+      "id": "section-9",
+      "title": "Questions worth asking a vendor",
+      "level": "h3"
+    },
+    {
+      "id": "section-10",
+      "title": "Handling an old lift upgrade in an occupied building",
+      "level": "h3"
+    },
+    {
+      "id": "section-11",
+      "title": "Frequently Asked Questions",
+      "level": "h2"
+    },
+    {
+      "id": "section-12",
+      "title": "1. How long does elevator modernization take?",
+      "level": "h3"
+    },
+    {
+      "id": "section-13",
+      "title": "2. Is elevator modernization cheaper than replacing a lift?",
+      "level": "h3"
+    },
+    {
+      "id": "section-14",
+      "title": "3. Can we modernize only the doors and controller?",
+      "level": "h3"
+    },
+    {
+      "id": "section-15",
+      "title": "4. Will a lift modernization reduce our electricity bill?",
+      "level": "h3"
+    },
+    {
+      "id": "section-16",
+      "title": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "body": [
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "A lift that’s twenty-two years old rarely fails dramatically. It gets slower to answer calls, the doors start hesitating, and the service engineer turns up more often than the housekeeping supervisor. Sooner or later a building owner or apartment committee has to stop patching and ask whether BG Elevators can help assess whether",
+        {
+          "tag": "strong",
+          "children": [" "]
+        },
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/index"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "u",
+                  "children": ["elevator modernization"]
+                }
+              ]
+            }
+          ]
+        },
+        " is the sensible route, or whether the whole unit should come out. BG Elevators helps building owners evaluate the condition of existing elevator systems before deciding between an upgrade and full replacement."
+      ]
+    },
+    {
+      "tag": "br",
+      "children": []
+    },
+    " ",
+    {
+      "tag": "img",
+      "attributes": {
+        "src": "/images/internalblogoimg/elevator-technician-inspecting-a-modern-elevator-system-in-a-professional-building-lobby.webp",
+        "alt": "Elevator technician inspecting a modern elevator system in a professional building\n                            lobby"
+      },
+      "children": []
+    },
+    {
+      "tag": "br",
+      "children": []
+    },
+    {
+      "tag": "br",
+      "children": []
+    },
+    " ",
+    {
+      "tag": "h1",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["What Wears Out First, and What Doesn’t"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Ask any technician which part generates the most callouts and you’ll hear the same answer: doors. Door operators, safety edges, landing locks and the cams that drive them account for the majority of breakdowns in any older installation. They cycle thousands of times a week, in the dustiest part of the system."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Control panels come next. A relay-logic or early microprocessor controller from the late nineties is now unsupported. Boards get repaired rather than replaced, spares come from scavenged units, and one failure can strand the lift for a week while someone hunts for a card. Ropes, brake linings and guide shoes wear predictably and are consumables, not decisions."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "The parts almost nobody needs to replace are the expensive civil ones. If your shaft is plumb, the pit is dry and the rails are true, you already own the costly half of a lift."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-1"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["What Elevator Modernization Actually Covers"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Elevator modernization means keeping the shaft, rails and often the car shell while replacing the systems that determine safety, ride quality and reliability. It’s done in stages or as one shutdown, depending on how long the building can manage without the lift."
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-2"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Controller and drive"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "The core of most projects is a new microprocessor controller with a VVVF drive. This one change fixes the complaints residents actually voice: jerky starts, poor floor levelling, long waits, and a car that ignores calls at peak hours. Swapping an old geared machine for a gearless permanent-magnet unit cuts running current, often by a third to a half for the same duty, and removes the oil changes a worm-gear box demands."
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-3"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Doors, safety gear and cabin"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Manual collapsible gates get replaced with automatic power doors and an infrared curtain, the single biggest safety improvement in most residential retrofits. An automatic rescue device brings the car to the nearest landing during a power cut, which matters in a city where a monsoon evening can take the grid down without warning. Cabin work costs little against the rest and changes how the building feels."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-4"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["When Elevator Replacement Is the Honest Answer"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Some buildings can’t be salvaged component by component. If the shaft is out of plumb, the pit floods every season, the rails are corroded, or the car is too small for a stretcher in a building that now houses elderly residents, a full ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/services"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "u",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": ["elevator replacement"]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        " works out cheaper over ten years than a run of partial fixes."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "The other trigger is capacity. A 1990s tower built for 408 kg cars with two families per floor may now have four. No amount of control upgrading creates space that isn’t there. Where the car is genuinely undersized, replacement with a larger machine-room-less unit is the only real fix."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-5"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Elevator Lifecycle: Matching Age to Action"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Thinking in terms of ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/features"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "u",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": ["elevator lifecycle"]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        " stages stops committees from arguing about symptoms. Most equipment follows a broadly predictable path."
+      ]
+    },
+    " ",
+    {
+      "tag": "table",
+      "children": [
+        " ",
+        {
+          "tag": "tbody",
+          "children": [
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Age"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Typical condition"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Usual action"]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["0–8 years"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Original spec, parts freely available"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Routine AMC only"]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["8–15 years"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Door gear and boards wearing"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Targeted repairs, plan a budget"]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["15–25 years"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Controller obsolete, ride quality dropping"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Elevator modernization is usually the best value"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["25+ years"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Structure sound but everything else spent"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Modernization or replacement, decided by shaft condition"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Any age with shaft or capacity faults"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Civil limits reached"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Replacement"]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    },
+    {
+      "tag": "br",
+      "children": []
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "The elevator lifecycle bands aren’t rules. A lightly used lift in a four-storey villa can run happily past thirty, while a hospital lift doing 400 trips a day can be exhausted at fifteen."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-6"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Elevator Modernization Against Full Replacement"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Framed side by side, the trade-offs read more clearly than any single quote makes them look. "
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "strong",
+                  "children": ["Cost:"]
+                }
+              ]
+            },
+            "a partial elevator upgrade covering controller, drive and doors runs a fraction of new equipment; replacing a mid-rise passenger lift costs several times more once civil work is priced in."
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "strong",
+                  "children": ["Downtime:"]
+                }
+              ]
+            },
+            "a phased ",
+            {
+              "tag": "a",
+              "attributes": {
+                "href": "/elevator-modernization"
+              },
+              "children": [
+                {
+                  "tag": "strong",
+                  "children": [
+                    {
+                      "tag": "u",
+                      "children": [
+                        {
+                          "tag": "strong",
+                          "children": ["lift modernization"]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            " typically means two to four weeks of continuous shutdown; replacement usually means six to ten weeks with the shaft closed."
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "strong",
+                  "children": ["Disruption:"]
+                }
+              ]
+            },
+            "modernization keeps most of the shaft untouched, so no scaffolding through the atrium and no structural approvals."
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "strong",
+                  "children": ["Lifespan gained:"]
+                }
+              ]
+            },
+            "an elevator upgrade buys fifteen to twenty more years; new equipment resets the clock entirely."
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "strong",
+                  "children": ["Warranty:"]
+                }
+              ]
+            },
+            "replacement covers the whole installation, while modernization warranties cover only the parts changed."
+          ]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Treat every rupee figure a vendor gives you as indicative. The number moves with capacity, travel, number of stops, door type and how much civil work the site needs."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-7"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Compliance and Licensing You Can’t Skip"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Elevator modernization in Karnataka brings the Lifts, Escalators and Passenger Conveyors rules into play. A licence is required to operate, the installation has to be inspected, and altering the machine, controller or capacity is a notifiable change rather than a quiet swap. New equipment must comply with the relevant parts of IS 14665, covering car and shaft dimensions, safety gear and testing."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Get your contractor to confirm in writing who files the paperwork and what the inspection sequence looks like. Committees are often surprised that a lift can be mechanically finished and still not legally usable."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-8"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Building the Decision Case"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-9"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Questions worth asking a vendor"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ol",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            "Which components stay, and what condition are they in today?"
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            "What’s the expected continuous shutdown, and can the work be phased?"
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            "Are the proposed controller and drive from a supported product line with spares available locally?"
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            "What does the AMC cost after the work, compared with what you pay now?"
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            "Who handles the statutory inspection and licence renewal?"
+          ]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-10"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Handling an old lift upgrade in an occupied building"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Sequencing matters more than the equipment brand. In a single-lift building, plan the shutdown outside exam season, tell residents the real date rather than an optimistic one, and arrange help for anyone upstairs who can’t manage stairs. Where two lifts serve one core, running the elevator modernization one car at a time is slower and slightly dearer, but the building keeps working throughout. An old lift upgrade handled that way draws far fewer complaints than one rushed through in a fortnight."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-11"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Frequently Asked Questions"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-12"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["1. How long does elevator modernization take?"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "A typical controller, drive and door package needs about two to four weeks of continuous shutdown for a mid-rise residential lift. Phased work spreads over longer but keeps the car available part of the time. Sites needing pit repairs or new rails run longer, so ask for a written schedule with milestones before you sign."
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-13"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "2. Is elevator modernization cheaper than replacing a lift?"
+              ]
+            }
+          ]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Almost always, because the shaft, rails and civil work are already paid for. A partial upgrade covering controls, drive and doors usually costs a fraction of a new installation. The gap narrows if the car itself is undersized or the shaft needs correction, at which point replacement starts to make better financial sense."
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-14"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["3. Can we modernize only the doors and controller?"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Yes, and that combination is the most common starting point because it removes most breakdown causes. Keep the machine and ropes if they test well. Just confirm the new controller is compatible with the existing drive, otherwise you’ll pay twice when the machine is eventually changed."
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-15"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "4. Will a lift modernization reduce our electricity bill?"
+              ]
+            }
+          ]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Usually, yes. Moving from an old geared machine to a gearless drive with VVVF control cuts running current noticeably, and LED cabin lighting with standby mode trims the rest. The saving depends on how heavily the lift is used, so a busy commercial building sees a much faster payback than a quiet villa."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-16"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Conclusion"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "The decision rarely turns on the lift’s age alone. It turns on whether the expensive, permanent parts of the installation are still sound. If your shaft is straight, your pit is dry and the car suits the building’s traffic, elevator modernization gives you a near-new lift for a fraction of replacement cost and disruption. If the structure or capacity has hit its limit, new controls only postpone the real work."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Get an independent condition assessment before you collect quotes, so you’re comparing proposals against facts rather than sales pitches. If you’re weighing up elevator modernization against replacement, BG Elevators can help you discuss the condition and requirements of your existing lift. ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/contact-us"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "u",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": ["Contact BG Elevators"]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        " to discuss modernization, replacement or elevator upgrade requirements with the team. You can also ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "https://www.instagram.com/bgelevatorsbg/"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "u",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": ["follow BG Elevators on Instagram"]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        " for elevator solutions, project updates and useful industry insights. BG Elevators is ready to help you make an informed decision based on your building’s requirements."
+      ]
+    },
+    " "
+  ],
+  "additionalSections": [
+    {
+      "component": "TestimonialsSection",
+      "data": {
+        "text": "Testimonials",
+        "heading": "What Our Customers Say ",
+        "text2": "About Us",
+        "description": "90% Customer Satisfaction based on 750+ reviews and 10K+ Completed Projects.",
+        "items": [
+          {
+            "description": "We installed BG Elevators in our apartment complex last year, and the experience has been great. The lifts run smoothly, are quiet, and add a premium touch to the building. Their team was punctual and skilled — highly recommended!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Suresh",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "What stood out with BG Elevators was their professionalism and how they explained every detail before installation. As a homeowner, safety was my concern, and their elevators feel secure and modern. The speed and smoothness are excellent!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Priya",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "We run a commercial space, and choosing BG Elevators was one of the best decisions. The lift has handled consistent usage without any issues. Their after-sales support is also prompt and courteous. Great service from start to finish!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Anil K",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "I love how elegant the elevator cabin looks. It gives a classy touch to our apartment. BG Elevators delivered exactly what they promised—quality, aesthetics, and reliability. The installation was quick and mess-free too!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Deepa",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "Right from the initial survey to installation, the entire process was smooth. The team was professional and maintained great communication throughout. The lift functions really well and is easy for elderly people in our family to use.",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Vinay",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "I really appreciate how responsive the customer service team was. Even after installation, they followed up and offered a maintenance plan. It feels good knowing we have a dependable support team behind such a crucial home feature.",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Lakshmi",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "We’ve had BG Elevators in our building for over a year now, and it still runs like new. Even during voltage fluctuations, the lift performs without hiccups. The durability and build quality are impressive. Totally worth the investment!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Rakesh N",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "Our house has three floors, and with kids and elderly parents, we needed reliability. BG Elevators gave us peace of mind. It's easy to use, safe, and looks great. Their technicians were polite and ensured everything was perfect before leaving.",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Sahana P",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "I’m a builder and have worked with multiple elevator companies, but BG Elevators has been the most consistent in quality and service. Every project we’ve used them for has gone smoothly, and our clients are always satisfied.",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Nagaraj",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "BG Elevators brings the perfect mix of modern features and traditional reliability. We wanted something low-maintenance yet stylish, and this was it. Smooth performance, elegant design, and a professional team—we’re very happy!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Meena",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "Working with BG Elevators has been a seamless experience. The lift installation in our office was quick and highly professional. It's been running smoothly ever since. Their customer service is always responsive and incredibly reliable!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Sasaank K",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "We installed BG Elevators in our apartment block, and the performance has been outstanding. It's quiet, smooth, and energy-efficient. The build quality truly stands out. Highly recommended for any residential project!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Roopesh P",
+            "description2": "Our Happy Customer"
+          }
+        ]
+      }
+    },
+    {
+      "component": "ConsultationSection",
+      "data": {
+        "heading": "Contact Us Today for a ",
+        "text": "Free Consultation",
+        "description": "At Elevators, we believe that every construction project is an opportunity to create something exceptional.",
+        "link": "/contact-us",
+        "text2": "Get Free Quote",
+        "imageAlt": "",
+        "image": "/images/673c1be85bd296750527c1ee_cta-image.webp"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+node_modules/
+admin/node_modules/
+admin/.next*/
+dist/
+.ssr/
+.vite/
+coverage/
+.env
+.env.*
+!.env.example
+!**/.env.example
+.sites-runtime/
+*.log
+*.tmp
+*.temp
+*.tsbuildinfo
+
+# Editors and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local archives and verification artifacts
+*.zip
+*.tar
+*.tar.gz
+*.bak

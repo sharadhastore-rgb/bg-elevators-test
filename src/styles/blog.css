@@ -1,0 +1,38 @@
+.editorial-container {
+  width: min(1200px, 90%);
+  margin-inline: auto;
+}
+.editorial-eyebrow {
+  @apply tw:text-brand tw:font-semibold;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 0 0 18px;
+}
+.editorial-article {
+  background: #f5f1e7;
+}
+.article-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 760px) 200px;
+  justify-content: center;
+  align-items: start;
+  gap: 80px;
+  width: min(1060px, calc(100% - 48px));
+  padding-block: 72px 110px;
+}
+@media (max-width: 1199px) {
+  .article-layout {
+    grid-template-columns: minmax(0, 720px);
+    gap: 0;
+  }
+}
+@media (max-width: 767px) {
+  .article-layout {
+    width: min(100% - 32px, 860px);
+  }
+  .article-layout {
+    padding-block: 42px 60px;
+  }
+}

@@ -1,0 +1,1320 @@
+{
+  "slug": "energy-efficient-elevators-india-how-can-building-owners-compare-elevator-efficiency",
+  "title": "Energy Efficient Elevators India: How Can Building Owners Compare Elevator\n                            Efficiency?",
+  "date": "September 2, 2026",
+  "image": "/images/energy-efficient-elevators-india-how-can-building-owners-compare-elevator-efficiency.webp",
+  "imageAlt": "",
+  "eyebrow": "Latest News",
+  "headings": [
+    {
+      "id": "section-1",
+      "title": "Elevator Power Consumption: The Numbers to Ask For",
+      "level": "h2"
+    },
+    {
+      "id": "section-2",
+      "title": "Standby versus travel",
+      "level": "h3"
+    },
+    {
+      "id": "section-3",
+      "title": "Usage categories and energy classes",
+      "level": "h3"
+    },
+    {
+      "id": "section-4",
+      "title": "Drive Technology Separates an Energy Efficient Lift From an Old\n                                    One",
+      "level": "h2"
+    },
+    {
+      "id": "section-5",
+      "title": "Regenerative Drives and When They Pay Back",
+      "level": "h2"
+    },
+    {
+      "id": "section-6",
+      "title": "Efficient Elevator Systems Beyond the Machine\n                                    Room",
+      "level": "h2"
+    },
+    {
+      "id": "section-7",
+      "title": "Comparing Energy Efficient Elevators India Suppliers\n                                    Offer",
+      "level": "h2"
+    },
+    {
+      "id": "section-8",
+      "title": "Green Elevators, Ratings and Modernisation",
+      "level": "h2"
+    },
+    {
+      "id": "section-9",
+      "title": "Rating frameworks",
+      "level": "h3"
+    },
+    {
+      "id": "section-10",
+      "title": "Modernisation instead of replacement",
+      "level": "h3"
+    },
+    {
+      "id": "section-11",
+      "title": "What Energy Efficient Elevators India Buyers Should Check Before\n                                    Signing",
+      "level": "h2"
+    },
+    {
+      "id": "section-12",
+      "title": "Frequently Asked Questions",
+      "level": "h2"
+    },
+    {
+      "id": "section-13",
+      "title": "1. How much electricity does a residential lift use per\n                                    month?",
+      "level": "h3"
+    },
+    {
+      "id": "section-14",
+      "title": "2. Is a machine-room-less lift always more\n                                    efficient?",
+      "level": "h3"
+    },
+    {
+      "id": "section-15",
+      "title": "3. Are regenerative drives worth it for small\n                                    buildings?",
+      "level": "h3"
+    },
+    {
+      "id": "section-16",
+      "title": "4. Can an old lift be made more efficient without replacing\n                                    it?",
+      "level": "h3"
+    },
+    {
+      "id": "section-17",
+      "title": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "body": [
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Elevator electricity costs can become a significant part of a building's common-area expenses, particularly when older equipment operates continuously without modern standby controls. BG Elevators help building owners understand the factors that influence lift energy consumption, while ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/index"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "u",
+                  "children": ["BG Elevators"]
+                }
+              ]
+            }
+          ]
+        },
+        " can help compare drive technology, standby power, operating patterns, lighting, and modernization options. Simply choosing a lift because it has a low motor rating is not enough. Actual efficiency depends on how much energy the elevator uses while travelling and how much it consumes when sitting idle. A proper comparison can help owners make better long-term decisions."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Alt text: Businessman comparing modern energy-efficient elevators in a bright corporate lobby."
+      ]
+    },
+    {
+      "tag": "br",
+      "children": []
+    },
+    " ",
+    {
+      "tag": "img",
+      "attributes": {
+        "src": "/images/internalblogoimg/businessman-comparing-modern-energy-efficient-elevators-in-a-bright-corporate-lobby.webp",
+        "alt": "Businessman comparing modern energy-efficient elevators in a bright corporate lobby"
+      },
+      "children": []
+    },
+    {
+      "tag": "br",
+      "children": []
+    },
+    {
+      "tag": "br",
+      "children": []
+    },
+    " ",
+    {
+      "tag": "h1",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Where a Lift's Energy Actually Goes"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "A lift spends most of its life doing nothing. In a residential building the car moves for a small fraction of the day, and the rest of the time the controller, cabin lighting, display boards and any machine room ventilation are still drawing power."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "That's why standby draw matters so much in low-traffic buildings. Two lifts with identical motors can differ substantially in annual units consumed, purely because one drops its lighting, fan and display into sleep mode after a couple of minutes and the other doesn't. In a busy commercial tower the balance flips and travel energy dominates. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-1"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Elevator Power Consumption: The Numbers to Ask For"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Most quotations state motor kW and nothing else. That single figure tells you almost nothing about elevator power consumption over a year."
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-2"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Standby versus travel"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Ask for two numbers: running power at rated load, and standby power with the car parked and idle. Standby is often quoted in watts and is easy for a supplier to provide. Then ask how many starts per day the estimate assumes, because consumption estimates shift wildly with that assumption."
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-3"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Usage categories and energy classes"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "International practice classifies lifts by usage category and assigns an energy class from measured consumption per unit of travel. Suppliers of energy efficient elevators India buildings actually install can tell you which class a model falls into. Those who can't usually haven't measured it. Treat the class as a comparison aid, since real elevator power consumption depends on how residents use the lift."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-4"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Drive Technology Separates an Energy Efficient Lift From an Old One"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "The single biggest lever is the drive. An ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/about-us"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "u",
+                  "children": ["energy efficient lift"]
+                }
+              ]
+            }
+          ]
+        },
+        " in 2026 almost always means a gearless permanent-magnet machine with a VVVF controller, usually in a machine-room-less configuration."
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Gearless machine-room-less traction:"]
+            },
+            " lowest running cost of the common options, no gearbox losses, no machine room to ventilate, smooth acceleration that reduces peak draw."
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Geared traction:"]
+            },
+            " mechanically simple and repairable, but gearbox losses and machine room cooling add up over a decade."
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Hydraulic:"]
+            },
+            " the pump works hard on every upward trip and the oil needs temperature management in summer. Fine for two or three stops in a villa, expensive to run in a busy building."
+          ]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Moving a low-rise building from an old geared machine to one of the gearless energy efficient elevators India manufacturers now supply usually produces a clear drop in the common-area bill, though the saving depends on traffic and travel height."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-5"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Regenerative Drives and When They Pay Back"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "A regenerative drive feeds energy back into the building's supply when the lift does negative work: a full car travelling down, or an empty car travelling up. In the right building it earns its cost."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "The catch is duty cycle. In a G+4 block with a few hundred trips a day, recovered energy is modest and payback stretches long. In a G+15 tower, an office with sharp peaks, or a hospital lift running continuously, the arithmetic improves considerably. Among energy efficient elevators India suppliers promote, regeneration is the feature most often oversold to small buildings, so ask for a model based on your expected trips."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-6"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Efficient Elevator Systems Beyond the Machine Room"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Plenty of savings sit outside the drive, and these are the cheapest to specify. Efficient elevator systems combine several small measures rather than one dramatic one, which is how most ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/features"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "u",
+                  "children": ["energy saving elevators"]
+                }
+              ]
+            }
+          ]
+        },
+        " earn their label."
+      ]
+    },
+    " ",
+    {
+      "tag": "ol",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["LED cabin lighting with auto shut-off"]
+            },
+            " after a set idle period, instead of tube lights burning all night."
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Sleep mode"]
+            },
+            " for the controller, display boards and door operator. "
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Machine-room-less design"]
+            },
+            ", which removes the ventilation and cooling load entirely."
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Destination or group control"]
+            },
+            " where a building has two or more lifts, so the nearer car answers and empty travel drops."
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Correct sizing"]
+            },
+            ", because an oversized lift carries its own dead weight on every trip."
+          ]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "That last point gets ignored. Specifying 1,000 kg where 544 kg serves means hauling extra mass for twenty years."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-7"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Comparing Energy Efficient Elevators India Suppliers Offer"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Put shortlisted models side by side on the factors that move consumption, not on marketing language."
+      ]
+    },
+    {
+      "tag": "br",
+      "children": []
+    },
+    " ",
+    {
+      "tag": "table",
+      "children": [
+        " ",
+        {
+          "tag": "tbody",
+          "children": [
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Factor"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["What to ask"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Why it matters"]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Drive type"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Gearless PM, geared, or hydraulic"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Largest single influence on running cost"]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Controller"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["VVVF with closed-loop feedback"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Smooths starts, cuts peak demand"]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Standby power"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Watts with car idle"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Dominates in low-traffic buildings"]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Sleep mode"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Delay time, what it switches off"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Cheap saving, often omitted"]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Regeneration"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Available, and modelled payback"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Only worthwhile at high duty cycles"]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Lighting"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["LED with auto shut-off"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Runs far more hours than the motor"]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Group control"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Included for multi-lift banks"]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "children": ["Reduces unnecessary travel"]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    },
+    {
+      "tag": "br",
+      "children": []
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Ask for consumption figures on the same basis across suppliers. If one quotes annual units at 200 starts a day and another at 100, the comparison is meaningless. Insist on a shared assumption before comparing numbers."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-8"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Green Elevators, Ratings and Modernisation"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-9"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Rating frameworks"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Green elevators feature in most building rating frameworks through drive efficiency, standby management, lighting and regeneration. If you're chasing certification, get the supplier's documentation early, because retrofitting evidence later is painful."
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-10"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Modernisation instead of replacement"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Energy saving elevators aren't only new ones. Swapping controller and drive while retaining the shaft, rails and doors brings an old installation close to modern efficiency at a fraction of the disruption. Indicative modernisation spend for a low-rise residential lift commonly runs from a few lakh rupees upward, depending on how much original equipment survives."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-11"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "What Energy Efficient Elevators India Buyers Should Check Before Signing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Get the efficiency claims into the contract as measurable items: standby watts, sleep mode delay, lighting type, controller model, and whether regeneration is fitted or merely available. Vague words like \"power saving technology\" are unenforceable."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Then check maintenance. Even the ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/products"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "u",
+                  "children": ["best energy efficient elevators"]
+                }
+              ]
+            }
+          ]
+        },
+        " offers lose their advantage if door operators drift out of adjustment or brakes drag, both of which raise consumption while nothing looks obviously wrong. Ask whether the annual maintenance contract includes periodic current measurement. It rarely does by default, and it's worth requesting."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-12"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Frequently Asked Questions"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-13"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "1. How much electricity does a residential lift use per month?"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "It varies widely with traffic, travel height and drive type, so treat any single figure with suspicion. A modern gearless low-rise residential lift generally uses a modest share of common-area consumption, while an older geared machine with a ventilated machine room can use several times more for identical service."
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-14"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "2. Is a machine-room-less lift always more efficient?"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Usually, but not automatically. The gain comes from the gearless machine, VVVF control and the removal of machine room ventilation. A poorly specified machine-room-less unit with permanently lit cabin and no sleep mode can still perform worse than a well-managed geared lift in a low-traffic building."
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-15"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "3. Are regenerative drives worth it for small buildings?"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Often not. Recovered energy scales with the number and weight of trips, so a low-rise residential block with light traffic sees long payback periods. They make far more sense in tall residential towers, offices with sharp peaks, or hospital lifts. Ask for a payback estimate based on your building's expected trips."
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-16"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "4. Can an old lift be made more efficient without replacing it?"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Frequently, yes. Replacing the controller and drive, converting cabin lighting to LED with auto shut-off, and adding sleep mode can bring an ageing installation close to the performance of new energy efficient elevators India suppliers sell today, while keeping the existing shaft, rails and doors intact."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-17"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Conclusion"]
+            }
+          ]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Comparing elevator efficiency requires more than looking at the motor's kilowatt rating. Building owners should compare drive technology, standby consumption, sleep mode, lighting, regenerative capability, group control, and the assumptions used for annual energy estimates. BG Elevators can help assess these factors when planning a new installation or modernization, while BG Elevators can provide elevator solutions suited to different building requirements and usage patterns."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Want to reduce your building's elevator energy costs? ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/contact-us"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "u",
+                  "children": ["Contact BG Elevators today"]
+                }
+              ]
+            }
+          ]
+        },
+        " for an expert assessment and discuss a new energy-efficient installation or modernization option for your property."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "https://www.instagram.com/bgelevatorsbg/"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "u",
+                  "children": ["Follow us on Instagram"]
+                }
+              ]
+            }
+          ]
+        },
+        " for elevator technology, energy-saving solutions, projects, designs, and industry updates."
+      ]
+    },
+    " "
+  ],
+  "additionalSections": [
+    {
+      "component": "TestimonialsSection",
+      "data": {
+        "text": "Testimonials",
+        "heading": "What Our Customers Say ",
+        "text2": "About Us",
+        "description": "90% Customer Satisfaction based on 750+ reviews and 10K+ Completed Projects.",
+        "items": [
+          {
+            "description": "We installed BG Elevators in our apartment complex last year, and the experience has been great. The lifts run smoothly, are quiet, and add a premium touch to the building. Their team was punctual and skilled — highly recommended!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Suresh",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "What stood out with BG Elevators was their professionalism and how they explained every detail before installation. As a homeowner, safety was my concern, and their elevators feel secure and modern. The speed and smoothness are excellent!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Priya",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "We run a commercial space, and choosing BG Elevators was one of the best decisions. The lift has handled consistent usage without any issues. Their after-sales support is also prompt and courteous. Great service from start to finish!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Anil K",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "I love how elegant the elevator cabin looks. It gives a classy touch to our apartment. BG Elevators delivered exactly what they promised—quality, aesthetics, and reliability. The installation was quick and mess-free too!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Deepa",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "Right from the initial survey to installation, the entire process was smooth. The team was professional and maintained great communication throughout. The lift functions really well and is easy for elderly people in our family to use.",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Vinay",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "I really appreciate how responsive the customer service team was. Even after installation, they followed up and offered a maintenance plan. It feels good knowing we have a dependable support team behind such a crucial home feature.",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Lakshmi",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "We’ve had BG Elevators in our building for over a year now, and it still runs like new. Even during voltage fluctuations, the lift performs without hiccups. The durability and build quality are impressive. Totally worth the investment!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Rakesh N",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "Our house has three floors, and with kids and elderly parents, we needed reliability. BG Elevators gave us peace of mind. It's easy to use, safe, and looks great. Their technicians were polite and ensured everything was perfect before leaving.",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Sahana P",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "I’m a builder and have worked with multiple elevator companies, but BG Elevators has been the most consistent in quality and service. Every project we’ve used them for has gone smoothly, and our clients are always satisfied.",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Nagaraj",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "BG Elevators brings the perfect mix of modern features and traditional reliability. We wanted something low-maintenance yet stylish, and this was it. Smooth performance, elegant design, and a professional team—we’re very happy!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Meena",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "Working with BG Elevators has been a seamless experience. The lift installation in our office was quick and highly professional. It's been running smoothly ever since. Their customer service is always responsive and incredibly reliable!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Sasaank K",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "We installed BG Elevators in our apartment block, and the performance has been outstanding. It's quiet, smooth, and energy-efficient. The build quality truly stands out. Highly recommended for any residential project!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Roopesh P",
+            "description2": "Our Happy Customer"
+          }
+        ]
+      }
+    },
+    {
+      "component": "ConsultationSection",
+      "data": {
+        "heading": "Contact Us Today for a ",
+        "text": "Free Consultation",
+        "description": "At Elevators, we believe that every construction project is an opportunity to create something exceptional.",
+        "link": "/contact-us",
+        "text2": "Get Free Quote",
+        "imageAlt": "",
+        "image": "/images/673c1be85bd296750527c1ee_cta-image.webp"
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+.home-faq-layout {
+  display: grid;
+  grid-template-columns: minmax(16rem, 0.72fr) minmax(0, 1.28fr);
+  align-items: start;
+  gap: 4rem;
+}
+
+.home-faq-heading {
+  position: sticky;
+  top: 2rem;
+}
+
+.home-faq-heading h2 {
+  margin-top: 1rem;
+}
+
+.home-faq-heading p {
+  margin-top: 1rem;
+}
+
+.home-faq-list {
+  border-top: 1px solid var(--secondary--secondary-600);
+}
+
+.home-faq-item {
+  border-bottom: 1px solid var(--secondary--secondary-600);
+}
+
+.home-faq-item summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 1.4rem 0;
+  color: var(--text-color--text-color-900);
+  font-size: 1.125rem;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+
+.home-faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.home-faq-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex: 0 0 auto;
+  transition: transform 0.25s ease;
+}
+
+.home-faq-item[open] .home-faq-icon {
+  transform: rotate(180deg);
+}
+
+.home-faq-item p {
+  max-width: 46rem;
+  padding: 0 3rem 1.5rem 0;
+}
+
+@media screen and (max-width: 991px) {
+
+  .home-faq-layout {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .home-faq-heading {
+    position: static;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .home-faq-item summary {
+    font-size: 1rem;
+  }
+}
+
+.modal-content {
+  background: #fff;
+  max-width: 480px;
+  width: 90%;
+  padding: 1.5rem 2rem;
+  position: relative;
+  border-radius: 10px;
+  animation: fadeIn 0.3s ease-in-out;
+  overflow-y: auto;
+  max-height: 90vh;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.modal-content::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  font-size: 1.8rem;
+  color: #333;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.contact-form.career {
+  grid-row-gap: 1.5rem;
+}
+
+.career.contact-input {
+  line-height: 0.6;
+  padding: 0.7rem 1.2rem;
+}
+
+.contact-input.text-area.career {
+  height: 6rem;
+  min-height: 6rem;
+  max-height: 6rem;
+}

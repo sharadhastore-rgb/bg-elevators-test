@@ -1,0 +1,1176 @@
+{
+  "slug": "elevator-dimensions-which-measurements-matter-most-before-ordering-a-lift",
+  "title": "Elevator Dimensions: Which Measurements Matter Most Before Ordering a Lift?",
+  "date": "September 22, 2026",
+  "image": "/images/elevator-dimensions-which-measurements-matter-most-before-ordering-a-lift.jpeg",
+  "imageAlt": "Elevator Dimensions: Which Measurements Matter Most Before Ordering a Lift?",
+  "eyebrow": "Latest News",
+  "headings": [
+    {
+      "id": "section-1",
+      "title": "Why Brochure Numbers Aren’t the Numbers You Need",
+      "level": "h2"
+    },
+    {
+      "id": "section-2",
+      "title": "Elevator Dimensions That Decide the Whole Design",
+      "level": "h2"
+    },
+    {
+      "id": "section-3",
+      "title": "Shaft Dimensions: The Hole in the Building",
+      "level": "h2"
+    },
+    {
+      "id": "section-4",
+      "title": "Plan Size and Clearances",
+      "level": "h3"
+    },
+    {
+      "id": "section-5",
+      "title": "Plumb and Squareness",
+      "level": "h3"
+    },
+    {
+      "id": "section-6",
+      "title": "Cabin Dimensions and Usable Space",
+      "level": "h2"
+    },
+    {
+      "id": "section-7",
+      "title": "Pit Depth and Headroom",
+      "level": "h2"
+    },
+    {
+      "id": "section-8",
+      "title": "Door Opening: The Most Underestimated Measurement",
+      "level": "h2"
+    },
+    {
+      "id": "section-9",
+      "title": "Standard Elevator Size by Capacity",
+      "level": "h2"
+    },
+    {
+      "id": "section-10",
+      "title": "How to Read Elevator Dimensions on a Supplier Drawing",
+      "level": "h2"
+    },
+    {
+      "id": "section-11",
+      "title": "Frequently Asked Questions",
+      "level": "h2"
+    },
+    {
+      "id": "section-12",
+      "title": "What is the minimum shaft size for a small home lift?",
+      "level": "h3"
+    },
+    {
+      "id": "section-13",
+      "title": "How much bigger is the shaft than the cabin?",
+      "level": "h3"
+    },
+    {
+      "id": "section-14",
+      "title": "Do elevator dimensions change with speed?",
+      "level": "h3"
+    },
+    {
+      "id": "section-15",
+      "title": "What lift dimensions suit a wheelchair user?",
+      "level": "h3"
+    },
+    {
+      "id": "section-16",
+      "title": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "body": [
+    {
+      "tag": "p",
+      "children": [
+        "A builder in Bangalore once poured three slabs with a 1400 x 1400 mm opening, confident it matched the lift he’d been quoted. It did — that was the cabin figure. The shaft needed 1700 x 1650 mm. ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Elevator dimensions "
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/"
+          }
+        },
+        "get confused like this constantly, and the correction always costs more than the original decision. BG Elevators can help clarify the required dimensions before construction begins."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "About six lift dimensions genuinely matter here, and once you know what each one describes, reading a supplier drawing stops being guesswork. Here’s what every measurement means, which ones the building has to deliver, and where people usually get caught out. BG Elevators can help you understand the measurements and plan the required space correctly."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Why Brochure Numbers Aren’t the Numbers You Need"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-1"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Marketing material quotes capacity and cabin area because that’s what buyers ask about. The elevator dimensions your builder needs are different: clear internal shaft, pit depth, overhead, and structural load points."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Those two sets of elevator dimensions are never the same. Between cabin and shaft sit guide rails, brackets, the car frame, the door operator, counterweight running space and safety clearances — 200 to 350 mm on each axis depending on the machine. Ask for the shaft general arrangement drawing, not the leaflet."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Elevator Dimensions That Decide the Whole Design"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-2"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Six figures do most of the work:"
+      ]
+    },
+    {
+      "tag": "ol",
+      "children": [
+        {
+          "tag": "li",
+          "children": [
+            "Clear internal shaft (width x depth): the finished hole, wall face to wall face."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Clear cabin (width x depth): usable floor inside the car."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Clear door opening: the width you actually walk or wheel through."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Pit depth: finished ground floor level down to the pit floor."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Overhead / headroom: top finished floor level to the underside of the shaft roof."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Total travel: bottom to top landing, which drives rope or ram length."
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Cabin height, door height and machine footprint all follow from these. If a quotation gives you capacity and nothing else, you haven’t received a specification yet."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Shaft Dimensions: The Hole in the Building"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-3"
+      }
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Plan Size and Clearances"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-4"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Shaft dimensions are stated as clear internal size after plaster and finishes, and that last part trips people up. A 1600 mm rough opening with 15 mm plaster each side gives 1570 mm clear, and if the lift needed 1600 mm, the rails no longer fit."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Where the shaft is a steel structure rather than masonry, the clear dimension is measured between inside faces of the frame, with cladding outside it."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Plumb and Squareness"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-5"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Tolerance matters as much as size. A shaft should be plumb within a few millimetres over its full height and square in plan. Out-of-plumb shafts are the commonest reason equipment arrives on site and then waits. Errors accumulate as the shaft rises, so check plumb at every floor rather than at the end."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Cabin Dimensions and Usable Space"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-6"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Cabin dimensions determine what the lift can actually do. A 900 x 900 mm car takes two adults comfortably and a third awkwardly. Put a wheelchair in it and you’ll find it’s too shallow to turn."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "For accessibility, roughly 1100 mm wide by 1400 mm deep is the practical minimum, because a wheelchair user can enter facing forward and reverse out without turning. If a stretcher must fit, depth is the number to watch, and the 2000 mm hospital-style lifts use is rarely feasible at home."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Cabin height is worth confirming too. Standard is 2100–2300 mm, and a dropped false ceiling quietly takes 80–100 mm off it."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Pit Depth and Headroom"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-7"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "These two elevator dimensions decide which drive types are available to you before price enters the conversation."
+      ]
+    },
+    {
+      "tag": "table",
+      "children": [
+        {
+          "tag": "tbody",
+          "children": [
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Drive type"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Pit"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Overhead"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Notes"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Screw / belt driven"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "50–100 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "2500–2700 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Retrofits, two to three stops"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Hydraulic"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "200–350 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "2600–2900 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Good where terrace level is fixed"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Gearless MRL traction"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "500–1000 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "3300–3700 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Standard for three or more stops"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Traction with machine room"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1200–1600 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "3800–4200 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Larger commercial installations"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Measure available overhead on site rather than trusting a drawing, especially in an existing building where a beam may intrude. Pit depth needs the same reality check: if the water table is high or the plot sits low, waterproofing and a sump belong in the specification."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Door Opening: The Most Underestimated Measurement"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-8"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Clear door opening is the width between panels when fully open, always smaller than the cabin width. Typical values run 700, 800 and 900 mm."
+      ]
+    },
+    {
+      "tag": "ul",
+      "children": [
+        {
+          "tag": "li",
+          "children": [
+            "700 mm works for walking passengers and nothing else."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "800 mm is the practical minimum for wheelchair access."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "900 mm suits stretchers, furniture and busier buildings."
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Door height is usually 2000–2100 mm, which matters when you’re carrying a wardrobe. Confirm the door type early too: telescopic and centre-opening panels need different headboard widths for the same clear opening, and that changes the elevator dimensions your shaft has to provide."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Standard Elevator Size by Capacity"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-9"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Capacity in kilograms is the usual starting point for elevator dimensions, and each step up has a footprint cost."
+      ]
+    },
+    {
+      "tag": "table",
+      "children": [
+        {
+          "tag": "tbody",
+          "children": [
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Capacity"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Persons"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Typical cabin"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Typical shaft"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "204 kg"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "3"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "900 x 900 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1200 x 1200 mm"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "272 kg"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "4"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1000 x 1000 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1400 x 1300 mm"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "408 kg"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "6"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1100 x 1400 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1600 x 1500 mm"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "544 kg"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "8"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1300 x 1400 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1800 x 1600 mm"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "680 kg"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "10"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1600 x 1400 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "2000 x 1700 mm"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Treat these as indicative. ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Elevator size "
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/services"
+          }
+        },
+        "varies between manufacturers at identical capacity, sometimes by 100 mm or more, because rail positions and door mechanisms differ. Never build a shaft to elevator dimensions from an article, including this one. Build it to the stamped drawing for the model you’ve bought."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "How to Read Elevator Dimensions on a Supplier Drawing"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-10"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "A proper general arrangement drawing shows a plan at cabin level, a section through the full travel, and a schedule of loads. Check five things about the elevator measurements before signing it off."
+      ]
+    },
+    {
+      "tag": "ol",
+      "children": [
+        {
+          "tag": "li",
+          "children": [
+            "Is the shaft dimension marked “clear” or “structural”? They differ by the finish thickness."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Does the section show pit depth from finished floor level, not from the plinth?"
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Are the reaction loads at the pit floor and shaft head given in kN, so your engineer can design for them?"
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Do the landing door opening sizes match at every floor?"
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Does the travel match your actual floor-to-floor heights, which are often not identical?"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "That last one catches people out in independent houses, where the ground floor is often taller than the floors above. Give the supplier real elevator measurements from site, not the architect’s intended figures from three years ago."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Frequently Asked Questions"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-11"
+      }
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "What is the minimum shaft size for a small home lift?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-12"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Roughly 1000 x 1000 mm of clear shaft supports a two-person screw-driven car of about 750 x 750 mm. That’s usable for two standing adults but not for a wheelchair. For accessible use, plan for a shaft near 1600 x 1500 mm, which gives a 1100 x 1400 mm cabin."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "How much bigger is the shaft than the cabin?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-13"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Generally 200 to 350 mm on each dimension, covering guide rails, brackets, the car frame, door operator and running clearances. The exact allowance depends on drive type and manufacturer, so confirm both elevator dimensions on the same drawing rather than adding a rule of thumb yourself."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Do elevator dimensions change with speed?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-14"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Plan size stays broadly the same, but faster lifts need deeper pits and more overhead for buffers and safety clearances. A 1.0 m/s machine typically wants more headroom than a 0.5 m/s unit of identical capacity, which matters if your terrace level is already fixed."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "What lift dimensions suit a wheelchair user?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-15"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "A cabin around 1100 mm wide and 1400 mm deep with an 800 mm clear door opening. That combination lets a wheelchair enter forward and reverse out without turning, and leaves room for a companion. Anything narrower tends to be usable in theory and frustrating in daily practice."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Conclusion"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-16"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Getting the measurements right is mostly about knowing which figure you’re looking at. Cabin size sells the lift; shaft size, pit, overhead and clear door opening are what the building has to deliver. BG Elevators can help verify these dimensions against the requirements of the selected lift. Confirm each of them against a stamped general arrangement drawing for the exact model, check that shaft figures are clear rather than structural, and measure your site instead of trusting old drawings."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Elevator dimensions settled properly at this stage rarely cause trouble later, while a 100 mm assumption can mean breaking concrete. If you’re at the specification stage, going through the drawing with an experienced lift team and your structural engineer together is the surest way to catch a mismatch before anything is cast. BG Elevators can help you review the lift dimensions and planning requirements. ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Contact BG Elevators today "
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/contact-us"
+          }
+        },
+        "to discuss your project."
+      ]
+    }
+  ],
+  "additionalSections": []
+}

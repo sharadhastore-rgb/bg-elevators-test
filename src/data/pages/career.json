@@ -1,0 +1,113 @@
+{
+  "vacanciesSection": {
+    "heading": "Careers Page",
+    "heading2": "Careers at BG Elevators – Find Your Perfect Role",
+    "items": [
+      {
+        "heading": "Elevator Installation Technician",
+        "heading2": "On-Site",
+        "text": "Learn More"
+      },
+      {
+        "heading": "Maintenance Engineer",
+        "heading2": "On-Site",
+        "text": "Learn More"
+      },
+      {
+        "heading": "Project Manager",
+        "heading2": "On-Site",
+        "text": "Learn More"
+      },
+      {
+        "heading": "Customer Support Executive",
+        "heading2": "On-Site",
+        "text": "Learn More"
+      }
+    ]
+  },
+  "benefitsSection": {
+    "text": "Our Benefits",
+    "heading": "Elevating Careers with Excellence – ",
+    "text2": "Experience ",
+    "heading2": "the Advantages of ",
+    "text3": "BG Elevators",
+    "items": [
+      {
+        "heading": "Competitive Pay & Incentives",
+        "description": "Safety is paramount at BG Elevators. We strictly enforce safety standards and protocols across all sites to protect our team’s health and wellbeing."
+      },
+      {
+        "heading": "Comprehensive Health & Wellness Support",
+        "description": "Our employees enjoy extensive health benefits, including medical, dental, and vision coverage, plus wellness programs designed to promote overall well-being."
+      },
+      {
+        "heading": "Supportive & Collaborative Culture",
+        "description": "We believe in the power of teamwork. BG Elevators nurtures a collaborative work environment where every voice is heard and innovation thrives."
+      },
+      {
+        "heading": "Commitment to Employee Safety",
+        "description": "Safety is paramount at BG Elevators. We strictly enforce safety standards and protocols across all our sites to protect our team’s health and wellbeing."
+      }
+    ]
+  },
+  "consultationSection": {
+    "heading": "Contact Us Today for a ",
+    "text": "Free Consultation",
+    "description": "At Elevators, we believe that every construction project is an opportunity to create something exceptional.",
+    "link": "/contact-us",
+    "text2": "Get Free Quote",
+    "imageAlt": "",
+    "image": "/images/673c1be85bd296750527c1ee_cta-image.webp"
+  },
+  "applicationModalSection": {
+    "form": {
+      "title": "Get in touch",
+      "description": "Connect with us through our contact forum for any inquiries,\n                  questions.",
+      "fields": [
+        {
+          "name": "Name",
+          "type": "text",
+          "placeholder": "Your Name",
+          "required": true,
+          "accept": null,
+          "className": "career contact-input w-input"
+        },
+        {
+          "name": "Email",
+          "type": "email",
+          "placeholder": "Your Email Address",
+          "required": true,
+          "accept": null,
+          "className": "career contact-input w-input"
+        },
+        {
+          "name": "Phone",
+          "type": "tel",
+          "placeholder": "Your Phone Number",
+          "required": true,
+          "accept": null,
+          "className": "career contact-input w-input"
+        },
+        {
+          "name": "Resume",
+          "type": "file",
+          "placeholder": "Upload Resume",
+          "required": true,
+          "accept": ".pdf,.doc,.docx",
+          "className": "career contact-input w-input styled-file-input"
+        },
+        {
+          "name": "Message",
+          "type": "textarea",
+          "placeholder": "Write Message Here.....",
+          "required": false,
+          "accept": null,
+          "className": "career contact-input text-area w-input"
+        }
+      ],
+      "submitLabel": "Send Message",
+      "kind": "career",
+      "className": "contact-form career"
+    }
+  }
+}

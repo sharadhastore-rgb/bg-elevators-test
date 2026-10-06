@@ -1,0 +1,1444 @@
+{
+  "slug": "what-to-do-if-an-elevator-gets-stuck",
+  "title": "What Should You Do If an Elevator Gets Stuck? Safety Guide",
+  "date": "July 14, 2026",
+  "image": "/images/what-to-do-if-an-elevator-gets-stuck.webp",
+  "imageAlt": "",
+  "eyebrow": "Latest News",
+  "headings": [
+    {
+      "id": "section-1",
+      "title": "Why Do Elevators Sometimes Get Stuck?",
+      "level": "h2"
+    },
+    {
+      "id": "section-2",
+      "title": "Stay Calm",
+      "level": "h2"
+    },
+    {
+      "id": "section-3",
+      "title": "Never Try to Force the Doors Open",
+      "level": "h2"
+    },
+    {
+      "id": "section-4",
+      "title": "Use the Emergency Alarm Button",
+      "level": "h2"
+    },
+    {
+      "id": "section-5",
+      "title": "Use Your Mobile Phone If Possible",
+      "level": "h2"
+    },
+    {
+      "id": "section-6",
+      "title": "Stay Away from the Elevator Doors",
+      "level": "h2"
+    },
+    {
+      "id": "section-7",
+      "title": "Avoid Jumping Inside the Elevator",
+      "level": "h2"
+    },
+    {
+      "id": "section-8",
+      "title": "Never Try to Exit a Stuck Elevator on Your Own",
+      "level": "h2"
+    },
+    {
+      "id": "section-9",
+      "title": "Reassure Other Passengers",
+      "level": "h2"
+    },
+    {
+      "id": "section-10",
+      "title": "Keep Children Comfortable",
+      "level": "h2"
+    },
+    {
+      "id": "section-11",
+      "title": "Trust the Elevator Safety Systems",
+      "level": "h2"
+    },
+    {
+      "id": "section-12",
+      "title": "Prevent Elevator Problems Through Regular Maintenance",
+      "level": "h2"
+    },
+    {
+      "id": "section-13",
+      "title": "What Happens During an Elevator Rescue?",
+      "level": "h2"
+    },
+    {
+      "id": "section-14",
+      "title": "What to Do After Leaving the Elevator",
+      "level": "h2"
+    },
+    {
+      "id": "section-15",
+      "title": "Safety Tips for Building Owners",
+      "level": "h2"
+    },
+    {
+      "id": "section-16",
+      "title": "Plan Elevator Safety During Building Design",
+      "level": "h2"
+    },
+    {
+      "id": "section-17",
+      "title": "Common Myths About Stuck Elevators",
+      "level": "h2"
+    },
+    {
+      "id": "section-18",
+      "title": "Myth 1: The elevator will fall if it stops.",
+      "level": "h3"
+    },
+    {
+      "id": "section-19",
+      "title": "Myth 2: Jumping will restart the elevator.",
+      "level": "h3"
+    },
+    {
+      "id": "section-20",
+      "title": "Myth 3: You can force the doors open safely.",
+      "level": "h3"
+    },
+    {
+      "id": "section-21",
+      "title": "How Modern Elevators Improve Passenger Safety",
+      "level": "h2"
+    },
+    {
+      "id": "section-22",
+      "title": "Choosing a Reliable Elevator Partner",
+      "level": "h2"
+    },
+    {
+      "id": "section-23",
+      "title": "Frequently Asked Questions",
+      "level": "h2"
+    },
+    {
+      "id": "section-24",
+      "title": "1. What should I do first if an elevator gets stuck?",
+      "level": "h3"
+    },
+    {
+      "id": "section-25",
+      "title": "2. Is it safe to stay inside a stuck elevator?",
+      "level": "h3"
+    },
+    {
+      "id": "section-26",
+      "title": "3. Why do elevators get stuck?",
+      "level": "h3"
+    },
+    {
+      "id": "section-27",
+      "title": "4. Can I open the elevator doors myself if it stops?",
+      "level": "h3"
+    },
+    {
+      "id": "section-28",
+      "title": "5. How can building owners reduce the chances of elevator\n                breakdowns?",
+      "level": "h3"
+    },
+    {
+      "id": "section-29",
+      "title": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "body": [
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Modern elevators are designed with advanced safety systems and are among the safest modes of transportation in any building. However, unexpected situations such as power outages, technical faults, or maintenance issues can occasionally cause an elevator to stop between floors. Although this can be stressful, knowing the right steps to take can help you stay safe until assistance arrives. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " The most important thing to remember is that getting stuck inside an elevator does not usually mean you are in immediate danger. Modern elevator systems are built with multiple safety features to protect passengers during unexpected interruptions. BG Elevators is committed to providing reliable elevator solutions that prioritize passenger safety and comfort. With expert engineering and quality installation, BG Elevators helps ensure elevators operate safely in residential, commercial, and industrial buildings. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-1"
+      },
+      "children": ["Why Do Elevators Sometimes Get Stuck?"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " There are several reasons why an elevator may stop unexpectedly. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["Some common causes include:"]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Temporary power failure"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Electrical issues"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Safety system activation"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Door sensor malfunction"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Mechanical component problems"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Scheduled maintenance"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Control system errors"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Most modern elevators automatically activate safety systems when they detect a problem. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-2"
+      },
+      "children": ["Stay Calm"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["The first and most important step is to remain calm."]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Modern elevators are designed with ventilation systems, emergency lighting, and communication devices to keep passengers safe until help arrives. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Panicking may increase stress and make the situation more difficult. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Take slow, deep breaths and remember that trained professionals will respond to the issue. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-3"
+      },
+      "children": ["Never Try to Force the Doors Open"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Many people instinctively try to open the elevator doors themselves. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["This should never be attempted."]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["Forcing the doors open may:"]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Damage the elevator"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Create additional safety risks"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Cause the elevator to move unexpectedly"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Delay rescue efforts"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["Always wait for trained technicians to assist you."]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-4"
+      },
+      "children": ["Use the Emergency Alarm Button"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["Every modern elevator includes an emergency alarm button."]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Press the alarm button to notify building management or the maintenance team that assistance is required. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " If the elevator has an emergency intercom system, use it to communicate with rescue personnel. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["Provide clear information about:"]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Your location"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Number of passengers"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Any medical emergencies"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["This helps responders prepare appropriate assistance."]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-5"
+      },
+      "children": ["Use Your Mobile Phone If Possible"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["If your phone has network coverage, call:"]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Building management"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Security personnel"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Elevator maintenance service"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Emergency contacts"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Explain that you are inside a stopped elevator and provide the building name and floor information if available. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["Stay on the call until instructions are provided."]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-6"
+      },
+      "children": ["Stay Away from the Elevator Doors"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["Avoid leaning against the doors while waiting."]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Standing in the center of the cabin provides better safety in case the elevator begins moving again after the issue is resolved. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Keep children close and ask everyone inside to remain calm."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-7"
+      },
+      "children": ["Avoid Jumping Inside the Elevator"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["Some people believe jumping will restart the elevator."]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["This is a dangerous misconception."]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["Jumping may:"]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Increase safety risks"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Trigger additional system faults"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Cause unnecessary movement inside the cabin"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["Remain standing or sit calmly if necessary."]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-8"
+      },
+      "children": ["Never Try to Exit a Stuck Elevator on Your Own"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Even if the elevator appears close to a floor, never try to climb out without professional assistance. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["There may be:"]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Uneven floor levels"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Moving mechanical parts"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Electrical hazards"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Unexpected elevator movement"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Always wait for trained technicians to open the doors safely. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-9"
+      },
+      "children": ["Reassure Other Passengers"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " If multiple people are inside the elevator, remain positive and encourage everyone to stay calm. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["Simple actions can help reduce anxiety:"]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Speak calmly."]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Avoid spreading panic."]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            " Explain that elevators are designed with safety systems. "
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Keep conversations reassuring."]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " A calm environment helps everyone feel more comfortable while waiting. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-10"
+      },
+      "children": ["Keep Children Comfortable"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Children may become frightened if the elevator stops unexpectedly. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["Parents should:"]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Stay calm."]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Hold their child\\'s hand."]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Talk in a reassuring voice."]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Explain that help is on the way."]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["Keeping children relaxed helps prevent unnecessary fear."]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-11"
+      },
+      "children": ["Trust the Elevator Safety Systems"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Modern elevators include several built-in safety features, including: "
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Automatic braking systems"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Emergency lighting"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Cabin ventilation"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Communication devices"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Backup safety mechanisms"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " These systems are designed to protect passengers until trained professionals resolve the issue. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-12"
+      },
+      "children": ["Prevent Elevator Problems Through Regular Maintenance"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Many unexpected elevator issues can be avoided with proper servicing. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Following an ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/elevator-maintenance-checklist-step-by-step-guide"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Elevator Maintenance Checklist"]
+            }
+          ]
+        },
+        " helps identify worn components, improve system reliability, and reduce the chances of unexpected breakdowns. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Routine inspections also extend the lifespan of the elevator and improve passenger safety. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-13"
+      },
+      "children": ["What Happens During an Elevator Rescue?"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Once the maintenance team arrives, they will first identify the reason the elevator has stopped. Trained technicians follow standard safety procedures before attempting to move the elevator or open the doors. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["The rescue process usually includes:"]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Inspecting the control system"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Confirming the elevator\\'s position"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Restoring power if possible"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Moving the elevator to the nearest floor"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Opening the doors safely"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Assisting passengers out of the cabin"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Professional rescue teams are trained to handle these situations safely, so passengers should wait patiently until help arrives. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-14"
+      },
+      "children": ["What to Do After Leaving the Elevator"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " After exiting safely, avoid using the elevator again until it has been inspected and approved for operation. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " If you experienced any unusual issues, inform the building management, such as: "
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Strange noises"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Sudden jerks"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Flickering lights"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Door problems"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Unusual vibrations"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Providing this information helps technicians identify the problem more quickly. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-15"
+      },
+      "children": ["Safety Tips for Building Owners"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Building owners play an important role in ensuring elevator safety. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["Some good practices include:"]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Schedule regular maintenance."]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Conduct routine safety inspections."]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Display emergency contact numbers inside the elevator."]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Ensure emergency communication systems are working."]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Keep maintenance records updated."]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Train security staff to respond during emergencies."]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " These simple steps help reduce the risk of unexpected breakdowns. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-16"
+      },
+      "children": ["Plan Elevator Safety During Building Design"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["Safety begins long before an elevator is installed."]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Builders and architects should understand ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/elevator-placement-planning-bangalore-buildings"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["How to Plan Elevator Placement"]
+            }
+          ]
+        },
+        " to ensure enough space for installation, maintenance access, emergency rescue, and smooth passenger movement throughout the building. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Proper planning also supports better building efficiency and long-term reliability. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-17"
+      },
+      "children": ["Common Myths About Stuck Elevators"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Many people believe myths about elevators that can lead to unsafe actions. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-18"
+      },
+      "children": ["Myth 1: The elevator will fall if it stops."]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Modern elevators are equipped with multiple braking systems that prevent sudden falls. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-19"
+      },
+      "children": ["Myth 2: Jumping will restart the elevator."]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Jumping can create additional risks and should never be attempted. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-20"
+      },
+      "children": ["Myth 3: You can force the doors open safely."]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Opening elevator doors without professional assistance is dangerous and should always be avoided. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Understanding the facts helps passengers respond more safely. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-21"
+      },
+      "children": ["How Modern Elevators Improve Passenger Safety"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Today\\'s elevators are built with advanced technology to protect passengers. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["Modern safety features include:"]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Automatic rescue systems"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Door obstruction sensors"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Overload protection"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Emergency lighting"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Backup communication systems"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Smooth stopping mechanisms"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Intelligent monitoring systems"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " These technologies make elevator travel safer and more reliable than ever before. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-22"
+      },
+      "children": ["Choosing a Reliable Elevator Partner"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " The quality of an elevator depends on both the equipment and the installation process. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["An experienced elevator company can provide:"]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Professional installation"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Quality components"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Regular maintenance"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Fast technical support"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Long-term reliability"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Many property owners choose the ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/index"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Best Elevators company in Bangalore"]
+            }
+          ]
+        },
+        " because professional installation and ongoing service help reduce unexpected issues while improving passenger safety. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-23"
+      },
+      "children": ["Frequently Asked Questions"]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-24"
+      },
+      "children": ["1. What should I do first if an elevator gets stuck?"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Stay calm, press the emergency alarm or intercom button, and contact building management or the elevator maintenance team.Never force the elevator doors open. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-25"
+      },
+      "children": ["2. Is it safe to stay inside a stuck elevator?"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Yes. Modern elevators are designed with safety features such as emergency brakes, ventilation, and lighting to keep passengers safe while waiting for assistance. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-26"
+      },
+      "children": ["3. Why do elevators get stuck?"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Elevators may stop due to power outages, electrical issues, control system faults, door sensor problems, or scheduled maintenance. Most issues are resolved safely by trained technicians. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-27"
+      },
+      "children": ["4. Can I open the elevator doors myself if it stops?"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " No. Never attempt to force the doors open or climb out of a stopped elevator, as this can be dangerous. Always wait for professional assistance. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-28"
+      },
+      "children": [
+        " 5. How can building owners reduce the chances of elevator breakdowns? "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Regular maintenance, routine inspections, timely repairs, and following manufacturer recommendations help keep elevators operating safely and reduce unexpected breakdowns. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-29"
+      },
+      "children": ["Conclusion"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " Knowing what to do when an elevator gets stuck helps reduce panic and keeps everyone safe until assistance arrives. Understanding basic safety practices, following emergency instructions, and relying on trained professionals are the best ways to handle the situation confidently. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        " With reliable engineering and a strong focus on passenger safety, ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/contact-us"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["BG Elevators"]
+            }
+          ]
+        },
+        " provides elevator solutions designed for smooth and dependable performance. Whether for residential or commercial buildings, BG Elevators is committed to delivering high-quality elevator systems that combine safety, innovation, and long-term reliability. "
+      ]
+    },
+    " "
+  ],
+  "additionalSections": [
+    {
+      "component": "TestimonialsSection",
+      "data": {
+        "text": "Testimonials",
+        "heading": " What Our Customers Say ",
+        "text2": "About Us",
+        "description": " 90% Customer Satisfaction based on 750+ reviews and 10K+ Completed Projects. ",
+        "items": [
+          {
+            "description": " We installed BG Elevators in our apartment complex last year, and the experience has been great. The lifts run smoothly, are quiet, and add a premium touch to the building. Their team was punctual and skilled — highly recommended! ",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Suresh",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": " What stood out with BG Elevators was their professionalism and how they explained every detail before installation. As a homeowner, safety was my concern, and their elevators feel secure and modern. The speed and smoothness are excellent! ",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Priya",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": " We run a commercial space, and choosing BG Elevators was one of the best decisions. The lift has handled consistent usage without any issues. Their after-sales support is also prompt and courteous. Great service from start to finish! ",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Anil K",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": " I love how elegant the elevator cabin looks. It gives a classy touch to our apartment. BG Elevators delivered exactly what they promised—quality, aesthetics, and reliability. The installation was quick and mess-free too! ",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Deepa",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": " Right from the initial survey to installation, the entire process was smooth. The team was professional and maintained great communication throughout. The lift functions really well and is easy for elderly people in our family to use. ",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Vinay",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": " I really appreciate how responsive the customer service team was. Even after installation, they followed up and offered a maintenance plan. It feels good knowing we have a dependable support team behind such a crucial home feature. ",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Lakshmi",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": " We’ve had BG Elevators in our building for over a year now, and it still runs like new. Even during voltage fluctuations, the lift performs without hiccups. The durability and build quality are impressive. Totally worth the investment! ",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Rakesh N",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": " Our house has three floors, and with kids and elderly parents, we needed reliability. BG Elevators gave us peace of mind. It's easy to use, safe, and looks great. Their technicians were polite and ensured everything was perfect before leaving. ",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Sahana P",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": " I’m a builder and have worked with multiple elevator companies, but BG Elevators has been the most consistent in quality and service. Every project we’ve used them for has gone smoothly, and our clients are always satisfied. ",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Nagaraj",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": " BG Elevators brings the perfect mix of modern features and traditional reliability. We wanted something low-maintenance yet stylish, and this was it. Smooth performance, elegant design, and a professional team—we’re very happy! ",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Meena",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": " Working with BG Elevators has been a seamless experience. The lift installation in our office was quick and highly professional. It's been running smoothly ever since. Their customer service is always responsive and incredibly reliable! ",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Sasaank K",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": " We installed BG Elevators in our apartment block, and the performance has been outstanding. It's quiet, smooth, and energy-efficient. The build quality truly stands out. Highly recommended for any residential project! ",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Roopesh P",
+            "description2": "Our Happy Customer"
+          }
+        ]
+      }
+    },
+    {
+      "component": "ConsultationSection",
+      "data": {
+        "heading": " Contact Us Today for a ",
+        "text": "Free Consultation",
+        "description": " At Elevators, we believe that every construction project is an opportunity to create something exceptional. ",
+        "link": "/contact-us",
+        "text2": "Get Free Quote",
+        "imageAlt": "",
+        "image": "/images/673c1be85bd296750527c1ee_cta-image.webp"
+      }
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "path": "/about-us",
+    "page": "AboutUsPage",
+    "slug": "about-us"
+  },
+  {
+    "path": "/additional-features",
+    "page": "AdditionalFeaturesPage",
+    "slug": "additional-features"
+  },
+  {
+    "path": "/amc-and-service-maintence",
+    "page": "AmcAndServiceMaintencePage",
+    "slug": "amc-and-service-maintence"
+  },
+  {
+    "path": "/bg-glass-finish-cabin",
+    "page": "BgGlassFinishCabinPage",
+    "slug": "bg-glass-finish-cabin"
+  },
+  {
+    "path": "/bg-mirror-finish-cabin",
+    "page": "BgMirrorFinishCabinPage",
+    "slug": "bg-mirror-finish-cabin"
+  },
+  {
+    "path": "/bg-stainless-steel-finish-cabin",
+    "page": "BgStainlessSteelFinishCabinPage",
+    "slug": "bg-stainless-steel-finish-cabin"
+  },
+  {
+    "path": "/blogs",
+    "page": "BlogsPage",
+    "slug": "blogs"
+  },
+  {
+    "path": "/breakdown-and-emergency-repairs",
+    "page": "BreakdownAndEmergencyRepairsPage",
+    "slug": "breakdown-and-emergency-repairs"
+  },
+  {
+    "path": "/cabin-option",
+    "page": "CabinOptionPage",
+    "slug": "cabin-option"
+  },
+  {
+    "path": "/career-details",
+    "page": "CareerDetailsPage",
+    "slug": "career-details"
+  },
+  {
+    "path": "/career",
+    "page": "CareerPage",
+    "slug": "career"
+  },
+  {
+    "path": "/ceiling",
+    "page": "CeilingPage",
+    "slug": "ceiling"
+  },
+  {
+    "path": "/client",
+    "page": "ClientPage",
+    "slug": "client"
+  },
+  {
+    "path": "/contact-us",
+    "page": "ContactUsPage",
+    "slug": "contact-us"
+  },
+  {
+    "path": "/control-system",
+    "page": "ControlSystemPage",
+    "slug": "control-system"
+  },
+  {
+    "path": "/cop-and-lop",
+    "page": "CopAndLopPage",
+    "slug": "cop-and-lop"
+  },
+  {
+    "path": "/doors",
+    "page": "DoorsPage",
+    "slug": "doors"
+  },
+  {
+    "path": "/download-brochure",
+    "page": "DownloadBrochurePage",
+    "slug": "download-brochure"
+  },
+  {
+    "path": "/elevator-installation",
+    "page": "ElevatorInstallationPage",
+    "slug": "elevator-installation"
+  },
+  {
+    "path": "/elevator-modernization",
+    "page": "ElevatorModernizationPage",
+    "slug": "elevator-modernization"
+  },
+  {
+    "path": "/features",
+    "page": "FeaturesPage",
+    "slug": "features"
+  },
+  {
+    "path": "/glass-door",
+    "page": "GlassDoorPage",
+    "slug": "glass-door"
+  },
+  {
+    "path": "/gold-finish",
+    "page": "GoldFinishPage",
+    "slug": "gold-finish"
+  },
+  {
+    "path": "/index",
+    "page": "HomePage",
+    "slug": "index"
+  },
+  {
+    "path": "/motors",
+    "page": "MotorsPage",
+    "slug": "motors"
+  },
+  {
+    "path": "/ms-powder-coated-finish",
+    "page": "MsPowderCoatedFinishPage",
+    "slug": "ms-powder-coated-finish"
+  },
+  {
+    "path": "/privacy-policy",
+    "page": "PrivacyPolicyPage",
+    "slug": "privacy-policy"
+  },
+  {
+    "path": "/products",
+    "page": "ProductsPage",
+    "slug": "products"
+  },
+  {
+    "path": "/projects",
+    "page": "ProjectsPage",
+    "slug": "projects"
+  },
+  {
+    "path": "/rose-gold-finish",
+    "page": "RoseGoldFinishPage",
+    "slug": "rose-gold-finish"
+  },
+  {
+    "path": "/service-details",
+    "page": "ServiceDetailsPage",
+    "slug": "service-details"
+  },
+  {
+    "path": "/service-for-non-bg-elevators",
+    "page": "ServiceForNonBgElevatorsPage",
+    "slug": "service-for-non-bg-elevators"
+  },
+  {
+    "path": "/services",
+    "page": "ServicesPage",
+    "slug": "services"
+  },
+  {
+    "path": "/ss-hairline-finish",
+    "page": "SsHairlineFinishPage",
+    "slug": "ss-hairline-finish"
+  },
+  {
+    "path": "/ss-mirror-finish",
+    "page": "SsMirrorFinishPage",
+    "slug": "ss-mirror-finish"
+  },
+  {
+    "path": "/thank-you",
+    "page": "ThankYouPage",
+    "slug": "thank-you"
+  },
+  {
+    "path": "/why-choose-us",
+    "page": "WhyChooseUsPage",
+    "slug": "why-choose-us"
+  },
+  {
+    "path": "/wooden-finish",
+    "page": "WoodenFinishPage",
+    "slug": "wooden-finish"
+  }
+]

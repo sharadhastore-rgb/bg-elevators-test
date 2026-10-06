@@ -1,0 +1,44 @@
+{
+  "name": "bg-elevators-react",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "node scripts/generate-sitemap.mjs && vite build && vite build --ssr src/entry-server.jsx --outDir .ssr && node scripts/prerender.mjs",
+    "seo:generate": "node scripts/generate-sitemap.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "server": "node --env-file-if-exists=.env server/index.js",
+    "check": "node scripts/verify.mjs",
+    "dev:full": "node scripts/dev.mjs",
+    "start": "node --env-file-if-exists=.env server/index.js",
+    "admin:dev": "npm --prefix admin run dev",
+    "admin:build": "npm --prefix admin run build",
+    "admin:create": "npm --prefix admin run create-admin",
+    "check:blogs": "node scripts/check-blogs.mjs",
+    "blogs:migrate": "node --env-file-if-exists=.env scripts/migrate-legacy-blogs.mjs",
+    "blogs:thumbnails": "node --env-file-if-exists=.env scripts/generate-blog-thumbnails.mjs"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "lucide-react": "^0.511.0",
+    "mongoose": "^8.15.1",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0",
+    "sharp": "^0.34.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.8",
+    "@vitejs/plugin-react": "^4.5.0",
+    "prettier": "^3.9.9",
+    "tailwindcss": "^4.1.8",
+    "tsx": "^4.19.4",
+    "vite": "^6.3.5"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

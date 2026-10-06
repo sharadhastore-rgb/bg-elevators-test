@@ -1,0 +1,180 @@
+{
+  "contactSection": {
+    "heading": "Contact Us",
+    "heading2": "Have questions or need assistance?",
+    "imageAlt": "",
+    "image": "/images/icons/depositphoto.jpg",
+    "items": [
+      {
+        "imageAlt": "",
+        "image": "/images/contact-icon-1.png",
+        "text": "BG TOWER, #52, 2nd & 3rd Floor, 1st Main Road, G Block, Sahakar Nagar, Bangalore - 560092. "
+      },
+      {
+        "imageAlt": "",
+        "image": "/images/emailConatct.png",
+        "text": "info@bgelevators.com"
+      }
+    ],
+    "imageAlt2": "",
+    "image2": "/images/phone-receiver.png",
+    "text": "Mobile: +91 82177 99608 / +91 90083 01583 ",
+    "text2": "Land Line: 080 - 41471727,",
+    "text3": "Toll Free No: 1800 103 7018",
+    "form": {
+      "title": "Get in touch",
+      "description": "Connect with us through our contact forum for any inquiries,\n                    questions.",
+      "fields": [
+        {
+          "name": "Name",
+          "type": "text",
+          "placeholder": "Your Name",
+          "required": true,
+          "accept": null,
+          "className": "contact-input w-input"
+        },
+        {
+          "name": "Email",
+          "type": "email",
+          "placeholder": "Your Email Address",
+          "required": true,
+          "accept": null,
+          "className": "contact-input w-input"
+        },
+        {
+          "name": "Phone",
+          "type": "tel",
+          "placeholder": "Your Phone Number",
+          "required": true,
+          "accept": null,
+          "className": "contact-input w-input"
+        },
+        {
+          "name": "Location",
+          "type": "text",
+          "placeholder": "Your Location",
+          "required": true,
+          "accept": null,
+          "className": "contact-input w-input"
+        },
+        {
+          "name": "Message",
+          "type": "textarea",
+          "placeholder": "Write Message Here.....",
+          "required": false,
+          "accept": null,
+          "className": "contact-input text-area w-input"
+        }
+      ],
+      "submitLabel": "Send Message",
+      "kind": "contact",
+      "className": "contact-form"
+    }
+  },
+  "mapSection": {
+    "text": "Google Map",
+    "heading": "Find Us On Google Map",
+    "source": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d497467.66459457227!2d77.571577!3d13.069618!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae182404cfeaa7%3A0x6a11c3a7760b1cab!2sThe%20Druid%20Garden!5e0!3m2!1sen!2sin!4v1748869163729!5m2!1sen!2sin"
+  },
+  "testimonialsSection": {
+    "text": "Testimonials",
+    "heading": "What Our Customers Say ",
+    "text2": "About Us",
+    "description": "90% Customer Satisfaction based on 750+ reviews and 2K+ Completed Projects.",
+    "items": [
+      {
+        "description": "We installed BG Elevators in our apartment complex last year, and the experience has been great. The lifts run smoothly, are quiet, and add a premium touch to the building. Their team was punctual and skilled — highly recommended!",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Suresh",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "What stood out with BG Elevators was their professionalism and how they explained every detail before installation. As a homeowner, safety was my concern, and their elevators feel secure and modern. The speed and smoothness are excellent!",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Priya",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "We run a commercial space, and choosing BG Elevators was one of the best decisions. The lift has handled consistent usage without any issues. Their after-sales support is also prompt and courteous. Great service from start to finish!",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Anil K",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "I love how elegant the elevator cabin looks. It gives a classy touch to our apartment. BG Elevators delivered exactly what they promised—quality, aesthetics, and reliability. The installation was quick and mess-free too!",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Deepa",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "Right from the initial survey to installation, the entire process was smooth. The team was professional and maintained great communication throughout. The lift functions really well and is easy for elderly people in our family to use.",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Vinay",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "I really appreciate how responsive the customer service team was. Even after installation, they followed up and offered a maintenance plan. It feels good knowing we have a dependable support team behind such a crucial home feature.",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Lakshmi",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "We’ve had BG Elevators in our building for over a year now, and it still runs like new. Even during voltage fluctuations, the lift performs without hiccups. The durability and build quality are impressive. Totally worth the investment!",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Rakesh N",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "Our house has three floors, and with kids and elderly parents, we needed reliability. BG Elevators gave us peace of mind. It's easy to use, safe, and looks great. Their technicians were polite and ensured everything was perfect before leaving.",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Sahana P",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "I’m a builder and have worked with multiple elevator companies, but BG Elevators has been the most consistent in quality and service. Every project we’ve used them for has gone smoothly, and our clients are always satisfied.",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Nagaraj",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "BG Elevators brings the perfect mix of modern features and traditional reliability. We wanted something low-maintenance yet stylish, and this was it. Smooth performance, elegant design, and a professional team—we’re very happy!",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Meena",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "Working with BG Elevators has been a seamless experience. The lift installation in our office was quick and highly professional. It's been running smoothly ever since. Their customer service is always responsive and incredibly reliable!",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Sasaank K",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "We installed BG Elevators in our apartment block, and the performance has been outstanding. It's quiet, smooth, and energy-efficient. The build quality truly stands out. Highly recommended for any residential project!",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Roopesh P",
+        "description2": "Our Happy Customer"
+      }
+    ]
+  },
+  "consultationSection": {
+    "heading": "Contact Us Today for a ",
+    "text": "Free Consultation",
+    "description": "At Elevators, we believe that every construction project is an opportunity to create something exceptional.",
+    "link": "/contact-us",
+    "text2": "Get Free Quote",
+    "imageAlt": "",
+    "image": "/images/673c1be85bd296750527c1ee_cta-image.webp"
+  }
+}

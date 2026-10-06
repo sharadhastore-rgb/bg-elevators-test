@@ -1,0 +1,1671 @@
+{
+  "slug": "common-elevator-issues-and-solutions",
+  "title": "Top 10 Common Elevator Issues and How to Fix Them",
+  "date": "February 25, 2026",
+  "image": "/images/top-10-common-elevator-issues-and-how-to-fix-them.webp",
+  "imageAlt": "",
+  "eyebrow": "Latest News",
+  "headings": [
+    {
+      "id": "section-1",
+      "title": "Why Elevator Maintenance is Important",
+      "level": "h2"
+    },
+    {
+      "id": "section-2",
+      "title": "Top 10 Common Elevator Issues and How to Fix Them",
+      "level": "h3"
+    },
+    {
+      "id": "section-3",
+      "title": "1. Elevator Not Moving",
+      "level": "h4"
+    },
+    {
+      "id": "section-4",
+      "title": "2. Slow Elevator Performance",
+      "level": "h4"
+    },
+    {
+      "id": "section-5",
+      "title": "3. Door Not Opening or Closing Properly",
+      "level": "h4"
+    },
+    {
+      "id": "section-6",
+      "title": "4. Strange Noises During Operation",
+      "level": "h4"
+    },
+    {
+      "id": "section-7",
+      "title": "5. Elevator Stops Between Floors",
+      "level": "h4"
+    },
+    {
+      "id": "section-8",
+      "title": "6. Button or Control Panel Not Working",
+      "level": "h4"
+    },
+    {
+      "id": "section-9",
+      "title": "7. Overheating of Elevator Motor",
+      "level": "h4"
+    },
+    {
+      "id": "section-10",
+      "title": "8. Elevator Vibrations or Jerks",
+      "level": "h4"
+    },
+    {
+      "id": "section-11",
+      "title": "9. Power Failure Issues",
+      "level": "h4"
+    },
+    {
+      "id": "section-12",
+      "title": "10. Frequent Breakdowns",
+      "level": "h4"
+    },
+    {
+      "id": "section-13",
+      "title": "Preventive Tips to Avoid Elevator Problems",
+      "level": "h4"
+    },
+    {
+      "id": "section-14",
+      "title": "Importance of Professional Maintenance Services",
+      "level": "h4"
+    },
+    {
+      "id": "section-15",
+      "title": "FAQs",
+      "level": "h4"
+    },
+    {
+      "id": "section-16",
+      "title": "Conclusion",
+      "level": "h4"
+    }
+  ],
+  "body": [
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Elevators have become an essential part of modern buildings, whether residential apartments, commercial complexes, hospitals, or shopping malls. They make vertical transportation easy, save time, and improve convenience in everyday life. However, like any mechanical system, elevators can develop faults over time if not properly maintained."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "In a growing city like Bangalore, where buildings are getting taller and smarter, regular servicing becomes even more important. Companies like BG Elevators understand the importance of safety, performance, and reliability when it comes to lift systems."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "This blog will help you understand what an elevator is, how it works in simple terms, and most importantly, the top 10 common elevator issues along with easy solutions to fix them. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h1",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["What is an Elevator?"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "An elevator (also called a lift) is a vertical transportation system used to move people or goods between different floors of a building. It consists of a cabin, control system, motor, cables, and safety devices."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Types of Elevators:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Passenger Elevators"]
+            },
+            " – Used in homes, apartments, and offices"
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Freight Elevators"]
+            },
+            " – Used for carrying heavy goods"
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Hydraulic Elevators"]
+            },
+            " – Operate using fluid pressure"
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Traction Elevators"]
+            },
+            " – Use ropes and counterweights"
+          ]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["How Does It Work?"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["In simple terms:"]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["A motor powers the movement"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Cables or pistons move the cabin up and down"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["A control panel manages floor selection and operation"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Safety systems ensure smooth and secure functioning"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "When all these components work together properly, the elevator operates smoothly and efficiently. However, when even a single part fails or malfunctions, it can lead to ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/elevator-problems-bangalore"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["common elevator problems"]
+            }
+          ]
+        },
+        " that affect performance and safety.."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-1"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Why Elevator Maintenance is Important"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": ["Regular maintenance ensures:"]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Safety of passengers"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Smooth operation"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Longer lifespan of equipment"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Reduced repair costs"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Ignoring maintenance can lead to serious breakdowns and safety risks."
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-2"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Top 10 Common Elevator Issues and How to Fix Them"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "h4",
+      "attributes": {
+        "id": "section-3"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["1. Elevator Not Moving"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Problem:",
+            {
+              "tag": "br",
+              "children": []
+            },
+            " "
+          ]
+        },
+        " The elevator doesn’t respond when you press the button."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Causes:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Power failure"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Control system issue"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Motor malfunction"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Solution:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Check power supply"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Reset the system"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Call a professional technician if the issue persists"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "h4",
+      "attributes": {
+        "id": "section-4"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["2. Slow Elevator Performance"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Problem:",
+            {
+              "tag": "br",
+              "children": []
+            },
+            " "
+          ]
+        },
+        " The lift moves slower than usual."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Causes:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Worn-out motor"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Overloading"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Lack of lubrication"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Solution:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Avoid overloading"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Regular lubrication of moving parts"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Motor inspection and servicing"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "h4",
+      "attributes": {
+        "id": "section-5"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["3. Door Not Opening or Closing Properly"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Problem:",
+            {
+              "tag": "br",
+              "children": []
+            },
+            " "
+          ]
+        },
+        " Elevator doors get stuck or don’t close fully. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Causes:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Dirt in door tracks"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Sensor malfunction"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Mechanical wear"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Solution:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Clean door tracks regularly"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Check and replace faulty sensors"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Repair or replace worn components"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "h4",
+      "attributes": {
+        "id": "section-6"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["4. Strange Noises During Operation"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Problem:",
+            {
+              "tag": "br",
+              "children": []
+            },
+            " "
+          ]
+        },
+        " Grinding, squeaking, or unusual sounds."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Causes:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Loose components"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Lack of lubrication"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Worn-out parts"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Solution:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Tighten loose parts"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Lubricate moving components"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Replace damaged parts"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "h4",
+      "attributes": {
+        "id": "section-7"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["5. Elevator Stops Between Floors"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Problem:",
+            {
+              "tag": "br",
+              "children": []
+            },
+            " "
+          ]
+        },
+        " The lift halts unexpectedly between floors."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Causes:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Power issues"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Faulty sensors"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Control system errors"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Solution:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Emergency rescue system activation"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Regular inspection of sensors"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Professional troubleshooting"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "h4",
+      "attributes": {
+        "id": "section-8"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["6. Button or Control Panel Not Working"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Problem:",
+            {
+              "tag": "br",
+              "children": []
+            },
+            " "
+          ]
+        },
+        " Buttons don’t respond or show incorrect signals. "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Causes:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Electrical faults"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Wiring issues"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Panel damage"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Solution:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Repair or replace control panel"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Check wiring connections"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Regular system diagnostics"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "h4",
+      "attributes": {
+        "id": "section-9"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["7. Overheating of Elevator Motor"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Problem:",
+            {
+              "tag": "br",
+              "children": []
+            },
+            " "
+          ]
+        },
+        " The motor becomes too hot, affecting performance."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Causes:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Overuse"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Poor ventilation"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Lack of maintenance"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Solution:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Ensure proper ventilation"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Regular motor servicing"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Avoid continuous overloading"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "h4",
+      "attributes": {
+        "id": "section-10"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["8. Elevator Vibrations or Jerks"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Problem:",
+            {
+              "tag": "br",
+              "children": []
+            },
+            " "
+          ]
+        },
+        " Lift shakes or jerks during movement."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Causes:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Misaligned rails"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Worn cables"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Poor installation"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Solution:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Align guide rails"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Replace worn cables"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Professional inspection"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "h4",
+      "attributes": {
+        "id": "section-11"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["9. Power Failure Issues"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Problem:",
+            {
+              "tag": "br",
+              "children": []
+            },
+            " "
+          ]
+        },
+        " The elevator stops during power cuts."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Causes:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["No backup system"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Electrical faults"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Solution:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Install UPS or backup power system"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Regular electrical maintenance"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "h4",
+      "attributes": {
+        "id": "section-12"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["10. Frequent Breakdowns"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Problem:",
+            {
+              "tag": "br",
+              "children": []
+            },
+            " "
+          ]
+        },
+        " Lift keeps breaking down frequently."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Causes:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Poor maintenance"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Old components"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Improper usage"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Solution:"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Regular servicing"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Replace outdated parts"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Follow proper usage guidelines"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "h4",
+      "attributes": {
+        "id": "section-13"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Preventive Tips to Avoid Elevator Problems"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Here are some simple tips to keep your elevator in good condition:"
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Schedule regular inspections"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Avoid overloading the lift"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Keep the elevator clean"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Train users on proper usage"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Fix small issues before they become big problems"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "For building owners, investing in ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/lift-maintenance-bangalore-bg-elevators"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["lift maintenance in Bangalore"]
+            }
+          ]
+        },
+        " is essential to ensure safety and smooth operation in the long run."
+      ]
+    },
+    " ",
+    {
+      "tag": "h4",
+      "attributes": {
+        "id": "section-14"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Importance of Professional Maintenance Services"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Professional maintenance plays a key role in preventing major breakdowns. With proper ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/amc-and-service-maintence"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["AMC & service maintenance"]
+            }
+          ]
+        },
+        ", you can:"
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": ["Detect problems early"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Reduce downtime"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Improve safety standards"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Save repair costs"]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "A well-maintained elevator not only lasts longer but also provides a better user experience. "
+      ]
+    },
+    " ",
+    {
+      "tag": "h4",
+      "attributes": {
+        "id": "section-15"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["FAQs"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "ol",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                " What are the most common elevator problems?",
+                {
+                  "tag": "br",
+                  "children": []
+                },
+                " "
+              ]
+            },
+            "The most common elevator problems include door issues, slow performance, unusual noises, sudden stops, and control panel faults."
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                " How often should an elevator be serviced?",
+                {
+                  "tag": "br",
+                  "children": []
+                },
+                " "
+              ]
+            },
+            "Elevators should be serviced at least once every 1–3 months depending on usage to ensure safety and smooth performance."
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                " Why does an elevator stop between floors?",
+                {
+                  "tag": "br",
+                  "children": []
+                },
+                " "
+              ]
+            },
+            "This usually happens due to power failure, sensor issues, or control system errors and requires immediate professional inspection."
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                " How can I improve elevator lifespan?",
+                {
+                  "tag": "br",
+                  "children": []
+                },
+                " "
+              ]
+            },
+            "Regular maintenance, proper usage, avoiding overloading, and timely repairs can significantly increase elevator lifespan."
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                " What is the benefit of an AMC for elevators?",
+                {
+                  "tag": "br",
+                  "children": []
+                },
+                " "
+              ]
+            },
+            "An Annual Maintenance Contract helps in regular servicing, reduces breakdowns, and ensures safety compliance."
+          ]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "h4",
+      "attributes": {
+        "id": "section-16"
+      },
+      "children": [
+        {
+          "tag": "strong",
+          "children": ["Conclusion"]
+        }
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Elevators are an important part of modern infrastructure, and keeping them in good condition should always be a priority. By understanding these common issues and their solutions, building owners and users can ensure better safety and performance."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Regular maintenance, timely repairs, and professional support are the keys to avoiding major breakdowns. This is where trusted service providers like BG Elevators play a vital role in delivering reliable and efficient solutions."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Choosing experienced experts such as ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/index"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["BG Elevators"]
+            }
+          ]
+        },
+        " ensures that your elevator system remains safe, smooth, and long-lasting."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "In the end, partnering with a dependable company like BG Elevators helps you maintain peace of mind while ensuring uninterrupted vertical transportation."
+      ]
+    },
+    " "
+  ],
+  "additionalSections": [
+    {
+      "component": "TestimonialsSection",
+      "data": {
+        "text": "Testimonials",
+        "heading": "What Our Customers Say ",
+        "text2": "About Us",
+        "description": "90% Customer Satisfaction based on 750+ reviews and 10K+ Completed Projects.",
+        "items": [
+          {
+            "description": "We installed BG Elevators in our apartment complex last year, and the experience has been great. The lifts run smoothly, are quiet, and add a premium touch to the building. Their team was punctual and skilled — highly recommended!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Suresh",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "What stood out with BG Elevators was their professionalism and how they explained every detail before installation. As a homeowner, safety was my concern, and their elevators feel secure and modern. The speed and smoothness are excellent!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Priya",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "We run a commercial space, and choosing BG Elevators was one of the best decisions. The lift has handled consistent usage without any issues. Their after-sales support is also prompt and courteous. Great service from start to finish!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Anil K",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "I love how elegant the elevator cabin looks. It gives a classy touch to our apartment. BG Elevators delivered exactly what they promised—quality, aesthetics, and reliability. The installation was quick and mess-free too!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Deepa",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "Right from the initial survey to installation, the entire process was smooth. The team was professional and maintained great communication throughout. The lift functions really well and is easy for elderly people in our family to use.",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Vinay",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "I really appreciate how responsive the customer service team was. Even after installation, they followed up and offered a maintenance plan. It feels good knowing we have a dependable support team behind such a crucial home feature.",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Lakshmi",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "We’ve had BG Elevators in our building for over a year now, and it still runs like new. Even during voltage fluctuations, the lift performs without hiccups. The durability and build quality are impressive. Totally worth the investment!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Rakesh N",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "Our house has three floors, and with kids and elderly parents, we needed reliability. BG Elevators gave us peace of mind. It's easy to use, safe, and looks great. Their technicians were polite and ensured everything was perfect before leaving.",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Sahana P",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "I’m a builder and have worked with multiple elevator companies, but BG Elevators has been the most consistent in quality and service. Every project we’ve used them for has gone smoothly, and our clients are always satisfied.",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Nagaraj",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "BG Elevators brings the perfect mix of modern features and traditional reliability. We wanted something low-maintenance yet stylish, and this was it. Smooth performance, elegant design, and a professional team—we’re very happy!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Meena",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "Working with BG Elevators has been a seamless experience. The lift installation in our office was quick and highly professional. It's been running smoothly ever since. Their customer service is always responsive and incredibly reliable!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Sasaank K",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "We installed BG Elevators in our apartment block, and the performance has been outstanding. It's quiet, smooth, and energy-efficient. The build quality truly stands out. Highly recommended for any residential project!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Roopesh P",
+            "description2": "Our Happy Customer"
+          }
+        ]
+      }
+    },
+    {
+      "component": "ConsultationSection",
+      "data": {
+        "heading": "Contact Us Today for a ",
+        "text": "Free Consultation",
+        "description": "At Elevators, we believe that every construction project is an opportunity to create something exceptional.",
+        "link": "/contact-us",
+        "text2": "Get Free Quote",
+        "imageAlt": "",
+        "image": "/images/673c1be85bd296750527c1ee_cta-image.webp"
+      }
+    }
+  ]
+}

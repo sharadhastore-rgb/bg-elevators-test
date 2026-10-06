@@ -1,0 +1,819 @@
+{
+  "slug": "what-happens-between-elevator-installation-and-final-handover",
+  "title": "What Happens Between Elevator Installation and Final Handover?",
+  "date": "September 30, 2026",
+  "image": "/images/what-happens-between-elevator-installation-and-final-handover.jpeg",
+  "imageAlt": "What Happens Between Elevator Installation and Final Handover?",
+  "eyebrow": "Latest News",
+  "headings": [
+    {
+      "id": "section-1",
+      "title": "Installation Ends, Elevator Commissioning Begins",
+      "level": "h2"
+    },
+    {
+      "id": "section-2",
+      "title": "What the Elevator Commissioning Engineer Checks First",
+      "level": "h2"
+    },
+    {
+      "id": "section-3",
+      "title": "Mechanical alignment and clearances",
+      "level": "h3"
+    },
+    {
+      "id": "section-4",
+      "title": "Control, drive and levelling",
+      "level": "h3"
+    },
+    {
+      "id": "section-5",
+      "title": "Lift Testing: Load, Speed and Safety Gear",
+      "level": "h2"
+    },
+    {
+      "id": "section-6",
+      "title": "No-load, half-load and full-load runs",
+      "level": "h3"
+    },
+    {
+      "id": "section-7",
+      "title": "Overload, overspeed and ARD",
+      "level": "h3"
+    },
+    {
+      "id": "section-8",
+      "title": "Statutory Elevator Inspection and the Karnataka Licence",
+      "level": "h2"
+    },
+    {
+      "id": "section-9",
+      "title": "Elevator Acceptance Testing and the Snag List",
+      "level": "h2"
+    },
+    {
+      "id": "section-10",
+      "title": "What You Should Receive at Lift Handover",
+      "level": "h2"
+    },
+    {
+      "id": "section-11",
+      "title": "How Long Elevator Commissioning Takes",
+      "level": "h2"
+    },
+    {
+      "id": "section-12",
+      "title": "Frequently Asked Questions",
+      "level": "h2"
+    },
+    {
+      "id": "section-13",
+      "title": "How long does elevator commissioning take after installation?",
+      "level": "h3"
+    },
+    {
+      "id": "section-14",
+      "title": "Who carries out the statutory elevator inspection in Bangalore?",
+      "level": "h3"
+    },
+    {
+      "id": "section-15",
+      "title": "Can residents use the lift before final handover?",
+      "level": "h3"
+    },
+    {
+      "id": "section-16",
+      "title": "What is checked during a full-load lift test?",
+      "level": "h3"
+    },
+    {
+      "id": "section-17",
+      "title": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "body": [
+    {
+      "tag": "p",
+      "children": [
+        "The shaft is finished, the car is in, and the lift moves when a technician presses a button. Most owners see that and assume the work is done. It isn’t. ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Elevator commissioning "
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/"
+          }
+        },
+        "is the stretch between a mechanically complete installation and a lift you can legally and safely hand to residents, and it almost always takes longer than people expect. BG Elevators can help manage the commissioning process and ensure the required checks are addressed."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Rush it and you inherit the consequences: doors that mistime, a ride that judders at one landing, a licence application nobody filed. Here’s what actually happens in those weeks, who signs what, and where projects in Bangalore tend to stall. BG Elevators can help you navigate the final commissioning and handover requirements."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Installation Ends, Elevator Commissioning Begins"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-1"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Installation is largely mechanical work. Guide rails get plumbed and aligned, the car frame is assembled, ropes are reeved, landing doors are hung, and the controller is wired into the machine room or the head of the shaft. A good erection crew can finish a six-stop residential job in two to three weeks once the shaft is ready."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Elevator commissioning is a different discipline. It’s the process of proving the lift performs to specification and to code before anyone rides it as a passenger. The same company usually does both, but often with different people. If your site engineer tells you the lift is “installed and working,” the honest follow-up question is whether elevator commissioning has started, finished, or hasn’t been scheduled at all."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "What the Elevator Commissioning Engineer Checks First"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-2"
+      }
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Mechanical alignment and clearances"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-3"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Elevator commissioning starts on the mechanical side. Rail plumbness gets rechecked with the car running, because small errors that don’t show at a standstill turn into lateral vibration at speed. The engineer verifies pit clearances, top overhead, buffer condition, counterweight run-by, door sill gaps and the roller-to-rail contact. Sill gap sounds trivial until a resident’s heel goes into it."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Control, drive and levelling"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-4"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Then comes the electrical side: encoder learning runs, floor levelling within a few millimetres at every landing, door open and close timings, photocell and safety edge response, call registration logic, fireman’s switch operation and emergency lighting. A lift that stops 15 mm low at the second floor will generate complaints for years if it isn’t corrected now."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Lift Testing: Load, Speed and Safety Gear"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-5"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Lift testing is the part owners should insist on witnessing, because it’s the only time the safety systems are deliberately provoked."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "No-load, half-load and full-load runs"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-6"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "The car is run empty first, then loaded with calibrated weights or sandbags to half and full rated capacity. Engineers watch motor current, ride quality, brake behaviour and stopping accuracy under each condition. A 544 kg (8-passenger) car should behave the same at 400 kg as it does empty, apart from a marginal change in acceleration feel."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Overload, overspeed and ARD"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-7"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Beyond that, a standard round of lift testing covers:"
+      ]
+    },
+    {
+      "tag": "ul",
+      "children": [
+        {
+          "tag": "li",
+          "children": [
+            "Overload sensing, usually set around 110 percent of rated load, which should hold the doors open and sound an alarm rather than move"
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Overspeed governor trip and safety gear engagement, which grips the rails and holds the loaded car"
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Buffer compression at reduced speed"
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Automatic Rescue Device (ARD) operation on simulated power failure, moving the car to the nearest landing and opening the doors"
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Emergency alarm, intercom and manual brake release from the machine room"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "The ARD test matters more in Bangalore than the brochure suggests. Grid dips and generator changeover gaps are common enough that this is the feature residents will actually experience."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Statutory Elevator Inspection and the Karnataka Licence"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-8"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Karnataka regulates lifts through its own Lifts, Escalators and Passenger Conveyors legislation, administered by the Electrical Inspectorate. A permission to erect is obtained before installation, and after work is complete you apply for a licence to operate. The statutory elevator inspection is carried out by a government inspector, separate from anything the supplier does internally."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Design and safety requirements are read against IS 14665, the Indian standard covering electric traction and hydraulic passenger lifts. The inspector typically wants the wiring diagram, the load test record, earthing measurements, the machine-room or control-space arrangement, and evidence that safety devices function. Elevator inspection dates depend on the office’s queue, so ask your supplier to file paperwork the week testing finishes rather than the week you want to move in."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Elevator Acceptance Testing and the Snag List"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-9"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Elevator acceptance testing is the owner’s side of the exercise. Elevator commissioning proves the lift works; acceptance testing proves it works the way you bought it. The two overlap, but the intent is different."
+      ]
+    },
+    {
+      "tag": "table",
+      "children": [
+        {
+          "tag": "tbody",
+          "children": [
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Activity"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Who leads it"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "What it proves"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Typical output"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Elevator commissioning"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Supplier’s engineer"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Lift meets design and safety spec"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Test record, settings log"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Statutory inspection"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Government inspector"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Legal compliance to operate"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Licence to operate"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Elevator acceptance testing"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Owner, architect or consultant"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Contract and finish match the order"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Snag list, sign-off"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Run your own walk-through before signing. Check the car finish against what was quoted, cabin dimensions against the drawing, the capacity plate, door opening width, lighting, handrail, mirror, ventilation, levelling at every landing, ride noise late at night, and door dwell time. Note everything in writing. Verbal snags get forgotten."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "What You Should Receive at Lift Handover"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-10"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "A proper ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "lift handover "
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/services"
+          }
+        },
+        "is a document transfer as much as a key transfer. Ask for:"
+      ]
+    },
+    {
+      "tag": "ol",
+      "children": [
+        {
+          "tag": "li",
+          "children": [
+            "Licence to operate and the inspection report"
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Load test and safety device test records with dates"
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "As-built wiring and layout drawings for the shaft, pit and machine space"
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Operation and maintenance manual, including manual rescue procedure"
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Warranty terms with clear start date and exclusions"
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Spares and consumables list with part numbers"
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Signed snag list showing what was closed and what remains"
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Proposed AMC scope, visit frequency and response times"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Also insist on hands-on training for whoever will be on site. Your security staff or building manager should be able to identify a trapped-passenger situation, use the intercom, and understand that manual rescue is a technician’s job, not theirs. That single hour of training prevents the worst outcomes."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "How Long Elevator Commissioning Takes"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-11"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "For a straightforward residential lift, expect roughly one to two weeks of elevator commissioning after erection, then a further two to six weeks for statutory inspection and licensing depending on the inspectorate’s schedule. Commercial and hospital installations with multiple cars, group control or firefighting features take longer."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Delays cluster in predictable places. Permanent three-phase power not yet released, so testing runs on a generator that can’t hold voltage under starting load. Shaft not fully plastered or the pit still holding water after a heavy week of rain. Civil work around landing doors incomplete, which stops door alignment. Paperwork sitting unsigned because the builder and the association are arguing about who applies. None of these are elevator problems, but all of them stop elevator commissioning dead."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Frequently Asked Questions"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-12"
+      }
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "How long does elevator commissioning take after installation?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-13"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Elevator commissioning usually runs one to two weeks on a standard residential lift, assuming permanent power is available and the shaft, pit and landing civil work are complete. Larger commercial groups take longer. Inspection and licensing then add a few more weeks, and that timing sits with the inspectorate."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Who carries out the statutory elevator inspection in Bangalore?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-14"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "An inspector from the Karnataka Electrical Inspectorate, under the state’s lift legislation. Your supplier prepares the application and test records, but the inspection and the licence to operate come from the government office. Design compliance is generally assessed against IS 14665 along with the state rules."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Can residents use the lift before final handover?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-15"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "They shouldn’t. Running a lift on a temporary connection before the licence is issued exposes you to liability, and any incident becomes difficult on the insurance side. If access is genuinely urgent, discuss a documented interim arrangement with your supplier and the inspectorate rather than quietly starting use."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "What is checked during a full-load lift test?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-16"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Calibrated weights equal to rated capacity are placed in the car and it’s run through the full travel. Engineers check motor current, brake holding, stopping accuracy, ride quality and door operation under load, then verify overload sensing, governor trip and safety gear engagement at the specified conditions."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Conclusion"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-17"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "The gap between “the lift moves” and “the lift is yours” is where most of the real quality control happens. Elevator commissioning confirms the machine performs to specification, statutory inspection confirms it’s legal to run, and your own acceptance walk-through confirms you received what you paid for. BG Elevators can help coordinate these commissioning and handover stages. Treat all three as separate milestones with separate dates in the project schedule, and keep the paperwork together from day one, because you’ll need it at the first AMC renewal and again at every future inspection."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "If you’re planning a new installation or trying to close out a stalled handover, talking through the sequence with an experienced local lift team is the quickest way to work out what’s actually holding your project up. BG Elevators can help you review the commissioning process and next steps. ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Contact BG Elevators today "
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/contact-us"
+          }
+        },
+        "to discuss your project."
+      ]
+    }
+  ],
+  "additionalSections": []
+}

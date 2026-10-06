@@ -1,0 +1,869 @@
+{
+  "slug": "home-elevator-planning-how-to-plan-a-lift-for-a-new-home-in-bangalore",
+  "title": "Home Elevator Planning: How to Plan a Lift for a New Home in Bangalore",
+  "date": "July 31, 2026",
+  "image": "/images/home-elevator-planning-how-to-plan-a-lift-for-a-new-home-in-bangalore.webp",
+  "imageAlt": "",
+  "eyebrow": "Latest News",
+  "headings": [
+    {
+      "id": "section-1",
+      "title": "Home Elevator Planning Starts at the Floor Plan",
+      "level": "h2"
+    },
+    {
+      "id": "section-2",
+      "title": "Fixing the Shaft: Pit, Headroom and Footprint",
+      "level": "h3"
+    },
+    {
+      "id": "section-3",
+      "title": "Pit depth",
+      "level": "h4"
+    },
+    {
+      "id": "section-4",
+      "title": "Headroom above the top landing",
+      "level": "h4"
+    },
+    {
+      "id": "section-5",
+      "title": "Shaft footprint by capacity",
+      "level": "h4"
+    },
+    {
+      "id": "section-6",
+      "title": "Choosing the Drive Type Before the Slab Is Poured",
+      "level": "h2"
+    },
+    {
+      "id": "section-7",
+      "title": "Home Elevator Design Choices That Affect Structure",
+      "level": "h2"
+    },
+    {
+      "id": "section-8",
+      "title": "Electrical Load, ARD and Backup",
+      "level": "h2"
+    },
+    {
+      "id": "section-9",
+      "title": "Home Elevator Requirements for Approval and Licensing",
+      "level": "h2"
+    },
+    {
+      "id": "section-10",
+      "title": "Home Elevator Planning: Budget, Timeline and Sequencing",
+      "level": "h2"
+    },
+    {
+      "id": "section-11",
+      "title": "Frequently Asked Questions",
+      "level": "h2"
+    },
+    {
+      "id": "section-12",
+      "title": "1. When should home elevator planning begin in a new build?",
+      "level": "h3"
+    },
+    {
+      "id": "section-13",
+      "title": "2. How much space does a home lift actually take?",
+      "level": "h3"
+    },
+    {
+      "id": "section-14",
+      "title": "3. Can I install a lift later instead?",
+      "level": "h3"
+    },
+    {
+      "id": "section-15",
+      "title": "4. Do I need a machine room on the terrace?",
+      "level": "h3"
+    },
+    {
+      "id": "section-16",
+      "title": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "body": [
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Most families decide on a lift somewhere between the second and third floor slab, which is roughly one month too late. By then, the staircase geometry is fixed, the beams are cast, and the remaining option may be an external shaft. ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/index"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Home elevator planning"]
+            }
+          ]
+        },
+        " belongs in the first set of drawings, alongside plumbing shafts and electrical risers. BG Elevators can help homeowners evaluate the shaft, capacity, drive type and electrical requirements before construction reaches the point where changes become expensive."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "The work is not complicated. You need four decisions settled early: where the shaft sits, how big it is, which drive type suits the house, and what power it needs. Everything after that is largely about finishes, accessibility and personal preference."
+      ]
+    },
+    {
+      "tag": "br",
+      "children": []
+    },
+    " ",
+    {
+      "tag": "img",
+      "attributes": {
+        "src": "/images/internalblogoimg/home-elevator-planning-how-to-plan-a-lift-for-a-new-home-in-bangalore.webp",
+        "alt": "Home Elevator Planning How to Plan a Lift for a New Home in Bangalore"
+      },
+      "children": []
+    },
+    {
+      "tag": "br",
+      "children": []
+    },
+    {
+      "tag": "br",
+      "children": []
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-1"
+      },
+      "children": ["Home Elevator Planning Starts at the Floor Plan"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Architects here place a lift in one of three positions: inside the stair void, cheapest because it uses walls you are already building; beside the entrance lobby, which gives a cleaner arrival but eats floor area; or in the rear setback as a separate shaft."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "The stair void wins for most 30x40 and 40x60 plots. Dog-legged stairs leave a rectangular gap of roughly 1200 mm to 1600 mm, which takes a three to five passenger car. Check one thing first: the stair flight either side must stay at least 900 mm wide, or you have made daily movement worse to gain a lift."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Think about landings too. A lift opening into a bedroom passage on one floor and a utility corner on the next creates awkward circulation forever. Good ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/index"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["residential elevator planning"]
+            }
+          ]
+        },
+        " treats each landing as a small lobby, not leftover space."
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-2"
+      },
+      "children": ["Fixing the Shaft: Pit, Headroom and Footprint"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Three dimensions carry most of home elevator planning. Get them onto the structural drawing and the rest follows."
+      ]
+    },
+    " ",
+    {
+      "tag": "h4",
+      "attributes": {
+        "id": "section-3"
+      },
+      "children": ["Pit depth"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Conventional traction wants 900 mm to 1200 mm below finished floor level. Machine-room-less designs manage 350 mm to 700 mm. Compact screw-drive home units need as little as 50 mm to 100 mm with a small ramp. Waterproofing matters more than depth, because a pit that takes water through the June to October rains will corrode buffers and trip safety switches."
+      ]
+    },
+    " ",
+    {
+      "tag": "h4",
+      "attributes": {
+        "id": "section-4"
+      },
+      "children": ["Headroom above the top landing"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Budget 3400 mm to 3800 mm for a conventional traction machine with a machine room, or 2500 mm to 2900 mm for machine-room-less. If the sanctioned plan fixes your parapet and terrace levels, raise it with the architect before the top slab is designed."
+      ]
+    },
+    " ",
+    {
+      "tag": "h4",
+      "attributes": {
+        "id": "section-5"
+      },
+      "children": ["Shaft footprint by capacity"]
+    },
+    " ",
+    {
+      "tag": "table",
+      "children": [
+        " ",
+        {
+          "tag": "thead",
+          "children": [
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "th",
+                  "children": ["Capacity"]
+                },
+                " ",
+                {
+                  "tag": "th",
+                  "children": ["Persons"]
+                },
+                " ",
+                {
+                  "tag": "th",
+                  "children": ["Car (mm)"]
+                },
+                " ",
+                {
+                  "tag": "th",
+                  "children": ["Clear shaft (mm)"]
+                },
+                " ",
+                {
+                  "tag": "th",
+                  "children": ["Typical home"]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "tbody",
+          "children": [
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "td",
+                  "children": ["204 kg"]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": ["3"]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": ["800 x 900"]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": ["1250 x 1300"]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": ["G+1, tight stair void"]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "td",
+                  "children": ["272 kg"]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": ["4"]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": ["900 x 1100"]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": ["1400 x 1500"]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": ["G+2 family home"]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "tr",
+              "children": [
+                " ",
+                {
+                  "tag": "td",
+                  "children": ["340 kg"]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": ["5"]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": ["1000 x 1200"]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": ["1500 x 1600"]
+                },
+                " ",
+                {
+                  "tag": "td",
+                  "children": ["Wheelchair access"]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    },
+    {
+      "tag": "br",
+      "children": []
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Those are clear internal dimensions, measured wall face to wall face after plaster. Masons often work to the outer line and hand over a shaft 60 mm narrower than the drawing, which stops an installation dead. Any serious ",
+        {
+          "tag": "strong",
+          "children": ["home lift planning"]
+        },
+        " exercise includes a dimensional check of the shaft before the supplier despatches the car."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-6"
+      },
+      "children": ["Choosing the Drive Type Before the Slab Is Poured"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Drive type changes your civil work, so it cannot wait. Machine-room-less gearless traction has become the default for new houses. It runs quietly, levels accurately, uses the least electricity of the three, and needs no terrace machine room."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Hydraulic units make sense for two or three stops, especially where the pit must stay shallow, and they forgive imperfect construction. In exchange you accept higher power draw on every up trip and a machine cupboard that gets warm in April. Screw-drive units suit retrofits more than new builds; if you are pouring concrete anyway, a proper shaft costs little more."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Speed rarely matters in a house. Anything between 0.3 and 1.0 m/s feels fine over three or four floors, and paying for more is money better spent on doors. Home elevator planning that prioritises door quality over speed almost always ages better."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-7"
+      },
+      "children": ["Home Elevator Design Choices That Affect Structure"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Some decisions are cosmetic. Others alter the shaft, so they belong in the early conversation:"
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Door type."]
+            },
+            " Automatic centre-opening doors need shaft width and a lintel allowance; manual swing doors need landing space to swing into."
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Glass shaft or masonry."]
+            },
+            " Glass and steel needs fixing details from the structural engineer, plus solar control glazing on a west face."
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["Car interior weight."]
+            },
+            " Stone flooring and thick panelling eat into rated capacity, so confirm the weight allowance before choosing finishes."
+          ]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Good ",
+        {
+          "tag": "strong",
+          "children": ["home elevator design"]
+        },
+        " also plans the boring items: a lockable control cupboard, a light and socket in the pit, and safe access for a technician on the car roof. These get forgotten, then retrofitted badly. Careful residential elevator planning covers them on the drawing."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-8"
+      },
+      "children": ["Electrical Load, ARD and Backup"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Most home lifts need a dedicated three-phase 415 V circuit, drawing roughly 3 kW to 7.5 kW depending on drive and capacity, though compact models run on single phase. Add the lift to your sanctioned load early, because revising a BESCOM connection later is slow."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "An Automatic Rescue Device should be standard, not an upgrade. Supply here dips often enough, and an ARD moves the car to the nearest landing on battery and opens the doors. If you are adding a DG set or inverter, ask what starting current the lift draws and whether your backup carries it. Home elevator planning that ignores backup produces a lift that works beautifully until the first outage."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-9"
+      },
+      "children": ["Home Elevator Requirements for Approval and Licensing"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Lifts in Karnataka come under state legislation, so the installation is registered, licensed to operate and inspected periodically. Equipment follows the IS 14665 series covering dimensions, safety rules and installation practice."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "The ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/services"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["home elevator requirements"]
+            }
+          ]
+        },
+        " worth confirming in writing with any supplier:"
+      ]
+    },
+    " ",
+    {
+      "tag": "ul",
+      "children": [
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            "Overspeed governor, safety gear and buffers matched to the rated speed"
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Door interlocks at every landing, tested at handover"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": ["Emergency alarm, intercom and battery-backed car light"]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            "Fire-rated landing doors where the shaft passes through enclosed floors"
+          ]
+        },
+        " ",
+        {
+          "tag": "li",
+          "children": [
+            "Test certificates, wiring diagrams and the operating licence application"
+          ]
+        },
+        " "
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Home elevator planning also means settling who submits the licence paperwork, at quotation stage."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-10"
+      },
+      "children": ["Home Elevator Planning: Budget, Timeline and Sequencing"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "A three passenger compact unit for a G+1 typically starts around 12 to 18 lakh rupees supplied and installed. A five passenger machine-room-less lift for a G+3 more often runs 18 to 30 lakh. Budgeting is part of home elevator planning: treat both as indicative ranges that move with drive type, door specification, travel and finishes. Civil work adds one to three lakh for shaft construction, waterproofing, plastering and the power point."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Sensible home lift planning puts the order in when the structure reaches roughly the second slab. Manufacturing and delivery take six to twelve weeks, erection two to four weeks after shaft handover, then commissioning and licensing. A ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/services"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["lift for new home"]
+            }
+          ]
+        },
+        " projects ordered too late becomes the item everyone waits on."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-11"
+      },
+      "children": ["Frequently Asked Questions"]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-12"
+      },
+      "children": [
+        "1. When should home elevator planning begin in a new build?"
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "At the architectural drawing stage, before the foundation is cast. The shaft position, pit depth and headroom all affect structural design. Deciding later usually means an external shaft or a compact retrofit unit, both of which cost more and give you less usable car space."
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-13"
+      },
+      "children": ["2. How much space does a home lift actually take?"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "A three passenger car needs a clear shaft of roughly 1250 x 1300 mm, and a five passenger car around 1500 x 1600 mm. That is comparable to a small store room on each floor. The stair void in most Bangalore houses already offers close to this."
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-14"
+      },
+      "children": ["3. Can I install a lift later instead?"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Yes, though it costs more and limits your choices. Retrofits usually take a self-supporting or shallow-pit unit with a smaller car. If a lift for new home budgets is out of reach this year, leave a clear vertical void through all floors and cap it with a removable slab panel. Home elevator planning at design stage avoids the whole problem."
+      ]
+    },
+    " ",
+    {
+      "tag": "h3",
+      "attributes": {
+        "id": "section-15"
+      },
+      "children": ["4. Do I need a machine room on the terrace?"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Usually not. Machine-room-less systems house the drive inside the shaft and cover most new homes today. Hydraulic units need a small cupboard for the power pack, which can sit at ground level near the shaft rather than on the roof, freeing terrace space."
+      ]
+    },
+    " ",
+    {
+      "tag": "h2",
+      "attributes": {
+        "id": "section-16"
+      },
+      "children": ["Conclusion"]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "Effective ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/about-us"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["home elevator planning"]
+            }
+          ]
+        },
+        " is mostly about sequencing. Fix the shaft position while the plan is still on paper, establish the clear dimensions and pit depth with the lift supplier, settle the drive type before structural work is completed, and include the electrical load and safety provisions early. Doing these four things can prevent expensive modifications later."
+      ]
+    },
+    " ",
+    {
+      "tag": "p",
+      "children": [
+        "If you are designing a new house in Bangalore, ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "/contact-us"
+          },
+          "children": [
+            {
+              "tag": "strong",
+              "children": ["contact BG Elevators"]
+            }
+          ]
+        },
+        " for a personalised home elevator planning consultation and get your shaft, capacity, drive type, electrical requirements and installation scope reviewed before construction progresses. For more residential lift ideas, project updates and practical home elevator guidance, follow ",
+        {
+          "tag": "a",
+          "attributes": {
+            "href": "https://www.instagram.com/bgelevatorsbg/"
+          },
+          "children": ["BG Elevators on Instagram"]
+        },
+        " and stay connected with the latest updates."
+      ]
+    },
+    " "
+  ],
+  "additionalSections": [
+    {
+      "component": "TestimonialsSection",
+      "data": {
+        "text": "Testimonials",
+        "heading": "What Our Customers Say ",
+        "text2": "About Us",
+        "description": "90% Customer Satisfaction based on 750+ reviews and 10K+ Completed Projects.",
+        "items": [
+          {
+            "description": "We installed BG Elevators in our apartment complex last year, and the experience has been great. The lifts run smoothly, are quiet, and add a premium touch to the building. Their team was punctual and skilled — highly recommended!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Suresh",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "What stood out with BG Elevators was their professionalism and how they explained every detail before installation. As a homeowner, safety was my concern, and their elevators feel secure and modern. The speed and smoothness are excellent!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Priya",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "We run a commercial space, and choosing BG Elevators was one of the best decisions. The lift has handled consistent usage without any issues. Their after-sales support is also prompt and courteous. Great service from start to finish!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Anil K",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "I love how elegant the elevator cabin looks. It gives a classy touch to our apartment. BG Elevators delivered exactly what they promised—quality, aesthetics, and reliability. The installation was quick and mess-free too!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Deepa",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "Right from the initial survey to installation, the entire process was smooth. The team was professional and maintained great communication throughout. The lift functions really well and is easy for elderly people in our family to use.",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Vinay",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "I really appreciate how responsive the customer service team was. Even after installation, they followed up and offered a maintenance plan. It feels good knowing we have a dependable support team behind such a crucial home feature.",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Lakshmi",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "We’ve had BG Elevators in our building for over a year now, and it still runs like new. Even during voltage fluctuations, the lift performs without hiccups. The durability and build quality are impressive. Totally worth the investment!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Rakesh N",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "Our house has three floors, and with kids and elderly parents, we needed reliability. BG Elevators gave us peace of mind. It's easy to use, safe, and looks great. Their technicians were polite and ensured everything was perfect before leaving.",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Sahana P",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "I’m a builder and have worked with multiple elevator companies, but BG Elevators has been the most consistent in quality and service. Every project we’ve used them for has gone smoothly, and our clients are always satisfied.",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Nagaraj",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "BG Elevators brings the perfect mix of modern features and traditional reliability. We wanted something low-maintenance yet stylish, and this was it. Smooth performance, elegant design, and a professional team—we’re very happy!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Meena",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "Working with BG Elevators has been a seamless experience. The lift installation in our office was quick and highly professional. It's been running smoothly ever since. Their customer service is always responsive and incredibly reliable!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Sasaank K",
+            "description2": "Our Happy Customer"
+          },
+          {
+            "description": "We installed BG Elevators in our apartment block, and the performance has been outstanding. It's quiet, smooth, and energy-efficient. The build quality truly stands out. Highly recommended for any residential project!",
+            "imageAlt": "",
+            "image": "/images/icons/userIcon.png",
+            "heading": "Roopesh P",
+            "description2": "Our Happy Customer"
+          }
+        ]
+      }
+    },
+    {
+      "component": "ConsultationSection",
+      "data": {
+        "heading": "Contact Us Today for a ",
+        "text": "Free Consultation",
+        "description": "At Elevators, we believe that every construction project is an opportunity to create something exceptional.",
+        "link": "/contact-us",
+        "text2": "Get Free Quote",
+        "imageAlt": "",
+        "image": "/images/673c1be85bd296750527c1ee_cta-image.webp"
+      }
+    }
+  ]
+}

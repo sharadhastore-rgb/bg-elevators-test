@@ -1,0 +1,940 @@
+{
+  "slug": "how-is-the-required-elevator-overhead-space-determined",
+  "title": "How Is the Required Elevator Overhead Space Determined?",
+  "date": "September 28, 2026",
+  "image": "/images/how-is-the-required-elevator-overhead-space-determined.jpeg",
+  "imageAlt": "How Is the Required Elevator Overhead Space Determined?",
+  "eyebrow": "Latest News",
+  "headings": [
+    {
+      "id": "section-1",
+      "title": "What Elevator Overhead Actually Means",
+      "level": "h2"
+    },
+    {
+      "id": "section-2",
+      "title": "How Elevator Overhead Is Calculated",
+      "level": "h2"
+    },
+    {
+      "id": "section-3",
+      "title": "Car height and the refuge space above it",
+      "level": "h3"
+    },
+    {
+      "id": "section-4",
+      "title": "Speed, overtravel and buffer strike",
+      "level": "h3"
+    },
+    {
+      "id": "section-5",
+      "title": "Typical Elevator Overhead by Drive Type",
+      "level": "h2"
+    },
+    {
+      "id": "section-6",
+      "title": "Lift Overhead Height in Existing Buildings",
+      "level": "h2"
+    },
+    {
+      "id": "section-7",
+      "title": "Reduced-headroom options",
+      "level": "h3"
+    },
+    {
+      "id": "section-8",
+      "title": "What you give up",
+      "level": "h3"
+    },
+    {
+      "id": "section-9",
+      "title": "Shaft Height, Terrace Levels and Coordination",
+      "level": "h2"
+    },
+    {
+      "id": "section-10",
+      "title": "Elevator Dimensions That Interact With Overhead",
+      "level": "h2"
+    },
+    {
+      "id": "section-11",
+      "title": "Checks Before Lift Installation Begins",
+      "level": "h2"
+    },
+    {
+      "id": "section-12",
+      "title": "Frequently Asked Questions",
+      "level": "h2"
+    },
+    {
+      "id": "section-13",
+      "title": "What is the minimum elevator overhead for a home lift?",
+      "level": "h3"
+    },
+    {
+      "id": "section-14",
+      "title": "Can I reduce the overhead after the shaft is built?",
+      "level": "h3"
+    },
+    {
+      "id": "section-15",
+      "title": "Does a machine-room-less lift always need less overhead?",
+      "level": "h3"
+    },
+    {
+      "id": "section-16",
+      "title": "How is lift overhead height measured on site?",
+      "level": "h3"
+    },
+    {
+      "id": "section-17",
+      "title": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "body": [
+    {
+      "tag": "p",
+      "children": [
+        "A homeowner in a G+3 house near Jayanagar had everything ready. Shaft cast, pit waterproofed, order placed. Then the engineer pointed at the terrace slab and explained that the space above the top landing was 2400 mm, and the lift needed 3600 mm. ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Elevator overhead "
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/"
+          }
+        },
+        "is the measurement people notice last and regret first, because unlike a pit you can’t dig for it. You can only build up, and by then the sanctioned plan and the parapet height usually say no. BG Elevators can help verify the required overhead clearance before the construction reaches this stage."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "The good news is that it’s entirely predictable. The figure comes from car height, safety clearances and speed, so it can be fixed on paper months before anyone mixes concrete. BG Elevators can help you plan and confirm the required overhead space early in the project."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "What Elevator Overhead Actually Means"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-1"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Overhead is the clear vertical distance from the finished floor of the topmost landing to the underside of the shaft ceiling slab. Not to the terrace level, not to the parapet, and not to the bottom of a beam that happens to cross the shaft."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "That last point causes real trouble. A downstand beam crossing the top of the hoistway reduces the usable elevator overhead by its own depth, and it usually appears in the structural drawing after the lift drawing was approved. Check the section, not just the plan."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "How Elevator Overhead Is Calculated"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-2"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Three stacked components decide the number, and they add up in sequence from the top landing upward."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Car height and the refuge space above it"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-3"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Start with the internal car height, typically 2100 mm to 2300 mm, then add the car frame, the crosshead and the door operator sitting above the roof. On top of that sits a mandatory refuge volume so a technician standing on the car roof is not crushed if the car overtravels. IS 14665 defines that clearance, and no supplier can waive it."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Speed, overtravel and buffer strike"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-4"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Faster lifts need more room to stop. The permitted overtravel above the top floor grows with rated speed, which is why a 1.5 m/s office lift wants noticeably more elevator overhead than a 0.5 m/s villa lift with the same cabin. Above the refuge zone you also need clearance for the counterweight buffer strike and the machine or diverter pulley on MRL designs."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Typical Elevator Overhead by Drive Type"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-5"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Use these as planning ranges. The binding figure comes from the supplier’s general arrangement drawing for the exact model."
+      ]
+    },
+    {
+      "tag": "table",
+      "children": [
+        {
+          "tag": "tbody",
+          "children": [
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Lift type"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Typical speed"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Elevator overhead"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Extra structure above"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Compact home lift, screw drive"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "0.15–0.30 m/s"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "2400–2700 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "None"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Residential MRL traction"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "0.63–1.0 m/s"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "3400–3900 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "None"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Traction with machine room"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1.0–1.5 m/s"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "4200–4800 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Machine room 2200–2600 mm"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Hydraulic passenger lift"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "0.3–0.6 m/s"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "2600–3200 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Power pack room beside shaft"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Goods or hospital lift"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "0.5–1.0 m/s"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "3800–4500 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Depends on drive"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Two readings jump out. Hydraulic units win on headroom because nothing sits above the car, which is why they still get specified for retrofits in old buildings. And a machine-room design doesn’t just need overhead; it needs a whole room stacked on top, which on a plot with a height restriction can be the deciding factor."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Lift Overhead Height in Existing Buildings"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-6"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Retrofitting into a finished house is where this gets difficult. The terrace slab is cast, the parapet is built, and the sanctioned plan fixes the maximum height. Adding a headroom box above the terrace often needs approval."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Reduced-headroom options"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-7"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Manufacturers offer models designed for exactly this problem. Screw-drive and chain-drive home lifts run happily with a ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "lift overhead height "
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/services"
+          }
+        },
+        "of 2400 mm to 2700 mm. Some MRL models manage around 2900 mm using a shorter car and a compact machine mounted at the side. Hydraulic units are the traditional answer where the elevator overhead simply cannot grow."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "What you give up"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-8"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Nothing comes free. Reduced-headroom models generally mean lower speed, lower capacity, a slightly lower car ceiling inside, and a higher unit price. A 2100 mm car height instead of 2300 mm is barely noticeable, but the speed difference is. Climbing four floors at 0.3 m/s feels slow with groceries in hand, so be honest about daily use."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Shaft Height, Terrace Levels and Coordination"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-9"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Total shaft height is travel plus pit plus overhead, and each of those is owned by a different person on site. The architect fixes floor-to-floor heights, the structural engineer positions beams and the terrace slab, and the lift supplier states the clearances. When those three don’t meet in one drawing, the mismatch shows up during lift installation rather than on paper."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Watch for the standard traps:"
+      ]
+    },
+    {
+      "tag": "ul",
+      "children": [
+        {
+          "tag": "li",
+          "children": [
+            "A mumty or staircase headroom encroaching over the shaft."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Overhead water tanks or solar mounts planned above the hoistway."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "A downstand beam crossing the shaft ceiling."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Floor-to-floor height increased late for false ceilings, changing total shaft height and door positions."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Terrace waterproofing screed adding 75 mm to 100 mm that nobody deducted."
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Elevator Dimensions That Interact With Overhead"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-10"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Headroom isn’t an isolated figure. Several other elevator dimensions push it up or down, and trading between them is how a tight project gets solved."
+      ]
+    },
+    {
+      "tag": "ol",
+      "children": [
+        {
+          "tag": "li",
+          "children": [
+            "Internal car height: reducing 2300 mm to 2100 mm gives back 200 mm directly."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Rated speed: dropping from 1.0 m/s to 0.63 m/s can save 200 mm to 400 mm of elevator overhead."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Door type and header height: a full-height door with a tall header eats into the same space."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Drive type: switching from machine-room traction to MRL or hydraulic changes everything above the shaft."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Top landing floor level: raising or lowering the last slab by 150 mm can decide the whole argument."
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Discuss these as a package with your supplier. Suppliers usually have two or three models in the same capacity band with quite different elevator dimensions, and one of them often fits a building the others can’t."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Checks Before Lift Installation Begins"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-11"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Run through this before the shaft ceiling is cast."
+      ]
+    },
+    {
+      "tag": "ul",
+      "children": [
+        {
+          "tag": "li",
+          "children": [
+            "Confirm in writing the overhead measured from finished floor level of the top landing."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Check the structural section for beams, ducts, tank supports and roof slopes over the shaft."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Confirm the hoisting hook or lifting beam is cast into the shaft ceiling with the stated capacity."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Check the machine room dimensions, access and ventilation where one is used."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Verify sanctioned building height allows any structure sitting above the terrace."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Add a tolerance of about 50 mm to the clear elevator overhead for plaster and screed."
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Buildings under the Karnataka lift rules are inspected before a licence is granted, and clearances above the car form part of that check. Getting them wrong can hold up commissioning."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Frequently Asked Questions"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-12"
+      }
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "What is the minimum elevator overhead for a home lift?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-13"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Compact residential models typically need 2400 mm to 2700 mm, and a few reduced-headroom units manage slightly less. Conventional traction home lifts want 3400 mm or more. The figure depends on car height, speed and the safety clearance above the car roof, so always confirm it against the specific model."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Can I reduce the overhead after the shaft is built?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-14"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "You can’t reduce what the lift needs, but you can change the lift. Switching to a hydraulic, screw-drive or reduced-headroom MRL model is the usual fix. The alternatives are lowering the top landing floor level or building up above the terrace, and both are expensive once the structure exists."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Does a machine-room-less lift always need less overhead?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-15"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Less total building height, yes, but not always less shaft overhead. An MRL houses its machine inside the hoistway, so the clear space above the car is often similar to a machine-room design. What you save is the room stacked above the terrace, which is usually the bigger constraint."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "How is lift overhead height measured on site?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-16"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "From the finished floor level of the highest landing to the lowest point of the shaft ceiling, including any beam, duct or hook that projects downward. Measure at more than one point in the shaft. Reporting a figure from the structural slab instead of finished floor is the most common error."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Conclusion"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-17"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Headroom is unforgiving because it’s the one dimension you can’t recover later without touching the roof. Fix the drive type and rated speed early, take the supplier’s general arrangement drawing, then check the structural section for anything crossing the top of the shaft. BG Elevators can help verify the required overhead clearance during the planning stage. Elevator overhead settled that way costs you nothing extra. Discovered late, it forces a model change, a slower lift or an argument with the sanction plan. Measure from finished floor level, keep a small tolerance, and confirm the figure before the ceiling slab is cast."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "If you’re weighing up your options, an experienced local lift team can check your levels and section drawings before the top slab goes in, while changes are still cheap. BG Elevators can help you check the overhead requirements early. ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Contact BG Elevators today "
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/contact-us"
+          }
+        },
+        "to discuss your project."
+      ]
+    }
+  ],
+  "additionalSections": []
+}

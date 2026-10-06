@@ -1,0 +1,111 @@
+{
+  "contentSection": {
+    "text": "Our Clients",
+    "text2": "Trusted ",
+    "heading": " by builders and families across India for ",
+    "text3": "reliable, quality ",
+    "heading2": "elevators ",
+    "items": [
+      {
+        "imageAlt": "our clients - bg elevators",
+        "image": "/images/clients/8.jpg",
+        "heading": "GM Infinite"
+      },
+      {
+        "imageAlt": "our clients - bg elevators",
+        "image": "/images/clients/1.jpg",
+        "heading": "Commercial Building (Bangalore)"
+      },
+      {
+        "imageAlt": "our clients - bg elevators",
+        "image": "/images/clients/2.jpg",
+        "heading": "BGS Global Institute of Medical Sciences and Hospital"
+      },
+      {
+        "imageAlt": "our clients - bg elevators",
+        "image": "/images/clients/3.jpg",
+        "heading": "DEV IN SCHOOL"
+      },
+      {
+        "imageAlt": "our clients - bg elevators",
+        "image": "/images/clients/4.jpg",
+        "heading": "Residence (Hassan)"
+      },
+      {
+        "imageAlt": "our clients - bg elevators",
+        "image": "/images/clients/5.jpg",
+        "heading": "R.R. Livingston, Sahakaranagar, Bangalore "
+      },
+      {
+        "imageAlt": "our clients - bg elevators",
+        "image": "/images/clients/6.jpg",
+        "heading": "Arya Krishna Builders"
+      },
+      {
+        "imageAlt": "our clients - bg elevators",
+        "image": "/images/clients/7.jpg",
+        "heading": "Sai Comforte Hotel"
+      }
+    ]
+  },
+  "section2": {
+    "heading": "Contact Us Today for a ",
+    "text": "Free Consultation",
+    "description": "At Elevators, we believe that every construction project is an opportunity to create something exceptional.",
+    "link": "/contact-us",
+    "text2": "Get Free Quote",
+    "imageAlt": "",
+    "image": "/images/673c1be85bd296750527c1ee_cta-image.webp"
+  },
+  "section3": {
+    "form": {
+      "title": "Get in touch",
+      "description": "Connect with us through our contact forum for any\n                                    inquiries,\n                                    questions.",
+      "fields": [
+        {
+          "name": "name",
+          "type": "text",
+          "placeholder": "Your Name",
+          "required": true,
+          "accept": null,
+          "className": "career contact-input w-input"
+        },
+        {
+          "name": "Email",
+          "type": "email",
+          "placeholder": "Your Email Address",
+          "required": true,
+          "accept": null,
+          "className": "career contact-input w-input"
+        },
+        {
+          "name": "Phone",
+          "type": "tel",
+          "placeholder": "Phone Number",
+          "required": true,
+          "accept": null,
+          "className": "career contact-input w-input"
+        },
+        {
+          "name": "Resume",
+          "type": "file",
+          "placeholder": "Upload Resume",
+          "required": true,
+          "accept": ".pdf,.doc,.docx",
+          "className": "career w-input file-upload"
+        },
+        {
+          "name": "Message",
+          "type": "textarea",
+          "placeholder": "Write Message Here.....",
+          "required": false,
+          "accept": null,
+          "className": "career contact-input text-area w-input"
+        }
+      ],
+      "submitLabel": "Send Message",
+      "kind": "career",
+      "className": "contact-form career"
+    }
+  }
+}

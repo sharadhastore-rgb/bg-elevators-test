@@ -1,0 +1,53 @@
+{
+  "contentSection": {
+    "heading": "Our Service",
+    "heading2": "Elevator Installation",
+    "items": [
+      {
+        "description": "At BG Elevators, our installation services go beyond simply setting up a lift — we provide a comprehensive, stage-wise process backed by over 30 years of experience. Whether it’s an MR, MRL, or Hydraulic system, our approach combines engineering accuracy, world-class standards, and total customization to deliver safe and efficient elevator systems for every space."
+      },
+      {
+        "description": "We ensure each installation meets top-tier performance and safety benchmarks, similar to those followed by major multinational corporations (MNCs), giving our clients the confidence of durability and operational excellence."
+      }
+    ],
+    "heading3": "MR, MRL & Hydraulic Elevators",
+    "description": "We install a wide range of elevator systems based on your project needs:",
+    "items2": [
+      {
+        "text": "MR (Machine Room)",
+        "text2": " elevators for traditional buildings needing separate machine space."
+      },
+      {
+        "text": "MRL (Machine Room Less)",
+        "text2": " elevators for compact, modern structures that save space and energy."
+      },
+      {
+        "text": "Hydraulic elevators",
+        "text2": ", ideal for low-rise buildings or homes with space constraints."
+      }
+    ],
+    "heading4": "Hydraulic elevators",
+    "description2": "Time is value. We adhere to well-planned timelines and clear milestones to ensure timely delivery. Each project is scheduled with built-in buffers to accommodate site-specific needs, ensuring zero last-minute delays.",
+    "heading5": "125+ Checkpoints & Stagewise Inspections",
+    "description3": "Our installation follows a stringent checklist of over 125 inspection points. Every stage—from base structure to final commissioning—is verified by dedicated engineers to ensure compliance, safety, and performance.",
+    "heading6": "Quality Standards at Par with MNCs",
+    "description4": "We match or exceed the quality protocols followed by top elevator brands and multinational companies. From material selection to installation practices, every touchpoint reflects our commitment to global standards.",
+    "heading7": "Customisable Cabins",
+    "description5": "Aesthetics meet utility. We offer tailor-made cabin designs including stainless steel, mirror, wooden, rose gold, and more—ensuring your lift reflects the architectural elegance of your space.",
+    "heading8": "High-Quality Materials & Components",
+    "description6": "We source only branded, certified parts for every installation—ensuring longevity, low maintenance, and smooth functioning for years to come.",
+    "heading9": "Demonstration & Training Post Installation",
+    "description7": "Once installed, our team provides hands-on training and demonstrations for your building staff and users. From operation to safety protocol, everything is covered to ensure smooth usage and self-reliance.",
+    "heading10": "Power-Efficient Lift Systems",
+    "description8": "All our elevators are built with energy-saving technologies—reducing power consumption by up to 30% depending on the model. This helps cut operational costs while promoting eco-friendly infrastructure."
+  },
+  "section2": {
+    "heading": "Contact Us Today for a ",
+    "text": "Free Consultation",
+    "description": "At Elevators, we believe that every construction project is an opportunity to create something exceptional.",
+    "link": "/contact-us",
+    "text2": "Get Free Quote",
+    "imageAlt": "",
+    "image": "/images/673c1be85bd296750527c1ee_cta-image.webp"
+  }
+}

@@ -1,0 +1,954 @@
+{
+  "slug": "how-is-the-required-elevator-pit-depth-determined",
+  "title": "How Is the Required Elevator Pit Depth Determined?",
+  "date": "September 25, 2026",
+  "image": "/images/how-is-the-required-elevator-pit-depth-determined.jpeg",
+  "imageAlt": "How Is the Required Elevator Pit Depth Determined?",
+  "eyebrow": "Latest News",
+  "headings": [
+    {
+      "id": "section-1",
+      "title": "What the Pit Actually Holds",
+      "level": "h2"
+    },
+    {
+      "id": "section-2",
+      "title": "How Elevator Pit Depth Is Calculated",
+      "level": "h2"
+    },
+    {
+      "id": "section-3",
+      "title": "Buffer stroke and car speed",
+      "level": "h3"
+    },
+    {
+      "id": "section-4",
+      "title": "Refuge space and clearances",
+      "level": "h3"
+    },
+    {
+      "id": "section-5",
+      "title": "Typical Elevator Pit Depth by Lift Type",
+      "level": "h2"
+    },
+    {
+      "id": "section-6",
+      "title": "Waterproofing, Drainage and the Water Table",
+      "level": "h2"
+    },
+    {
+      "id": "section-7",
+      "title": "Tanking the pit properly",
+      "level": "h3"
+    },
+    {
+      "id": "section-8",
+      "title": "Drainage and pumping",
+      "level": "h3"
+    },
+    {
+      "id": "section-9",
+      "title": "Reduced-Pit and Pitless Options",
+      "level": "h2"
+    },
+    {
+      "id": "section-10",
+      "title": "Elevator Pit Requirements Beyond Depth",
+      "level": "h2"
+    },
+    {
+      "id": "section-11",
+      "title": "Where Elevator Installation Runs Into Trouble",
+      "level": "h2"
+    },
+    {
+      "id": "section-12",
+      "title": "Frequently Asked Questions",
+      "level": "h2"
+    },
+    {
+      "id": "section-13",
+      "title": "What is the minimum elevator pit depth for a home lift?",
+      "level": "h3"
+    },
+    {
+      "id": "section-14",
+      "title": "Can the pit be made shallower after the shaft is built?",
+      "level": "h3"
+    },
+    {
+      "id": "section-15",
+      "title": "Does a hydraulic lift need a deeper pit than a traction lift?",
+      "level": "h3"
+    },
+    {
+      "id": "section-16",
+      "title": "Who is responsible for the pit, the builder or the lift company?",
+      "level": "h3"
+    },
+    {
+      "id": "section-17",
+      "title": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "body": [
+    {
+      "tag": "p",
+      "children": [
+        "The excavation is done, the shaft walls are up, and the lift engineer measures the recess below the ground floor threshold. It reads 800 mm. The drawing said 1400 mm. Somewhere between the structural drawing and the site, half a metre disappeared, and now a jackhammer has to work inside a finished lift shaft. ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Elevator pit depth"
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/"
+          }
+        },
+        " is one of those numbers that looks arbitrary on paper and turns out to be tightly derived from physics and safety rules. BG Elevators can help verify the required pit depth before construction begins."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "It isn’t a buffer allowance someone rounded off. It comes from car speed, buffer type, the clearances a technician needs to survive a fault, and the drive you chose. BG Elevators can help coordinate these requirements with the lift design and structural planning."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "What the Pit Actually Holds"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-1"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "The pit is the space below the lowest landing floor. It isn’t dead space, and it isn’t storage, though sites treat it that way until the first inspection."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Inside it sit the buffers that decelerate the car or counterweight if the lift ever overtravels, the compensating chain on taller installations, the guide rail bases, the governor rope tensioner, and on hydraulic units part of the jack assembly. It also holds a stop switch, a light, a socket, and access for a technician working under the car."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "How Elevator Pit Depth Is Calculated"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-2"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Two independent requirements set the figure, and the deeper of the two wins."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Buffer stroke and car speed"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-3"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Faster cars need longer stopping distances. A lift running at 0.5 m/s can stop on a short polyurethane buffer. At 1.0 m/s you need a taller spring or oil buffer, and above roughly 1.75 m/s you’re into oil buffers with substantial stroke. Buffer height, plinth and compressed stroke form the first component of the elevator pit depth calculation. It’s why a home lift and an office lift of identical capacity differ by 600 mm below."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Refuge space and clearances"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-4"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "The second requirement is human. IS 14665 requires a clear refuge volume in the pit so that a person is protected if the car descends fully, along with a minimum clearance between the lowest car projection and the pit floor. That refuge box governs the elevator pit depth on most slow residential lifts, where the buffer alone would need very little room. You cannot trade it away for a shallower excavation."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Typical Elevator Pit Depth by Lift Type"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-5"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "These elevator pit depth ranges are indicative. A supplier’s general arrangement drawing gives the binding number for your model."
+      ]
+    },
+    {
+      "tag": "table",
+      "children": [
+        {
+          "tag": "tbody",
+          "children": [
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Lift type"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Typical speed"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Elevator pit depth"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Notes"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Compact home lift, screw or MRL"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "0.15–0.30 m/s"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "100–500 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Ramp or shallow recess possible"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Residential MRL traction"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "0.63–1.0 m/s"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1100–1400 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Most common in new apartments"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Traction with machine room"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1.0–1.5 m/s"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1400–1700 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Oil buffers on the higher speeds"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Hydraulic passenger lift"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "0.3–0.6 m/s"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "600–1200 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Jack base and drainage matter"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Goods or hospital lift"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "0.5–1.0 m/s"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1200–1600 mm"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Heavier buffers, larger footprint"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "High-speed commercial"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1.75 m/s and above"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1800 mm and up"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Oil buffers, longer stroke"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Look at the spread. A shallow pit isn’t automatically better, since the models that achieve it are usually slower, smaller or dearer. What a shallow pit does buy you is avoiding excavation into rock or below the water table, and in parts of Bangalore that saving is real."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Waterproofing, Drainage and the Water Table"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-6"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "A flooded pit is the single most common maintenance problem in this city’s older buildings. During heavy monsoon weeks water finds a way in through the slab joint, the wall base, or backwards from a nearby sump. Once it’s in, buffers corrode, the governor rope tensioner rusts, and safety switches trip."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Tanking the pit properly"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-7"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Waterproof from outside where the excavation still allows it, and treat the pit as a water-retaining structure rather than a floor recess. Membrane treatment applied to the inner face afterwards is a repair, not a design. Where the pit is adjacent to an underground sump or a rainwater harvesting tank, insist on a physical separation and a drainage layer before the elevator installation team arrives."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Drainage and pumping"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-8"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Codes do not permit a direct open drain connection from the pit, so most buildings use a small sealed sump with a float-operated pump discharging outside the lift shaft. Keep the pump on a circuit that stays live during power cuts if the building floods regularly."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Reduced-Pit and Pitless Options"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-9"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Retrofit projects in existing houses often can’t dig. If the ground floor sits on a raft foundation, deep excavation becomes a structural argument rather than a lift decision."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Options exist. Screw-drive and some hydraulic home lifts work with an elevator pit depth of 100 mm to 150 mm, sometimes with a small entry ramp instead. Certain MRL models accept 350 mm to 500 mm. The trade-offs are honest ones: lower speed, lower capacity, sometimes a slightly larger footprint, and usually a higher price per unit. For a two or three stop villa lift, that’s a fair exchange."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Elevator Pit Requirements Beyond Depth"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-10"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Elevator pit depth is one line item. The rest of the ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "elevator pit requirements "
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/services"
+          }
+        },
+        "are what actually delay handovers."
+      ]
+    },
+    {
+      "tag": "ul",
+      "children": [
+        {
+          "tag": "li",
+          "children": [
+            "A permanent ladder or fixed access where the pit is deeper than about 900 mm."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "A pit stop switch reachable from the landing before anyone climbs down."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Lighting and a 5 A socket, wired from the lift supply, not a temporary lead."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "A clean, dry, level floor free of debris, formwork and stored material."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "No pipes, cables or ducts passing through the pit for other services."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Clear space kept for the buffer plinths and rail bases as shown on the drawing."
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Where a pit sits above an occupied space, such as a basement parking level, the counterweight normally needs a safety gear as well, which is worth catching at design stage rather than after the order."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Where Elevator Installation Runs Into Trouble"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-11"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Most pit problems trace back to a handful of ordinary building construction mistakes."
+      ]
+    },
+    {
+      "tag": "ol",
+      "children": [
+        {
+          "tag": "li",
+          "children": [
+            "Floor finish added after excavation, quietly reducing the clear lift pit depth by 75 mm to 100 mm."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Waterproofing skipped or postponed until after the walls are plastered."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Pit slab not level, so buffer plinths need packing and the guide rails go out of plumb."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Site debris and cement bags left in the pit until the day the equipment arrives."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Depth measured from the wrong datum, usually structural slab instead of finished floor level."
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Agreeing the datum in writing removes most of that list. Ask the supplier to state whether the elevator pit depth quoted is from finished floor level of the lowest landing, and mark it on the shaft wall with a permanent level line before the elevator installation begins."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Frequently Asked Questions"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-12"
+      }
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "What is the minimum elevator pit depth for a home lift?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-13"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Compact residential models can run on 100 mm to 500 mm, and some work with a shallow ramp instead of a true pit. Conventional traction home lifts usually want 900 mm to 1200 mm. The exact figure depends on speed, buffer type and the refuge clearance the model needs."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Can the pit be made shallower after the shaft is built?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-14"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Only by breaking and rebuilding the pit floor, which is disruptive and can affect the foundation. The practical alternative is changing to a lift model designed for a shallow pit, though that usually means accepting lower speed or capacity. Decide this before building construction starts."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Does a hydraulic lift need a deeper pit than a traction lift?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-15"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Usually not. Hydraulic units generally need less headroom and a moderate lift pit depth, because there’s no counterweight buffer and speeds are lower. What they do need is a clean, dry pit, since the jack base and any oil line sit down there and dampness causes problems quickly."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Who is responsible for the pit, the builder or the lift company?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-16"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "The pit is civil work, so the builder or contractor executes it, using dimensions issued by the lift supplier. The supplier should inspect and accept it before delivery. Splitting that responsibility clearly in the purchase order prevents the familiar argument when a measurement is short."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Conclusion"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-17"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "The number under your lift isn’t guesswork. Elevator pit depth follows from car speed, buffer selection and the refuge clearances that protect anyone working beneath the car, and each of those is fixed by the model you buy. BG Elevators can help review these requirements before you finalize the lift. Settle the drive type early, take the supplier’s drawing, agree the measurement datum, and waterproof the pit as if it were a tank rather than a floor. Do those four things and the pit becomes a non-event instead of the item that holds up your handover."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "If you’re weighing up your options, an experienced local lift team can review your levels and ground conditions before you dig, which is far cheaper than correcting a pit afterwards. BG Elevators can help you review your pit requirements. ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Contact BG Elevators today "
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/contact-us"
+          }
+        },
+        "to discuss your project."
+      ]
+    }
+  ],
+  "additionalSections": []
+}

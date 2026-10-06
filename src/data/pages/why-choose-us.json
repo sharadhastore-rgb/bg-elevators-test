@@ -1,0 +1,113 @@
+{
+  "contentSection": {
+    "text": "Why Choose Us",
+    "heading": "Elevating Careers with Excellence – ",
+    "text2": "Experience ",
+    "heading2": "the Advantages of ",
+    "text3": "BG Elevators",
+    "heading3": "Passion Backed by Commitment",
+    "description": "Every elevator we design and install reflects our unwavering dedication and passion for delivering ",
+    "text4": "safe, efficient, and elegant ",
+    "description2": " solutions.",
+    "heading4": "Over 20+ Years of Expertise",
+    "description3": "With a highly ",
+    "text5": "skilled and experienced",
+    "description4": " team, we bring unmatched technical know-how and deep industry insights to every project we undertake. ",
+    "heading5": "Tailor-Made Smart Solutions",
+    "description5": "From residential to commercial spaces, our elevators are ",
+    "text6": "custom-designed",
+    "description6": " to suit individual needs, aesthetics, and space constraints. ",
+    "items": [
+      {
+        "heading": "Tailor-Made Smart Solutions",
+        "description": "Our ",
+        "text": "Quality and Audit Team",
+        "description2": " ensures every lift is tested against a checklist to meet all safety and performance benchmarks—before and after installation."
+      },
+      {
+        "heading": "Modern Technology, Always Updated",
+        "description": "We stay ahead of the curve by integrating the ",
+        "text": "latest technologies",
+        "description2": " and components to meet evolving customer demands and standards."
+      },
+      {
+        "heading": "100% Growth – Powered by Trust",
+        "description": "Proud to be one of the ",
+        "text": "fastest-growing elevator",
+        "description2": " companies, expanding through word-of-mouth referrals—a testament to our customer-first approach."
+      },
+      {
+        "heading": "Proactive Customer Support",
+        "description": "Our dedicated service team ensures ",
+        "text": "fast and friendly",
+        "description2": " support—whether it's a query before purchase or maintenance after installation."
+      },
+      {
+        "heading": "Transparent Operations",
+        "description": "From lift components to timelines—we believe in ",
+        "text": "“Walk the Talk”",
+        "description2": ". Transparency in materials, process, and communication is our key promise."
+      }
+    ]
+  },
+  "section2": {
+    "heading": "Contact Us Today for a ",
+    "text": "Free Consultation",
+    "description": "At Elevators, we believe that every construction project is an opportunity to create something exceptional.",
+    "link": "/contact-us",
+    "text2": "Get Free Quote",
+    "imageAlt": "",
+    "image": "/images/673c1be85bd296750527c1ee_cta-image.webp"
+  },
+  "section3": {
+    "form": {
+      "title": "Get in touch",
+      "description": "Connect with us through our contact forum for any\n                                    inquiries,\n                                    questions.",
+      "fields": [
+        {
+          "name": "name",
+          "type": "text",
+          "placeholder": "Your Name",
+          "required": true,
+          "accept": null,
+          "className": "career contact-input w-input"
+        },
+        {
+          "name": "Email",
+          "type": "email",
+          "placeholder": "Your Email Address",
+          "required": true,
+          "accept": null,
+          "className": "career contact-input w-input"
+        },
+        {
+          "name": "Phone",
+          "type": "tel",
+          "placeholder": "Phone Number",
+          "required": true,
+          "accept": null,
+          "className": "career contact-input w-input"
+        },
+        {
+          "name": "Resume",
+          "type": "file",
+          "placeholder": "Upload Resume",
+          "required": true,
+          "accept": ".pdf,.doc,.docx",
+          "className": "career w-input file-upload"
+        },
+        {
+          "name": "Message",
+          "type": "textarea",
+          "placeholder": "Write Message Here.....",
+          "required": false,
+          "accept": null,
+          "className": "career contact-input text-area w-input"
+        }
+      ],
+      "submitLabel": "Send Message",
+      "kind": "career",
+      "className": "contact-form career"
+    }
+  }
+}

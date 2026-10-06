@@ -1,0 +1,38 @@
+{
+  "logo": "/images/bgElevetorMain.png",
+  "links": [
+    {
+      "label": "Home",
+      "href": "/index"
+    },
+    {
+      "label": "About",
+      "href": "/about-us"
+    },
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "Products",
+      "href": "/products"
+    },
+    {
+      "label": "Features",
+      "href": "/features"
+    },
+    {
+      "label": "Blog",
+      "href": "/blogs"
+    },
+    {
+      "label": "Career",
+      "href": "/career"
+    },
+    {
+      "label": "Let's Talk",
+      "href": "/contact-us"
+    }
+  ],
+  "brand": "BG Elevators"
+}

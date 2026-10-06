@@ -1,0 +1,29 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme) prefix(tw);
+@import "tailwindcss/utilities.css" layer(utilities) prefix(tw);
+@import "./brand.css" layer(base);
+@import "./home.css" layer(base);
+@import "./thank-you.css" layer(base);
+@import "./components.css" layer(components);
+@import "./blog.css" layer(components);
+@import "./about.css" layer(components);
+
+@theme {
+  --color-brand: #006699;
+  --color-brand-bright: #3396d6;
+  --color-brand-dark: #006699;
+  --color-brand-soft: #badff1;
+  --color-primary-soft: #f4f7f4;
+  --color-ink: #012034;
+  --color-mist: #f0f7fc;
+  --color-surface: #ffffff;
+  --color-surface-soft: #f7f9f8;
+  --color-border: #cfe5d2;
+  --color-copy: #2e2e2e;
+  --color-copy-muted: #727272;
+  --font-sans: "Inter", Arial, sans-serif;
+  --breakpoint-xs: 30rem;
+  --breakpoint-3xl: 100rem;
+  --radius-card: 1rem;
+  --shadow-card: 0 12px 35px rgb(1 32 52 / 8%);
+}

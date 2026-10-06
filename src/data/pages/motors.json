@@ -1,0 +1,110 @@
+{
+  "contentSection": {
+    "heading": "Feature",
+    "heading2": "Elevator Motors",
+    "imageAlt": "",
+    "image": "/images/services/geared.jpg",
+    "heading3": "Elevator Motors",
+    "description": "We have two types of elevator motors: ",
+    "text": "Geared Motor Unit and Gearless Motor Unit.",
+    "heading4": "Gearless Motor Unit",
+    "items": [
+      {
+        "imageAlt": "Glass Door",
+        "image": "/images/doors/gearless1.webp",
+        "heading": "Gearless Machine"
+      },
+      {
+        "imageAlt": "Glass Door",
+        "image": "/images/doors/gearless2.jpg",
+        "heading": "Gearless Machine"
+      }
+    ],
+    "heading5": "Geared Motor Unit",
+    "items2": [
+      {
+        "imageAlt": "Glass Door",
+        "image": "/images/doors/geared1.jpg"
+      },
+      {
+        "imageAlt": "Glass Door",
+        "image": "/images/doors/Geared3.webp"
+      }
+    ],
+    "heading6": "Our Products",
+    "link": "/bg-glass-finish-cabin",
+    "text2": "Glass Finish Cabin",
+    "text3": " | ",
+    "link2": "/bg-stainless-steel-finish-cabin",
+    "text4": "Stainless Steel Finish Cabin",
+    "text5": " | ",
+    "link3": "/bg-mirror-finish-cabin",
+    "text6": "Mirror Finish Cabin",
+    "text7": " | ",
+    "link4": "/ms-powder-coated-finish",
+    "text8": "MS Powder coated finish",
+    "text9": " | ",
+    "link5": "/ss-hairline-finish",
+    "text10": "SS Hairline finish",
+    "text11": " | ",
+    "link6": "/ss-mirror-finish",
+    "text12": "SS Mirror finish",
+    "text13": " | ",
+    "link7": "/gold-finish",
+    "text14": "Gold finish",
+    "text15": " | ",
+    "link8": "/rose-gold-finish",
+    "text16": "Rose gold finish",
+    "text17": " | ",
+    "link9": "/wooden-finish",
+    "text18": "Wooden finish",
+    "text19": " | ",
+    "link10": "/glass-door",
+    "text20": "Glass door",
+    "heading7": "Our Features",
+    "link11": "/doors",
+    "text21": "Doors",
+    "text22": " | ",
+    "link12": "/cabin-option",
+    "text23": "Cabin Option",
+    "text24": " | ",
+    "link13": "/ceiling",
+    "text25": "Ceiling",
+    "text26": " | ",
+    "link14": "/cop-and-lop",
+    "text27": "COP & LOP",
+    "text28": " | ",
+    "link15": "/motors",
+    "text29": "Motors",
+    "text30": " | ",
+    "link16": "/control-system",
+    "text31": "Control System / Pane",
+    "text32": " | ",
+    "link17": "/additional-features",
+    "text33": "Additional Features",
+    "heading8": "Connect to Get Quote",
+    "items3": [
+      {
+        "imageAlt": "",
+        "image": "/images/6741876d4ae7c5df1d24f2e6_contact-icon-2.webp",
+        "text": "info@bgelevators.com"
+      },
+      {
+        "imageAlt": "",
+        "image": "/images/6741876d963c149c50fd2ae6_contact-icon-3.webp",
+        "text": "+91 90199 25366 / +91 7676258087"
+      }
+    ],
+    "link18": "/contact-us",
+    "text34": "Get A Quote"
+  },
+  "section2": {
+    "heading": "Contact Us Today for a ",
+    "text": "Free Consultation",
+    "description": "At Elevators, we believe that every construction project is an opportunity to create something exceptional.",
+    "link": "/contact-us",
+    "text2": "Get Free Quote",
+    "imageAlt": "",
+    "image": "/images/673c1be85bd296750527c1ee_cta-image.webp"
+  }
+}

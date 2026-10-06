@@ -1,0 +1,660 @@
+{
+  "slug": "what-should-be-finalized-before-an-elevator-shaft-is-constructed",
+  "title": "What Should Be Finalized Before an Elevator Shaft Is Constructed?",
+  "date": "September 29, 2026",
+  "image": "/images/what-should-be-finalized-before-an-elevator-shaft-is-constructed.jpeg",
+  "imageAlt": "What Should Be Finalized Before an Elevator Shaft Is Constructed?",
+  "eyebrow": "Latest News",
+  "headings": [
+    {
+      "id": "section-1",
+      "title": "Why the Shaft Is the Last Step in Elevator Shaft Planning",
+      "level": "h2"
+    },
+    {
+      "id": "section-2",
+      "title": "Decisions to Lock Before Elevator Shaft Planning Begins",
+      "level": "h2"
+    },
+    {
+      "id": "section-3",
+      "title": "Who uses the lift, and how often",
+      "level": "h3"
+    },
+    {
+      "id": "section-4",
+      "title": "Drive type, speed and door style",
+      "level": "h3"
+    },
+    {
+      "id": "section-5",
+      "title": "The Drawing That Governs Elevator Shaft Design",
+      "level": "h2"
+    },
+    {
+      "id": "section-6",
+      "title": "Elevator Pit and Elevator Overhead Decisions",
+      "level": "h2"
+    },
+    {
+      "id": "section-7",
+      "title": "The pit below",
+      "level": "h3"
+    },
+    {
+      "id": "section-8",
+      "title": "The space above",
+      "level": "h3"
+    },
+    {
+      "id": "section-9",
+      "title": "Power, Earthing and Backup",
+      "level": "h2"
+    },
+    {
+      "id": "section-10",
+      "title": "Approvals and Building Lift Requirements",
+      "level": "h2"
+    },
+    {
+      "id": "section-11",
+      "title": "An Elevator Shaft Planning Checklist",
+      "level": "h2"
+    },
+    {
+      "id": "section-12",
+      "title": "Frequently Asked Questions",
+      "level": "h2"
+    },
+    {
+      "id": "section-13",
+      "title": "When should elevator shaft planning start in a new building project?",
+      "level": "h3"
+    },
+    {
+      "id": "section-14",
+      "title": "Can I build the shaft before choosing a lift supplier?",
+      "level": "h3"
+    },
+    {
+      "id": "section-15",
+      "title": "What is the most common elevator shaft design mistake?",
+      "level": "h3"
+    },
+    {
+      "id": "section-16",
+      "title": "Who is responsible for the shaft, the builder or the lift company?",
+      "level": "h3"
+    },
+    {
+      "id": "section-17",
+      "title": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "body": [
+    {
+      "tag": "p",
+      "children": [
+        "Ask any lift engineer about their worst week on site and you’ll hear a version of the same story: a shaft already built, plastered, sometimes tiled, and 60 mm too narrow for the car the owner ordered. Nobody was careless. The shaft was simply built before the decisions that define it were made. ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Elevator shaft planning "
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/"
+          }
+        },
+        "works in one direction only, and that direction starts with how the lift will be used, not with where there happens to be a gap in the floor plan. BG Elevators can help ensure the shaft requirements are considered before construction begins."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "This is a sequencing problem more than a technical one. Get the order right and the civil contractor pours concrete once. BG Elevators can help coordinate the lift requirements with your building plans before the shaft is constructed."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Why the Shaft Is the Last Step in Elevator Shaft Planning"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-1"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "The hoistway is a container built around a specific machine. Change the machine and the container changes with it, which is why a generic shaft “sized for a lift” almost always needs correction later."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Capacity determines cabin size, cabin size determines shaft footprint, drive type determines what sits above and below, and speed determines several clearances. Every one of those is a purchasing decision, not a construction decision. Once the supplier and model are chosen, elevator shaft planning stops being a debate and becomes a drawing."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Decisions to Lock Before Elevator Shaft Planning Begins"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-2"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Four questions have to be answered before anyone talks about millimetres."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Who uses the lift, and how often"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-3"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "A four-storey house with two elderly residents, a 32-flat apartment block, and a diagnostic clinic all need different lifts. Traffic pattern drives capacity, and capacity drives everything downstream. For homes, a three to five person car usually covers real needs. Apartment blocks up to eight floors usually land on eight to ten persons, and buildings where a stretcher must fit need a deeper car regardless of passenger count."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Drive type, speed and door style"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-4"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Machine-room-less traction, conventional traction with a machine room, and hydraulic each demand a different building. MRL suits most new residential work here. Hydraulic suits retrofits with limited headroom. Speed affects pit and overhead clearances, and door type decides your clear entrance width. Settling these four items lets proper elevator shaft planning start with real numbers."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "The Drawing That Governs Elevator Shaft Design"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-5"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Once the model is chosen, the supplier issues a general arrangement drawing. That single document is the reference for the entire elevator shaft design: clear internal dimensions, pit depth, overhead, landing opening sizes, rail bracket positions, hook location and power points."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Two rules make it work. First, the architect and structural engineer must incorporate it before structural drawings are released, not after. Second, any change on either side needs a revised drawing, because floor-to-floor heights and door positions are linked. Sound lift shaft planning is mostly keeping one drawing authoritative, and elevator shaft planning falls apart the moment two versions circulate on site."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Elevator Pit and Elevator Overhead Decisions"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-6"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "These two items are where elevator shaft planning gets expensive to reverse. Both are civil work and both are checked at inspection."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "The pit below"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-7"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Pit depth follows buffer type, speed and the refuge clearance required under the car. Compact home lifts can work with 100 mm to 500 mm, residential MRL units generally want 1100 mm to 1400 mm, and faster commercial lifts need more. Decide waterproofing at the same time. In this city, an ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "elevator pit "
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/services"
+          }
+        },
+        "that isn’t tanked properly will hold water within a monsoon or two, and corroded buffers are an avoidable expense."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "The space above"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-8"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Elevator overhead is measured from the finished floor of the top landing to the underside of the shaft ceiling. Home lifts may need only 2400 mm to 2700 mm, while a residential MRL typically wants 3400 mm to 3900 mm, and a machine-room design needs a room stacked above that. Since you can’t dig upward, confirm elevator overhead against the sanctioned building height before the terrace slab is designed."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Power, Earthing and Backup"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-9"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Electrical work gets deferred during elevator shaft planning and then turns urgent. Most passenger lifts need a dedicated three-phase supply with proper earthing, run to the shaft head or machine room, not tapped from the nearest lighting circuit."
+      ]
+    },
+    {
+      "tag": "ul",
+      "children": [
+        {
+          "tag": "li",
+          "children": [
+            "A dedicated three-phase line with its own isolator near the machine or controller."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Separate earthing as specified by the supplier, tested before commissioning."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Automatic rescue device wiring, since power cuts here are frequent enough that ARD is standard rather than optional."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "A single-phase supply for shaft lighting, pit light and socket."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Generator or inverter changeover arrangements agreed in advance if the building has backup."
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Deciding the ARD requirement early matters because it affects the controller specification, and retrofitting it later costs more than including it."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Approvals and Building Lift Requirements"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-10"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Lifts in Karnataka are covered by state lift legislation, which means registration, licensing and inspection before use, alongside the design standards in IS 14665. Approvals belong inside elevator shaft planning, not after it. Building lift requirements also feed into your plan sanction, since any structure above the terrace and the shaft position itself appear in the approved drawings."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Practical points worth settling early:"
+      ]
+    },
+    {
+      "tag": "ol",
+      "children": [
+        {
+          "tag": "li",
+          "children": [
+            "Confirm who files the licence application, the supplier or the building owner."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Check that the shaft position matches the sanctioned plan, including any machine room above."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Agree the inspection timeline so commissioning isn’t held up by paperwork."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Fix the maintenance contract scope at order stage, since AMC terms vary widely."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "For apartment associations, record the decision and specification in writing before payment."
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "An Elevator Shaft Planning Checklist"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-11"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Before the first course of blockwork goes up, run through this lift shaft planning list and confirm every line."
+      ]
+    },
+    {
+      "tag": "ul",
+      "children": [
+        {
+          "tag": "li",
+          "children": [
+            "Rated load in kilograms and persons, agreed and written into the order."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Cabin internal size and clear entrance width, checked against a wheelchair or your bulkiest furniture."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Drive type, speed, door type and number of stops."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Clear shaft dimensions from the general arrangement drawing, with a tolerance allowance for plaster."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Pit depth, waterproofing method and drainage arrangement."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Overhead height, plus the hoisting hook cast into the shaft ceiling."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Wall construction type, RCC or blockwork with beams at each floor."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Landing opening sizes and finished floor levels at every stop."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Power, earthing, ARD and lighting provisions."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Approval and inspection responsibilities, in writing."
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "On budget, treat any figure you’re given at concept stage as indicative. A compact residential lift and a commercial passenger lift of the same nominal capacity can differ by several lakh rupees depending on drive, finishes, doors and travel, and civil work is quoted separately by your contractor. Ask for the price and the civil scope as two distinct line items so you can compare offers honestly."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Frequently Asked Questions"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-12"
+      }
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "When should elevator shaft planning start in a new building project?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-13"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "At the concept drawing stage, before structural design is frozen. You need the lift capacity and drive type early enough that the supplier’s general arrangement drawing can inform column positions, beam layouts, floor heights and the terrace design. Starting after the structure is designed is where most costly corrections come from."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Can I build the shaft before choosing a lift supplier?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-14"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "You can, but elevator shaft planning without a chosen model is a gamble. Different manufacturers need different clear dimensions for the same capacity, varying by 100 mm or more. If you must build first, build generously and accept that you’ll pay for a car smaller than the shaft could have held, or for later modification."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "What is the most common elevator shaft design mistake?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-15"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Ignoring finishes. Plaster, tiling and floor screed quietly consume 25 mm to 100 mm of clear space, and shafts are often built to the outer face rather than the finished internal dimension. The second most common is a late change to floor-to-floor height after door positions were fixed."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Who is responsible for the shaft, the builder or the lift company?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-16"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "The builder or civil contractor constructs it, following dimensions issued by the lift supplier, who should inspect and accept the shaft before delivery. Put that acceptance step in the purchase order. It converts a familiar dispute into a scheduled site visit with a signed handover note."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Conclusion"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-17"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "None of this is complicated, but it is strictly ordered. Decide who uses the lift, fix capacity and drive type, get the general arrangement drawing, then release the structural design and build. Elevator shaft planning done in that sequence turns the shaft into a routine civil item rather than the thing that delays your handover. BG Elevators can help coordinate these requirements before construction begins. Watch the three quiet risks throughout: finishes eating clear space, late floor height changes, and an unwaterproofed pit. Each one is cheap to prevent and expensive to fix once the concrete has healed."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "If you’re weighing up your options, sitting down with an experienced local lift team while your drawings are still editable is the fastest way to get a shaft specification matched to your building. BG Elevators can help you review your shaft requirements early. ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Contact BG Elevators today "
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/contact-us"
+          }
+        },
+        "to discuss your project."
+      ]
+    }
+  ],
+  "additionalSections": []
+}

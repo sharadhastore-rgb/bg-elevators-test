@@ -1,0 +1,44 @@
+{
+  "contentSection": {
+    "heading": "Our Service",
+    "heading2": "Service for Non-BG Elevators",
+    "items": [
+      {
+        "description": "At BG Elevators, we go beyond our own installations to provide expert-level service for elevators from other manufacturers. With over 30 years of industry experience, we understand the nuances of diverse elevator systems, making us a reliable partner for building owners, facility managers, and residential societies using non-BG elevators. "
+      },
+      {
+        "description": " Whether it’s a routine maintenance check or an urgent repair, our certified technicians and dedicated support team ensure every elevator is brought up to optimal performance standards. Our service quality remains consistent across all brands, offering clients peace of mind, transparency, and technical excellence. "
+      }
+    ],
+    "heading3": "Why Choose BG for Non-BG Elevator Service?",
+    "items2": [
+      {
+        "text": "Multi-Brand Expertise"
+      },
+      {
+        "text": "Complete Maintenance & Repairs"
+      },
+      {
+        "text": "Modernization Support"
+      },
+      {
+        "text": "Fast Response & 24x7 Support"
+      },
+      {
+        "text": "Transparent Service Process"
+      },
+      {
+        "text": "Digital Ticketing & App-Based Tracking"
+      }
+    ]
+  },
+  "section2": {
+    "heading": "Contact Us Today for a ",
+    "text": "Free Consultation",
+    "description": "At Elevators, we believe that every construction project is an opportunity to create something exceptional.",
+    "link": "/contact-us",
+    "text2": "Get Free Quote",
+    "imageAlt": "",
+    "image": "/images/673c1be85bd296750527c1ee_cta-image.webp"
+  }
+}

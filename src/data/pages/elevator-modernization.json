@@ -1,0 +1,26 @@
+{
+  "contentSection": {
+    "heading": "Our Service",
+    "heading2": "Elevator Modernization",
+    "description": "Bring your elevators up to speed with today’s smart technology and safety standards through BG Elevators’ comprehensive modernization services. Whether your system is outdated, inefficient, or lacks modern safety and convenience features, we provide tailor-made upgrades that transform performance, reliability, and user experience. Our modernization solutions are ideal for residential complexes, commercial buildings, and hospitals that demand precision, safety, and power efficiency.",
+    "heading3": "Biometric Accessibility",
+    "description2": "Enhance security and control with biometric systems that allow only authorized individuals to access specific floors or cabins. This feature is especially valuable in apartments, offices, and hospitals where restricted access is required for privacy or safety.",
+    "heading4": "IoT Automation",
+    "description3": "Stay connected with your elevator's performance through real-time monitoring and smart automation. IoT-enabled elevators provide predictive maintenance alerts, status tracking, usage data, and remote diagnostics, ensuring minimal downtime and proactive servicing.",
+    "heading5": "Double-Side Opening Doors",
+    "description4": "Improve traffic flow and accessibility with elevators that open on both sides. Ideal for hospitals, commercial centers, and buildings with through-access requirements, these doors optimize space utilization and improve emergency response efficiency.",
+    "heading6": "ARD Mode with Power Saving",
+    "description5": "Our Automatic Rescue Device (ARD) ensures passenger safety during power outages by bringing the elevator to the nearest floor using minimal backup power. Combined with energy-saving technology, it reduces power consumption during idle times, leading to long-term operational cost savings.",
+    "heading7": "Single-Phase Lift Systems",
+    "description6": "We offer elevator systems that operate on a single-phase power supply, making them ideal for homes and small buildings with limited power infrastructure. Despite the lower energy requirement, these lifts deliver smooth, efficient, and safe operation."
+  },
+  "section2": {
+    "heading": "Contact Us Today for a ",
+    "text": "Free Consultation",
+    "description": "At Elevators, we believe that every construction project is an opportunity to create something exceptional.",
+    "link": "/contact-us",
+    "text2": "Get Free Quote",
+    "imageAlt": "",
+    "image": "/images/673c1be85bd296750527c1ee_cta-image.webp"
+  }
+}

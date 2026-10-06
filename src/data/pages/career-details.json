@@ -1,0 +1,129 @@
+{
+  "contentSection": {
+    "heading": "Apply for the Role",
+    "heading2": "Procurement Specialist",
+    "imageAlt": "",
+    "image": "/images/673d7ae522208f1a1ff06006_h-about-content-image.webp",
+    "description": "We are seeking a Project Manager to lead and oversee construction projects from inception to completion. This role involves managing teams, timelines, and budgets to ensure each project is executed efficiently and meets the highest quality standards. The ideal candidate will bring a blend of technical expertise and leadership to coordinate with stakeholders, ensure safety compliance, and deliver outstanding results.",
+    "imageAlt2": "",
+    "image2": "/images/6742a3e5b95441ebd2feeeb8_job-user.webp",
+    "description2": "Job Title",
+    "text": "Procurement Specialist",
+    "imageAlt3": "",
+    "image3": "/images/6742a3705c5ccf9560356ddc_job-location.webp",
+    "description3": "Location",
+    "text2": "New York, NY",
+    "description4": "Job Type",
+    "text3": "Full-TIme",
+    "imageAlt4": "",
+    "image4": "/images/6742a370f03ca5ccc6709e54_job-salary.webp",
+    "description5": "Salary",
+    "text4": "$85,000 – $120,000",
+    "heading3": "Key Responsibilities",
+    "items": [
+      {
+        "text": "Plan, budget, and oversee all phases of construction projects"
+      },
+      {
+        "text": "Coordinate with architects, engineers, and subcontractors"
+      },
+      {
+        "text": "Ensure compliance with safety and regulatory requirements"
+      },
+      {
+        "text": "Provide detailed progress reports to stakeholders"
+      },
+      {
+        "text": "Monitor project progress and ensure adherence to timelines"
+      }
+    ],
+    "heading4": "Qualifications",
+    "items2": [
+      {
+        "text": "Bachelor’s degree in Civil Engineering or related field."
+      },
+      {
+        "text": "5+ years of experience in project management."
+      },
+      {
+        "text": "Strong leadership, organizational, and communication skills"
+      },
+      {
+        "text": "Familiarity with project management tools"
+      },
+      {
+        "text": "Knowledge of construction safety regulations"
+      }
+    ],
+    "heading5": "Benefits",
+    "items3": [
+      {
+        "text": "Competitive salary with performance bonuses."
+      },
+      {
+        "text": "Health, dental, and vision insurance."
+      },
+      {
+        "text": "Paid time off and holidays."
+      }
+    ],
+    "form": {
+      "title": "Ready to apply? We can't wait to meet you!",
+      "description": "Next, you'll have to face an interview to proceed. Apply for one\n                    job at a time and prepare well.",
+      "fields": [
+        {
+          "name": "Name",
+          "type": "text",
+          "placeholder": "Your Name",
+          "required": true,
+          "accept": null,
+          "className": "contact-input w-input"
+        },
+        {
+          "name": "Email",
+          "type": "email",
+          "placeholder": "Your Email Address",
+          "required": true,
+          "accept": null,
+          "className": "contact-input w-input"
+        },
+        {
+          "name": "Phone",
+          "type": "tel",
+          "placeholder": "Phone Number",
+          "required": true,
+          "accept": null,
+          "className": "contact-input w-input"
+        },
+        {
+          "name": "CV-URL",
+          "type": "url",
+          "placeholder": "Submit Your CV URL",
+          "required": true,
+          "accept": null,
+          "className": "contact-input w-input"
+        },
+        {
+          "name": "Message",
+          "type": "textarea",
+          "placeholder": "Tell us why you want to work with Elevators Construction",
+          "required": true,
+          "accept": null,
+          "className": "contact-input text-area w-input"
+        }
+      ],
+      "submitLabel": "Send Message",
+      "kind": "career",
+      "className": "contact-form"
+    }
+  },
+  "section2": {
+    "heading": "Contact Us Today for a ",
+    "text": "Free Consultation",
+    "description": "At Elevators, we believe that every construction project is an opportunity to create something exceptional.",
+    "link": "/contact-us",
+    "text2": "Get Free Quote",
+    "imageAlt": "",
+    "image": "/images/673c1be85bd296750527c1ee_cta-image.webp"
+  }
+}

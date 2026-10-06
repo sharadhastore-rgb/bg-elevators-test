@@ -1,0 +1,698 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "title": "30+ Years of Excellence",
+        "highlight": "in Vertical Mobility",
+        "description": "ISO-certified, government-approved elevators trusted across Karnataka\n                        and beyond.\n                        Consult Now",
+        "image": "/images/bannerImage2.jpg",
+        "links": [
+          {
+            "label": "Learn More",
+            "href": "/services"
+          },
+          {
+            "label": "Explore Products",
+            "href": "/products"
+          }
+        ]
+      },
+      {
+        "title": "Custom-Built Lifts",
+        "highlight": "for Every Need",
+        "description": "From premium residential to commercial – we craft elevators that\n                        match your vision.\n                        Explore Products",
+        "image": "/images/bannerImage3.jpg",
+        "links": [
+          {
+            "label": "Learn More",
+            "href": "/services"
+          },
+          {
+            "label": "Explore Products",
+            "href": "/products"
+          }
+        ]
+      },
+      {
+        "title": "Elevating Lives",
+        "highlight": "with Every Ride",
+        "description": "Precision-engineered elevators built for safety, style, and long-term\n                        performance.\n                        Our Solutions",
+        "image": "/images/bannerImage1.jpg",
+        "links": [
+          {
+            "label": "Learn More",
+            "href": "/services"
+          },
+          {
+            "label": "Explore Products",
+            "href": "/products"
+          }
+        ]
+      }
+    ]
+  },
+  "aboutSection": {
+    "imageAlt": "",
+    "image": "/images/icons/premiumElevetor.jpg",
+    "text": "About Us",
+    "heading": "Bangalore's ",
+    "text2": "Premier ",
+    "heading2": " Elevator Solutions",
+    "description": "Based in Sahakarnagar, Bangalore, we are a seasoned elevator solutions provider with over 30 years of industry experience. Since 2012 alone, we have successfully executed more than 2,000 elevator installations across a diverse range of projects—including hospitals, residential apartments, villas, and industrial warehouses. We specialize in end-to-end, customized lift solutions and are especially known for our precision in installations where others deem the shaft requirements unfeasible. Our legacy is built on engineering excellence, adaptability, and a relentless commitment to client satisfaction.",
+    "imageAlt2": "",
+    "image2": "/images/673d7d51d3627aab3ca6c8eb_home.webp",
+    "text3": "30+ Years Proven Experience",
+    "imageAlt3": "",
+    "image3": "/images/673d7d51aed0d9f141dabf7c_building.webp",
+    "text4": "24/7 Emergency Service",
+    "imageAlt4": "",
+    "image4": "/images/673d7d51d7ec362c7738c42b_interior.webp",
+    "text5": "Premium Quality, Competitive Pricing",
+    "link": "/about-us",
+    "label": "More About Us"
+  },
+  "uspSection": {
+    "text": "Our USP'S",
+    "text2": "Delivering Excellence",
+    "heading": " with Speed, Customization & Commitment",
+    "link": "/services",
+    "text3": "Explore Our Service",
+    "items": [
+      {
+        "imageAlt": "",
+        "image": "/images/customer-service.png",
+        "heading": "Fast Turnaround Time (TAT)",
+        "description": "We respond to issues within minutes, provide emergency training, and ensure on-time delivery of passenger elevator projects without compromising quality.",
+        "link": "/services",
+        "text": "Learn More"
+      },
+      {
+        "imageAlt": "",
+        "image": "/images/builder.png",
+        "heading": "Complete Customization",
+        "description": "From cabin design to functionality, we offer fully tailored elevator solutions that match the client’s unique requirements and building aesthetics.",
+        "link": "/services",
+        "text": "Learn More"
+      },
+      {
+        "imageAlt": "",
+        "image": "/images/Commercial.png",
+        "heading": "Certified Quality Standards",
+        "description": "As a Government Registered and ISO 9001:2015 Certified company, we maintain rigorous quality checks and deliver high-performance, reliable products.",
+        "link": "/services",
+        "text": "Learn More"
+      },
+      {
+        "imageAlt": "",
+        "image": "/images/plan.png",
+        "heading": "Rapid Response Team",
+        "description": "Our responsive support team is always ready to address client queries and provide timely maintenance or service – even after installation.",
+        "link": "/services",
+        "text": "Learn More"
+      }
+    ]
+  },
+  "productsSection": {
+    "text": "Our Products",
+    "heading": "Quality Gear for Every Builder",
+    "link": "/products",
+    "text2": "Explore More Collection",
+    "items": [
+      {
+        "link": "/bg-stainless-steel-finish-cabin",
+        "imageAlt": "",
+        "image": "/images/Products/ssfc.jpg",
+        "heading": "Stainless Steel Finish Cabin"
+      },
+      {
+        "link": "/bg-glass-finish-cabin",
+        "imageAlt": "",
+        "image": "/images/Products/glass-finish-cabin.jpg",
+        "heading": "Glass Finish Cabin"
+      },
+      {
+        "link": "/bg-mirror-finish-cabin",
+        "imageAlt": "",
+        "image": "/images/Products/mirror-finish.jpg",
+        "heading": "Mirror Finish Cabin"
+      },
+      {
+        "link": "/ms-powder-coated-finish",
+        "imageAlt": "",
+        "image": "/images/Products/ss-elevator-metal-finish.jpeg",
+        "heading": "MS Powder coated finish"
+      },
+      {
+        "link": "/ss-hairline-finish",
+        "imageAlt": "",
+        "image": "/images/Products/stainless-steel-elevator.jpg",
+        "heading": "SS Hairline finish"
+      },
+      {
+        "link": "/ss-mirror-finish",
+        "imageAlt": "",
+        "image": "/images/Products/SS-Mirror-Cabin.avif",
+        "heading": "SS Mirror finish"
+      },
+      {
+        "link": "/gold-finish",
+        "imageAlt": "",
+        "image": "/images/Products/gold-cabin.jpg",
+        "heading": "Gold finish"
+      },
+      {
+        "link": "/rose-gold-finish",
+        "imageAlt": "",
+        "image": "/images/Products/rose-gold.avif",
+        "heading": "Rose gold finish"
+      },
+      {
+        "link": "/wooden-finish",
+        "imageAlt": "",
+        "image": "/images/Products/wooden-finish.avif",
+        "heading": "Wooden finish"
+      },
+      {
+        "link": "/glass-door",
+        "imageAlt": "",
+        "image": "/images/Products/glassdoor.jpg",
+        "heading": "Glass door"
+      }
+    ]
+  },
+  "solutionsSection": {
+    "text": "Our Range of Solutions",
+    "heading": "Smart Vertical Solutions for Every Need",
+    "description": "BG Elevators offers smart elevator solutions for residential, commercial, and heavy-duty spaces — combining safety, efficiency, and custom design",
+    "imageAlt": "",
+    "image": "/images/passenger1.jpg",
+    "heading2": "Passenger Elevator",
+    "description2": " Designed for comfort, speed, and style, our Passenger Elevators cater to residential and commercial buildings alike. Whether it’s a high-rise structure or a mid-level facility, our solutions ensure smooth, silent, and safe vertical transport with customizable features to match your building's aesthetic and functional requirements. ",
+    "items": [
+      {
+        "imageAlt": "",
+        "image": "/images/passenger2.jpg",
+        "heading": "Hospital Elevator",
+        "description": " Specially engineered for medical environments, our Hospital Elevators prioritize space, hygiene, and reliability. Built to accommodate stretchers, wheelchairs, and medical equipment, these elevators offer precise leveling, smooth movement, and are designed to support critical hospital workflows with maximum safety and ease of use. "
+      },
+      {
+        "imageAlt": "",
+        "image": "/images/passenger3.jpg",
+        "heading": "Goods Elevator",
+        "description": " Our Goods Elevators are engineered to meet the rigorous demands of industrial and commercial spaces. Designed for transporting heavy materials, they feature high load capacity, sturdy construction, and smooth vertical movement. Whether for warehouses, factories, or retail storage areas, these elevators offer reliable performance, durability, and low maintenance. "
+      }
+    ],
+    "imageAlt2": "",
+    "image2": "/images/passenger4.jpg",
+    "heading3": "MRL Elevator",
+    "items2": [
+      {
+        "description": " MRL (Machine Room Less) has an advantage of saving power upto 30%. Its absolutely noiseless, smoothest and quicker ride ever for which the passenger enjoys the ride. "
+      },
+      {
+        "description": " Though its little more in price when compared to MR, customer feels its worth for its flawless movement. It does not need a machine room. "
+      }
+    ],
+    "imageAlt3": "",
+    "image3": "/images/passenger5.jpg",
+    "heading4": "Home Elevator",
+    "description3": " Our Home Elevators are crafted to elevate everyday living with comfort, elegance, and convenience. Ideal for multi-level homes and villas, these lifts are compact, stylish, and operate quietly. We offer fully customized designs that seamlessly match your interior aesthetics while prioritizing safety features like smooth stops, backup power, and child-friendly operation. ",
+    "imageAlt4": "",
+    "image4": "/images/passenger6.jpg",
+    "heading5": "Hydraulic Elevator",
+    "items3": [
+      {
+        "description": " Hydraulic elevators are mostly used in the houses with 4-5 floors. Customer prefers this type when they have limitations in the space on the top and bottom as it consumes less space,customised for client requirements. "
+      },
+      {
+        "description": "It operates with little lower speed than the traction elevators. "
+      }
+    ]
+  },
+  "whyChooseUsSection": {
+    "text": "Why Choose Us",
+    "heading": "Reliable Lifts ",
+    "text2": "Trusted Performance",
+    "imageAlt": "",
+    "image": "/images/Accurate.png",
+    "heading2": "Accurate Installations",
+    "description": "Over 99.9% precision rate in shaft measurements and alignment for smooth elevator functionality.",
+    "imageAlt2": "",
+    "image2": "/images/layers.png",
+    "heading3": "Smart & Sustainable",
+    "description2": "Equipped with energy-saving drives and eco-friendly materials that support long-term efficiency.",
+    "imageAlt3": "",
+    "image3": "/images/design.png",
+    "heading4": "Residential & Commercial",
+    "description3": "Trusted by builders and homeowners alike for compact lifts to high-speed commercial elevators.",
+    "imageAlt4": "",
+    "image4": "/images/environment.png",
+    "heading5": "Future-Ready Technology",
+    "description4": "Incorporating IoT-based diagnostics and touchless controls for modern vertical mobility needs.",
+    "imageAlt5": "",
+    "image5": "/images/icons/vertical-elevator.jpg"
+  },
+  "processSection": {
+    "text": "How We Work?",
+    "heading": "Built on ",
+    "text2": "Precision",
+    "heading2": ", Driven by ",
+    "text3": "Excellence",
+    "items": [
+      {
+        "imageAlt": "Project planning icon",
+        "image": "/images/Planning.png",
+        "heading": "Planning",
+        "description": "At BG Elevators, every project begins with careful planning. We collaborate closely with clients to understand their specific needs, safety requirements, and desired performance standards."
+      },
+      {
+        "imageAlt": "Elevator design and engineering icon",
+        "image": "/images/repairProduct.png",
+        "heading": "Design & Engineering",
+        "description": "Our expert engineers design customized elevator solutions that combine innovation, safety, and efficiency, ensuring every detail meets industry standards and client expectations."
+      }
+    ],
+    "imageAlt": "Elevator manufacturing and installation icon",
+    "image": "/images/Accurate.png",
+    "heading3": "Manufacturing & Installation",
+    "description": "We use advanced manufacturing techniques and skilled technicians to build and install elevators with utmost precision, ensuring smooth and reliable operation.",
+    "imageAlt2": "Elevator testing and handover icon",
+    "image2": "/images/buy-home.png",
+    "heading4": "Testing & Handover",
+    "description2": "Before delivery, each elevator undergoes rigorous testing to guarantee safety and performance. We then provide a detailed walkthrough to ensure complete client satisfaction."
+  },
+  "maintenanceSupportSection": {
+    "badge": "Maintenance & Support",
+    "heading": "Reliable Care for",
+    "accent": "Long-Term Performance",
+    "description": "From scheduled maintenance to modernization and emergency repairs, our service team helps keep elevator systems operating smoothly and safely.",
+    "link": "/services",
+    "linkText": "Learn More",
+    "items": [
+      {
+        "link": "/amc-and-service-maintence",
+        "imageAlt": "Technician performing scheduled elevator maintenance",
+        "image": "/images/services/AnnualMaintence.jpg",
+        "heading": "AMC & Service Maintenance",
+        "description": "Reliable maintenance backed by 24-hour service, tech-enabled support, and scheduled inspections to keep your elevators running smoothly and safely—always."
+      },
+      {
+        "link": "/breakdown-and-emergency-repairs",
+        "imageAlt": "Elevator breakdown and emergency repair support",
+        "image": "/images/services/Breakdown.jpg",
+        "heading": "Breakdown & Emergency Repairs",
+        "description": "24/7 responsive professional support ready to address unexpected elevator failures swiftly, ensuring complete safety and minimal operational downtime."
+      },
+      {
+        "link": "/elevator-modernization",
+        "imageAlt": "Modern elevator system upgrade",
+        "image": "/images/services/ElevatorModernization.jpg",
+        "heading": "Elevator Modernization",
+        "description": "Upgrade elevator systems with smart modernization solutions that integrate current technology, safety and energy efficiency for enhanced performance."
+      }
+    ]
+  },
+  "faqSection": {
+    "badge": "Frequently Asked Questions",
+    "heading": "Helpful Answers for",
+    "accent": "Elevator Planning",
+    "description": "Clear guidance for planning, installation, maintenance and ongoing elevator support.",
+    "items": [
+      {
+        "question": "What information is helpful before a site inspection?",
+        "answer": "Building type, number of floors, expected usage, available shaft space and preferred elevator capacity help our team understand the project before inspecting the site."
+      },
+      {
+        "question": "How does BG Elevators recommend the right elevator system?",
+        "answer": "Our team reviews the site conditions, travel requirements, available space, safety needs and expected usage before recommending a suitable elevator configuration."
+      },
+      {
+        "question": "What happens during elevator installation?",
+        "answer": "The process includes site coordination, system installation, alignment, electrical integration, safety checks, testing and a final handover walkthrough."
+      },
+      {
+        "question": "Why is preventive elevator maintenance important?",
+        "answer": "Scheduled inspections help identify wear early, support reliable operation, reduce unexpected stoppages and maintain safe performance over time."
+      },
+      {
+        "question": "Can an existing elevator be modernized?",
+        "answer": "Yes. Depending on its condition, an elevator can be upgraded through controls, drives, safety systems, fixtures, doors and cabin improvements."
+      },
+      {
+        "question": "Do you service elevators installed by other companies?",
+        "answer": "Yes. BG Elevators provides inspection, maintenance and repair support for eligible non-BG elevator systems after assessing their condition and service requirements."
+      }
+    ]
+  },
+  "statisticsSection": {
+    "statistic": {
+      "value": "2500+",
+      "label": "Completed Projects",
+      "description": "Over 2.5K+ successful installations across residential, commercial, and\n                industrial spaces.\n                BG Elevators is trusted for delivering reliable, safe, and future-ready elevator solutions."
+    },
+    "statistic2": {
+      "value": "3K+",
+      "label": "Happy Clients",
+      "description": "With 3K+ satisfied clients, we’ve earned a reputation for precision\n                engineering, timely delivery, and exceptional service support across Karnataka and beyond."
+    },
+    "statistic3": {
+      "value": "120+",
+      "label": "On-Going Projects",
+      "description": "Currently managing 120+ active projects, BG Elevators continues to shape\n                vertical mobility with advanced technology, custom designs, and robust execution."
+    }
+  },
+  "testimonialsSection": {
+    "text": "Testimonials",
+    "heading": "What Our Customers Say ",
+    "text2": "About Us",
+    "description": "90% Customer Satisfaction based on 750+ reviews and 10K+ Completed Projects.",
+    "items": [
+      {
+        "description": "We installed BG Elevators in our apartment complex last year, and the experience has been great. The lifts run smoothly, are quiet, and add a premium touch to the building. Their team was punctual and skilled — highly recommended!",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Suresh",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "What stood out with BG Elevators was their professionalism and how they explained every detail before installation. As a homeowner, safety was my concern, and their elevators feel secure and modern. The speed and smoothness are excellent!",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Priya",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "We run a commercial space, and choosing BG Elevators was one of the best decisions. The lift has handled consistent usage without any issues. Their after-sales support is also prompt and courteous. Great service from start to finish!",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Anil K",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "I love how elegant the elevator cabin looks. It gives a classy touch to our apartment. BG Elevators delivered exactly what they promised—quality, aesthetics, and reliability. The installation was quick and mess-free too!",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Deepa",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "Right from the initial survey to installation, the entire process was smooth. The team was professional and maintained great communication throughout. The lift functions really well and is easy for elderly people in our family to use.",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Vinay",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "I really appreciate how responsive the customer service team was. Even after installation, they followed up and offered a maintenance plan. It feels good knowing we have a dependable support team behind such a crucial home feature.",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Lakshmi",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "We’ve had BG Elevators in our building for over a year now, and it still runs like new. Even during voltage fluctuations, the lift performs without hiccups. The durability and build quality are impressive. Totally worth the investment!",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Rakesh N",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "Our house has three floors, and with kids and elderly parents, we needed reliability. BG Elevators gave us peace of mind. It's easy to use, safe, and looks great. Their technicians were polite and ensured everything was perfect before leaving.",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Sahana P",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "I’m a builder and have worked with multiple elevator companies, but BG Elevators has been the most consistent in quality and service. Every project we’ve used them for has gone smoothly, and our clients are always satisfied.",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Nagaraj",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "BG Elevators brings the perfect mix of modern features and traditional reliability. We wanted something low-maintenance yet stylish, and this was it. Smooth performance, elegant design, and a professional team—we’re very happy!",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Meena",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "Working with BG Elevators has been a seamless experience. The lift installation in our office was quick and highly professional. It's been running smoothly ever since. Their customer service is always responsive and incredibly reliable!",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Sasaank K",
+        "description2": "Our Happy Customer"
+      },
+      {
+        "description": "We installed BG Elevators in our apartment block, and the performance has been outstanding. It's quiet, smooth, and energy-efficient. The build quality truly stands out. Highly recommended for any residential project!",
+        "imageAlt": "",
+        "image": "/images/icons/userIcon.png",
+        "heading": "Roopesh P",
+        "description2": "Our Happy Customer"
+      }
+    ]
+  },
+  "projectsSection": {
+    "text": "Completed Projects",
+    "heading": "Proudly Presenting Our ",
+    "text2": "Finest Projects",
+    "items": [
+      {
+        "imageAlt": "",
+        "image": "/images/icons/Estella.jpg",
+        "text": "Kasavanahalli, Bangalore",
+        "heading": "Project Estella",
+        "items": [
+          {
+            "description": "No.of elevators: ",
+            "text": "1"
+          },
+          {
+            "description": "Stops: ",
+            "text": "11"
+          }
+        ],
+        "description": "Capacity: ",
+        "text2": "6 passengers"
+      },
+      {
+        "imageAlt": "",
+        "image": "/images/icons/unishire-terraza.jpg",
+        "text": "Thanisandra Village, Bangalore",
+        "heading": "Project Unishire Terazza",
+        "items": [
+          {
+            "description": "No.of elevators: ",
+            "text": "4"
+          },
+          {
+            "description": "Stops: ",
+            "text": "16"
+          }
+        ],
+        "description": "Capacity: ",
+        "text2": "10 passengers"
+      },
+      {
+        "imageAlt": "",
+        "image": "/images/icons/Govinu.jpg",
+        "text": "Bengaluru",
+        "heading": "Govianu",
+        "items": [
+          {
+            "description": "No.of elevators: ",
+            "text": "4"
+          },
+          {
+            "description": "Stops: ",
+            "text": "16"
+          }
+        ],
+        "description": "Capacity: ",
+        "text2": "10 passengers"
+      },
+      {
+        "imageAlt": "",
+        "image": "/images/icons/SLV.jpeg",
+        "text": "Horamavu, Bengaluru",
+        "heading": "SLV",
+        "items": [
+          {
+            "description": "No.of elevators: ",
+            "text": "4"
+          },
+          {
+            "description": "Stops: ",
+            "text": "16"
+          }
+        ],
+        "description": "Capacity: ",
+        "text2": "10 passengers"
+      },
+      {
+        "imageAlt": "",
+        "image": "/images/icons/TMR.jpg",
+        "text": "Bangalore",
+        "heading": "TMR Blossom",
+        "items": [
+          {
+            "description": "No.of elevators: ",
+            "text": "27 "
+          },
+          {
+            "description": "Stops: ",
+            "text": "4"
+          }
+        ],
+        "description": "Capacity: ",
+        "text2": "4 passengers"
+      },
+      {
+        "imageAlt": "",
+        "image": "/images/icons/TMRArchids.avif",
+        "text": "Bangalore",
+        "heading": "TMR Orchids",
+        "items": [
+          {
+            "description": "No.of elevators: ",
+            "text": "2 "
+          },
+          {
+            "description": "Stops: ",
+            "text": "3"
+          }
+        ],
+        "description": "Capacity: ",
+        "text2": "4 passengers"
+      },
+      {
+        "imageAlt": "",
+        "image": "/images/icons/BGS.webp",
+        "text": "Uttar HalliRoad, Kengeri,",
+        "heading": "BGS Global hospital",
+        "items": [
+          {
+            "description": "No.of elevators: ",
+            "text": "67"
+          },
+          {
+            "description": "Stops: ",
+            "text": "19"
+          }
+        ],
+        "description": "Capacity: ",
+        "text2": "10 passengers"
+      },
+      {
+        "imageAlt": "",
+        "image": "/images/icons/cloudnine-clinic.avif",
+        "text": "Sahakar Nagar, Bangalore",
+        "heading": "Cloud Nine Hospital",
+        "items": [
+          {
+            "description": "Khatha No: ",
+            "text": "2667/1"
+          },
+          {
+            "description": "Stops: ",
+            "text": "92"
+          }
+        ],
+        "description": "Capacity: ",
+        "text2": "10 passengers"
+      }
+    ]
+  },
+  "latestBlogsSection": {
+    "text": "Latest News",
+    "heading": "Stay Informed with Our Latest Blogs",
+    "description": "Explore Elevator Innovations: Stay updated with the latest trends, safety insights, and smart lift solutions in our expert blogs.",
+    "items": [
+      {
+        "link": "/mistakes-to-avoid-when-buying-a-residential-elevator",
+        "imageAlt": "",
+        "image": "/images/topInovation.webp",
+        "text": "November 24, 2024",
+        "heading": "Top Mistakes to Avoid When Buying a Residential Elevator",
+        "description": "Avoid costly mistakes when buying a residential elevator with tips from BG Elevators. Learn what to check for in safety, design, space, and installation services."
+      },
+      {
+        "link": "/why-elevators-are-becoming-essential-in-bangalore-homes",
+        "imageAlt": "",
+        "image": "/images/homeElever.jpg",
+        "text": "June 19, 2024",
+        "heading": "Why Elevators Are Becoming Essential in Modern Bangalore Homes",
+        "description": "BG Elevators explains why elevators in modern Bangalore homes are a smart choice, adding value, safety, comfort, and accessibility to multi-level residences."
+      },
+      {
+        "link": "/feature-to-look-in-residential-elevators-in-bangalore",
+        "imageAlt": "",
+        "image": "/images/topfeatures.jpg",
+        "text": "October 24, 2023",
+        "heading": "Top Features to Look for in Residential Elevators in Bangalore",
+        "description": "Looking for residential elevators in Bangalore? BG Elevators highlights key features like advanced safety, sleek designs, space-saving, and smooth operation."
+      }
+    ]
+  },
+  "consultationSection": {
+    "heading": "Contact Us Today for a ",
+    "text": "Free Consultation",
+    "description": "At BG Elevators, we believe every lift we install is a step toward smarter, safer, and more efficient vertical mobility.",
+    "link": "/contact-us",
+    "text2": "Get Free Quote",
+    "imageAlt": "",
+    "image": "/images/673c1be85bd296750527c1ee_cta-image.webp"
+  },
+  "contactModalSection": {
+    "form": {
+      "title": "Get in touch",
+      "description": "Connect with us through our contact forum for any inquiries,\n                  questions.",
+      "fields": [
+        {
+          "name": "Name",
+          "type": "text",
+          "placeholder": "Your Name",
+          "required": true,
+          "accept": null,
+          "className": "career contact-input w-input"
+        },
+        {
+          "name": "Email",
+          "type": "email",
+          "placeholder": "Your Email Address",
+          "required": true,
+          "accept": null,
+          "className": "career contact-input w-input"
+        },
+        {
+          "name": "Phone",
+          "type": "tel",
+          "placeholder": "Your Phone Number",
+          "required": true,
+          "accept": null,
+          "className": "career contact-input w-input"
+        },
+        {
+          "name": "Location",
+          "type": "text",
+          "placeholder": "Your Location",
+          "required": true,
+          "accept": null,
+          "className": "career contact-input w-input"
+        },
+        {
+          "name": "Message",
+          "type": "textarea",
+          "placeholder": "Write Message Here.....",
+          "required": false,
+          "accept": null,
+          "className": "career contact-input text-area w-input"
+        }
+      ],
+      "submitLabel": "Send Message",
+      "kind": "contact",
+      "className": "contact-form career"
+    }
+  }
+}

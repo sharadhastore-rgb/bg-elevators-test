@@ -1,0 +1,20 @@
+{
+  "blog": {
+    "eyebrow": "Latest News",
+    "title": "Stay Informed with Our Latest Blogs",
+    "readArticle": "Read article",
+    "back": "All articles",
+    "contents": "In this article"
+  },
+  "forms": {
+    "submitting": "Submitting...",
+    "success": "Form submitted successfully!",
+    "unavailable": "We couldn't send your message. Please try again or contact info@bgelevators.com.",
+    "fileTooLarge": "Please upload a PDF, DOC or DOCX smaller than 5 MB."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for is not available.",
+    "link": "Go to Home"
+  }
+}

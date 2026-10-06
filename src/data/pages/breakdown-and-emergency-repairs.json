@@ -1,0 +1,33 @@
+{
+  "contentSection": {
+    "heading": "Our Service",
+    "heading2": "Breakdown & Emergency Repairs",
+    "description": "At BG Elevators, we understand that breakdowns can occur at any time—and timely action is crucial. That is why our dedicated quality and audit teams operate 24/7, constantly monitoring elevator performance across all sites. In the event of a breakdown or emergency, our response team is equipped to act quickly, diagnose the issue, and implement immediate solutions. With a structured escalation process, real-time communication, and skilled technicians on standby, we ensure your elevator is back in operation with minimal disruption. Safety and uptime are always our top priorities.",
+    "items": [
+      {
+        "text": "Dedicated quality and audit teams monitor elevator performance around the clock across all sites"
+      },
+      {
+        "text": "Emergency response team available at all times for immediate action"
+      },
+      {
+        "text": "Organized escalation process for handling different severity levels"
+      },
+      {
+        "text": "Minimal disruption to building operations"
+      },
+      {
+        "text": "Immediate implementation of solutions to restore service"
+      }
+    ]
+  },
+  "section2": {
+    "heading": "Contact Us Today for a ",
+    "text": "Free Consultation",
+    "description": "At Elevators, we believe that every construction project is an opportunity to create something exceptional.",
+    "link": "/contact-us",
+    "text2": "Get Free Quote",
+    "imageAlt": "",
+    "image": "/images/673c1be85bd296750527c1ee_cta-image.webp"
+  }
+}

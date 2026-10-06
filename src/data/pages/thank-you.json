@@ -1,0 +1,11 @@
+{
+  "contentSection": {
+    "imageAlt": "Success",
+    "image": "/images/thankyou.webp",
+    "heading": "Thankyou for your enquiry!",
+    "heading2": "We will get back to you shortly",
+    "link": "/",
+    "imageAlt2": "back",
+    "label": " Go to Home "
+  }
+}

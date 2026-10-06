@@ -1,0 +1,978 @@
+{
+  "slug": "how-should-elevator-shaft-dimensions-be-planned-for-different-lift-types",
+  "title": "How Should Elevator Shaft Dimensions Be Planned for Different Lift Types?",
+  "date": "September 23, 2026",
+  "image": "/images/how-should-elevator-shaft-dimensions-be-planned-for-different-lift-types.jpeg",
+  "imageAlt": "How Should Elevator Shaft Dimensions Be Planned for Different Lift Types?",
+  "eyebrow": "Latest News",
+  "headings": [
+    {
+      "id": "section-1",
+      "title": "Start With the Lift Type, Not the Hole",
+      "level": "h2"
+    },
+    {
+      "id": "section-2",
+      "title": "What Elevator Shaft Dimensions Actually Cover",
+      "level": "h2"
+    },
+    {
+      "id": "section-3",
+      "title": "Clear internal width and depth",
+      "level": "h3"
+    },
+    {
+      "id": "section-4",
+      "title": "Vertical clearances",
+      "level": "h3"
+    },
+    {
+      "id": "section-5",
+      "title": "How Elevator Shaft Dimensions Change by Drive Type",
+      "level": "h2"
+    },
+    {
+      "id": "section-6",
+      "title": "Machine-room-less traction",
+      "level": "h3"
+    },
+    {
+      "id": "section-7",
+      "title": "Conventional traction with a machine room",
+      "level": "h3"
+    },
+    {
+      "id": "section-8",
+      "title": "Hydraulic lifts",
+      "level": "h3"
+    },
+    {
+      "id": "section-9",
+      "title": "Indicative Lift Shaft Size by Capacity",
+      "level": "h2"
+    },
+    {
+      "id": "section-10",
+      "title": "Elevator Cabin Size and the Gap Around It",
+      "level": "h2"
+    },
+    {
+      "id": "section-11",
+      "title": "Doors, Openings and Wall Construction",
+      "level": "h2"
+    },
+    {
+      "id": "section-12",
+      "title": "Where Elevator Shaft Planning Goes Wrong",
+      "level": "h2"
+    },
+    {
+      "id": "section-13",
+      "title": "Frequently Asked Questions",
+      "level": "h2"
+    },
+    {
+      "id": "section-14",
+      "title": "Can I install a lift if my shaft is slightly smaller than specified?",
+      "level": "h3"
+    },
+    {
+      "id": "section-15",
+      "title": "Do elevator shaft dimensions differ for a home lift?",
+      "level": "h3"
+    },
+    {
+      "id": "section-16",
+      "title": "Who should prepare the shaft drawing, the architect or the lift supplier?",
+      "level": "h3"
+    },
+    {
+      "id": "section-17",
+      "title": "How much extra width does a machine-room-less lift need?",
+      "level": "h3"
+    },
+    {
+      "id": "section-18",
+      "title": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "body": [
+    {
+      "tag": "p",
+      "children": [
+        "Three weeks before the slab is cast, someone finally asks how big the hole beside the staircase needs to be. It happens on more sites than anyone admits. By then the rebar is tied and the answer costs money. ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Elevator shaft dimensions"
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/"
+          }
+        },
+        " aren’t a single figure you look up once; they fall out of the drive type, the rated load, the door style and the travel height. BG Elevators can help you determine the required shaft dimensions based on these factors."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Those four decisions belong at the concept stage. Get the sequence right and the civil work costs nothing extra. Get it wrong and you’re chipping concrete, or accepting a car too tight for a wheelchair. BG Elevators can help you plan the lift requirements early and avoid unnecessary structural changes."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Start With the Lift Type, Not the Hole"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-1"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Most owners reason backwards. They look at the leftover space in the plan, decide that’s the shaft, then ask what fits inside it. That works for a small villa lift and fails badly for anything carrying eight people or a stretcher."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Decide first who uses the lift and how often. A four-storey home with two elderly residents needs something very different from a G+7 block with 32 flats, and a hospital wing has its own rules again. Once rated load and traffic pattern are fixed, the drive type narrows, and only then do the shaft requirements settle into real numbers you can hand to a structural engineer."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "What Elevator Shaft Dimensions Actually Cover"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-2"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "People use the word shaft loosely. In a specification it means several distinct measurements, and confusing them is the usual cause of a rebuild."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Clear internal width and depth"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-3"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "The number that matters is the clear internal dimension between finished wall faces, not the outer masonry line. Plaster, tile cladding and out-of-plumb blockwork routinely eat 25 mm to 50 mm. If the drawing says 1600 mm and the mason works to the outer face, you can end up with 1540 mm clear, which is enough to stall a lift installation while the wall gets cut back."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Vertical clearances"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-4"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Above the top landing you need overhead height for the car, the safety gear and a technician standing on the car roof. Below the lowest landing you need pit depth for buffers. Both are governed by IS 14665 and both are checked at inspection under Karnataka’s lift licensing rules, so vertical elevator shaft dimensions are not negotiable on site."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "How Elevator Shaft Dimensions Change by Drive Type"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-5"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "This is where the same eight-passenger car can demand three quite different holes in your building."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Machine-room-less traction"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-6"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "MRL is the default for most new residential towers in Bangalore. The gearless machine sits inside the hoistway at the top, so you skip the machine room, but elevator shaft dimensions grow slightly on one side to house the machine and controller. Overhead typically runs 3600 mm to 3900 mm, pit around 1200 mm to 1400 mm."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Conventional traction with a machine room"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-7"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Cheaper on the machine, more expensive on the building. You need a room above the shaft with its own access, ventilation and a lifting hook, usually adding 2200 mm to 2600 mm of structure above the terrace. On a sanctioned plan with a height restriction, that room is often what pushes you over the line."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Hydraulic lifts"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-8"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Hydraulic units are forgiving vertically and demanding horizontally. Overhead can drop to 2600 mm or less because nothing sits above the car, which suits retrofits into old buildings with fixed terrace levels. The trade-off is a separate power pack room near the shaft, higher running cost above three or four floors, and slower speed."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Indicative Lift Shaft Size by Capacity"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-9"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Treat these elevator shaft dimensions as planning figures, not a quote. Every manufacturer’s exact lift shaft size differs by 50 mm to 150 mm depending on door type and rail layout."
+      ]
+    },
+    {
+      "tag": "table",
+      "children": [
+        {
+          "tag": "tbody",
+          "children": [
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Rated load"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Persons"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Car (W x D, mm)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Clear shaft (mm)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Typical use"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "204 kg"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "3"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "800 x 900"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1250 x 1300"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Compact home lift"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "408 kg"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "6"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1000 x 1200"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1500 x 1600"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Villa, small apartment"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "544 kg"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "8"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1300 x 1100"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1800 x 1650"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Apartment passenger lift"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "680 kg"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "10"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1400 x 1350"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1900 x 1900"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Mid-rise residential"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tr",
+              "children": [
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1020 kg"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "15"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "1600 x 1400"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "2100 x 2000"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "td",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Commercial, stretcher lift"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Two things to notice. The shaft is always 300 mm to 500 mm larger than the car in each direction, because guide rails, counterweight, door operator and running clearance live in that gap. And a wide shallow car needs a different footprint from a narrow deep one at the same rating, so cabin proportion has to be settled before shuttering goes up."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Elevator Cabin Size and the Gap Around It"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-10"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Owners often try to trim elevator shaft dimensions by 100 mm to gain a wider passage outside. It almost never works, because that gap isn’t waste. On a traction lift the counterweight runs on one side and needs its own rail line and clearance. Centre-opening doors need space at both jambs for the panels to park."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "If usable elevator cabin size matters more than anything else, say so early. A telescopic side-opening door gives a wider clear entrance for the same shaft width, which is what you want if a wheelchair or a large sofa has to go in."
+      ]
+    },
+    {
+      "tag": "ul",
+      "children": [
+        {
+          "tag": "li",
+          "children": [
+            "Side-opening doors: narrow shafts, accessibility, maximum clear entrance."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Centre-opening doors: commercial traffic, quicker floor-to-floor times, better lobby appearance."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Keep at least 800 mm clear entrance width where elderly residents will rely on the lift."
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Doors, Openings and Wall Construction"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-11"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "The shaft wall carries real load. Door frames, sills, brackets and rail fixings bolt into it, so hollow block without RCC inserts causes trouble. Most suppliers list wall shaft requirements as either 150 mm RCC or blockwork with a beam at every floor level."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Landing openings are usually 100 mm to 200 mm wider and around 200 mm taller than the finished door, giving room for frame and packing. Leave a hoisting hook in the overhead slab, and run a separate three-phase supply with earthing to the shaft head rather than tapping the nearest common circuit. A missing power point delays lift installation more often than any structural issue."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Where Elevator Shaft Planning Goes Wrong"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-12"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "The failures repeat across sites, and every one is avoidable at drawing stage."
+      ]
+    },
+    {
+      "tag": "ol",
+      "children": [
+        {
+          "tag": "li",
+          "children": [
+            "Plaster and tile thickness ignored, so finished clear elevator shaft dimensions fall short."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Pit dug but never waterproofed, then flooded through the first heavy monsoon."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Floor-to-floor height changed after the lift order, throwing off door and rail positions."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "No lighting or drainage in the pit, which delays handover and inspection."
+          ]
+        },
+        {
+          "tag": "li",
+          "children": [
+            "Shaft plumb lost across ten floors, forcing shims on every rail bracket."
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Good ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "elevator shaft planning "
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/services"
+          }
+        },
+        "means the supplier’s general arrangement drawing is signed off before structural drawings are released. Sensible elevator shaft planning also allows a small tolerance, typically plus 25 mm on clear dimensions, so minor site variation doesn’t become a site stoppage."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Frequently Asked Questions"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-13"
+      }
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Can I install a lift if my shaft is slightly smaller than specified?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-14"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Sometimes, by dropping to a lower capacity or changing door type, but never by squeezing the same car in. Running clearances are safety items checked at inspection. A supplier will usually offer a smaller cabin instead, so you lose passenger capacity rather than compliance."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Do elevator shaft dimensions differ for a home lift?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-15"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Yes, considerably. Compact residential units run in shafts around 1250 mm to 1500 mm square, with pits from 350 mm and reduced overhead. They carry three to five people at low speed, which suits a G+2 house and is nowhere near enough for an apartment block."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Who should prepare the shaft drawing, the architect or the lift supplier?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-16"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Both, in that order of dependency. The architect fixes position and structure, the supplier issues a general arrangement drawing with exact clear elevator shaft dimensions, and the architect incorporates it. Building from a generic table without a supplier drawing is the expensive mistake."
+      ]
+    },
+    {
+      "tag": "h3",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "How much extra width does a machine-room-less lift need?"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-17"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Usually 100 mm to 200 mm on one side compared with a machine-room design of the same capacity, plus taller overhead. You gain by deleting the machine room above the terrace, which is often worth far more than the width you give up."
+      ]
+    },
+    {
+      "tag": "h2",
+      "children": [
+        {
+          "tag": "strong",
+          "children": [
+            "Conclusion"
+          ]
+        }
+      ],
+      "attributes": {
+        "id": "section-18"
+      }
+    },
+    {
+      "tag": "p",
+      "children": [
+        "Sizing a hoistway isn’t complicated, but it is unforgiving about sequence. Fix the users and the rated load, choose the drive type, take the supplier’s general arrangement drawing, then release the structural design. BG Elevators can help you review these requirements and coordinate the shaft dimensions with the selected lift. Elevator shaft dimensions settled that way rarely need revisiting, and the contractor builds it once. Keep watching plaster thickness, waterproofing and late floor height changes, because those three quietly erode clear space long after the drawing is approved."
+      ]
+    },
+    {
+      "tag": "p",
+      "children": [
+        "If you’re weighing up your options, speaking with an experienced local lift team early in the design stage is the fastest way to get shaft sizes matched to your actual building. BG Elevators can help you plan the right shaft requirements. ",
+        {
+          "tag": "a",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Contact BG Elevators today"
+              ]
+            }
+          ],
+          "attributes": {
+            "href": "/contact-us"
+          }
+        },
+        " to discuss your project."
+      ]
+    }
+  ],
+  "additionalSections": []
+}
