@@ -234,7 +234,7 @@ export default function ProductDetailSection({ data }) {
               ))}
             </ul>
           </div>
-          <div className="project-col _w-33-rem tw:grid tw:w-full tw:shrink-0 tw:grid-cols-1 tw:grid-rows-2 tw:gap-2.5">
+          <div className="project-col _w-33-rem tw:w-full tw:shrink-0">
             <img
               alt={data.imageAlt3}
               className="project-side-image tw:h-[32.5625rem] tw:w-full tw:object-cover tw:max-[991px]:h-96"

@@ -2,6 +2,20 @@
   "contentSection": {
     "heading": "Our Service",
     "heading2": "Elevator Modernization",
+    "images": [
+      {
+        "src": "/images/elevator-modernization-how-do-building-owners-decide-whether-to-upgrade-or-replace-an-elevator.webp",
+        "alt": "Modern elevator prepared for a technology upgrade"
+      },
+      {
+        "src": "/images/Products/mirror-finish.jpg",
+        "alt": "Modern mirror-finish elevator cabin"
+      },
+      {
+        "src": "/images/Products/glass-finish-cabin.jpg",
+        "alt": "Modern glass-finish elevator cabin"
+      }
+    ],
     "description": "Bring your elevators up to speed with today’s smart technology and safety standards through BG Elevators’ comprehensive modernization services. Whether your system is outdated, inefficient, or lacks modern safety and convenience features, we provide tailor-made upgrades that transform performance, reliability, and user experience. Our modernization solutions are ideal for residential complexes, commercial buildings, and hospitals that demand precision, safety, and power efficiency.",
     "heading3": "Biometric Accessibility",
     "description2": "Enhance security and control with biometric systems that allow only authorized individuals to access specific floors or cabins. This feature is especially valuable in apartments, offices, and hospitals where restricted access is required for privacy or safety.",

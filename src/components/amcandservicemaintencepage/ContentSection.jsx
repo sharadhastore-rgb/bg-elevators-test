@@ -1,3 +1,5 @@
+import ServiceImageGallery from "@/components/shared/ServiceImageGallery";
+
 export default function ContentSection({ data }) {
   const maintenanceTopics = [
     [data.heading3, data.description2, data.text, data.description3],
@@ -22,22 +24,25 @@ export default function ContentSection({ data }) {
             {data.heading2}
           </h1>
         </div>
-        <div className="tw:max-w-[52.0625rem] tw:rounded-xl tw:bg-surface-soft tw:px-8 tw:py-6 tw:max-[479px]:px-4">
-          <p className="tw:mt-0 tw:mb-6 tw:text-base tw:leading-[1.6] tw:text-[#181818]">
-            {data.description}
-          </p>
-          {maintenanceTopics.map(([heading, before, emphasis, after]) => (
-            <section key={heading}>
-              <h2 className="tw:mt-0 tw:mb-4 tw:text-lg tw:leading-[1.2] tw:font-semibold tw:text-[#181818]">
-                {heading}
-              </h2>
-              <p className="tw:mt-0 tw:mb-6 tw:text-base tw:leading-[1.6] tw:text-[#181818]">
-                {before}
-                <strong>{emphasis}</strong>
-                {after}
-              </p>
-            </section>
-          ))}
+        <div className="tw:grid tw:grid-cols-[minmax(0,1fr)_22rem] tw:items-start tw:gap-8 tw:max-[991px]:grid-cols-1">
+          <div className="tw:min-w-0 tw:rounded-xl tw:bg-surface-soft tw:px-8 tw:py-6 tw:max-[479px]:px-4">
+            <p className="tw:mt-0 tw:mb-6 tw:text-base tw:leading-[1.6] tw:text-[#181818]">
+              {data.description}
+            </p>
+            {maintenanceTopics.map(([heading, before, emphasis, after]) => (
+              <section key={heading}>
+                <h2 className="tw:mt-0 tw:mb-4 tw:text-lg tw:leading-[1.2] tw:font-semibold tw:text-[#181818]">
+                  {heading}
+                </h2>
+                <p className="tw:mt-0 tw:mb-6 tw:text-base tw:leading-[1.6] tw:text-[#181818]">
+                  {before}
+                  <strong>{emphasis}</strong>
+                  {after}
+                </p>
+              </section>
+            ))}
+          </div>
+          <ServiceImageGallery images={data.images} />
         </div>
       </div>
     </section>

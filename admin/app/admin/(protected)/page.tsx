@@ -249,7 +249,7 @@ export default async function Dashboard({
             <h2>Recent activity</h2>
             <p>The latest changes across your workspace</p>
           </div>
-          <Link href="/admin/activity" className="text-link">
+          <Link href="/admin/activity" className="text-link activity-link">
             All activity
             <ArrowUpRight size={15} />
           </Link>

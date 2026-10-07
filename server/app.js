@@ -158,6 +158,9 @@ export function createApp({
     }
   });
   app.get("/api/health", (req, res) => res.json({ status: "ok" }));
+  app.get("/index", (req, res) =>
+    res.redirect(301, `/${req.url.slice(req.path.length)}`),
+  );
   app.get("/download-brochure/file", async (req, res, next) => {
     try {
       res.set("X-Robots-Tag", "noindex, nofollow, noarchive");
@@ -391,7 +394,7 @@ export function createApp({
           status: "success",
           message: "Form submitted successfully!",
           warning:
-            "Your details were saved successfully. Email notifications are temporarily unavailable.",
+            "Your details were saved successfully; email notifications are temporarily unavailable.",
         });
       }
       return res.status(error.status || 503).json({

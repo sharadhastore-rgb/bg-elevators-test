@@ -2,6 +2,20 @@
   "contentSection": {
     "heading": "Our Service",
     "heading2": "Service for Non-BG Elevators",
+    "images": [
+      {
+        "src": "/images/elevator-service-in-bangalore-reliable-professional-and-affordable-by-bg-elevators.png",
+        "alt": "Professional elevator service for multiple brands"
+      },
+      {
+        "src": "/images/elevator-service-near-me-in-bangalore-dependable-care-by-bg-elevators.png",
+        "alt": "Technician servicing an elevator"
+      },
+      {
+        "src": "/images/internalblogoimg/elevator-technician-inspecting-a-control-panel-during-repair.webp",
+        "alt": "Technician inspecting an elevator system"
+      }
+    ],
     "items": [
       {
         "description": "At BG Elevators, we go beyond our own installations to provide expert-level service for elevators from other manufacturers. With over 30 years of industry experience, we understand the nuances of diverse elevator systems, making us a reliable partner for building owners, facility managers, and residential societies using non-BG elevators. "

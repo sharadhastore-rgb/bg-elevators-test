@@ -53,7 +53,7 @@
         {
           "tag": "a",
           "attributes": {
-            "href": "/index"
+            "href": "/"
           },
           "children": ["MRL elevators in Bangalore"]
         },

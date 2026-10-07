@@ -2,6 +2,20 @@
   "contentSection": {
     "heading": "Our Service",
     "heading2": "AMC & Service Maintenance",
+    "images": [
+      {
+        "src": "/images/elevator-maintenance-in-bangalore-keep-your-lifts-safe-and-reliable.png",
+        "alt": "Elevator maintenance and safety service"
+      },
+      {
+        "src": "/images/internalblogoimg/elevator-technician-inspecting-and-documenting-maintenance-performance-beside-a-modern-commercial-building-elevator.webp",
+        "alt": "Technician documenting elevator maintenance performance"
+      },
+      {
+        "src": "/images/674596d65506d2e745670699_service-image-6.webp",
+        "alt": "Maintenance tools and technical drawings"
+      }
+    ],
     "description": "At BG Elevators, our Annual Maintenance Contracts (AMC) and service solutions are designed to deliver peace of mind, reliability, and long-term performance. We ensure that your elevators function smoothly and safely with regular inspections, fast turnaround on service calls, and tech-enabled customer support. With our preventive maintenance approach, issues are identified and resolved before they escalate—maximizing uptime and user safety.",
     "heading3": "TAT – 24 Hours",
     "description2": "We promise a swift ",

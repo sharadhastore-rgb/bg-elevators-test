@@ -24,6 +24,16 @@
         "imageAlt": "Glass Door",
         "image": "/images/doors/side-opening-elevator-hall-door.webp",
         "heading": "SS Hairline Finish Door"
+      },
+      {
+        "imageAlt": "Full glass automatic elevator door",
+        "image": "/images/Products/glassdoor.jpg",
+        "heading": "Full Glass Automatic Door"
+      },
+      {
+        "imageAlt": "Compact vision elevator door",
+        "image": "/images/Products/vision-door.jpg",
+        "heading": "Compact Vision Door"
       }
     ],
     "heading5": "Manual Doors",

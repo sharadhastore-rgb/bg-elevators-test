@@ -2,6 +2,20 @@
   "contentSection": {
     "heading": "Our Service",
     "heading2": "Breakdown & Emergency Repairs",
+    "images": [
+      {
+        "src": "/images/elevator-repair-in-bangalore-quick-and-reliable-service-with-bg-elevators.png",
+        "alt": "Elevator emergency repair service"
+      },
+      {
+        "src": "/images/internalblogoimg/elevator-technician-inspecting-a-control-panel-during-repair.webp",
+        "alt": "Technician inspecting an elevator control panel"
+      },
+      {
+        "src": "/images/repairProduct.png",
+        "alt": "Elevator repair and diagnostic work"
+      }
+    ],
     "description": "At BG Elevators, we understand that breakdowns can occur at any time—and timely action is crucial. That is why our dedicated quality and audit teams operate 24/7, constantly monitoring elevator performance across all sites. In the event of a breakdown or emergency, our response team is equipped to act quickly, diagnose the issue, and implement immediate solutions. With a structured escalation process, real-time communication, and skilled technicians on standby, we ensure your elevator is back in operation with minimal disruption. Safety and uptime are always our top priorities.",
     "items": [
       {

@@ -51,7 +51,7 @@
         {
           "tag": "a",
           "attributes": {
-            "href": "/index"
+            "href": "/"
           },
           "children": ["elevators in Bangalore"]
         },

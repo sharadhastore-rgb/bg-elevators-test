@@ -594,7 +594,7 @@
         {
           "tag": "a",
           "attributes": {
-            "href": "/index"
+            "href": "/"
           },
           "children": ["Best Elevators in Bangalore"]
         },

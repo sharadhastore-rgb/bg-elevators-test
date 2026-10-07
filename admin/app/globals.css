@@ -2389,6 +2389,19 @@
   }
 }
 
+@utility activity-link {
+  color: var(--brand) !important;
+
+  &:hover {
+    color: #034f77 !important;
+  }
+
+  &:focus-visible {
+    outline: 3px solid rgb(255 255 255 / 65%);
+    outline-offset: 3px;
+  }
+}
+
 @utility tone-green {
   background: #eaf7f0;
   color: #24734e;

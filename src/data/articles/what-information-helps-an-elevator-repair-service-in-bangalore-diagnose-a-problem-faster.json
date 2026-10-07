@@ -96,7 +96,7 @@
         {
           "tag": "a",
           "attributes": {
-            "href": "/index"
+            "href": "/"
           },
           "children": [
             {

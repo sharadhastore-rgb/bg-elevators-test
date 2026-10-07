@@ -1,4 +1,5 @@
 import { AppLink, Icon } from "@/components/ui";
+import DoorCardScroller from "./DoorCardScroller";
 
 export default function ContentSection({ data }) {
   return (
@@ -22,8 +23,8 @@ export default function ContentSection({ data }) {
           sizes="100vw"
           src={data.image}
         />
-        <div className="tw:mb-10 tw:flex tw:flex-col tw:items-start tw:gap-6 tw:min-[1280px]:flex-row">
-          <div className="tw:w-full tw:shrink-0 tw:rounded-xl tw:bg-surface-soft tw:px-8 tw:py-6 tw:min-[1280px]:basis-[52.0625rem] tw:max-[479px]:px-4">
+        <div className="tw:mb-10 tw:grid tw:grid-cols-1 tw:items-start tw:gap-6 tw:min-[1280px]:grid-cols-[minmax(0,1.8fr)_minmax(20rem,1fr)]">
+          <div className="tw:min-w-0 tw:rounded-xl tw:bg-surface-soft tw:px-8 tw:py-6 tw:max-[479px]:px-4">
             <h2 className="tw:mt-0 tw:mb-6 tw:text-[2rem] tw:leading-[1.2] tw:font-semibold tw:text-[#181818]">
               {data.heading3}
             </h2>
@@ -37,26 +38,7 @@ export default function ContentSection({ data }) {
               {data.description2}
               <strong>{data.text}</strong>
             </p>
-            <div className="tw:mb-6 tw:grid tw:grid-cols-3 tw:gap-4 tw:max-[767px]:grid-cols-2 tw:max-[479px]:grid-cols-1">
-              {data.items.map((item, index) => (
-                <article
-                  className="tw:overflow-hidden tw:rounded-xl tw:bg-white tw:p-2.5 tw:text-center tw:shadow-[0_2px_8px_rgba(0,0,0,0.05)]"
-                  key={index}
-                >
-                  <div className="tw:h-[250px] tw:w-full tw:overflow-hidden">
-                    <img
-                      alt={item.imageAlt}
-                      className="tw:h-full tw:w-full tw:object-cover"
-                      loading="lazy"
-                      src={item.image}
-                    />
-                  </div>
-                  <h3 className="tw:m-0 tw:p-[0.6rem] tw:text-base tw:font-semibold tw:text-black">
-                    {item.heading}
-                  </h3>
-                </article>
-              ))}
-            </div>
+            <DoorCardScroller items={data.items} />
             <h3 className="tw:mt-2.5 tw:mb-4 tw:text-xl tw:leading-[1.2] tw:font-semibold tw:text-brand-dark">
               {data.heading5}
             </h3>
@@ -64,28 +46,9 @@ export default function ContentSection({ data }) {
               {data.description3}
               <strong>{data.text2}</strong>
             </p>
-            <div className="tw:grid tw:grid-cols-3 tw:gap-4 tw:max-[767px]:grid-cols-2 tw:max-[479px]:grid-cols-1">
-              {data.items2.map((item, index) => (
-                <article
-                  className="tw:overflow-hidden tw:rounded-xl tw:bg-white tw:p-2.5 tw:text-center tw:shadow-[0_2px_8px_rgba(0,0,0,0.05)]"
-                  key={index}
-                >
-                  <div className="tw:h-[250px] tw:w-full tw:overflow-hidden">
-                    <img
-                      alt={item.imageAlt}
-                      className="tw:h-full tw:w-full tw:object-cover"
-                      loading="lazy"
-                      src={item.image}
-                    />
-                  </div>
-                  <h3 className="tw:m-0 tw:p-[0.6rem] tw:text-base tw:font-semibold tw:text-black">
-                    {item.heading}
-                  </h3>
-                </article>
-              ))}
-            </div>
+            <DoorCardScroller items={data.items2} />
           </div>
-          <div className="tw:w-full tw:rounded-xl tw:border tw:border-border tw:bg-surface tw:p-10 tw:min-[1280px]:basis-[28.9375rem] tw:max-[479px]:px-4 tw:max-[479px]:py-8">
+          <div className="tw:min-w-0 tw:overflow-hidden tw:rounded-xl tw:border tw:border-border tw:bg-surface tw:p-10 tw:[overflow-wrap:anywhere] tw:max-[479px]:px-4 tw:max-[479px]:py-8">
             <h2 className="tw:mt-0 tw:mb-6 tw:text-[1.375rem] tw:leading-[1.2] tw:font-semibold tw:text-[#181818]">
               {data.heading6}
             </h2>

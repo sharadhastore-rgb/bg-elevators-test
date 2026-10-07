@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/layout/WhatsAppButton";
@@ -12,8 +12,13 @@ import PageMetadata from "./PageMetadata";
 
 export default function App({ initialPage }) {
   const location = useLocation();
+  const navigate = useNavigate();
   const [page, setPage] = useState(initialPage);
   const [loadError, setLoadError] = useState(false);
+  useEffect(() => {
+    if (location.pathname === "/index")
+      navigate(`/${location.search}${location.hash}`, { replace: true });
+  }, [location.pathname, location.search, location.hash, navigate]);
   useEffect(() => {
     let cancelled = false;
     if (page.slug !== pageSlug(location.pathname)) {

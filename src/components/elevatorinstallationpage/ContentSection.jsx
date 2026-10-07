@@ -1,3 +1,5 @@
+import ServiceImageGallery from "@/components/shared/ServiceImageGallery";
+
 export default function ContentSection({ data }) {
   const sections = [
     [data.heading4, data.description2],
@@ -23,42 +25,45 @@ export default function ContentSection({ data }) {
             {data.heading2}
           </h1>
         </div>
-        <div className="tw:max-w-[52.0625rem] tw:rounded-xl tw:bg-surface-soft tw:px-8 tw:py-6 tw:max-[479px]:px-4">
-          {data.items.map((item, index) => (
-            <p
-              className="tw:mt-0 tw:mb-6 tw:text-base tw:leading-[1.6] tw:text-[#181818]"
-              key={index}
-            >
-              {item.description}
-            </p>
-          ))}
-          <h2 className="tw:mt-0 tw:mb-4 tw:text-lg tw:leading-[1.2] tw:font-semibold tw:text-[#181818]">
-            {data.heading3}
-          </h2>
-          <p className="tw:mt-0 tw:mb-4 tw:text-base tw:leading-[1.6] tw:text-[#181818]">
-            {data.description}
-          </p>
-          <ul className="tw:mb-6 tw:flex tw:list-none tw:flex-col tw:gap-5 tw:p-0">
-            {data.items2.map((item, index) => (
-              <li
-                className="tw:w-max tw:max-w-full tw:border-b tw:border-[#181818] tw:bg-[url('/images/6741459c3282084269f1000d_check-circle-broken.webp')] tw:bg-[length:24px_24px] tw:bg-left-top tw:bg-no-repeat tw:pb-5 tw:pl-9 tw:text-base tw:leading-[1.6] tw:text-[#181818]"
+        <div className="tw:grid tw:grid-cols-[minmax(0,1fr)_22rem] tw:items-start tw:gap-8 tw:max-[991px]:grid-cols-1">
+          <div className="tw:min-w-0 tw:rounded-xl tw:bg-surface-soft tw:px-8 tw:py-6 tw:max-[479px]:px-4">
+            {data.items.map((item, index) => (
+              <p
+                className="tw:mt-0 tw:mb-6 tw:text-base tw:leading-[1.6] tw:text-[#181818]"
                 key={index}
               >
-                <strong>{item.text}</strong>
-                {item.text2}
-              </li>
-            ))}
-          </ul>
-          {sections.map(([heading, description]) => (
-            <section key={heading}>
-              <h2 className="tw:mt-0 tw:mb-4 tw:text-lg tw:leading-[1.2] tw:font-semibold tw:text-[#181818]">
-                {heading}
-              </h2>
-              <p className="tw:mt-0 tw:mb-6 tw:text-base tw:leading-[1.6] tw:text-[#181818]">
-                {description}
+                {item.description}
               </p>
-            </section>
-          ))}
+            ))}
+            <h2 className="tw:mt-0 tw:mb-4 tw:text-lg tw:leading-[1.2] tw:font-semibold tw:text-[#181818]">
+              {data.heading3}
+            </h2>
+            <p className="tw:mt-0 tw:mb-4 tw:text-base tw:leading-[1.6] tw:text-[#181818]">
+              {data.description}
+            </p>
+            <ul className="tw:mb-6 tw:flex tw:list-none tw:flex-col tw:gap-5 tw:p-0">
+              {data.items2.map((item, index) => (
+                <li
+                  className="tw:w-max tw:max-w-full tw:border-b tw:border-[#181818] tw:bg-[url('/images/6741459c3282084269f1000d_check-circle-broken.webp')] tw:bg-[length:24px_24px] tw:bg-left-top tw:bg-no-repeat tw:pb-5 tw:pl-9 tw:text-base tw:leading-[1.6] tw:text-[#181818]"
+                  key={index}
+                >
+                  <strong>{item.text}</strong>
+                  {item.text2}
+                </li>
+              ))}
+            </ul>
+            {sections.map(([heading, description]) => (
+              <section key={heading}>
+                <h2 className="tw:mt-0 tw:mb-4 tw:text-lg tw:leading-[1.2] tw:font-semibold tw:text-[#181818]">
+                  {heading}
+                </h2>
+                <p className="tw:mt-0 tw:mb-6 tw:text-base tw:leading-[1.6] tw:text-[#181818]">
+                  {description}
+                </p>
+              </section>
+            ))}
+          </div>
+          <ServiceImageGallery images={data.images} />
         </div>
       </div>
     </section>

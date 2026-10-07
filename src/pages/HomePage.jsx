@@ -30,11 +30,11 @@ export default function HomePage() {
       <FeaturedCollectionStrip />
       <ProcessSection data={data.processSection} />
       <MaintenanceSupportSection data={data.maintenanceSupportSection} />
-      <FaqSection data={data.faqSection} />
       <StatisticsSection data={data.statisticsSection} />
       <TestimonialsSection data={data.testimonialsSection} />
       <ProjectsSection data={data.projectsSection} />
       <LatestBlogsSection data={data.latestBlogsSection} />
+      <FaqSection data={data.faqSection} />
       <ConsultationSection data={data.consultationSection} />
       <ApplicationModalSection data={data.contactModalSection} />
     </>
