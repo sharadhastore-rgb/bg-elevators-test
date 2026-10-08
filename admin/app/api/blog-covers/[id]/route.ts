@@ -75,7 +75,9 @@ export async function GET(
   return new Response(new Uint8Array(data), {
     headers: {
       "Content-Type": contentType,
-      "Cache-Control": "private, max-age=86400",
+      // The UI appends the post version to this URL, so an edited cover gets
+      // a new URL while unchanged thumbnails can stay in the browser cache.
+      "Cache-Control": "private, max-age=31536000, immutable",
       "X-Content-Type-Options": "nosniff",
     },
   });

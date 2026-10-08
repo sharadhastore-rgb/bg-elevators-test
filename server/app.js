@@ -527,6 +527,11 @@ export function createApp({
         setHeaders(res, file) {
           if (file.includes(`${path.sep}assets${path.sep}`))
             res.set("Cache-Control", "public, max-age=31536000, immutable");
+          else if (file.includes(`${path.sep}images${path.sep}`))
+            res.set(
+              "Cache-Control",
+              "public, max-age=604800, stale-while-revalidate=86400",
+            );
         },
       }),
     );

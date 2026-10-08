@@ -1,23 +1,9 @@
 "use client";
-import { useActionState, useEffect, useRef, useState } from "react";
-import { Eye, PenLine, ImagePlus, ArrowUpRight, Search, Bold, Italic, List, ListOrdered, Quote, Link as LinkIcon, Undo2, Redo2 } from "lucide-react";
+import { useActionState, useEffect, useState } from "react";
+import { Eye, ImagePlus, ArrowUpRight, Search } from "lucide-react";
 import { saveBlog, deleteBlog } from "@/app/admin/blog-actions";
 import SubmitButton from "./SubmitButton";
 import RichTextEditor from "./RichTextEditor";
-import { contentBlocks } from "@/lib/blog";
-
-function PreviewNode({ node }: { node: any }) {
-  if (typeof node === "string") return node;
-  const children = node.children?.map((child: any, index: number) => <PreviewNode node={child} key={index} />);
-  if (node.tag === "a") return <a href={node.attributes?.href}>{children}</a>;
-  if (node.tag === "strong") return <strong>{children}</strong>;
-  if (node.tag === "em") return <em>{children}</em>;
-  if (node.tag === "ul") return <ul>{children}</ul>;
-  if (node.tag === "ol") return <ol>{children}</ol>;
-  if (node.tag === "li") return <li>{children}</li>;
-  if (node.tag === "p") return <p>{children}</p>;
-  return <h3>{children}</h3>;
-}
 export default function BlogEditor({
   post,
   canDelete = false,
@@ -36,20 +22,13 @@ export default function BlogEditor({
   const [title, setTitle] = useState(post?.title || ""),
     [slug, setSlug] = useState(post?.slug || ""),
     [content, setContent] = useState(post?.content || "");
-  const [preview, setPreview] = useState(false),
-    [confirm, setConfirm] = useState(false),
+  const [confirm, setConfirm] = useState(false),
     [activeTab, setActiveTab] = useState<"content" | "seo">("content");
   const [cover, setCover] = useState(
     post?.cover?.contentType
       ? `/api/blog-covers/${post._id}?v=${encodeURIComponent(post.updatedAt || post.__v || 0)}`
       : "",
   );
-  const contentRef = useRef<HTMLTextAreaElement>(null);
-  const updateContent = setContent;
-  const applyFormat = (_before: string, _after = "", _placeholder = "Text") => {};
-  const applyLines = (_prefix: string) => {};
-  const undoContent = () => {};
-  const redoContent = () => {};
   const normalizeSlug = (value: string) =>
     value
       .toLowerCase()
@@ -153,51 +132,6 @@ export default function BlogEditor({
               Select text and use the toolbar to format your article.
             </p>
             <RichTextEditor value={content} onChange={setContent} />
-            <div className="hidden" aria-hidden="true">
-            <div className={`${field} article-format-toolbar`} role="toolbar" aria-label="Article formatting">
-              <button type="button" title="Paragraph" onClick={() => applyLines("")}>¶</button>
-              <button type="button" title="Heading 2" onClick={() => applyLines("## ")}>H2</button>
-              <button type="button" title="Heading 3" onClick={() => applyLines("### ")}>H3</button>
-              <span />
-              <button type="button" title="Bold" onClick={() => applyFormat("**", "**")}><Bold size={16} /></button>
-              <button type="button" title="Italic" onClick={() => applyFormat("*", "*")}><Italic size={16} /></button>
-              <span />
-              <button type="button" title="Bulleted list" onClick={() => applyLines("- ")}><List size={17} /></button>
-              <button type="button" title="Numbered list" onClick={() => applyLines("1. ")}><ListOrdered size={17} /></button>
-              <button type="button" title="Quote" onClick={() => applyLines("> ")}><Quote size={16} /></button>
-              <button type="button" title="Link" onClick={() => applyFormat("[", "](https://)", "Link text")}><LinkIcon size={16} /></button>
-              <span />
-              <button type="button" title="Undo" onClick={undoContent}><Undo2 size={16} /></button>
-              <button type="button" title="Redo" onClick={redoContent}><Redo2 size={16} /></button>
-            </div>
-            <textarea
-              ref={contentRef}
-              id="article-content"
-              onInvalid={() => setPreview(false)}
-              className={`${field} article-editor-textarea ${preview ? "hidden" : ""}`}
-              name="content"
-              value={content}
-              onChange={(e) => updateContent(e.target.value)}
-              tabIndex={-1}
-              rows={20}
-            />
-            {preview && (
-              <div
-                className="mt-4 space-y-5 rounded-xl bg-admin-surface p-5 leading-7 [overflow-wrap:anywhere]"
-                aria-label="Article preview"
-              >
-                {cover && (
-                  <img
-                    src={cover}
-                    alt="Cover preview"
-                    className="aspect-video w-full rounded-xl object-cover"
-                  />
-                )}
-                <h2 className="text-2xl">{title}</h2>
-                {contentBlocks(content).body.map((block: any, i: number) => <PreviewNode node={block} key={i} />)}
-              </div>
-            )}
-            </div>
           </div>
         </div>
         <aside className={`space-y-5 xl:sticky xl:top-6 ${activeTab !== "content" ? "hidden" : ""}`}>
