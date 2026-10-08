@@ -9,6 +9,7 @@ export default function BrochureDownloadButton({ label, autoOpen = false }) {
   const form = useRef(null);
   const submissionLocked = useRef(false);
   const submissionComplete = useRef(false);
+  const redirectTimer = useRef(null);
   const [status, setStatus] = useState("idle");
   const [message, setMessage] = useState("");
 
@@ -32,13 +33,24 @@ export default function BrochureDownloadButton({ label, autoOpen = false }) {
     return () => window.cancelAnimationFrame(frame);
   }, [autoOpen]);
 
+  useEffect(
+    () => () => {
+      if (redirectTimer.current) window.clearTimeout(redirectTimer.current);
+    },
+    [],
+  );
+
   async function downloadBrochure() {
     const response = await fetch("/download-brochure/file", {
       cache: "no-store",
     });
     if (!response.ok)
-      throw new Error("The brochure is unavailable right now. Please try again.");
-    if (!(response.headers.get("content-type") || "").includes("application/pdf"))
+      throw new Error(
+        "The brochure is unavailable right now. Please try again.",
+      );
+    if (
+      !(response.headers.get("content-type") || "").includes("application/pdf")
+    )
       throw new Error("The brochure download did not return a PDF.");
 
     const blob = await response.blob();
@@ -77,7 +89,8 @@ export default function BrochureDownloadButton({ label, autoOpen = false }) {
         const result = await response.json().catch(() => null);
         if (!response.ok || result?.status !== "success")
           throw new Error(
-            result?.message || "We could not submit your details. Please try again.",
+            result?.message ||
+              "We could not submit your details. Please try again.",
           );
         submissionComplete.current = true;
       }
@@ -85,11 +98,17 @@ export default function BrochureDownloadButton({ label, autoOpen = false }) {
       await downloadBrochure();
       setStatus("success");
       setMessage("Thank you. Your brochure download has started.");
+      if (autoOpen)
+        redirectTimer.current = window.setTimeout(
+          () => window.location.replace("/"),
+          1800,
+        );
     } catch (error) {
       submissionLocked.current = false;
       setStatus("error");
       setMessage(
-        error.message || "We could not complete your request. Please try again.",
+        error.message ||
+          "We could not complete your request. Please try again.",
       );
     }
   }
@@ -207,7 +226,9 @@ export default function BrochureDownloadButton({ label, autoOpen = false }) {
               type="submit"
               disabled={status === "submitting" || status === "success"}
             >
-              {status === "submitting" ? "Preparing brochure…" : "Download brochure"}
+              {status === "submitting"
+                ? "Preparing brochure…"
+                : "Download brochure"}
             </button>
             {message && (
               <p

@@ -409,6 +409,10 @@ export function createApp({
   );
   const dist = path.join(root, "dist");
   if (existsSync(path.join(dist, "index.html"))) {
+    // Keep the brochure QR code and previously shared legacy URL working.
+    app.get("/brochure.html", (req, res) =>
+      res.redirect(301, `/download-brochure${req.url.slice(req.path.length)}`),
+    );
     app.get(/.*\.html$/, (req, res, next) => {
       if (req.path === "/404.html") return next();
       const cleanPath =
@@ -422,12 +426,22 @@ export function createApp({
         const articles = (await store.listBlogs()).map(publicBlogSummary);
         const { renderPage } = await import("../.ssr/entry-server.js");
         const page = await renderPage(req.path, undefined, articles);
-        const shell = await readFile(path.join(root, ".ssr/shell.html"), "utf8");
+        const shell = await readFile(
+          path.join(root, ".ssr/shell.html"),
+          "utf8",
+        );
         const html = shell
-          .replace(/<title>.*?<\/title>/s, () => `<title>${escapeHtml(page.meta.title)}</title>`)
+          .replace(
+            /<title>.*?<\/title>/s,
+            () => `<title>${escapeHtml(page.meta.title)}</title>`,
+          )
           .replace("<!--page-head-->", () => pageHead(page.meta))
           .replace("<!--page-html-->", () => page.html)
-          .replace("</head>", () => `<script id="cms-blogs" type="application/json">${JSON.stringify(articles).replaceAll("<", "\\u003c")}</script></head>`);
+          .replace(
+            "</head>",
+            () =>
+              `<script id="cms-blogs" type="application/json">${JSON.stringify(articles).replaceAll("<", "\\u003c")}</script></head>`,
+          );
         res.type("html").send(html);
       } catch (error) {
         console.error("Blog listing render failed:", error.message);
@@ -481,16 +495,31 @@ export function createApp({
         const article = publicBlog(post);
         const { renderPage } = await import("../.ssr/entry-server.js");
         const page = await renderPage(req.path, article);
-        const shell = await readFile(path.join(root, ".ssr/shell.html"), "utf8");
+        const shell = await readFile(
+          path.join(root, ".ssr/shell.html"),
+          "utf8",
+        );
         const html = shell
-          .replace(/<title>.*?<\/title>/s, () => `<title>${escapeHtml(page.meta.title)}</title>`)
+          .replace(
+            /<title>.*?<\/title>/s,
+            () => `<title>${escapeHtml(page.meta.title)}</title>`,
+          )
           .replace("<!--page-head-->", () => pageHead(page.meta))
           .replace("<!--page-html-->", () => page.html)
-          .replace("</head>", () => `<script id="cms-article" type="application/json">${JSON.stringify(article).replaceAll("<", "\\u003c")}</script></head>`);
+          .replace(
+            "</head>",
+            () =>
+              `<script id="cms-article" type="application/json">${JSON.stringify(article).replaceAll("<", "\\u003c")}</script></head>`,
+          );
         res.set("Cache-Control", "no-store").type("html").send(html);
       } catch (error) {
         console.error("Legacy article render failed:", error.message);
-        res.status(503).type("html").send("<h1>Article temporarily unavailable</h1><p>Please try again shortly.</p>");
+        res
+          .status(503)
+          .type("html")
+          .send(
+            "<h1>Article temporarily unavailable</h1><p>Please try again shortly.</p>",
+          );
       }
     });
     app.use(

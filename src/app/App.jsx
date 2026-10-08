@@ -18,6 +18,13 @@ export default function App({ initialPage }) {
   useEffect(() => {
     if (location.pathname === "/index")
       navigate(`/${location.search}${location.hash}`, { replace: true });
+    else if (
+      location.pathname === "/brochure.html" ||
+      location.pathname === "/brochure"
+    )
+      navigate(`/download-brochure${location.search}${location.hash}`, {
+        replace: true,
+      });
   }, [location.pathname, location.search, location.hash, navigate]);
   useEffect(() => {
     let cancelled = false;
