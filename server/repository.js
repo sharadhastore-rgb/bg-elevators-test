@@ -1,4 +1,16 @@
 import mongoose, { Schema } from "mongoose";
+import dns from "node:dns";
+
+let dnsConfigured = false;
+
+function configureDns() {
+  if (dnsConfigured) return;
+  const servers = process.env.DNS_SERVERS?.split(",")
+    .map((server) => server.trim())
+    .filter(Boolean);
+  if (servers?.length) dns.setServers(servers);
+  dnsConfigured = true;
+}
 let connection;
 function models() {
   const person = {
@@ -92,46 +104,58 @@ function models() {
       mongoose.models.Brochure || mongoose.model("Brochure", brochureSchema),
   };
 }
-async function connect(uri) {
+async function connect(uri, dbName) {
   if (!uri)
     throw Object.assign(new Error("Lead storage is not configured."), {
       status: 503,
     });
   if (!connection)
     connection = mongoose
-      .connect(uri, { bufferCommands: false, serverSelectionTimeoutMS: 5000 })
+      .connect(uri, {
+        bufferCommands: false,
+        serverSelectionTimeoutMS: 5000,
+        dbName: dbName || undefined,
+      })
       .catch((error) => {
         connection = undefined;
         throw error;
       });
   await connection;
 }
-export function createMongoRepository(uri) {
+export function createMongoRepository(uri, dbName) {
+  configureDns();
+  uri = uri
+    ?.trim()
+    .replace(/^["']/, "")
+    .replace(/["']?(?:SMTP_HOST|SMTP_PORT|SMTP_USER|MONGODB_DB|DNS_SERVERS)=.*/, "")
+    .replace(/["']$/, "");
   return {
     async listBlogs() {
-      await connect(uri);
+      await connect(uri, dbName);
       return models()
         .Blog.find({ status: "published" })
-        .select("slug routePath title excerpt category imageAlt seoTitle seoDescription status publishedAt updatedAt")
+        .select(
+          "slug routePath title excerpt category imageAlt seoTitle seoDescription status publishedAt updatedAt",
+        )
         .sort({ publishedAt: -1 })
         .lean();
     },
     async getBlog(slug, cover = false) {
-      await connect(uri);
+      await connect(uri, dbName);
       return models()
         .Blog.findOne({ slug, status: "published" })
         .select(cover ? "+cover.data" : "")
         .lean();
     },
     async getBlogByRoute(routePath, cover = false) {
-      await connect(uri);
+      await connect(uri, dbName);
       return models()
         .Blog.findOne({ routePath })
         .select(cover ? "+cover.data" : "")
         .lean();
     },
     async saveLead(data) {
-      await connect(uri);
+      await connect(uri, dbName);
       const { Lead, Activity } = models();
       const lead = await Lead.create({
         ...data,
@@ -154,7 +178,7 @@ export function createMongoRepository(uri) {
       return lead;
     },
     async saveCareer(data) {
-      await connect(uri);
+      await connect(uri, dbName);
       const { Career, Activity } = models();
       const career = await Career.create({
         ...data,
@@ -173,7 +197,7 @@ export function createMongoRepository(uri) {
       return career;
     },
     async getActiveBrochure() {
-      await connect(uri);
+      await connect(uri, dbName);
       const { Brochure } = models();
       return Brochure.findOne({ active: true })
         .sort({ createdAt: -1 })

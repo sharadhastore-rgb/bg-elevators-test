@@ -30,7 +30,8 @@ export function createApp({
   config = process.env,
 } = {}) {
   const app = express();
-  const store = repository || createMongoRepository(config.MONGODB_URI);
+  const store =
+    repository || createMongoRepository(config.MONGODB_URI, config.MONGODB_DB);
   const mailer =
     transport ||
     (config.SMTP_HOST && config.SMTP_FROM && config.ENQUIRY_TO
@@ -415,9 +416,7 @@ export function createApp({
     );
     app.get(/.*\.html$/, (req, res, next) => {
       if (req.path === "/404.html") return next();
-      const cleanPath =
-        req.path === "/index.html" ? "/" : req.path.slice(0, -5);
-      return res.redirect(301, `${cleanPath}${req.url.slice(req.path.length)}`);
+      return res.status(404).sendFile(path.join(dist, "404.html"));
     });
     // Render the listing with current CMS data so hydration never reorders it.
     app.get("/blogs", async (req, res) => {

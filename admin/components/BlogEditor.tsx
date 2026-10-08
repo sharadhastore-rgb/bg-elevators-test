@@ -40,7 +40,9 @@ export default function BlogEditor({
     [confirm, setConfirm] = useState(false),
     [activeTab, setActiveTab] = useState<"content" | "seo">("content");
   const [cover, setCover] = useState(
-    post?.cover?.contentType ? `/api/blog-covers/${post._id}` : "",
+    post?.cover?.contentType
+      ? `/api/blog-covers/${post._id}?v=${encodeURIComponent(post.updatedAt || post.__v || 0)}`
+      : "",
   );
   const contentRef = useRef<HTMLTextAreaElement>(null);
   const updateContent = setContent;

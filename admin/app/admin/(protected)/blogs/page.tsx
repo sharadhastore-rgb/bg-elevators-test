@@ -93,12 +93,12 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ q
             className="group flex min-w-0 items-center gap-3 rounded-md outline-none focus-visible:ring-2 focus-visible:ring-admin-blue/40"
             aria-label={`Open ${post.title}`}
           >
-            {post.cover?.contentType ? <img src={`/api/blog-covers/${post._id}?size=thumb`} alt="" className="h-11 w-16 shrink-0 rounded border border-admin-line object-cover transition group-hover:border-admin-blue" /> : <span className="grid h-11 w-16 shrink-0 place-items-center rounded border border-admin-line bg-admin-surface text-admin-brand transition group-hover:border-admin-blue"><BookOpen size={18} /></span>}
+            {post.cover?.contentType ? <img src={`/api/blog-covers/${post._id}?size=thumb&v=${encodeURIComponent(String(post.updatedAt || post.__v || 0))}`} alt="" className="h-11 w-16 shrink-0 rounded border border-admin-line object-cover transition group-hover:border-admin-blue" /> : <span className="grid h-11 w-16 shrink-0 place-items-center rounded border border-admin-line bg-admin-surface text-admin-brand transition group-hover:border-admin-blue"><BookOpen size={18} /></span>}
             <div className="min-w-0"><h2 className="truncate text-sm font-semibold text-admin-navy transition group-hover:text-admin-brand group-hover:underline group-hover:underline-offset-2">{post.title}</h2><p className="mt-1 truncate text-xs text-admin-muted">{post.routePath || `/journal/${post.slug}`}</p></div>
           </Link>
         ) : (
           <div className="flex min-w-0 items-center gap-3">
-            {post.cover?.contentType ? <img src={`/api/blog-covers/${post._id}?size=thumb`} alt="" className="h-11 w-16 shrink-0 rounded border border-admin-line object-cover" /> : <span className="grid h-11 w-16 shrink-0 place-items-center rounded border border-admin-line bg-admin-surface text-admin-brand"><BookOpen size={18} /></span>}
+            {post.cover?.contentType ? <img src={`/api/blog-covers/${post._id}?size=thumb&v=${encodeURIComponent(String(post.updatedAt || post.__v || 0))}`} alt="" className="h-11 w-16 shrink-0 rounded border border-admin-line object-cover" /> : <span className="grid h-11 w-16 shrink-0 place-items-center rounded border border-admin-line bg-admin-surface text-admin-brand"><BookOpen size={18} /></span>}
             <div className="min-w-0"><h2 className="truncate text-sm font-semibold text-admin-navy">{post.title}</h2><p className="mt-1 truncate text-xs text-admin-muted">{post.routePath || `/journal/${post.slug}`}</p></div>
           </div>
         )}

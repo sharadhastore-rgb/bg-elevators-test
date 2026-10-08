@@ -10,11 +10,9 @@ const routeMap = Object.fromEntries(
 );
 const articleSlugs = new Set(articleIndex.map((article) => article.slug));
 export function pageSlug(pathname) {
-  return (
-    decodeURIComponent(pathname)
-      .replace(/^\/+|\/+$/g, "")
-      .replace(/\.html$/, "") || "index"
-  );
+  const slug = decodeURIComponent(pathname).replace(/^\/+|\/+$/g, "");
+  if (slug === "brochure.html") return "download-brochure";
+  return slug || "index";
 }
 export async function resolvePage(pathname, suppliedArticle, suppliedBlogs) {
   const slug = pageSlug(pathname);

@@ -2,6 +2,24 @@ import { getSession } from "@/lib/auth";
 import { connectDb } from "@/lib/db";
 import { Blog } from "@/lib/blogs";
 import sharp from "sharp";
+
+function toBuffer(value: unknown): Buffer | null {
+  if (!value) return null;
+  if (Buffer.isBuffer(value)) return value;
+  if (value instanceof Uint8Array) return Buffer.from(value);
+  if (
+    typeof value === "object" &&
+    "value" in value &&
+    typeof (value as { value?: unknown }).value === "function"
+  ) {
+    const bytes = (value as { value: (copy?: boolean) => Uint8Array }).value(
+      true,
+    );
+    return Buffer.from(bytes);
+  }
+  return null;
+}
+
 export async function GET(
   request: Request,
   { params }: { params: Promise<{ id: string }> },
@@ -22,7 +40,7 @@ export async function GET(
     .lean()) as any;
   if (!post) return new Response("Not found", { status: 404 });
 
-  let data = thumbnail ? post.cover?.thumbnailData : post.cover?.data;
+  let data = toBuffer(thumbnail ? post.cover?.thumbnailData : post.cover?.data);
   let contentType = thumbnail
     ? post.cover?.thumbnailContentType || "image/webp"
     : post.cover?.contentType;
@@ -31,10 +49,11 @@ export async function GET(
     const original = (await Blog.findById(id)
       .select("+cover.data cover.contentType")
       .lean()) as any;
-    if (!original?.cover?.data)
+    const originalData = toBuffer(original?.cover?.data);
+    if (!originalData)
       return new Response("Not found", { status: 404 });
 
-    data = await sharp(original.cover.data)
+    data = await sharp(originalData)
       .resize(160, 100, { fit: "cover", position: "centre" })
       .webp({ quality: 72 })
       .toBuffer();

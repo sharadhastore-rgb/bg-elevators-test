@@ -8,14 +8,14 @@ This update changes the admin application and its form-storage handler. Public w
 
 Requirements: Node.js 22.12 or newer and a running MongoDB database. Install the public and admin dependencies separately with `npm ci` and `npm --prefix admin ci`.
 
-1. Copy root `.env.example` to `.env` and `admin/.env.example` to `admin/.env.local`.
-2. Put the same MongoDB URI in both. Existing collections and documents are preserved. New optional fields do not require destructive migration.
+1. Copy root `.env.example` to `.env`. The public application and CMS share this file.
+2. Set `MONGODB_URI` and `MONGODB_DB`. Existing collections and documents are preserved. New optional fields do not require destructive migration.
 3. Set a random `SESSION_SECRET` of at least 32 characters; the placeholder is rejected. Generate it with `node -e "console.log(require('node:crypto').randomBytes(48).toString('hex'))"`.
 4. Set `ADMIN_NAME`, `ADMIN_EMAIL` and a unique `ADMIN_PASSWORD` of at least 10 characters (maximum 72 UTF-8 bytes). Run `npm run admin:create` from the root. Remove `ADMIN_PASSWORD` from the environment afterwards. Running this command again resets that account and revokes its previous sessions.
 5. Start the public site and enquiry API with `npm run dev:full`. In another terminal, start the admin with `npm run admin:dev`.
 6. Sign in at `http://localhost:3002/admin`.
 
-SMTP settings remain in the root `.env`: `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASSWORD`, `SMTP_FROM`, `ENQUIRY_TO` and `CAREERS_TO`. `SMTP_USER` is the sending mailbox; use the provider's app password/token in `SMTP_PASSWORD`; `SMTP_FROM` must be a sender address approved by that provider. `ENQUIRY_TO` is the monitored inbox that receives lead and brochure-request notifications (the visitor's submitted email is used for the customer confirmation). `CAREERS_TO` is the career-application inbox and falls back to `ENQUIRY_TO` when empty. The `MONGODB_URI` in the root `.env` and `admin/.env.local` must point to the same database for public brochure requests to appear in the CMS Leads list; they are marked with source **Brochure**. Records are saved before notification email is sent, so an SMTP failure does not remove a saved lead. Configure and verify your provider separately before going live. No real emails are sent by the automated checks.
+SMTP settings remain in the shared root `.env`: `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASSWORD`, `SMTP_FROM`, `ENQUIRY_TO` and `CAREERS_TO`. `SMTP_USER` is the sending mailbox; use the provider's app password/token in `SMTP_PASSWORD`; `SMTP_FROM` must be a sender address approved by that provider. `ENQUIRY_TO` is the monitored inbox that receives lead and brochure-request notifications (the visitor's submitted email is used for the customer confirmation). `CAREERS_TO` is the career-application inbox and falls back to `ENQUIRY_TO` when empty. Public brochure requests and the CMS use the same database configuration and appear in the Leads list with source **Brochure**. Records are saved before notification email is sent, so an SMTP failure does not remove a saved lead. Configure and verify your provider separately before going live. No real emails are sent by the automated checks.
 
 ## Workflows
 

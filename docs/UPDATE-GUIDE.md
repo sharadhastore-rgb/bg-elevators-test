@@ -20,9 +20,9 @@ The site already includes FAQs, process, testimonials, projects, maintenance sup
 Use Node.js 22.12+ and MongoDB.
 
 1. Run `npm ci` at the project root and `npm --prefix admin ci`.
-2. Copy `.env.example` to `.env`, and `admin/.env.example` to `admin/.env.local`.
-3. Set **the same MONGODB_URI** in both files. It must include the same database name.
-4. Set a random `SESSION_SECRET` and the initial admin credentials in `admin/.env.local`.
+2. Copy `.env.example` to `.env`. The public application and CMS share this file.
+3. Set `MONGODB_URI` and `MONGODB_DB` in the shared file.
+4. Set a random `SESSION_SECRET` and the initial admin credentials in `.env`.
 5. Set `NEXT_PUBLIC_WEBSITE_URL` to the public website origin (locally `http://localhost:5173`). Set it before building the admin.
 6. Run `npm run admin:create` once. Remove `ADMIN_PASSWORD` from the environment file afterwards.
 7. Run `npm run dev:full` for the public site/API and `npm run admin:dev` in another terminal for the CMS.
