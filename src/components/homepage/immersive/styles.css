@@ -1,0 +1,17 @@
+﻿
+@font-face{font-family:Fraunces;src:url('/assets/Fraunces.woff2') format('woff2');font-weight:100 900;font-display:swap}
+@font-face{font-family:Instrument Sans;src:url('/assets/InstrumentSans.woff2') format('woff2');font-weight:400;font-display:swap}
+.ardor-opening-root{font-family:'Instrument Sans',Arial,sans-serif;background:#012034;color:#FFFFFF;font-synthesis:none;width:100%;overflow-x:clip}
+
+.ardor-opening-root .hero-title{font-family:Fraunces,Georgia,serif;font-size:5.5rem;line-height:1.5;max-width:900px}
+.ardor-opening-root .readout{font-size:12px;font-weight:500;color:#FFFFFF}
+.ardor-opening-root .corner-tl{left:0;top:0;border-top-width:2px;border-left-width:2px}.ardor-opening-root .corner-tr{right:0;top:0;border-top-width:2px;border-right-width:2px}.ardor-opening-root .corner-bl{bottom:0;left:0;border-bottom-width:2px;border-left-width:2px}.ardor-opening-root .corner-br{bottom:0;right:0;border-bottom-width:2px;border-right-width:2px}
+@media(max-width:991px){.ardor-opening-root .hero-title{max-width:650px;font-size:4rem}}
+@media(max-width:767px){.ardor-opening-root .hero-title{max-width:500px;font-size:3rem}}
+@media(max-width:479px){.ardor-opening-root .hero-title{max-width:none;font-size:2rem;margin-top:0;margin-bottom:0}.ardor-opening-root .readout{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.ardor-opening-root .reveal{display:none}}
+.ardor-opening-root .reveal{transform:scale(0)}
+
+.ardor-opening-root .readout{background:#012034cc;padding:5px 8px;border-radius:2px;letter-spacing:.08em}.ardor-opening-root .portrait img{border:1px solid #D6E2E626}.ardor-opening-root .hero-title{letter-spacing:-.035em}
+
+.ardor-opening-root{--navy:#012034;--brand-blue:#006699;--accent-blue:#3396D6;--premium-orange:#F19000;--light-blue:#E5F2F8;--section-bg:#F5F8F9;--card-bg:#FFFFFF;--primary-text:#123A4F;--secondary-text:#647985;--border:#D6E2E6}

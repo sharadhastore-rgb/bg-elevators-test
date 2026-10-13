@@ -1,0 +1,11 @@
+﻿
+@font-face{font-family:Manrope;src:url('/assets/Manrope-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:Manrope;src:url('/assets/Manrope-Medium.woff2') format('woff2');font-weight:500;font-display:swap}
+.stillness-hero{font-family:Manrope,Arial,sans-serif;font-synthesis:none}
+
+.stillness-hero{background:linear-gradient(180deg,#FFFFFF 0%,#F5F8F9 60%,#E5F2F8 100%)}
+@media(prefers-reduced-motion:reduce){.stillness-hero *,.stillness-hero *::before,.stillness-hero *::after{animation:none!important;transition:none!important}}
+
+.stillness-card{box-shadow:0 18px 45px #01203414;border:1px solid #D6E2E6}.stillness-hero h1{letter-spacing:-.04em}.stillness-dialog::backdrop{backdrop-filter:blur(5px)}
+
+.stillness-hero{--navy:#012034;--brand-blue:#006699;--accent-blue:#3396D6;--premium-orange:#F19000;--light-blue:#E5F2F8;--section-bg:#F5F8F9;--card-bg:#FFFFFF;--primary-text:#123A4F;--secondary-text:#647985;--border:#D6E2E6}

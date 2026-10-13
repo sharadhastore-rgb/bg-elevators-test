@@ -1,4 +1,6 @@
 import HeroSection from "@/components/homepage/HeroSection";
+import StillnessHero from "@/components/homepage/stillness/StillnessHero";
+import { ArdorOpening } from "@/components/homepage/immersive/ArdorOpening";
 import AboutSection from "@/components/homepage/AboutSection";
 import UspSection from "@/components/homepage/UspSection";
 import FeaturedCollectionStrip from "@/components/homepage/FeaturedCollectionStrip";
@@ -7,7 +9,7 @@ import ProductsSection from "@/components/homepage/ProductsSection";
 import SolutionsSection from "@/components/homepage/SolutionsSection";
 import WhyChooseUsSection from "@/components/homepage/WhyChooseUsSection";
 import ProcessSection from "@/components/shared/ProcessSection";
-import MaintenanceSupportSection from "@/components/homepage/MaintenanceSupportSection";
+import ElevatorIntelligenceSection from "@/components/homepage/ElevatorIntelligenceSection";
 import FaqSection from "@/components/homepage/FaqSection";
 import StatisticsSection from "@/components/homepage/StatisticsSection";
 import TestimonialsSection from "@/components/shared/TestimonialsSection";
@@ -23,13 +25,15 @@ export default function HomePage() {
       <HeroSection data={data.hero} />
       <AboutSection data={data.aboutSection} />
       <UspSection data={data.uspSection} />
+      <StillnessHero workHref="/products" />
       <HomeLiftShowcaseSection />
       <ProductsSection data={data.productsSection} />
+      <ArdorOpening />
       <SolutionsSection data={data.solutionsSection} />
       <WhyChooseUsSection data={data.whyChooseUsSection} />
       <FeaturedCollectionStrip />
       <ProcessSection data={data.processSection} />
-      <MaintenanceSupportSection data={data.maintenanceSupportSection} />
+      <ElevatorIntelligenceSection />
       <StatisticsSection data={data.statisticsSection} />
       <TestimonialsSection data={data.testimonialsSection} />
       <ProjectsSection data={data.projectsSection} />

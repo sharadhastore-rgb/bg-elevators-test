@@ -106,6 +106,16 @@ export default function Carousel({
         className="tw:flex tw:w-full tw:max-w-full tw:gap-6 tw:overflow-x-auto tw:overscroll-x-contain tw:pb-2 tw:[touch-action:pan-x_pan-y_pinch-zoom] tw:[scrollbar-width:none] tw:[scroll-snap-type:x_mandatory] tw:[&::-webkit-scrollbar]:hidden"
         tabIndex={0}
         aria-label="Scrollable cards"
+        onKeyDown={(event) => {
+          if (event.key === "ArrowLeft") {
+            event.preventDefault();
+            goTo(position - 1);
+          }
+          if (event.key === "ArrowRight") {
+            event.preventDefault();
+            goTo(position + 1);
+          }
+        }}
         onScroll={() => {
           const { step, visible } = metrics();
           setPosition(Math.round(track.current.scrollLeft / (step * visible)));
@@ -122,19 +132,41 @@ export default function Carousel({
       </div>
       {variant === "testimonials" || variant === "projects" ? (
         <div
-          className="tw:mt-10 tw:flex tw:max-w-full tw:flex-wrap tw:items-center tw:justify-center tw:gap-1.5 tw:max-[600px]:mt-7"
+          className="tw:mt-10 tw:flex tw:max-w-full tw:flex-wrap tw:items-center tw:justify-center tw:gap-3 tw:max-[600px]:mt-7"
           aria-label={`Choose ${variant} page`}
         >
-          {Array.from({ length: pageCount }, (_, index) => (
+          {variant === "projects" && pageCount > 1 ? (
             <button
               type="button"
-              key={index}
-              className={`tw:size-3 tw:rounded-full tw:border-0 tw:p-0 tw:transition-all tw:duration-200 ${position === index ? "tw:scale-105 tw:bg-[#242424]" : "tw:bg-[#aaa]"}`}
-              aria-label={`Show ${variant} page ${index + 1}`}
-              aria-current={position === index ? "true" : undefined}
-              onClick={() => goTo(index)}
-            />
-          ))}
+              className="tw:flex tw:size-9 tw:items-center tw:justify-center tw:rounded-full tw:border tw:border-[#cee1ee] tw:bg-white tw:text-[#012034] tw:transition-colors tw:hover:border-[#3396d6] tw:hover:bg-[#3396d6] tw:hover:text-white"
+              aria-label="Previous projects"
+              onClick={() => goTo(position - 1)}
+            >
+              <Icon name="ChevronLeft" />
+            </button>
+          ) : null}
+          <div className="tw:flex tw:items-center tw:gap-1.5">
+            {Array.from({ length: pageCount }, (_, index) => (
+              <button
+                type="button"
+                key={index}
+                className={`tw:size-3 tw:rounded-full tw:border-0 tw:p-0 tw:transition-all tw:duration-200 ${position === index ? "tw:scale-105 tw:bg-[#242424]" : "tw:bg-[#aaa]"}`}
+                aria-label={`Show ${variant} page ${index + 1}`}
+                aria-current={position === index ? "true" : undefined}
+                onClick={() => goTo(index)}
+              />
+            ))}
+          </div>
+          {variant === "projects" && pageCount > 1 ? (
+            <button
+              type="button"
+              className="tw:flex tw:size-9 tw:items-center tw:justify-center tw:rounded-full tw:border tw:border-[#cee1ee] tw:bg-white tw:text-[#012034] tw:transition-colors tw:hover:border-[#3396d6] tw:hover:bg-[#3396d6] tw:hover:text-white"
+              aria-label="Next projects"
+              onClick={() => goTo(position + 1)}
+            >
+              <Icon name="ChevronRight" />
+            </button>
+          ) : null}
         </div>
       ) : variant === "products" ? (
         <div className="tw:pointer-events-none tw:absolute tw:inset-0">
