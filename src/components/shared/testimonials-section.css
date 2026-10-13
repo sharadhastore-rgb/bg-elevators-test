@@ -10,14 +10,21 @@
 .feedback-track.is-reverse{animation-direction:reverse;animation-duration:60s}
 .feedback-marquee:hover .feedback-track{animation-play-state:paused}
 .feedback-group{display:flex;gap:16px;padding-right:16px}
-.feedback-card{position:relative;display:flex;flex:0 0 420px;min-height:210px;flex-direction:column;justify-content:space-between;padding:28px;overflow:hidden;border:1px solid var(--border);border-radius:16px;background:linear-gradient(145deg,#fff 0%,var(--surface) 100%);box-shadow:0 10px 30px rgba(1,32,52,.045)}
+.feedback-card{position:relative;display:flex;flex:0 0 420px;min-height:210px;flex-direction:column;justify-content:space-between;padding:28px;overflow:hidden;border:1px solid #c8dde7;border-radius:16px;background:linear-gradient(145deg,#fff 0%,#edf6fa 100%);box-shadow:0 10px 30px rgba(1,32,52,.06)}
+.feedback-card:nth-child(3n+2){border-color:#b9d7e5;background:linear-gradient(145deg,#eaf5fa 0%,#fff 100%)}
+.feedback-card:nth-child(3n){border-color:#012034;background:linear-gradient(145deg,#012034 0%,#073b55 100%);box-shadow:0 15px 36px rgba(1,32,52,.14)}
+.feedback-card::after{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:linear-gradient(180deg,#3396d6,#006699)}
 .feedback-quote{position:absolute;top:5px;right:22px;color:var(--soft);font-family:Georgia,serif;font-size:72px;line-height:1;pointer-events:none}
 .feedback-card>p{position:relative;z-index:1;display:-webkit-box;margin:0 0 28px;overflow:hidden;color:#123a4f;font-size:15px;line-height:1.65;-webkit-box-orient:vertical;-webkit-line-clamp:4}
+.feedback-card:nth-child(3n)>p{color:#f5f8f9}
 .feedback-card footer{display:flex;align-items:center;gap:13px}
-.feedback-card img{width:44px;height:44px;border:1px solid #bbd8e3;border-radius:50%;background:var(--soft);object-fit:cover}
+.feedback-avatar{width:48px;height:48px;flex:0 0 48px;border:2px solid #fff;border-radius:50%;background-image:url('/images/testimonials/indian-customer-avatars.png');background-size:400% 300%;background-position:calc(var(--avatar-column) * 100% / 3) calc(var(--avatar-row) * 100% / 2);background-repeat:no-repeat;box-shadow:0 0 0 2px #9fcddd,0 5px 14px rgba(1,32,52,.14)}
 .feedback-card footer div{display:flex;min-width:0;flex-direction:column;gap:3px}
 .feedback-card strong{color:var(--navy);font-size:14px;font-weight:650}
 .feedback-card footer span{color:#647985;font-size:12px}
+.feedback-card:nth-child(3n) strong{color:#fff}
+.feedback-card:nth-child(3n) footer span{color:#a8c5d3}
+.feedback-card:nth-child(3n) .feedback-quote{color:rgba(51,150,214,.22)}
 @keyframes feedback-scroll{to{transform:translateX(-50%)}}
 @media(max-width:767px){.feedback-section{padding:58px 0 62px}.feedback-heading-wrap{display:block;width:calc(100% - 36px);margin-bottom:38px}.feedback-label{margin-bottom:18px}.feedback-heading-wrap h2{font-size:clamp(36px,11vw,50px)}.feedback-summary{margin-top:20px;font-size:14px}.feedback-marquee{gap:12px}.feedback-group{gap:12px;padding-right:12px}.feedback-card{flex-basis:min(82vw,340px);min-height:198px;padding:22px;border-radius:14px}.feedback-card>p{margin-bottom:22px;font-size:14px}}
 @media(prefers-reduced-motion:reduce){.feedback-row{overflow-x:auto;scrollbar-width:none}.feedback-row::-webkit-scrollbar{display:none}.feedback-track{animation:none}.feedback-track>.feedback-group:last-child{display:none}}

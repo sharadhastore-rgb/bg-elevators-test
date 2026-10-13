@@ -1,12 +1,16 @@
 import "./testimonials-section.css";
 
-function TestimonialCard({ item }) {
+function TestimonialCard({ item, avatarIndex }) {
   return (
     <article className="feedback-card">
       <span className="feedback-quote" aria-hidden="true">“</span>
       <p>{item.description}</p>
       <footer>
-        <img src={item.image} alt={item.imageAlt || ""} loading="lazy" />
+        <div
+          className="feedback-avatar"
+          aria-hidden="true"
+          style={{ "--avatar-column": avatarIndex % 4, "--avatar-row": Math.floor(avatarIndex / 4) }}
+        />
         <div>
           <strong>{item.heading}</strong>
           <span>{item.description2}</span>
@@ -23,7 +27,7 @@ function TestimonialRow({ items, reverse = false }) {
         {[0, 1].map((copy) => (
           <div className="feedback-group" aria-hidden={copy === 1 ? "true" : undefined} key={copy}>
             {items.map((item, index) => (
-              <TestimonialCard item={item} key={`${copy}-${item.heading}-${index}`} />
+              <TestimonialCard item={item} avatarIndex={index + (reverse ? 6 : 0)} key={`${copy}-${item.heading}-${index}`} />
             ))}
           </div>
         ))}
