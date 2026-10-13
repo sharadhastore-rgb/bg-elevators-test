@@ -1,4 +1,4 @@
-import { useId, useLayoutEffect, useRef, useState } from "react";
+import { useEffect, useId, useLayoutEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { FiArrowLeft, FiArrowRight, FiX } from "react-icons/fi";
 import { slides as defaultSlides } from "./slides";
@@ -8,6 +8,7 @@ import "./stacked-gallery.css";
 export default function ElevatorStackedGallery({ items = defaultSlides, assetBase = "/assets/elevators", highlight = "Elevators", heading = "for Every Space", buttonLabel = "View elevator", onSelect }) {
   const [active, setActive] = useState(0);
   const [selected, setSelected] = useState(null);
+  const [paused, setPaused] = useState(false);
   const root = useRef(null);
   const track = useRef(null);
   const dialog = useRef(null);
@@ -46,6 +47,11 @@ export default function ElevatorStackedGallery({ items = defaultSlides, assetBas
 
   useLayoutEffect(() => { controller.current?.(current); }, [current]);
   useLayoutEffect(() => { if (selected && !dialog.current.open) dialog.current.showModal(); }, [selected]);
+  useEffect(() => {
+    if (paused || selected || items.length < 2 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return undefined;
+    const timer = window.setInterval(() => move(1), 4200);
+    return () => window.clearInterval(timer);
+  }, [current, items.length, paused, selected]);
 
   const open = () => onSelect ? onSelect(items[current]) : setSelected(items[current]);
   const pointerUp = (event) => {
@@ -58,7 +64,7 @@ export default function ElevatorStackedGallery({ items = defaultSlides, assetBas
     if (event.currentTarget.hasPointerCapture(event.pointerId)) event.currentTarget.releasePointerCapture(event.pointerId);
   };
 
-  return <section ref={root} className="elevator-stack tw:w-full tw:overflow-hidden tw:bg-white tw:px-5 tw:pt-16 tw:pb-12 tw:text-[#012034] tw:md:pt-20 tw:md:pb-16" aria-labelledby={headingId}>
+  return <section ref={root} className="elevator-stack tw:w-full tw:overflow-hidden tw:bg-white tw:px-5 tw:pt-16 tw:pb-12 tw:text-[#012034] tw:md:pt-20 tw:md:pb-16" aria-labelledby={headingId} onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)} onFocusCapture={() => setPaused(true)} onBlurCapture={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) setPaused(false); }}>
     <h2 id={headingId} className="stack-heading tw:text-center tw:font-medium"><span className="tw:text-[#006699]">{highlight}</span> {heading}</h2>
     <div className="stack-wrapper tw:relative tw:mx-auto tw:w-full tw:max-w-[1056px]" role="region" aria-roledescription="carousel" aria-label="Elevator designs" tabIndex={0} onKeyDown={(event) => { if (event.target !== event.currentTarget) return; if (event.key === "ArrowRight") { event.preventDefault(); move(1); } if (event.key === "ArrowLeft") { event.preventDefault(); move(-1); } }}>
       <div className="stack-viewport tw:relative tw:mx-auto tw:max-w-[960px] tw:overflow-hidden">
