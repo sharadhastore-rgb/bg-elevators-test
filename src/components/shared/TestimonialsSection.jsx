@@ -1,6 +1,23 @@
 import "./testimonials-section.css";
 
-function TestimonialCard({ item, avatarIndex }) {
+const avatarByCustomer = {
+  Suresh: 0,
+  Priya: 1,
+  "Anil K": 2,
+  Deepa: 3,
+  Vinay: 4,
+  Lakshmi: 6,
+  "Rakesh N": 5,
+  "Sahana P": 8,
+  Nagaraj: 7,
+  Meena: 11,
+  "Sasaank K": 10,
+  "Roopesh P": 9,
+};
+
+function TestimonialCard({ item }) {
+  const avatarIndex = avatarByCustomer[item.heading] ?? 0;
+
   return (
     <article className="feedback-card">
       <span className="feedback-quote" aria-hidden="true">“</span>
@@ -27,7 +44,7 @@ function TestimonialRow({ items, reverse = false }) {
         {[0, 1].map((copy) => (
           <div className="feedback-group" aria-hidden={copy === 1 ? "true" : undefined} key={copy}>
             {items.map((item, index) => (
-              <TestimonialCard item={item} avatarIndex={index + (reverse ? 6 : 0)} key={`${copy}-${item.heading}-${index}`} />
+              <TestimonialCard item={item} key={`${copy}-${item.heading}-${index}`} />
             ))}
           </div>
         ))}
