@@ -135,4 +135,5 @@ SITE_URL=https://www.bgelevators.com
 
 After deployment, add `https://www.bgelevators.com` as a Google Search Console URL-prefix property, verify it using the HTML-tag token above, and submit `https://www.bgelevators.com/sitemap.xml`. Analytics is disabled when no measurement ID is configured and respects the browser's Do Not Track setting.
 #   b g c m s f i n a l  
+ #   b g - e l e v a t o r s - t e s t  
  
