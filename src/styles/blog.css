@@ -13,6 +13,24 @@
 .editorial-article {
   background: #f5f1e7;
 }
+.editorial-article header p a,
+.editorial-article header p a:visited,
+.editorial-article .article-layout > div a,
+.editorial-article .article-layout > div a:visited {
+  color: #0877ba;
+  text-decoration-color: #0877ba;
+}
+.editorial-article header p a strong,
+.editorial-article header p a b,
+.editorial-article .article-layout > div a strong,
+.editorial-article .article-layout > div a b {
+  color: inherit;
+}
+.editorial-article header p a:hover,
+.editorial-article .article-layout > div a:hover {
+  color: #005b8f;
+  text-decoration-color: #005b8f;
+}
 .article-layout {
   display: grid;
   grid-template-columns: minmax(0, 760px) 200px;

@@ -114,6 +114,29 @@ textarea:focus-visible,
   fill: none;
   color: white;
 }
+.whatsapp-fixed-button .floating-contact-link {
+  transition: transform 180ms ease, filter 180ms ease;
+}
+.whatsapp-fixed-button .floating-contact-link:hover {
+  transform: translateY(-2px);
+}
+.whatsapp-fixed-button .floating-call-ico {
+  width: 46px;
+  height: 46px;
+  padding: 12px;
+  color: #ffffff;
+  background: #0877ba;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 8px 24px rgba(0, 32, 52, 0.28);
+  stroke: #ffffff;
+  stroke-width: 1.9;
+}
+.whatsapp-fixed-button .floating-call-link:hover .floating-call-ico {
+  color: #ffffff;
+  background: #005b8f;
+  stroke: #ffffff;
+  box-shadow: 0 10px 28px rgba(0, 32, 52, 0.32);
+}
 .skip-link {
   position: fixed;
   top: -80px;
