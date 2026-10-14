@@ -6,12 +6,25 @@ function nodeText(node) {
   return node?.children?.map(nodeText).join("") || "";
 }
 
+function InlineNode({ node }) {
+  if (typeof node === "string") return node;
+  if (!node) return null;
+  const children = node.children?.map((child, index) => (
+    <InlineNode node={child} key={index} />
+  ));
+  if (node.tag === "a")
+    return <AppLink {...node.attributes}>{children}</AppLink>;
+  if (node.tag === "strong" || node.tag === "b")
+    return <strong>{children}</strong>;
+  if (node.tag === "em") return <em>{children}</em>;
+  if (node.tag === "br") return <br />;
+  return children;
+}
+
 export default function ArticleHeader({ article }) {
-  const introduction = article.body
-    .find((node) => node?.tag === "p" && nodeText(node).trim())
-    ?.children?.map(nodeText)
-    .join("")
-    .trim();
+  const introduction = article.body.find(
+    (node) => node?.tag === "p" && nodeText(node).trim(),
+  );
   const articleWords = article.body
     .map(nodeText)
     .join(" ")
@@ -63,8 +76,10 @@ export default function ArticleHeader({ article }) {
             {article.title}
           </h1>
           {introduction && (
-            <p className="tw:mt-7 tw:mb-0 tw:max-w-xl tw:p-0 tw:text-left tw:text-[15px] tw:leading-[1.65] tw:font-normal tw:text-pretty tw:text-[#674d40] tw:max-[767px]:mt-0 tw:max-[767px]:pl-4 tw:max-[767px]:text-sm tw:max-[767px]:leading-[1.6]">
-              {introduction}
+            <p className="tw:mt-7 tw:mb-0 tw:max-w-xl tw:p-0 tw:text-left tw:text-[15px] tw:leading-[1.65] tw:font-normal tw:text-pretty tw:text-[#674d40] tw:[&_a]:rounded-sm tw:[&_a]:font-semibold tw:[&_a]:text-[#0877ba] tw:[&_a]:underline tw:[&_a]:decoration-2 tw:[&_a]:underline-offset-4 tw:[&_a]:transition-colors tw:[&_a:hover]:bg-[#dceef8] tw:[&_a:hover]:text-[#005b8f] tw:max-[767px]:mt-0 tw:max-[767px]:pl-4 tw:max-[767px]:text-sm tw:max-[767px]:leading-[1.6]">
+              {introduction.children?.map((child, index) => (
+                <InlineNode node={child} key={index} />
+              ))}
             </p>
           )}
         </div>

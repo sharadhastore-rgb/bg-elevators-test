@@ -20,7 +20,8 @@ export default function App({ initialPage }) {
       navigate(`/${location.search}${location.hash}`, { replace: true });
     else if (
       location.pathname === "/brochure.html" ||
-      location.pathname === "/brochure"
+      location.pathname === "/brochure" ||
+      location.pathname === "/download-brochure.html"
     )
       navigate(`/download-brochure${location.search}${location.hash}`, {
         replace: true,

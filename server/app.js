@@ -411,7 +411,7 @@ export function createApp({
   const dist = path.join(root, "dist");
   if (existsSync(path.join(dist, "index.html"))) {
     // Keep the brochure QR code and previously shared legacy URL working.
-    app.get("/brochure.html", (req, res) =>
+    app.get(["/brochure.html", "/download-brochure.html"], (req, res) =>
       res.redirect(301, `/download-brochure${req.url.slice(req.path.length)}`),
     );
     app.get(/.*\.html$/, (req, res, next) => {

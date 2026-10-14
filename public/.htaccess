@@ -3,8 +3,8 @@ DirectoryIndex index.html
 ErrorDocument 404 /404.html
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteCond %{THE_REQUEST} \s/+brochure\.html(?:[?\s]) [NC]
-  RewriteRule ^brochure\.html$ /download-brochure [R=301,L,NE]
+  RewriteCond %{THE_REQUEST} \s/+(?:brochure|download-brochure)\.html(?:[?\s]) [NC]
+  RewriteRule ^(?:brochure|download-brochure)\.html$ /download-brochure [R=301,L,NE]
   RewriteCond %{THE_REQUEST} \s/+[^?\s]+\.html(?:[?\s]) [NC]
   RewriteRule ^(?!404\.html$).+\.html$ - [R=404,L]
   RewriteCond %{REQUEST_FILENAME} !-d
