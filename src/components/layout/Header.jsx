@@ -35,7 +35,7 @@ export default function Header() {
     return () => document.removeEventListener("keydown", close);
   }, [open]);
   useEffect(() => {
-    const media = window.matchMedia("(min-width: 1100px)");
+    const media = window.matchMedia("(min-width: 1280px)");
     const close = () => setOpen(false);
     media.addEventListener("change", close);
     return () => media.removeEventListener("change", close);
@@ -60,7 +60,7 @@ export default function Header() {
         </AppLink>
         <nav
           aria-label="Main navigation"
-          className="tw:hidden tw:min-[1100px]:block"
+          className="tw:hidden tw:min-[1280px]:block"
         >
           <ul className="tw:m-0 tw:flex tw:list-none tw:items-center tw:gap-1 tw:p-0">
             {links.map((link) => (
@@ -96,7 +96,7 @@ export default function Header() {
             aria-expanded={open}
             aria-controls="mobile-navigation"
             onClick={() => setOpen(!open)}
-            className="tw:grid tw:size-12 tw:place-items-center tw:rounded-lg tw:bg-mist tw:text-ink tw:min-[1100px]:hidden"
+            className="tw:grid tw:size-12 tw:place-items-center tw:rounded-lg tw:bg-mist tw:text-ink tw:min-[1280px]:hidden"
           >
             <Icon name={open ? "X" : "Menu"} size={26} />
           </button>
@@ -115,7 +115,7 @@ export default function Header() {
             ref={panel}
             id="mobile-navigation"
             aria-label="Mobile navigation"
-            className="tw:absolute tw:top-full tw:right-0 tw:left-0 tw:max-h-[calc(100dvh-6rem)] tw:overflow-y-auto tw:border-t tw:border-ink/5 tw:bg-white tw:px-[5%] tw:py-5 tw:shadow-xl tw:min-[1100px]:hidden"
+            className="tw:absolute tw:top-full tw:right-0 tw:left-0 tw:max-h-[calc(100dvh-6rem)] tw:overflow-y-auto tw:border-t tw:border-ink/5 tw:bg-white tw:px-[5%] tw:py-5 tw:shadow-xl tw:min-[1280px]:hidden"
           >
             {links.map((link) => (
               <AppLink

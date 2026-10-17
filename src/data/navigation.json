@@ -18,6 +18,10 @@
       "href": "/products"
     },
     {
+      "label": "Configurator",
+      "href": "/configurator"
+    },
+    {
       "label": "Features",
       "href": "/features"
     },

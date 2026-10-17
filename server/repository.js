@@ -127,9 +127,64 @@ export function createMongoRepository(uri, dbName) {
   uri = uri
     ?.trim()
     .replace(/^["']/, "")
-    .replace(/["']?(?:SMTP_HOST|SMTP_PORT|SMTP_USER|MONGODB_DB|DNS_SERVERS)=.*/, "")
+    .replace(
+      /["']?(?:SMTP_HOST|SMTP_PORT|SMTP_USER|MONGODB_DB|DNS_SERVERS)=.*/,
+      "",
+    )
     .replace(/["']$/, "");
   return {
+    async getConfigurator() {
+      await connect(uri, dbName);
+      const model =
+        mongoose.models.ConfiguratorSetting ||
+        mongoose.model(
+          "ConfiguratorSetting",
+          new Schema(
+            { key: String, settings: Schema.Types.Mixed, revision: Number },
+            { timestamps: true },
+          ),
+        );
+      return model.findOne({ key: "main" }).lean();
+    },
+    async getConfiguratorAsset(id) {
+      await connect(uri, dbName);
+      const model =
+        mongoose.models.ConfiguratorAsset ||
+        mongoose.model(
+          "ConfiguratorAsset",
+          new Schema(
+            { data: Buffer, contentType: String },
+            { timestamps: true },
+          ),
+        );
+      return model.findById(id);
+    },
+    async saveConfiguratorRequest(data) {
+      await connect(uri, dbName);
+      const model =
+        mongoose.models.ConfiguratorRequest ||
+        mongoose.model(
+          "ConfiguratorRequest",
+          new Schema(
+            {
+              customer: Schema.Types.Mixed,
+              specification: Schema.Types.Mixed,
+              selections: Schema.Types.Mixed,
+              revision: Number,
+              status: String,
+              consent: Boolean,
+              marketing: Boolean,
+              drawing: {
+                data: { type: Buffer, select: false },
+                contentType: String,
+                filename: String,
+              },
+            },
+            { timestamps: true },
+          ),
+        );
+      return model.create(data);
+    },
     async listBlogs() {
       await connect(uri, dbName);
       return models()

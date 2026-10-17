@@ -1,3 +1,4 @@
+import { configuratorRouter } from './configurator.js';
 import express from "express";
 import multer from "multer";
 import nodemailer from "nodemailer";
@@ -95,6 +96,7 @@ export function createApp({
     buckets.set(key, bucket);
     next();
   }
+  app.use("/api/configurator", configuratorRouter(store, limit));
   app.get("/sitemap.xml", async (_req, res) => {
     try {
       const base = await readFile(

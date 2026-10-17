@@ -15,7 +15,7 @@ for (const pathname of [...allPaths, "/404.html"]) {
     .replace("<!--page-head-->", () => head(page.meta))
     .replace("<!--page-html-->", () => page.html);
   const filename =
-    pathname === "/" ? "index.html" : `${pathname.slice(1)}.html`;
+    pathname === "/" ? "index.html" : pathname === "/404.html" ? "404.html" : `${pathname.slice(1)}.html`;
   await writeFile(`dist/${filename}`, html);
   count++;
 }

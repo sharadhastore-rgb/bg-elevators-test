@@ -4178,5 +4178,16 @@
     ],
     "canonical": "https://www.bgelevators.com/what-should-be-finalized-before-an-elevator-shaft-is-constructed",
     "schemas": []
+  },
+  "configurator": {
+    "title": "Elevator Configurator | BG Elevators",
+    "canonical": "https://www.bgelevators.com/configurator",
+    "meta": [
+      {
+        "name": "description",
+        "content": "Configure your elevator dimensions, floors, doors and cabin finishes. Send your project brief directly to BG Elevators for review and a quotation."
+      }
+    ],
+    "schemas": []
   }
 }

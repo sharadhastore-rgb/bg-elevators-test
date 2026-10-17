@@ -188,5 +188,10 @@
     "path": "/wooden-finish",
     "page": "WoodenFinishPage",
     "slug": "wooden-finish"
+  },
+  {
+    "path": "/configurator",
+    "page": "ConfiguratorPage",
+    "slug": "configurator"
   }
 ]

@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef } from "react";
 import {
   Activity,
+  SlidersHorizontal,
   ArrowUpRight,
   BriefcaseBusiness,
   LayoutDashboard,
@@ -34,6 +35,7 @@ export default function Sidebar({
     { href: "/admin/leads", label: "Leads", icon: Users },
     { href: "/admin/careers", label: "Careers", icon: BriefcaseBusiness },
     { href: "/admin/blogs", label: "Blog studio", icon: BookOpen },
+    { href: "/admin/configurator", label: "Elevator Configurator", icon: SlidersHorizontal },
     { href: "/admin/activity", label: "Activity", icon: Activity },
     ...(role === "admin"
       ? [

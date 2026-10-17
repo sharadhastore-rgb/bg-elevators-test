@@ -17,7 +17,9 @@
     "admin:create": "npm --prefix admin run create-admin",
     "check:blogs": "node scripts/check-blogs.mjs",
     "blogs:migrate": "node --env-file-if-exists=.env scripts/migrate-legacy-blogs.mjs",
-    "blogs:thumbnails": "node --env-file-if-exists=.env scripts/generate-blog-thumbnails.mjs"
+    "blogs:thumbnails": "node --env-file-if-exists=.env scripts/generate-blog-thumbnails.mjs",
+    "check:configurator": "node scripts/check-configurator.mjs",
+    "check:configurator:workflows": "node scripts/check-configurator-workflows.mjs"
   },
   "dependencies": {
     "express": "^5.1.0",

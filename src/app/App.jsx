@@ -116,7 +116,7 @@ export default function App({ initialPage }) {
           ) : (
             <>
               <Component {...props} />
-              {page.slug !== "index" && <PageFaqSection slug={page.slug} />}
+              {!["index", "configurator"].includes(page.slug) && <PageFaqSection slug={page.slug} />}
             </>
           )}
         </main>
