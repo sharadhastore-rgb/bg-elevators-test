@@ -20,7 +20,7 @@ This new quotation-request flow reports success once the configuration has been 
 
 Reference inspected: https://nec.eu.com/en/configurator and its public `/js/configurator.js`, 17 October 2026.
 
-- Floor count is 2–50 by default. There are `floorCount - 1` independently editable inter-floor heights. Increasing the floor count preserves existing heights and adds empty fields; decreasing it removes the unused gaps.
+- Floor count is 2–50 by default. There are `floorCount - 1` independently editable inter-floor heights. Increasing the floor count preserves existing heights and adds 3,000 mm fields (clamped to the CMS limits); decreasing it removes the unused gaps.
 - Total travel is the sum of all entered inter-floor heights, in mm. Metres are `totalTravel / 1000`. Pit and headroom are excluded from travel.
 - Overall shaft height is travel + pit depth + headroom. The new schematic uses these same quantities; its physical suitability is not an engineering certification.
 - Recommended capacity → cabin dimensions and speed match the reference's seven defaults: 450 → 850 x 1400 / 1.0; 630 → 1100 x 1400 / 1.0; 1000 → 1450 x 1600 / 1.6; 1250 → 1450 x 1900 / 1.6; 1350 → 1550 x 1900 / 1.75; 1600 → 1800 x 1900 / 2.0; 2000 → 2200 x 1900 / 2.5.
@@ -53,4 +53,4 @@ For full CMS/database HTTP checks, first build the admin, then run `QA_MONGODB_U
 
 The legacy 404 pre-render filename was also corrected: `/404.html` now generates `dist/404.html`, matching the server's fallback handler.
 
-Validation completed on 17 October 2026: both production builds, the admin TypeScript check, 42 calculation/API checks, 37 real MongoDB/authenticated CMS workflow checks, and the existing 153-route verification passed. The database workflow checks included private drawing byte fidelity, public uploaded-image bytes, concurrent settings conflict protection, admin/staff/viewer restrictions, invalid image rejection, and cross-origin upload rejection. Browser visual/layout testing was unavailable in this environment; no screenshot-based verification is claimed.
+Validation completed on 17 October 2026: both production builds, the admin TypeScript check, 42 calculation/API checks, 37 real MongoDB/authenticated CMS workflow checks, and the existing 153-route verification passed. The database workflow checks included private drawing byte fidelity, public uploaded-image bytes, concurrent settings conflict protection, admin/staff/viewer restrictions, invalid image rejection, and cross-origin upload rejection. The initial delivery did not have browser visual verification. A subsequent browser comparison identified differences in the right sidebar. The correction restores the shaft cross-section, compact specification/finish rows, and direct inquiry action, plus a 3,000 mm initial inter-floor height. The full specification remains available in an expandable section.
