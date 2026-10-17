@@ -129,128 +129,115 @@ function Gallery({ items, name, value, onChange }) {
   );
 }
 function ShaftDiagram({ state, result }) {
-  const total = result.shaftHeight || 1,
-    scale = 340 / total,
-    pit = (Number(state.pitDepth) || 0) * scale,
-    head = (Number(state.ceilingHeight) || 0) * scale,
-    bottom = 390 - pit,
-    top = 50 + head;
-  let elevation = 0;
-  const positions = [
-    0,
-    ...state.floorHeights.map((h) => (elevation += Number(h) || 0)),
-  ];
+  const heights = state.floorHeights.map((h) => Math.max(0, Number(h) || 0));
+  const gaps = heights.map((h) => Math.max(64, h * 0.035));
+  const top = 145,
+    bottom = top + gaps.reduce((a, b) => a + b, 0),
+    height = bottom + 120;
+  let y = bottom;
+  const landings = [y];
+  for (const gap of gaps) {
+    y -= gap;
+    landings.push(y);
+  }
+  const badge = (value, at) => (
+    <g>
+      <rect
+        x="137"
+        y={at - 15}
+        width="68"
+        height="31"
+        rx="6"
+        fill="#f6fbfd"
+        stroke="#dce3e8"
+      />
+      <text x="171" y={at + 5} textAnchor="middle" fontSize="12" fill="#42647d">
+        {value}
+      </text>
+    </g>
+  );
   return (
     <svg
       className="cfg-shaft"
-      viewBox="0 0 340 450"
+      viewBox={`0 0 370 ${height}`}
       role="img"
-      aria-label={`Shaft diagram: ${state.floorCount} floors, ${result.totalTravel} millimetres travel, ${result.shaftHeight} millimetres overall shaft height`}
+      aria-label={`Shaft cross-section: ${state.floorCount} floors, ${result.totalTravel} millimetres travel, ${result.shaftHeight} millimetres overall shaft height`}
     >
-      <defs>
-        <pattern
-          id="shaft-grid"
-          width="16"
-          height="16"
-          patternUnits="userSpaceOnUse"
-        >
-          <path d="M16 0H0V16" fill="none" stroke="#dbe8ee" strokeWidth=".5" />
-        </pattern>
-      </defs>
-      <rect
-        x="0"
-        y="0"
-        width="340"
-        height="450"
-        rx="16"
-        fill="url(#shaft-grid)"
-      />
-      <rect
-        x="103"
-        y="50"
-        width="132"
-        height="340"
-        fill="#fff"
-        stroke="#006699"
-        strokeWidth="2"
-      />
-      <rect x="104" y="50" width="130" height={head} fill="#e5f2f8" />
-      <rect x="104" y={bottom} width="130" height={pit} fill="#e5f2f8" />
-      <line
-        x1="168"
-        x2="168"
-        y1="50"
-        y2="390"
-        stroke="#a8c4d4"
-        strokeDasharray="4 6"
-      />
-      {positions.map((h, i) => {
-        const y = bottom - h * scale;
-        return (
-          <g key={i}>
-            <title>
-              Floor {i + 1}: {h} mm above the lowest landing
-            </title>
-            <line
-              x1="93"
-              x2="252"
-              y1={y}
-              y2={y}
-              stroke="#006699"
-              strokeWidth={i === 0 || i === positions.length - 1 ? 2 : 1}
+      <g fill="none" stroke="#8b9197" strokeWidth="1">
+        <path
+          d={`M80 35H267V60H313V30L304 10H40V${height - 10}H306V${bottom + 20}H359V${bottom}H267V${height - 35}H80Z`}
+        />
+        <path d={`M40 ${top}H80M40 ${bottom}H80`} />
+        <path d={`M40 10H18V${height - 10}H40`} stroke="#dce3e8" />
+        <path d={`M171 50V${height - 52}`} />
+        <path
+          d={`M104 ${top}V${bottom}`}
+          stroke="#dce3e8"
+          strokeDasharray="7 7"
+        />
+      </g>
+      <text x="171" y="45" textAnchor="middle" fontSize="11" fill="#647985">
+        Shaft headroom
+      </text>
+      {badge(Number(state.ceilingHeight) || 0, 82)}
+      {landings.map((at, i) => (
+        <g key={i}>
+          <line
+            x1={i === 0 || i === landings.length - 1 ? 104 : 180}
+            x2="267"
+            y1={at}
+            y2={at}
+            stroke="#dce3e8"
+            strokeDasharray="7 7"
+          />
+          {i > 0 && (
+            <path
+              d={`M267 ${at}H359V${at + 20}H313V${at + 8}H267Z`}
+              fill="white"
+              stroke="#8b9197"
             />
-            {(positions.length <= 12 ||
-              i === 0 ||
-              i === positions.length - 1) && (
-              <text x="260" y={y + 4} fontSize="10" fill="#123a4f">
-                F{i + 1}
-              </text>
-            )}
-          </g>
-        );
-      })}
-      <rect
-        x="130"
-        y={Math.max(top, bottom - 65)}
-        width="76"
-        height="62"
-        rx="4"
-        fill="#012034"
-      />
-      <line
-        x1="168"
-        x2="168"
-        y1={Math.max(top, bottom - 65)}
-        y2={Math.max(top, bottom - 65) + 62}
-        stroke="#3396d6"
-      />
-      <line
-        x1="66"
-        x2="66"
-        y1={top}
-        y2={bottom}
-        stroke="#f19000"
-        strokeWidth="2"
-      />
+          )}
+          <text
+            x="340"
+            y={at - 12}
+            textAnchor="middle"
+            fontSize="13"
+            fill="#737b83"
+          >
+            {i + 1}
+          </text>
+          {i < gaps.length && badge(heights[i], (at + landings[i + 1]) / 2)}
+        </g>
+      ))}
+      {badge(Number(state.pitDepth) || 0, bottom + 48)}
       <text
-        x="48"
-        y={(top + bottom) / 2}
-        transform={`rotate(-90 48 ${(top + bottom) / 2})`}
+        x="171"
+        y={height - 47}
         textAnchor="middle"
-        fill="#006699"
         fontSize="11"
+        fill="#647985"
       >
-        TRAVEL {format(result.totalTravel)} mm
+        Shaft pit
       </text>
-      <text x="169" y="32" textAnchor="middle" fontSize="11" fill="#647985">
-        HEADROOM {format(state.ceilingHeight || 0)} mm
-      </text>
-      <text x="169" y="414" textAnchor="middle" fontSize="11" fill="#647985">
-        PIT {format(state.pitDepth || 0)} mm
-      </text>
-      <text x="169" y="435" textAnchor="middle" fontSize="10" fill="#647985">
-        SCHEMATIC · NOT TO SCALE
-      </text>
+      {[
+        ["Shaft height", 18, (height + 10) / 2, 100],
+        ["Travel", 104, (top + bottom) / 2, 65],
+      ].map(([label, x, at, w]) => (
+        <g key={label} transform={`translate(${x},${at}) rotate(-90)`}>
+          <rect
+            x={-w / 2}
+            y="-15"
+            width={w}
+            height="30"
+            rx="6"
+            fill="#f6fbfd"
+            stroke="#dce3e8"
+          />
+          <text textAnchor="middle" y="4" fontSize="10" fill="#42647d">
+            {label}
+          </text>
+        </g>
+      ))}
     </svg>
   );
 }
@@ -328,7 +315,12 @@ export default function ConfiguratorPage() {
       floorCount: n,
       floorHeights: Array.from(
         { length: n - 1 },
-        (_, i) => prev.floorHeights[i] ?? "",
+        (_, i) =>
+          prev.floorHeights[i] ??
+          Math.min(
+            config.fields.floorHeight.max,
+            Math.max(config.fields.floorHeight.min, 3000),
+          ),
       ),
     }));
     setError("");
@@ -505,15 +497,24 @@ export default function ConfiguratorPage() {
                       </div>
                     </div>
                     <div className="cfg-grid">
-                      {[
-                        "shaftWidth",
-                        "shaftDepth",
-                        "pitDepth",
-                        "ceilingHeight",
-                      ].map((key) => (
+                      {["shaftWidth", "shaftDepth"].map((key) => (
                         <Field
                           name={key}
                           key={key}
+                          field={config.fields[key]}
+                          value={state[key]}
+                          onChange={(v) => change(key, v)}
+                        />
+                      ))}
+                    </div>
+                  </section>
+                  <section className="cfg-card">
+                    <h2>Pit and headroom of the shaft</h2>
+                    <div className="cfg-grid">
+                      {["pitDepth", "ceilingHeight"].map((key) => (
+                        <Field
+                          key={key}
+                          name={key}
                           field={config.fields[key]}
                           value={state[key]}
                           onChange={(v) => change(key, v)}
@@ -804,75 +805,34 @@ export default function ConfiguratorPage() {
               )}
             </div>
             <aside className="cfg-summary">
-              <div className="cfg-summary-header">
-                <span>YOUR CONFIGURATION</span>
-                <button
-                  type="button"
-                  aria-label="Reset configuration"
-                  title="Reset configuration"
-                  onClick={() => {
-                    if (
-                      window.confirm("Clear all selections and start again?")
-                    ) {
-                      setState(initialConfiguration(config));
-                      setStep(1);
-                      setError("");
-                    }
-                  }}
-                >
-                  <RotateCcw size={16} />
-                </button>
+              <div className="cfg-visualization">
+                <div className="cfg-summary-header">
+                  <span>
+                    {step === 1 ? "SHAFT DIAGRAM" : "CABIN APPEARANCE"}
+                  </span>
+                </div>
+                {step === 1 ? (
+                  <div className="cfg-shaft-scroll">
+                    <ShaftDiagram state={state} result={result} />
+                  </div>
+                ) : (
+                  <div className="cfg-preview">
+                    <img src={selectedCabin.image} alt={selectedCabin.label} />
+                    <span>{selectedCabin.label}</span>
+                  </div>
+                )}
               </div>
-              {step === 1 ? (
-                <ShaftDiagram state={state} result={result} />
-              ) : (
-                <div className="cfg-preview">
-                  <img src={selectedCabin.image} alt={selectedCabin.label} />
-                  <span>{selectedCabin.label}</span>
-                </div>
-              )}
-              <div className="cfg-summary-metrics">
-                <div>
-                  <strong>{state.floorCount}</strong>
-                  <span>Floors</span>
-                </div>
-                <div>
-                  <strong>
-                    {result.travelMetres.toFixed(2)}
-                    <small> m</small>
-                  </strong>
-                  <span>Total travel</span>
-                </div>
-                <div>
-                  <strong>
-                    {state.capacity}
-                    <small> kg</small>
-                  </strong>
-                  <span>Capacity</span>
-                </div>
-              </div>
-              <dl>
+              <dl className="cfg-summary-specs">
                 {[
+                  ["Floors", state.floorCount],
+                  ["Total travel", `${format(result.totalTravel)} mm`],
+                  ["Capacity", `${state.capacity} kg`],
                   [
                     "Doors",
                     config.options.doorConfig.find(
                       (x) => x.id === state.doorConfig,
                     )?.label,
                   ],
-                  ["Cabin", `${state.cabinDimensions} mm`],
-                  ["Speed", `${state.speed} m/s`],
-                  ["Shaft width", `${format(state.shaftWidth || 0)} mm`],
-                  ["Shaft depth", `${format(state.shaftDepth || 0)} mm`],
-                  ["Pit depth", `${format(state.pitDepth || 0)} mm`],
-                  ["Headroom", `${format(state.ceilingHeight || 0)} mm`],
-                  ["Cabin height", `${state.cabinHeight} mm`],
-                  ...Object.entries(categoryLabels).map(([key, label]) => [
-                    label,
-                    config.catalogs[key].find((x) => x.id === state[key])
-                      ?.label,
-                  ]),
-                  ["Control panels", result.panelCount],
-                  ["Overall shaft height", `${format(result.shaftHeight)} mm`],
                 ].map(([label, value]) => (
                   <div key={label}>
                     <dt>{label}</dt>
@@ -880,27 +840,97 @@ export default function ConfiguratorPage() {
                   </div>
                 ))}
               </dl>
-              {result.warnings.map((w) => (
-                <p key={w} className="cfg-warning">
-                  {w}
-                </p>
-              ))}
-              <p className="cfg-caption">{config.reviewNote}</p>
-              <button
-                className="cfg-primary"
-                onClick={step === 1 ? next : submitDialog}
-              >
-                {step === 1 ? "Choose your finishes" : config.submitLabel}
-                <ArrowRight size={16} />
-              </button>
-              <button
-                type="button"
-                className="cfg-print cfg-text-button"
-                onClick={() => window.print()}
-              >
-                <Download size={15} />
-                Print / save summary
-              </button>
+              <dl className="cfg-summary-finishes">
+                {[
+                  ["Walls", "wallDesign"],
+                  ["Ceiling", "ceilingDesign"],
+                  ["Floor", "floorDesign"],
+                  ["Panel", "controlPanel"],
+                  ["Accessories", "accessory"],
+                ].map(([label, key]) => {
+                  const item = config.catalogs[key].find(
+                    (x) => x.id === state[key],
+                  );
+                  const name =
+                    item?.label === "Без аксесоар"
+                      ? "No accessory"
+                      : item?.label;
+                  return (
+                    <div key={key}>
+                      <dt>{label}</dt>
+                      <dd>
+                        {name}
+                        {key === "controlPanel"
+                          ? ` (${result.panelCount} ${result.panelCount === 1 ? "pc." : "pcs."})`
+                          : ""}
+                      </dd>
+                    </div>
+                  );
+                })}
+              </dl>
+              <div className="cfg-summary-action">
+                <button
+                  type="button"
+                  className="cfg-primary"
+                  onClick={submitDialog}
+                >
+                  <Send size={16} />
+                  {config.submitLabel}
+                </button>
+                {result.warnings.map((w) => (
+                  <p key={w} className="cfg-warning">
+                    {w}
+                  </p>
+                ))}
+                <details className="cfg-summary-details">
+                  <summary>Full specification & tools</summary>
+                  <dl>
+                    {[
+                      ["Shaft width", `${format(state.shaftWidth || 0)} mm`],
+                      ["Shaft depth", `${format(state.shaftDepth || 0)} mm`],
+                      ["Pit depth", `${format(state.pitDepth || 0)} mm`],
+                      ["Headroom", `${format(state.ceilingHeight || 0)} mm`],
+                      [
+                        "Overall shaft height",
+                        `${format(result.shaftHeight)} mm`,
+                      ],
+                      ["Cabin", `${state.cabinDimensions} mm`],
+                      ["Cabin height", `${state.cabinHeight} mm`],
+                      ["Speed", `${state.speed} m/s`],
+                    ].map(([label, value]) => (
+                      <div key={label}>
+                        <dt>{label}</dt>
+                        <dd>{value}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                  <p className="cfg-caption">{config.reviewNote}</p>
+                  <button
+                    type="button"
+                    className="cfg-print cfg-text-button"
+                    onClick={() => window.print()}
+                  >
+                    <Download size={15} />
+                    Print / save summary
+                  </button>
+                  <button
+                    type="button"
+                    className="cfg-text-button"
+                    onClick={() => {
+                      if (
+                        window.confirm("Clear all selections and start again?")
+                      ) {
+                        setState(initialConfiguration(config));
+                        setStep(1);
+                        setError("");
+                      }
+                    }}
+                  >
+                    <RotateCcw size={15} />
+                    Reset configuration
+                  </button>
+                </details>
+              </div>
             </aside>
           </div>
         </>

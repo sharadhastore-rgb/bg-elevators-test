@@ -21,7 +21,12 @@ export function initialConfiguration(config = defaults) {
     pitDepth: "",
     ceilingHeight: "",
     floorCount: config.fields.floorCount.min,
-    floorHeights: Array(config.fields.floorCount.min - 1).fill(""),
+    floorHeights: Array(config.fields.floorCount.min - 1).fill(
+      Math.min(
+        config.fields.floorHeight.max,
+        Math.max(config.fields.floorHeight.min, 3000),
+      ),
+    ),
     capacity: capacity.id,
     speed: capacity.speed,
     cabinDimensions: capacity.dimensions,
