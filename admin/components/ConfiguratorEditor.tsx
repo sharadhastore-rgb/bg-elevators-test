@@ -1,6 +1,7 @@
 "use client";
-import { useActionState, useState } from "react";
+import { useActionState, useEffect, useState } from "react";
 import { saveConfigurator } from "@/app/admin/configurator-actions";
+import { Eye, ImageUp, X } from "lucide-react";
 const names: Record<string, string> = {
   doorConfig: "Door arrangements",
   door1Opening: "First door opening",
@@ -20,6 +21,13 @@ const names: Record<string, string> = {
 };
 const inputClass =
   "w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm text-slate-800 focus:outline-2 focus:outline-sky-600";
+const previewSource = (image: string, website: string) => {
+  if (/^https:\/\//i.test(image)) return image;
+  const prefix = "/images/configurator/";
+  if (image.startsWith(prefix))
+    return `/api/configurator/assets?catalog=${encodeURIComponent(image.slice(prefix.length))}`;
+  return `${website}${image}`;
+};
 export default function ConfiguratorEditor({
   settings,
   revision,
@@ -35,7 +43,16 @@ export default function ConfiguratorEditor({
       {} as { error?: string; success?: string; revision?: number },
     ),
     [uploadError, setUploadError] = useState(""),
-    [uploading, setUploading] = useState("");
+    [uploading, setUploading] = useState(""),
+    [preview, setPreview] = useState<{ src: string; label: string } | null>(null);
+  useEffect(() => {
+    if (!preview) return;
+    const close = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setPreview(null);
+    };
+    window.addEventListener("keydown", close);
+    return () => window.removeEventListener("keydown", close);
+  }, [preview]);
   const update = (path: (string | number)[], value: any) =>
     setConfig((current: any) => {
       const next = structuredClone(current);
@@ -50,6 +67,7 @@ export default function ConfiguratorEditor({
     try {
       const data = new FormData();
       data.set("image", file);
+      data.set("category", String(path[1] || ""));
       const r = await fetch("/api/configurator/assets", {
         method: "POST",
         body: data,
@@ -102,7 +120,7 @@ export default function ConfiguratorEditor({
               checked={config.enabled}
               onChange={(e) => update(["enabled"], e.target.checked)}
             />
-            Enable public configurator
+            Enable public estimator
           </label>
         </div>
         <div className="grid gap-4 md:grid-cols-2">
@@ -287,30 +305,43 @@ export default function ConfiguratorEditor({
                   ))}
                 </div>
                 {catalog && (
-                  <div className="mt-3 flex flex-wrap items-center gap-4">
+                  <div className="mt-4 flex flex-wrap items-center gap-4 rounded-xl border border-slate-200 bg-white p-3">
                     {item.image && (
                       <img
-                        className="h-24 w-24 rounded-lg bg-white object-contain"
-                        src={`${website}${item.image}`}
+                        className="h-24 w-24 rounded-lg border border-slate-100 bg-slate-50 object-contain p-1"
+                        src={previewSource(item.image, website)}
                         alt={item.label}
                       />
                     )}
-                    <label className="text-xs font-medium">
-                      Upload replacement (JPG, PNG, WebP, max 2 MB)
-                      <input
-                        type="file"
-                        accept="image/jpeg,image/png,image/webp"
-                        disabled={!!uploading}
-                        className="mt-2 block text-xs"
-                        onChange={(e) => {
-                          if (e.target.files?.[0])
-                            void upload([...path, index], e.target.files[0]);
-                        }}
-                      />
-                    </label>
-                    {uploading === [...path, index].join(".") && (
-                      <span role="status">Uploading…</span>
-                    )}
+                    <div className="min-w-0 flex-1">
+                      <p className="text-sm font-semibold text-slate-800">Catalogue image</p>
+                      <p className="mt-1 text-xs text-slate-500">JPG, PNG or WebP · Maximum 2 MB</p>
+                      <div className="mt-3 flex flex-wrap gap-2">
+                        <label className={`inline-flex min-h-10 items-center gap-2 rounded-lg bg-[#006699] px-3.5 text-sm font-semibold text-white transition hover:bg-[#005580] ${uploading ? "cursor-wait opacity-60" : "cursor-pointer"}`}>
+                          <ImageUp size={16} aria-hidden="true" />
+                          {uploading === [...path, index].join(".") ? "Uploading…" : "Choose image"}
+                          <input
+                            type="file"
+                            accept="image/jpeg,image/png,image/webp"
+                            disabled={!!uploading}
+                            className="sr-only"
+                            onChange={(e) => {
+                              if (e.target.files?.[0])
+                                void upload([...path, index], e.target.files[0]);
+                            }}
+                          />
+                        </label>
+                        {item.image && <button
+                          type="button"
+                          onClick={() => setPreview({ src: previewSource(item.image, website), label: item.label })}
+                          className="inline-flex min-h-10 items-center gap-2 rounded-lg border border-slate-300 bg-white px-3.5 text-sm font-semibold text-slate-700 transition hover:border-sky-300 hover:bg-sky-50 hover:text-[#006699]"
+                        >
+                          <Eye size={16} aria-hidden="true" />
+                          Preview image
+                        </button>}
+                      </div>
+                      {uploading === [...path, index].join(".") && <span className="sr-only" role="status">Uploading image</span>}
+                    </div>
                   </div>
                 )}
               </div>
@@ -341,16 +372,43 @@ export default function ConfiguratorEditor({
           </div>
         </details>
       ))}
+      {preview && <div
+        className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4 backdrop-blur-sm"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="configurator-preview-title"
+        onMouseDown={(event) => {
+          if (event.target === event.currentTarget) setPreview(null);
+        }}
+      >
+        <div className="w-full max-w-xl overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl">
+          <div className="flex items-center justify-between border-b border-slate-200 px-5 py-4">
+            <div className="min-w-0">
+              <p className="text-xs font-semibold uppercase tracking-[0.14em] text-[#006699]">Image preview</p>
+              <h2 id="configurator-preview-title" className="mt-1 truncate text-lg font-semibold text-slate-900">{preview.label}</h2>
+            </div>
+            <button type="button" onClick={() => setPreview(null)} className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-slate-500 transition hover:bg-slate-100 hover:text-slate-900" aria-label="Close image preview">
+              <X size={20} aria-hidden="true" />
+            </button>
+          </div>
+          <div className="flex min-h-72 items-center justify-center bg-slate-50 p-6 sm:min-h-96">
+            <img src={preview.src} alt={preview.label} className="max-h-[60vh] max-w-full rounded-xl bg-white object-contain shadow-sm" />
+          </div>
+          <div className="flex justify-end border-t border-slate-200 px-5 py-4">
+            <button type="button" onClick={() => setPreview(null)} className="min-h-10 rounded-lg border border-slate-300 bg-white px-5 text-sm font-semibold text-slate-700 transition hover:bg-slate-50">Cancel</button>
+          </div>
+        </div>
+      </div>}
       <div className="sticky bottom-4 z-10 flex flex-wrap items-center gap-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-lg">
         <button
           className="rounded-lg bg-[#006699] px-6 py-3 font-semibold text-white disabled:opacity-50"
           disabled={pending || !!uploading}
         >
-          {pending ? "Publishing…" : "Publish configurator"}
+          {pending ? "Publishing…" : "Publish estimator"}
         </button>
-        <span className="text-sm text-slate-500">
+        {/* <span className="text-sm text-slate-500">
           Changes apply to new requests immediately.
-        </span>
+        </span> */}
         {state.error && (
           <p role="alert" className="w-full text-sm text-red-700">
             {state.error}

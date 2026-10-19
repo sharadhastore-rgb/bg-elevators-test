@@ -4180,12 +4180,23 @@
     "schemas": []
   },
   "configurator": {
-    "title": "Elevator Configurator | BG Elevators",
-    "canonical": "https://www.bgelevators.com/configurator",
+    "title": "Elevator Estimator | BG Elevators",
+    "canonical": "https://www.bgelevators.com/estimator",
     "meta": [
       {
         "name": "description",
-        "content": "Configure your elevator dimensions, floors, doors and cabin finishes. Send your project brief directly to BG Elevators for review and a quotation."
+        "content": "Estimate your elevator requirements by selecting dimensions, floors, doors and cabin finishes. Send your project brief to BG Elevators for review and a quotation."
+      }
+    ],
+    "schemas": []
+  },
+  "estimator": {
+    "title": "Elevator Estimator | BG Elevators",
+    "canonical": "https://www.bgelevators.com/estimator",
+    "meta": [
+      {
+        "name": "description",
+        "content": "Estimate your elevator requirements by selecting dimensions, floors, doors and cabin finishes. Send your project brief to BG Elevators for review and a quotation."
       }
     ],
     "schemas": []

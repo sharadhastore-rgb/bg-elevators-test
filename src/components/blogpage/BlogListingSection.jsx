@@ -3,7 +3,9 @@ import BlogCard from "./BlogCard";
 import usePublishedBlogs from "./usePublishedBlogs";
 import ui from "@/data/ui.json";
 
-const PAGE_SIZE = 12;
+// Three complete rows on desktop avoid a single orphaned card and keep the
+// listing visually balanced. The responsive grid still collapses naturally.
+const PAGE_SIZE = 9;
 
 function paginationItems(currentPage, pageCount) {
   if (pageCount <= 7)
@@ -29,7 +31,7 @@ function paginationItems(currentPage, pageCount) {
   });
 }
 export default function BlogListingSection({ initialArticles }) {
-  const { articles, unavailable } = usePublishedBlogs(initialArticles);
+  const { articles, unavailable, loading } = usePublishedBlogs(initialArticles);
   const latestArticle = articles[0],
     remainingArticles = articles.slice(1);
   const [page, setPage] = useState(1);
@@ -76,6 +78,12 @@ export default function BlogListingSection({ initialArticles }) {
             Recent articles are temporarily unavailable. You can still browse
             our existing guides.
           </p>
+        )}
+        {loading && !latestArticle && (
+          <div className="tw:mb-14 tw:grid tw:min-h-[390px] tw:grid-cols-[1.15fr_1fr] tw:overflow-hidden tw:rounded-[14px] tw:bg-[#edf4f8] tw:max-[767px]:min-h-[480px] tw:max-[767px]:grid-cols-1" role="status" aria-label="Loading recent blogs">
+            <div className="tw:animate-pulse tw:bg-[#dceaf2]" />
+            <div className="tw:m-10 tw:animate-pulse tw:rounded-xl tw:bg-[#dceaf2] tw:max-[767px]:m-6" />
+          </div>
         )}
         {latestArticle && <BlogCard article={latestArticle} featured />}
         <div

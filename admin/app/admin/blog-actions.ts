@@ -6,6 +6,7 @@ import { connectDb } from "@/lib/db";
 import { Blog } from "@/lib/blogs";
 import sharp from "sharp";
 import { validateBlog } from "@/lib/blog";
+import { uploadImageKit } from "@/lib/imagekit";
 export type BlogState = { error?: string };
 export async function saveBlog(
   id: string | null,
@@ -48,18 +49,22 @@ export async function saveBlog(
             ? "image/webp"
             : null;
       if (!mime) return { error: "Choose a valid JPG, PNG or WebP image." };
-      const thumbnailData = await sharp(bytes)
-        .resize(160, 100, { fit: "cover", position: "centre" })
-        .webp({ quality: 72 })
+      const optimized = await sharp(bytes)
+        .resize(1800, 1200, { fit: "inside", withoutEnlargement: true })
+        .webp({ quality: 84 })
         .toBuffer();
+      const url = await uploadImageKit(
+        optimized,
+        `${data.slug}-cover.webp`,
+        "blogs/covers",
+        "bg-elevators,blog,cover",
+      );
       post.cover = {
-        data: bytes,
-        contentType: mime,
-        thumbnailData,
-        thumbnailContentType: "image/webp",
+        url,
+        contentType: "image/webp",
       };
     }
-    if (data.status === "published" && !post.cover?.contentType)
+    if (data.status === "published" && !post.cover?.url && !post.cover?.contentType)
       return { error: "Upload a cover image before publishing." };
     const contentChanged = id && post.content !== data.content;
     Object.assign(post, data, { updatedBy: actor.id });

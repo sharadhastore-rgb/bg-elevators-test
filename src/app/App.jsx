@@ -18,6 +18,8 @@ export default function App({ initialPage }) {
   useEffect(() => {
     if (location.pathname === "/index")
       navigate(`/${location.search}${location.hash}`, { replace: true });
+    else if (location.pathname === "/configurator")
+      navigate(`/estimator${location.search}${location.hash}`, { replace: true });
     else if (
       location.pathname === "/brochure.html" ||
       location.pathname === "/brochure" ||
@@ -116,7 +118,7 @@ export default function App({ initialPage }) {
           ) : (
             <>
               <Component {...props} />
-              {!["index", "configurator"].includes(page.slug) && <PageFaqSection slug={page.slug} />}
+              {!["index", "configurator", "estimator"].includes(page.slug) && <PageFaqSection slug={page.slug} />}
             </>
           )}
         </main>

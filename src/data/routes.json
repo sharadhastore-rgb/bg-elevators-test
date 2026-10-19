@@ -193,5 +193,10 @@
     "path": "/configurator",
     "page": "ConfiguratorPage",
     "slug": "configurator"
+  },
+  {
+    "path": "/estimator",
+    "page": "ConfiguratorPage",
+    "slug": "estimator"
   }
 ]

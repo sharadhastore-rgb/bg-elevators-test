@@ -25,9 +25,9 @@ export default function BlogEditor({
   const [confirm, setConfirm] = useState(false),
     [activeTab, setActiveTab] = useState<"content" | "seo">("content");
   const [cover, setCover] = useState(
-    post?.cover?.contentType
+    post?.cover?.url || (post?.cover?.contentType
       ? `/api/blog-covers/${post._id}?v=${encodeURIComponent(post.updatedAt || post.__v || 0)}`
-      : "",
+      : ""),
   );
   const normalizeSlug = (value: string) =>
     value
@@ -190,33 +190,41 @@ export default function BlogEditor({
               Cover image
             </h2>
             {cover && (
-              <img
-                src={cover}
-                alt="Selected cover"
-                className="aspect-video w-full rounded-xl object-cover"
-              />
+              <div className="flex min-h-44 w-full items-center justify-center overflow-hidden rounded-xl border border-slate-200 bg-slate-50 p-3">
+                <img
+                  src={cover}
+                  alt="Selected cover"
+                  className="max-h-64 w-full object-contain"
+                />
+              </div>
             )}
-            <label className="block text-sm">
-              JPG, PNG or WebP · up to 5 MB
+            <div>
+              <p className="text-xs leading-5 text-admin-muted">JPG, PNG or WebP · up to 5 MB. New covers are optimized and stored in ImageKit.</p>
+              <label className="mt-3 inline-flex min-h-10 cursor-pointer items-center gap-2 rounded-lg bg-admin-brand px-4 text-sm font-semibold text-white transition hover:brightness-95">
+              <ImagePlus size={16} />
+              {cover ? "Replace cover" : "Choose cover"}
               <input
                 type="file"
                 name="cover"
                 accept="image/jpeg,image/png,image/webp"
-                className="mt-3 w-full text-xs file:mr-2 file:rounded-lg file:border-0 file:bg-admin-surface file:p-2 file:text-admin-brand"
+                className="sr-only"
                 onChange={(e) => {
                   const f = e.target.files?.[0];
                   if (f) setCover(URL.createObjectURL(f));
                 }}
               />
             </label>
+            </div>
             <label className="block text-sm font-medium">
-              Image description
+              Cover alt text
               <input
                 className={field}
                 name="imageAlt"
                 defaultValue={post?.imageAlt}
                 maxLength={180}
+                placeholder="Describe what is visible in the image"
               />
+              <span className="mt-2 block text-xs font-normal leading-5 text-admin-muted">Required before publishing. Describe the image clearly for accessibility and search engines.</span>
             </label>
           </div>
         </aside>

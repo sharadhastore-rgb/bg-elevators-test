@@ -109,10 +109,10 @@ export function createApp({
         "",
       );
       const entries = posts
-        .filter((post) => !post.routePath)
+        .filter((post) => !post.routePath || post.routePath.startsWith("/blog/"))
         .map(
           (post) =>
-            `<url><loc>${escapeHtml(`${origin}/journal/${post.slug}`)}</loc><lastmod>${new Date(post.updatedAt || post.publishedAt).toISOString()}</lastmod></url>`,
+            `<url><loc>${escapeHtml(`${origin}${post.routePath || `/journal/${post.slug}`}`)}</loc><lastmod>${new Date(post.updatedAt || post.publishedAt).toISOString()}</lastmod></url>`,
         )
         .join("");
       res
@@ -150,6 +150,7 @@ export function createApp({
     res.set("Cache-Control", "no-store");
     try {
       const post = await store.getBlog(req.params.slug, true);
+      if (post?.cover?.url) return res.redirect(302, post.cover.url);
       if (!post?.cover?.data) return res.status(404).end();
       const data = post.cover.data;
       const bytes = Buffer.isBuffer(data)
@@ -450,7 +451,7 @@ export function createApp({
       }
     });
     // Render new CMS URLs on demand: publishing never requires a frontend rebuild.
-    app.get("/journal/:slug", async (req, res) => {
+    const renderCmsArticle = async (req, res) => {
       res.set("Cache-Control", "no-store");
       try {
         const post = await store.getBlog(req.params.slug);
@@ -484,7 +485,11 @@ export function createApp({
             '<h1>Article temporarily unavailable</h1><p>Please try again shortly.</p><a href="/blogs">Back to articles</a>',
           );
       }
-    });
+    };
+    app.get("/journal/:slug", renderCmsArticle);
+    // Support the public /blog/... URLs directly so cards, refreshes, and shared
+    // links keep the same address while still loading CMS content on demand.
+    app.get("/blog/:slug", renderCmsArticle);
     // Imported legacy articles keep their established extensionless root URLs.
     app.get("/:slug", async (req, res, next) => {
       if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(req.params.slug)) return next();

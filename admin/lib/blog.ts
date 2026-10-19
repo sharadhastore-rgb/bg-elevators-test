@@ -43,6 +43,12 @@ export function contentBlocks(content: string): {
   body: Array<Record<string, any> | string>;
   headings: Array<{ id: string; title: string; level: string }>;
 } {
+  // Imported DOCX content can put an image immediately after a list. Ensure
+  // the image remains a standalone editable/renderable block.
+  const normalizedContent = String(content).replace(
+    /(^|\n)(!\[[^\]\r\n]+\]\(https:\/\/ik\.imagekit\.io\/[^)\r\n]+\))(?=\r?\n|$)/gm,
+    "$1\n$2\n",
+  );
   const inline = (text: string) => {
     const nodes: Array<Record<string, any> | string> = [];
     const pattern = /(\*\*([^*]+?)\s*\*\*|\*([^*]+?)\s*\*|\[([^\]]+)\]\(((?:https?:\/\/|\/|#)[^)]+)\))/g;
@@ -61,10 +67,16 @@ export function contentBlocks(content: string): {
   };
 
   const headings: Array<{ id: string; title: string; level: string }> = [];
-  const body = String(content)
+  const body = normalizedContent
     .split(/\n\s*\n/)
     .filter(Boolean)
     .map((paragraph) => {
+      const image = paragraph.match(/^!\[([^\]]+)\]\((https:\/\/ik\.imagekit\.io\/[^)]+)\)$/);
+      if (image)
+        return {
+          tag: "img",
+          attributes: { src: image[2], alt: image[1], loading: "lazy" },
+        };
       const match = paragraph.match(/^(#{1,6})\s+([^\n]+)$/);
       if (match) {
         const id = `section-${headings.length + 1}`;
@@ -75,6 +87,33 @@ export function contentBlocks(content: string): {
       }
 
       const lines = paragraph.split("\n");
+      if (
+        lines.length >= 2 &&
+        lines.every((line) => /^\|.*\|$/.test(line.trim())) &&
+        /^\|(?:\s*:?-{3,}:?\s*\|)+$/.test(lines[1].trim())
+      ) {
+        const cells = (line: string) =>
+          line.trim().slice(1, -1).split("|").map((cell) => cell.trim());
+        return {
+          tag: "table",
+          children: [
+            {
+              tag: "thead",
+              children: [{
+                tag: "tr",
+                children: cells(lines[0]).map((cell) => ({ tag: "th", children: inline(cell) })),
+              }],
+            },
+            {
+              tag: "tbody",
+              children: lines.slice(2).map((line) => ({
+                tag: "tr",
+                children: cells(line).map((cell) => ({ tag: "td", children: inline(cell) })),
+              })),
+            },
+          ],
+        };
+      }
       if (lines.every((line) => /^-\s+/.test(line)))
         return {
           tag: "ul",
@@ -108,12 +147,14 @@ export function contentBlocks(content: string): {
 }
 
 export function publicBlog(post: any): any {
-  const date = new Date(post.publishedAt).toLocaleDateString("en-US", {
-    month: "long",
-    day: "2-digit",
-    year: "numeric",
-    timeZone: "UTC",
-  });
+  const date = post.showDate === false
+    ? ""
+    : new Date(post.publishedAt).toLocaleDateString("en-US", {
+        month: "long",
+        day: "2-digit",
+        year: "numeric",
+        timeZone: "UTC",
+      });
 
   return {
     slug: String(post.routePath || `/journal/${post.slug}`).replace(/^\//, ""),
@@ -121,8 +162,9 @@ export function publicBlog(post: any): any {
     title: post.title,
     date,
     publishedAt: post.publishedAt,
+    updatedAt: post.updatedAt,
     description: post.excerpt,
-    image: `/api/blogs/${post.slug}/cover`,
+    image: post.cover?.url || `/api/blogs/${post.slug}/cover`,
     imageAlt: post.imageAlt,
     eyebrow: post.category || "Elevator insights",
     seoTitle: post.seoTitle || post.title,

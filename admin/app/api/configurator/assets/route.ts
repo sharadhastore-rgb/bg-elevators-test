@@ -1,7 +1,52 @@
 import { getSession } from "@/lib/auth";
-import { connectDb } from "@/lib/db";
-import { ConfiguratorAsset } from "@/lib/configurator";
+import { uploadConfiguratorImage } from "@/lib/imagekit";
 import sharp from "sharp";
+import path from "node:path";
+import { readFile } from "node:fs/promises";
+
+const imageTypes: Record<string, string> = {
+  ".jpg": "image/jpeg",
+  ".jpeg": "image/jpeg",
+  ".png": "image/png",
+  ".webp": "image/webp",
+};
+
+export async function GET(request: Request) {
+  const session = await getSession();
+  if (!session) return new Response("Not found", { status: 404 });
+  const catalog = new URL(request.url).searchParams.get("catalog") || "";
+  const segments = catalog.split("/").filter(Boolean);
+  if (
+    !segments.length ||
+    segments.some((segment) => !/^[a-zA-Z0-9._-]+$/.test(segment))
+  )
+    return new Response("Not found", { status: 404 });
+
+  const root = path.resolve(
+    process.cwd(),
+    "..",
+    "public",
+    "images",
+    "configurator",
+  );
+  const file = path.resolve(root, ...segments);
+  const contentType = imageTypes[path.extname(file).toLowerCase()];
+  if (!file.startsWith(`${root}${path.sep}`) || !contentType)
+    return new Response("Not found", { status: 404 });
+
+  try {
+    return new Response(await readFile(file), {
+      headers: {
+        "Content-Type": contentType,
+        "Cache-Control": "private, max-age=3600",
+        "X-Content-Type-Options": "nosniff",
+      },
+    });
+  } catch {
+    return new Response("Not found", { status: 404 });
+  }
+}
+
 export async function POST(request: Request) {
   const session = await getSession();
   if (!session || session.role !== "admin")
@@ -22,7 +67,21 @@ export async function POST(request: Request) {
     );
   try {
     const form = await request.formData(),
-      file = form.get("image");
+      file = form.get("image"),
+      category = String(form.get("category") || "");
+    const folders: Record<string, string> = {
+      wallDesign: "cabin-appearance",
+      controlPanel: "control-panels",
+      ceilingDesign: "ceilings",
+      floorDesign: "floors",
+      accessory: "accessory",
+    };
+    const folder = folders[category];
+    if (!folder)
+      return Response.json(
+        { message: "Choose a valid estimator catalogue." },
+        { status: 400 },
+      );
     if (!(file instanceof File) || !file.size || file.size > 2 * 1024 * 1024)
       return Response.json(
         { message: "Choose a JPG, PNG or WebP smaller than 2 MB." },
@@ -47,15 +106,15 @@ export async function POST(request: Request) {
       .resize(1000, 1200, { fit: "inside", withoutEnlargement: true })
       .webp({ quality: 82 })
       .toBuffer();
-    await connectDb();
-    const asset = await ConfiguratorAsset.create({
+    const image = await uploadConfiguratorImage(
       data,
-      contentType: "image/webp",
-    });
-    return Response.json({ image: `/api/configurator/assets/${asset._id}` });
-  } catch {
+      file.name.replace(/\.[^.]+$/, ".webp"),
+      folder,
+    );
+    return Response.json({ image });
+  } catch (error: any) {
     return Response.json(
-      { message: "Image upload failed. Choose a valid JPG, PNG or WebP." },
+      { message: error.message || "Image upload failed. Choose a valid JPG, PNG or WebP." },
       { status: 400 },
     );
   }

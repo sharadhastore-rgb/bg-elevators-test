@@ -10,12 +10,17 @@ function mergeArticles(dynamicArticles = []) {
     merged.set(article.href.replace(/\.html$/, "").replace(/\/$/, ""), article);
   return [...merged.values()].sort(
     (a, b) =>
-      new Date(b.publishedAt || b.date) - new Date(a.publishedAt || a.date),
+      new Date(b.updatedAt || b.publishedAt || b.date) -
+      new Date(a.updatedAt || a.publishedAt || a.date),
   );
 }
 
 export default function usePublishedBlogs(initialArticles) {
-  const [articles, setArticles] = useState(() => mergeArticles(initialArticles));
+  const hasInitialArticles = Array.isArray(initialArticles);
+  const [articles, setArticles] = useState(() =>
+    hasInitialArticles ? mergeArticles(initialArticles) : [],
+  );
+  const [loading, setLoading] = useState(!hasInitialArticles);
   const [unavailable, setUnavailable] = useState(false);
   useEffect(() => {
     const controller = new AbortController();
@@ -26,11 +31,18 @@ export default function usePublishedBlogs(initialArticles) {
       })
       .then((data) => {
         setArticles(mergeArticles(data.articles));
+        setUnavailable(false);
       })
       .catch((error) => {
-        if (error.name !== "AbortError") setUnavailable(true);
+        if (error.name !== "AbortError") {
+          setUnavailable(true);
+          if (!hasInitialArticles) setArticles(baseline);
+        }
+      })
+      .finally(() => {
+        if (!controller.signal.aborted) setLoading(false);
       });
     return () => controller.abort();
-  }, []);
-  return { articles, unavailable };
+  }, [hasInitialArticles]);
+  return { articles, unavailable, loading };
 }

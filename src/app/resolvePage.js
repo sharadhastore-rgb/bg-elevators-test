@@ -17,11 +17,16 @@ export function pageSlug(pathname) {
 }
 export async function resolvePage(pathname, suppliedArticle, suppliedBlogs) {
   const slug = pageSlug(pathname);
-  if (slug.startsWith("journal/")) {
+  const cmsArticlePrefix = slug.startsWith("journal/")
+    ? "journal/"
+    : slug.startsWith("blog/")
+      ? "blog/"
+      : "";
+  if (cmsArticlePrefix) {
     let article = suppliedArticle;
     if (!article && typeof window !== "undefined") {
       const response = await fetch(
-        `/api/blogs/${encodeURIComponent(slug.slice(8))}`,
+        `/api/blogs/${encodeURIComponent(slug.slice(cmsArticlePrefix.length))}`,
         { cache: "no-store" },
       );
       if (response.ok) article = await response.json();
@@ -31,6 +36,9 @@ export async function resolvePage(pathname, suppliedArticle, suppliedBlogs) {
     if (article) {
       const page = await pageModules["../pages/BlogDetailPage.jsx"]();
       const canonical = `https://www.bgelevators.com/${slug}`;
+      const articleImage = /^https?:\/\//i.test(article.image || "")
+        ? article.image
+        : `https://www.bgelevators.com${article.image || ""}`;
       return {
         slug,
         Component: page.default,
@@ -44,7 +52,7 @@ export async function resolvePage(pathname, suppliedArticle, suppliedBlogs) {
             { property: "og:type", content: "article" },
             {
               property: "og:image",
-              content: `https://www.bgelevators.com${article.image}`,
+              content: articleImage,
             },
           ],
           schemas: [
@@ -54,7 +62,7 @@ export async function resolvePage(pathname, suppliedArticle, suppliedBlogs) {
               headline: article.title,
               datePublished: article.publishedAt,
               description: article.description,
-              image: `https://www.bgelevators.com${article.image}`,
+              image: articleImage,
               mainEntityOfPage: canonical,
               author: { "@type": "Organization", name: "BG Elevators" },
             },

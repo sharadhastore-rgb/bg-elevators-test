@@ -5,6 +5,8 @@ import { connectDb } from "@/lib/db";
 import { Blog } from "@/lib/blogs";
 import { Admin } from "@/lib/models";
 import PageHeader from "@/components/PageHeader";
+import { Pagination } from "@/components/ListTools";
+import { pageSize, type Query } from "@/lib/queries";
 
 const formatDate = (value: Date | string | undefined) =>
   value
@@ -16,7 +18,7 @@ const formatDate = (value: Date | string | undefined) =>
       })
     : "—";
 
-export default async function Page({ searchParams }: { searchParams: Promise<{ q?: string; status?: string; page?: string; deleted?: string }> }) {
+export default async function Page({ searchParams }: { searchParams: Promise<Query> }) {
   const actor = await requireAdmin();
   const params = await searchParams;
   await connectDb();
@@ -31,8 +33,8 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ q
         metadata: [{ $count: "total" }],
         posts: [
           { $sort: { updatedAt: -1, _id: -1 } },
-          { $skip: (requestedPage - 1) * 12 },
-          { $limit: 12 },
+          { $skip: (requestedPage - 1) * pageSize },
+          { $limit: pageSize },
           {
             $project: {
               content: 0,
@@ -48,14 +50,14 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ q
     },
   ]).allowDiskUse(true);
   const total = result?.metadata?.[0]?.total || 0;
-  const pages = Math.max(1, Math.ceil(total / 12));
+  const pages = Math.max(1, Math.ceil(total / pageSize));
   const page = Math.min(pages, requestedPage);
   const posts = requestedPage > pages && total
     ? await Blog.find(filter)
         .select("-content -structuredBody -structuredHeadings -additionalSections")
         .sort({ updatedAt: -1, _id: -1 })
-        .skip((pages - 1) * 12)
-        .limit(12)
+        .skip((pages - 1) * pageSize)
+        .limit(pageSize)
         .lean()
     : result?.posts || [];
   const authorIds = posts
@@ -64,7 +66,6 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ q
   const authors = authorIds.length ? await Admin.find({ _id: { $in: authorIds } }).select("name").lean() : [];
   const authorNames = new Map(authors.map((admin: any) => [String(admin._id), admin.name]));
   const canEdit = actor.role !== "viewer";
-  const pageLink = (number: number) => `?${new URLSearchParams({ q: params.q || "", status: params.status || "", page: String(number) })}`;
 
   return <>
     <PageHeader title="Blog posts" description={`${total.toLocaleString("en-IN")} ${total === 1 ? "post" : "posts"}`} action={canEdit ? <Link href="/admin/blogs/new" className="button rounded-lg"><Plus size={17} />New post</Link> : undefined} />
@@ -119,12 +120,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ q
         </div>
       </article>)}
       {!posts.length && <div className="p-14 text-center"><BookOpen className="mx-auto mb-3 text-admin-brand" /><h2>{params.q || params.status ? "No matching posts" : "No posts yet"}</h2><p className="mt-2 text-sm text-admin-muted">{params.q || params.status ? "Try another title or status." : "Create your first blog post."}</p></div>}
+      <Pagination path="/admin/blogs" query={params} page={page} total={total} />
     </section>
-
-    {pages > 1 && <nav aria-label="Blog post pages" className="mt-5 flex items-center justify-between">
-      {page > 1 ? <Link href={pageLink(page - 1)} className="button button-secondary rounded-lg">Previous</Link> : <span />}
-      <span className="text-sm text-admin-muted">Page {page} of {pages}</span>
-      {page < pages ? <Link href={pageLink(page + 1)} className="button button-secondary rounded-lg">Next</Link> : <span />}
-    </nav>}
   </>;
 }

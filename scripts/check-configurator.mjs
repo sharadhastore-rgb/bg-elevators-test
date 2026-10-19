@@ -20,10 +20,18 @@ check(() =>
 );
 const products = JSON.parse(await readFile(new URL("../src/data/pages/products.json", import.meta.url))).contentSection.items;
 check(() => assert.equal(config.catalogs.wallDesign.length, 10));
-check(() => assert.deepEqual(config.catalogs.wallDesign, products.map((product) => ({
-  id: product.link.slice(1), label: product.heading, description: product.description,
-  image: product.image, enabled: true,
-}))));
+check(() => assert.deepEqual(
+  config.catalogs.wallDesign.map(({ image, ...item }) => item),
+  products.map((product) => ({
+    id: product.link.slice(1), label: product.heading,
+    description: product.description, enabled: true,
+  })),
+));
+check(() => assert.ok(
+  Object.values(config.catalogs).flat().every((item) =>
+    /^https:\/\/ik\.imagekit\.io\//.test(item.image),
+  ),
+));
 const legacy = structuredClone(config);
 legacy.catalogs.wallDesign = [{ id: "FJ-JXA02", label: "Legacy cabin", enabled: true }];
 legacy.title = "CMS custom title";
@@ -150,7 +158,8 @@ image.catalogs.wallDesign[0].image = "javascript:alert(1)";
 check(() => assert.throws(() => validateConfiguratorSettings(image), /image/));
 for (const items of Object.values(config.catalogs))
   for (const item of items)
-    await readFile(new URL(`../public${item.image}`, import.meta.url));
+    if (item.image.startsWith("/"))
+      await readFile(new URL(`../public${item.image}`, import.meta.url));
 let settings = config,
   revision = 0,
   saved = [];
@@ -259,5 +268,5 @@ try {
   server.closeAllConnections();
 }
 console.log(
-  `Configurator: ${checks} checks passed; all ${Object.values(config.catalogs).flat().length} local catalog images verified.`,
+  `Configurator: ${checks} checks passed; all ${Object.values(config.catalogs).flat().length} ImageKit catalog URLs verified.`,
 );

@@ -35,7 +35,7 @@ export default function Sidebar({
     { href: "/admin/leads", label: "Leads", icon: Users },
     { href: "/admin/careers", label: "Careers", icon: BriefcaseBusiness },
     { href: "/admin/blogs", label: "Blog studio", icon: BookOpen },
-    { href: "/admin/configurator", label: "Elevator Configurator", icon: SlidersHorizontal },
+    { href: "/admin/estimator", label: "Elevator Estimator", icon: SlidersHorizontal },
     { href: "/admin/activity", label: "Activity", icon: Activity },
     ...(role === "admin"
       ? [

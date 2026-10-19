@@ -32,7 +32,7 @@ export default function ConfiguratorRequestDelete({
       <dialog ref={dialog} className="confirm-dialog" aria-labelledby={`delete-configurator-${id}`}>
         <form action={action}>
           <div className="dialog-icon"><Trash2 size={24} /></div>
-          <h2 id={`delete-configurator-${id}`}>Delete configuration request?</h2>
+          <h2 id={`delete-configurator-${id}`}>Delete estimator request?</h2>
           <p><strong>{name}</strong> and all submitted project details will be permanently deleted.</p>
           <Feedback error={state.error} />
           <div className="dialog-actions">

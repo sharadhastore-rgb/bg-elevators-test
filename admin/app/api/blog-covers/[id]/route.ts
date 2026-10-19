@@ -34,8 +34,8 @@ export async function GET(
   const post = (await Blog.findById(id)
     .select(
       thumbnail
-        ? "+cover.thumbnailData cover.thumbnailContentType cover.contentType"
-        : "+cover.data cover.contentType",
+        ? "+cover.thumbnailData cover.thumbnailContentType cover.contentType cover.url"
+        : "+cover.data cover.contentType cover.url",
     )
     .lean()) as any;
   if (!post) return new Response("Not found", { status: 404 });
@@ -47,11 +47,15 @@ export async function GET(
 
   if (thumbnail && !data) {
     const original = (await Blog.findById(id)
-      .select("+cover.data cover.contentType")
+      .select("+cover.data cover.contentType cover.url")
       .lean()) as any;
     const originalData = toBuffer(original?.cover?.data);
-    if (!originalData)
+    if (!originalData) {
+      const imageKitUrl = String(original?.cover?.url || post.cover?.url || "");
+      if (/^https:\/\/ik\.imagekit\.io\//.test(imageKitUrl))
+        return Response.redirect(imageKitUrl, 307);
       return new Response("Not found", { status: 404 });
+    }
 
     data = await sharp(originalData)
       .resize(160, 100, { fit: "cover", position: "centre" })
@@ -70,7 +74,12 @@ export async function GET(
     );
   }
 
-  if (!data || !contentType) return new Response("Not found", { status: 404 });
+  if (!data || !contentType) {
+    const imageKitUrl = String(post.cover?.url || "");
+    if (/^https:\/\/ik\.imagekit\.io\//.test(imageKitUrl))
+      return Response.redirect(imageKitUrl, 307);
+    return new Response("Not found", { status: 404 });
+  }
 
   return new Response(new Uint8Array(data), {
     headers: {

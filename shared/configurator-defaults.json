@@ -1,60 +1,60 @@
 {
   "enabled": true,
   "title": "Your elevator. Your specification.",
-  "description": "Plan the dimensions, explore the finishes, and send your configuration to BG Elevators.",
-  "intro": "ELEVATOR CONFIGURATOR",
+  "description": "Plan the dimensions, explore the finishes, and send your project brief to BG Elevators.",
+  "intro": "ELEVATOR ESTIMATOR",
   "submitLabel": "Request a quotation",
-  "successMessage": "Your configuration has been saved. Our team will contact you to review the project.",
+  "successMessage": "Your project brief has been saved. Our team will contact you to review the project.",
   "measurementHelp": "Pit depth is measured from the lowest landing floor to the bottom of the shaft. Headroom is measured from the highest landing floor to the shaft ceiling.",
-  "reviewNote": "A configuration is a project brief. Final dimensions, compliance and suitability require review by our engineering team.",
+  "reviewNote": "This estimate is a planning guide. Final dimensions, compliance, pricing and suitability require review by our engineering team.",
   "fields": {
     "shaftWidth": {
       "label": "Shaft width",
-      "min": 600.0,
-      "max": 6000.0,
-      "step": 50.0,
+      "min": 600,
+      "max": 6000,
+      "step": 50,
       "unit": "mm"
     },
     "shaftDepth": {
       "label": "Shaft depth",
-      "min": 600.0,
-      "max": 6000.0,
-      "step": 50.0,
+      "min": 600,
+      "max": 6000,
+      "step": 50,
       "unit": "mm"
     },
     "pitDepth": {
       "label": "Pit depth",
-      "min": 600.0,
-      "max": 5000.0,
-      "step": 50.0,
+      "min": 600,
+      "max": 5000,
+      "step": 50,
       "unit": "mm"
     },
     "ceilingHeight": {
       "label": "Headroom height",
-      "min": 2500.0,
-      "max": 6000.0,
-      "step": 50.0,
+      "min": 2500,
+      "max": 6000,
+      "step": 50,
       "unit": "mm"
     },
     "floorCount": {
       "label": "Number of floors",
-      "min": 2.0,
-      "max": 50.0,
-      "step": 1.0,
+      "min": 2,
+      "max": 50,
+      "step": 1,
       "unit": ""
     },
     "speed": {
       "label": "Speed",
       "min": 0.1,
-      "max": 4.0,
+      "max": 4,
       "step": 0.05,
       "unit": "m/s"
     },
     "floorHeight": {
       "label": "Inter-floor height",
-      "min": 2200.0,
-      "max": 6000.0,
-      "step": 50.0,
+      "min": 2200,
+      "max": 6000,
+      "step": 50,
       "unit": "mm"
     }
   },
@@ -404,70 +404,70 @@
         "id": "bg-stainless-steel-finish-cabin",
         "label": "Stainless Steel Cabin",
         "description": "Elegant and long-lasting cabin design with a sleek stainless steel hairline finish for a premium, clean look.",
-        "image": "/images/Products/ssfc.jpg",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/wallDesign/ssfc.jpg",
         "enabled": true
       },
       {
         "id": "bg-glass-finish-cabin",
         "label": "Glass Finish Cabin",
         "description": "Modern, transparent cabins built with toughened glass for an open, spacious feel—ideal for luxury projects.",
-        "image": "/images/Products/glass-finish-cabin.jpg",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/wallDesign/glass-finish-cabin.jpg",
         "enabled": true
       },
       {
         "id": "bg-mirror-finish-cabin",
         "label": "Mirror Finish Cabin",
         "description": "Adds a touch of sophistication and space illusion with high-reflective stainless steel mirror panels.",
-        "image": "/images/Products/mirror-finish.jpg",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/wallDesign/mirror-finish.jpg",
         "enabled": true
       },
       {
         "id": "ms-powder-coated-finish",
         "label": "MS Powder coated finish",
         "description": "A functional, customizable finish that balances style with cost-effectiveness and corrosion resistance.",
-        "image": "/images/Products/ss-elevator-metal-finish.jpg",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/wallDesign/ss-elevator-metal-finish.jpg",
         "enabled": true
       },
       {
         "id": "ss-hairline-finish",
         "label": "SS Hairline finish",
         "description": "A smooth, brushed stainless steel surface that enhances the elevator’s aesthetics with a matte, modern appeal.",
-        "image": "/images/Products/stainless-steel-elevator.jpg",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/wallDesign/stainless-steel-elevator.jpg",
         "enabled": true
       },
       {
         "id": "ss-mirror-finish",
         "label": "SS Mirror finish",
         "description": "Polished stainless steel interiors that reflect elegance and amplify space perception in enclosed cabins.",
-        "image": "/images/Products/SS-Mirror-Cabin.avif",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/wallDesign/SS-Mirror-Cabin.avif",
         "enabled": true
       },
       {
         "id": "gold-finish",
         "label": "Gold finish",
         "description": "Opulent gold-toned cabin interiors designed to enhance the aesthetic appeal of luxury spaces.",
-        "image": "/images/Products/gold-cabin.jpg",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/wallDesign/gold-cabin.jpg",
         "enabled": true
       },
       {
         "id": "rose-gold-finish",
         "label": "Rose gold finish",
         "description": "A refined, stylish finish with soft metallic pink hue—ideal for contemporary architecture with a touch of glam.",
-        "image": "/images/Products/rose-gold.avif",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/wallDesign/rose-gold.avif",
         "enabled": true
       },
       {
         "id": "wooden-finish",
         "label": "Wooden finish",
         "description": "Warm wood-textured interiors for a premium elevator ambiance, ideal for homes or boutique spaces.",
-        "image": "/images/Products/wooden-finish.avif",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/wallDesign/wooden-finish.avif",
         "enabled": true
       },
       {
         "id": "glass-door",
         "label": "Glass door",
         "description": "Toughened glass doors blend transparency with safety—ideal for modern buildings and views.",
-        "image": "/images/Products/glassdoor.jpg",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/wallDesign/glassdoor.jpg",
         "enabled": true
       }
     ],
@@ -476,161 +476,161 @@
         "id": "FJ-C06",
         "label": "FJ-C06",
         "description": "Stainless steel with black titanium coating and LCD display",
-        "image": "/images/configurator/control_panels/fj-c06-364-196x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/fj-c06-364-196x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-C16",
         "label": "FJ-C16",
         "description": "Stainless steel with black titanium coating and LCD display",
-        "image": "/images/configurator/control_panels/fj-c16-859-196x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/fj-c16-859-196x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-C05",
         "label": "FJ-C05",
         "description": "Stainless steel with fine brushing and LCD display",
-        "image": "/images/configurator/control_panels/fj-c05-446-195x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/fj-c05-446-195x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-C04",
         "label": "FJ-C04",
         "description": "Stainless steel with black titanium coating and LCD display",
-        "image": "/images/configurator/control_panels/fj-c04-196-196x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/fj-c04-196-196x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-C03",
         "label": "FJ-C03",
         "description": "Stainless steel with titanium gold coating and LCD display",
-        "image": "/images/configurator/control_panels/fj-c03-771-196x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/fj-c03-771-196x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-C02",
         "label": "FJ-C02",
         "description": "Stainless steel with fine brushing and LCD display",
-        "image": "/images/configurator/control_panels/fj-c02-250-195x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/fj-c02-250-195x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-C01",
         "label": "FJ-C01",
         "description": "Stainless steel with fine brushing and LCD display",
-        "image": "/images/configurator/control_panels/fj-c01-782-196x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/fj-c01-782-196x300.webp",
         "enabled": true
       },
       {
         "id": "HD-C12",
         "label": "HD-C12",
         "description": "Stainless steel with fine brushing and LCD display",
-        "image": "/images/configurator/control_panels/hd-c12-520-195x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/hd-c12-520-195x300.webp",
         "enabled": true
       },
       {
         "id": "HD-CBZ1",
         "label": "HD-CBZ1",
         "description": "Stainless steel with fine brushing and LCD display",
-        "image": "/images/configurator/control_panels/hd-cbz1-108-196x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/hd-cbz1-108-196x300.webp",
         "enabled": true
       },
       {
         "id": "HD-CBZ4",
         "label": "HD-CBZ4",
         "description": "Stainless steel with fine brushing and LCD display",
-        "image": "/images/configurator/control_panels/hd-cbz4-556-196x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/hd-cbz4-556-196x300.webp",
         "enabled": true
       },
       {
         "id": "HD-CBZ5",
         "label": "HD-CBZ5",
         "description": "Stainless steel with fine brushing and LCD display",
-        "image": "/images/configurator/control_panels/hd-cbz5-420-196x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/hd-cbz5-420-196x300.webp",
         "enabled": true
       },
       {
         "id": "HD-COP01",
         "label": "HD-COP01",
         "description": "Stainless steel with fine brushing and LCD display",
-        "image": "/images/configurator/control_panels/hd-cop01-686-196x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/hd-cop01-686-196x300.webp",
         "enabled": true
       },
       {
         "id": "HD-COP02",
         "label": "HD-COP02",
         "description": "Stainless steel with fine brushing and LCD display",
-        "image": "/images/configurator/control_panels/hd-cop02-723-195x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/hd-cop02-723-195x300.webp",
         "enabled": true
       },
       {
         "id": "HD-COP03",
         "label": "HD-COP03",
         "description": "Stainless steel with fine brushing and LCD display",
-        "image": "/images/configurator/control_panels/hd-cop03-321-195x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/hd-cop03-321-195x300.webp",
         "enabled": true
       },
       {
         "id": "HD-COP04",
         "label": "HD-COP04",
         "description": "Stainless steel with fine brushing and LCD display",
-        "image": "/images/configurator/control_panels/hd-cop04-947-195x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/hd-cop04-947-195x300.webp",
         "enabled": true
       },
       {
         "id": "HD-C01",
         "label": "HD-C01",
         "description": "Stainless steel with fine brushing and LCD display",
-        "image": "/images/configurator/control_panels/hd-c01-152-195x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/hd-c01-152-195x300.webp",
         "enabled": true
       },
       {
         "id": "HD-C03",
         "label": "HD-C03",
         "description": "Stainless steel with a fine brushed surface and LCD display",
-        "image": "/images/configurator/control_panels/hd-c03-486-195x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/hd-c03-486-195x300.webp",
         "enabled": true
       },
       {
         "id": "HD-C05",
         "label": "HD-C05",
         "description": "Stainless steel with a fine brushed surface and LCD display",
-        "image": "/images/configurator/control_panels/hd-c05-885-195x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/hd-c05-885-195x300.webp",
         "enabled": true
       },
       {
         "id": "HD-C06",
         "label": "HD-C06",
         "description": "Stainless steel with fine brushing and LCD display",
-        "image": "/images/configurator/control_panels/hd-c06-488-196x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/hd-c06-488-196x300.webp",
         "enabled": true
       },
       {
         "id": "HD-COP06",
         "label": "HD-COP06",
         "description": "Panel of gold-titanium stainless steel with LCD display",
-        "image": "/images/configurator/control_panels/hd-cop06-519-196x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/hd-cop06-519-196x300.webp",
         "enabled": true
       },
       {
         "id": "HD-COP2101",
         "label": "HD-COP2101",
         "description": "Black titanium panel with mirror effect",
-        "image": "/images/configurator/control_panels/hd-cop2101-909-196x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/hd-cop2101-909-196x300.webp",
         "enabled": true
       },
       {
         "id": "HD-COP2102",
         "label": "HD-COP2102",
         "description": "Stainless steel with hairlines and LCD display for information and navigation",
-        "image": "/images/configurator/control_panels/hd-cop2102-310-196x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/hd-cop2102-310-196x300.webp",
         "enabled": true
       },
       {
         "id": "HD-H02C",
         "label": "HD-H02C",
         "description": "Stainless steel with hairlines and LCD display",
-        "image": "/images/configurator/control_panels/hd-h02c-633-195x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/controlPanel/hd-h02c-633-195x300.webp",
         "enabled": true
       }
     ],
@@ -639,133 +639,133 @@
         "id": "HD-DT01",
         "label": "HD-DT01",
         "description": "Steel plate with a plastic frame and acrylic lighting cover. A round, semi-transparent illumination is used in the center",
-        "image": "/images/configurator/ceilings/hd-dt01-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dt01-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DT04",
         "label": "HD-DT04",
         "description": "Base plate of mirror stainless steel, complemented by a rectangular transparent openwork frame. In the center is an arched panel for the passage of soft white light.",
-        "image": "/images/configurator/ceilings/hd-dt04-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dt04-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DT07",
         "label": "HD-DT07",
         "description": "Openwork plate of stainless steel with a white organic insert and a stainless steel frame.",
-        "image": "/images/configurator/ceilings/hd-dt07-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dt07-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DT08",
         "label": "HD-DT08",
         "description": "Modern model with a video dome in the center and a stainless steel frame with LED light design on both of its sides.",
-        "image": "/images/configurator/ceilings/hd-dt08-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dt08-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DT09",
         "label": "HD-DT09",
         "description": "Frame of mirror stainless steel, complemented by LED lighting on the steel plate. The central section features an arched design of a white plate with lighting.",
-        "image": "/images/configurator/ceilings/hd-dt09-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dt09-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DT10",
         "label": "HD-DT10",
         "description": "Base plate of mirror stainless steel, complemented by a rectangular transparent openwork frame. In the center is a lighting plate with soft white illumination and an arched design.",
-        "image": "/images/configurator/ceilings/hd-dt10-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dt10-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DT11",
         "label": "HD-DT11",
         "description": "Frame of mirror steel, complemented by LED lighting on a mirror stainless steel plate. The central section features an arched design of a white illuminated plate.",
-        "image": "/images/configurator/ceilings/hd-dt11-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dt11-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DTA01",
         "label": "HD-DTA01",
         "description": "Steel plate with diamond silver coating and an acrylic photosensitive panel.",
-        "image": "/images/configurator/ceilings/hd-dta01-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dta01-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DTA02",
         "label": "HD-DTA02",
         "description": "Ceiling with a mirror stainless steel frame, an acrylic arched top plate and LED lighting.",
-        "image": "/images/configurator/ceilings/hd-dta02-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dta02-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DTA03",
         "label": "HD-DTA03",
         "description": "Ceiling with a base plate of mirror stainless steel, complemented by rectangular transparent openwork elements. In the central section is an arched white light-transmitting panel, creating soft illumination.",
-        "image": "/images/configurator/ceilings/hd-dta03-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dta03-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DTA04",
         "label": "HD-DTA04",
         "description": "Frame of mirror stainless steel, an arched acrylic top panel and downlight decorative lighting in the center.",
-        "image": "/images/configurator/ceilings/hd-dta04-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dta04-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DTA05",
         "label": "HD-DTA05",
         "description": "Frame of mirror stainless steel with a curved acrylic panel finished with spray-applied paint. Acrylic decorative lighting elements on both sides.",
-        "image": "/images/configurator/ceilings/hd-dta05-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dta05-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DTA06",
         "label": "HD-DTA06",
         "description": "Ceiling with a mirror stainless steel coating and a stainless steel frame with an acrylic panel and decorative lighting elements on both sides.",
-        "image": "/images/configurator/ceilings/hd-dta06-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dta06-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DTA07",
         "label": "HD-DTA07",
         "description": "Stainless steel with a fine hairline brushing effect and a vault with an acrylic light panel.",
-        "image": "/images/configurator/ceilings/hd-dta07-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dta07-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DTA08",
         "label": "HD-DTA08",
         "description": "Painted stainless steel plate with a hairline effect and a light-reflecting surface.",
-        "image": "/images/configurator/ceilings/hd-dta08-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dta08-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DTA09",
         "label": "HD-DTA09",
         "description": "Transparent acrylic panel with a metallic coating.",
-        "image": "/images/configurator/ceilings/hd-dta09-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dta09-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DTA10",
         "label": "HD-DTA10",
         "description": "Frame of black mirror titanium stainless steel, downlight lighting and an LED panel with color-changing light.",
-        "image": "/images/configurator/ceilings/hd-dta10-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dta10-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DTA11",
         "label": "HD-DTA11",
         "description": "Acrylic decorative lighting, mirror stainless steel",
-        "image": "/images/configurator/ceilings/hd-dta11-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dta11-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-DTA12",
         "label": "HD-DTA12",
         "description": "Acrylic decorative lighting, stainless steel with hairline effect, downlight lighting",
-        "image": "/images/configurator/ceilings/hd-dta12-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/ceilingDesign/hd-dta12-300x300.webp",
         "enabled": true
       }
     ],
@@ -774,294 +774,294 @@
         "id": "FJ-B01",
         "label": "FJ-B01",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b01-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b01-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B02",
         "label": "FJ-B02",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b02-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b02-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B03",
         "label": "FJ-B03",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b03-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b03-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B04",
         "label": "FJ-B04",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b04-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b04-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B05",
         "label": "FJ-B05",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b05-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b05-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B06",
         "label": "FJ-B06",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b06-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b06-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B07",
         "label": "FJ-B07",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b07-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b07-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B08",
         "label": "FJ-B08",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b08-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b08-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B09",
         "label": "FJ-B09",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b09-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b09-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B10",
         "label": "FJ-B10",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b10-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b10-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B12",
         "label": "FJ-B12",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b12-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b12-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B13",
         "label": "FJ-B13",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b13-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b13-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B16",
         "label": "FJ-B16",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b16-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b16-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B18",
         "label": "FJ-B18",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b18-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b18-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B19",
         "label": "FJ-B19",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b19-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b19-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B20",
         "label": "FJ-B20",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b20-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b20-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B23",
         "label": "FJ-B23",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b23-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b23-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B24",
         "label": "FJ-B24",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b24-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b24-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B25",
         "label": "FJ-B25",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b25-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b25-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B26",
         "label": "FJ-B26",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b26-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b26-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B30",
         "label": "FJ-B30",
         "description": "Suitable for decoration and finishing of cabins. Option: marble optional",
-        "image": "/images/configurator/floors/fj-b30-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b30-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B33",
         "label": "FJ-B33",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b33-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b33-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B34",
         "label": "FJ-B34",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b34-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b34-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B35",
         "label": "FJ-B35",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b35-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b35-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B36",
         "label": "FJ-B36",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b36-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b36-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B37",
         "label": "FJ-B37",
         "description": "Suitable for decoration and finishing of elevator cabins. Option: marble optional",
-        "image": "/images/configurator/floors/fj-b37-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b37-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B38",
         "label": "FJ-B38",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b38-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b38-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B39",
         "label": "FJ-B39",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b39-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b39-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B40",
         "label": "FJ-B40",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b40-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b40-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B41",
         "label": "FJ-B41",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b41-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b41-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B44",
         "label": "FJ-B44",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b44-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b44-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B45",
         "label": "FJ-B45",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b45-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b45-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B46",
         "label": "FJ-B46",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b46-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b46-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B47",
         "label": "FJ-B47",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b47-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b47-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B48",
         "label": "FJ-B48",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b48-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b48-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B49",
         "label": "FJ-B49",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b49-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b49-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B50",
         "label": "FJ-B50",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b50-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b50-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B51",
         "label": "FJ-B51",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b51-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b51-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B53",
         "label": "FJ-B53",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b53-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b53-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B54",
         "label": "FJ-B54",
         "description": "Suitable for the decoration and finishing of elevator cabins. Option: marble on request",
-        "image": "/images/configurator/floors/fj-b54-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b54-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B55",
         "label": "FJ-B55",
         "description": "Suitable for decoration and finishing of cars.",
-        "image": "/images/configurator/floors/fj-b55-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b55-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-B57",
         "label": "FJ-B57",
         "description": "Decoration and finishing for cars",
-        "image": "/images/configurator/floors/fj-b57-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/floorDesign/fj-b57-300x300.webp",
         "enabled": true
       }
     ],
@@ -1070,42 +1070,42 @@
         "id": "Без аксесоар",
         "label": "Без аксесоар",
         "description": "",
-        "image": "/images/configurator/accessories/bez-aksesoar.jpg",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/accessory/bez-aksesoar.jpg",
         "enabled": true
       },
       {
         "id": "FJ-FS01",
         "label": "FJ-FS01",
         "description": "Stainless steel handrail",
-        "image": "/images/configurator/accessories/fj-fs01-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/accessory/fj-fs01-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-FS02",
         "label": "FJ-FS02",
         "description": "Base of chromed steel, the central material is an acrylic crystal handrail.",
-        "image": "/images/configurator/accessories/fj-fs02-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/accessory/fj-fs02-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-FS03",
         "label": "FJ-FS03",
         "description": "Handrail base of titanium gold and stainless steel, the central material is solid wood.",
-        "image": "/images/configurator/accessories/fj-fs03-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/accessory/fj-fs03-300x300.webp",
         "enabled": true
       },
       {
         "id": "FJ-FS04",
         "label": "FJ-FS04",
         "description": "Flat stainless steel handrail",
-        "image": "/images/configurator/accessories/fj-fs04-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/accessory/fj-fs04-300x300.webp",
         "enabled": true
       },
       {
         "id": "HD-F03",
         "label": "HD-F03",
         "description": "Triple combined mirror with a stainless steel tube",
-        "image": "/images/configurator/accessories/hd-f03-300x300.webp",
+        "image": "https://ik.imagekit.io/e1sgp2uii/bg-elevators/configurator/accessory/hd-f03-300x300.webp",
         "enabled": true
       }
     ]

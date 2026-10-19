@@ -49,15 +49,15 @@ function Rows({ entries }: { entries: [string, string][] }) {
     </div>)}
   </dl>;
 }
-export default function ConfiguratorRequestCard({ item, canEdit, canDelete, open, requestNumber }: { item: any; canEdit: boolean; canDelete: boolean; open: boolean; requestNumber: number }) {
+export default function ConfiguratorRequestCard({ item, canEdit, canDelete, requestNumber }: { item: any; canEdit: boolean; canDelete: boolean; requestNumber: number }) {
   const customer = item.customer || {};
   const specification = item.specification || {};
   const known = new Set(groups.flatMap((group) => group.keys));
   const sections = [...groups, { title: "Additional details", keys: Object.keys(specification).filter((key) => !known.has(key)) }];
   const statusColor = item.status === "Closed" ? "bg-slate-100 text-slate-600" : item.status === "New" ? "bg-sky-50 text-sky-800" : "bg-amber-50 text-amber-800";
-  return <details open={open} className="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-    <summary className="flex cursor-pointer list-none flex-wrap items-center gap-4 p-5 focus-visible:outline-2 focus-visible:outline-sky-600 sm:p-6 [&::-webkit-details-marker]:hidden">
-      <span className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-sky-100 bg-sky-50 text-sky-700">
+  return <details className="group overflow-hidden bg-white transition-colors duration-200 [&[open]]:bg-sky-50/20">
+    <summary className="flex cursor-pointer list-none flex-wrap items-center gap-4 p-5 transition-colors duration-200 hover:bg-slate-50 focus-visible:outline-2 focus-visible:outline-sky-600 group-open:bg-sky-50/60 sm:p-6 [&::-webkit-details-marker]:hidden">
+      <span className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-sky-100 bg-sky-50 text-sky-700 transition-colors group-open:border-[#006699] group-open:bg-[#006699] group-open:text-white">
         <Building2 size={21} aria-hidden="true" />
         <span className="absolute -right-2 -top-2 min-w-6 rounded-full bg-[#006699] px-1.5 py-0.5 text-center text-[10px] font-bold leading-5 text-white shadow-sm">{String(requestNumber).padStart(2, "0")}</span>
       </span>
@@ -78,7 +78,9 @@ export default function ConfiguratorRequestCard({ item, canEdit, canDelete, open
       <div className="flex flex-wrap items-center gap-3">
         <span className={`rounded-full px-3 py-1 text-xs font-semibold ${statusColor}`}>{item.status}</span>
         <span className="text-xs text-slate-500">{dateTime(item.createdAt)}</span>
-        <ChevronDown size={18} className="text-slate-400 transition-transform group-open:rotate-180" aria-hidden="true" />
+        <span className="flex h-8 w-8 items-center justify-center rounded-full border border-transparent transition-colors group-open:border-sky-200 group-open:bg-white group-open:text-[#006699]">
+          <ChevronDown size={18} className="text-slate-400 transition-transform duration-200 group-open:rotate-180 group-open:text-[#006699]" aria-hidden="true" />
+        </span>
       </div>
     </summary>
     <div className="border-t border-slate-100">

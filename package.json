@@ -18,8 +18,10 @@
     "check:blogs": "node scripts/check-blogs.mjs",
     "blogs:migrate": "node --env-file-if-exists=.env scripts/migrate-legacy-blogs.mjs",
     "blogs:thumbnails": "node --env-file-if-exists=.env scripts/generate-blog-thumbnails.mjs",
+    "blogs:import-31-40": "node --env-file-if-exists=.env scripts/import-blogs-31-40.mjs",
     "check:configurator": "node scripts/check-configurator.mjs",
-    "check:configurator:workflows": "node scripts/check-configurator-workflows.mjs"
+    "check:configurator:workflows": "node scripts/check-configurator-workflows.mjs",
+    "configurator:migrate-imagekit": "node --env-file-if-exists=.env scripts/migrate-configurator-images-to-imagekit.mjs"
   },
   "dependencies": {
     "express": "^5.1.0",

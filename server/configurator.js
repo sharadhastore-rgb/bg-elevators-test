@@ -26,13 +26,13 @@ export function configuratorRouter(store, limit) {
       if (!settings.enabled)
         return res
           .status(404)
-          .json({ message: "The configurator is currently unavailable." });
+          .json({ message: "The estimator is currently unavailable." });
       res.json({ settings, revision: record?.revision || 0 });
     } catch (error) {
       res
         .status(503)
         .json({
-          message: "Unable to load the configurator. Please try again.",
+          message: "Unable to load the estimator. Please try again.",
         });
     }
   });
@@ -64,7 +64,7 @@ export function configuratorRouter(store, limit) {
         if (!settings.enabled)
           return res
             .status(409)
-            .json({ message: "The configurator is currently unavailable." });
+            .json({ message: "The estimator is currently unavailable." });
         if (Number(req.body.revision) !== (record?.revision || 0))
           return res
             .status(409)

@@ -268,7 +268,7 @@ export default function ConfiguratorPage() {
       })
       .catch((e) => {
         if (!cancelled)
-          setLoadingError(e.message || "Unable to load the configurator.");
+          setLoadingError(e.message || "Unable to load the estimator.");
       });
     return () => {
       cancelled = true;
@@ -283,7 +283,7 @@ export default function ConfiguratorPage() {
       <div className="bg-configurator cfg-loading" aria-live="polite">
         {loadingError ? (
           <>
-            <h1>Configurator unavailable</h1>
+            <h1>Estimator unavailable</h1>
             <p>{loadingError}</p>
             <button
               className="cfg-primary"
@@ -295,7 +295,7 @@ export default function ConfiguratorPage() {
         ) : (
           <>
             <Ruler size={32} />
-            <h1>Preparing your configurator…</h1>
+            <h1>Preparing your estimator…</h1>
             <p>Loading the latest options from BG Elevators.</p>
           </>
         )}
@@ -406,7 +406,11 @@ export default function ConfiguratorPage() {
     <div className="bg-configurator">
       <div className="cfg-hero">
         <div>
-          <span className="cfg-eyebrow">{config.intro}</span>
+          <span className="cfg-eyebrow">
+            {config.intro === "ELEVATOR CONFIGURATOR"
+              ? "ELEVATOR ESTIMATOR"
+              : config.intro}
+          </span>
           <h1 ref={heading} tabIndex={-1}>
             {config.title}
           </h1>
@@ -424,7 +428,7 @@ export default function ConfiguratorPage() {
       {receipt ? (
         <div className="cfg-receipt" role="status">
           <Check size={44} />
-          <h2>Configuration received</h2>
+          <h2>Project brief received</h2>
           <p>{receipt.message}</p>
           <p>
             Reference: <strong>{receipt.reference}</strong>
@@ -437,13 +441,13 @@ export default function ConfiguratorPage() {
               setStep(1);
             }}
           >
-            Configure another elevator
+            Start another estimate
           </button>
         </div>
       ) : (
         <>
           <div className="cfg-topbar">
-            <nav aria-label="Configuration steps">
+            <nav aria-label="Estimator steps">
               <button
                 className={step === 1 ? "active" : ""}
                 aria-current={step === 1 ? "step" : undefined}
@@ -464,12 +468,12 @@ export default function ConfiguratorPage() {
             </nav>
             <div className="cfg-progress">
               <span>
-                Configuration progress <strong>{result.progress}%</strong>
+                Estimate progress <strong>{result.progress}%</strong>
               </span>
               <progress
                 max="100"
                 value={result.progress}
-                aria-label="Configuration progress"
+                aria-label="Estimate progress"
               />
             </div>
           </div>
@@ -927,7 +931,7 @@ export default function ConfiguratorPage() {
                     }}
                   >
                     <RotateCcw size={15} />
-                    Reset configuration
+                    Reset estimate
                   </button>
                 </details>
               </div>
@@ -953,7 +957,7 @@ export default function ConfiguratorPage() {
         </div>
         <h2 id="cfg-request-title">Let’s bring it to life.</h2>
         <p>
-          Send your configuration to BG Elevators for review and a quotation.
+          Send your project brief to BG Elevators for review and a quotation.
         </p>
         <form onSubmit={submit}>
           <div className="cfg-grid">
@@ -1028,7 +1032,7 @@ export default function ConfiguratorPage() {
             </p>
           )}
           <button className="cfg-primary" disabled={busy}>
-            {busy ? "Saving your configuration…" : config.submitLabel}
+            {busy ? "Sending your project brief…" : config.submitLabel}
             <Send size={16} />
           </button>
         </form>

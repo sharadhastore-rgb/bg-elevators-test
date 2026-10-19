@@ -2,7 +2,7 @@ import usePublishedBlogs from "../blogpage/usePublishedBlogs";
 import { AppLink, Icon } from "@/components/ui";
 
 export default function LatestBlogsSection({ data }) {
-  const { articles } = usePublishedBlogs();
+  const { articles, loading } = usePublishedBlogs();
   const items = articles
     .slice(0, 3)
     .map((article) => ({
@@ -34,6 +34,12 @@ export default function LatestBlogsSection({ data }) {
             className="tw:flex tw:items-start tw:gap-6 tw:max-[991px]:flex-wrap tw:max-[991px]:justify-center tw:max-[767px]:flex-col tw:max-[767px]:items-center"
             role="list"
           >
+            {loading && !items.length && [0, 1, 2].map((item) => (
+              <div className="tw:w-full tw:animate-pulse tw:max-[991px]:max-w-[20.5rem] tw:max-[767px]:max-w-none" role="status" aria-label="Loading blog" key={item}>
+                <div className="tw:mb-4 tw:aspect-[16/10] tw:rounded-lg tw:bg-[#dceaf2]" />
+                <div className="tw:h-24 tw:rounded-lg tw:bg-[#edf4f8]" />
+              </div>
+            ))}
             {items.map((item, index) => (
               <div
                 className="tw:w-full tw:max-[991px]:max-w-[20.5rem] tw:max-[767px]:max-w-none"

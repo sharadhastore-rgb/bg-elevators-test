@@ -69,6 +69,10 @@ ADMIN_NAME=Primary Administrator
 ADMIN_EMAIL=admin@bgelevators.com
 ADMIN_PASSWORD=replace-before-creating-admin
 NEXT_PUBLIC_WEBSITE_URL=https://www.bgelevators.com
+
+IMAGEKIT_PUBLIC_KEY=public_xxxxxxxxx
+IMAGEKIT_PRIVATE_KEY=private_xxxxxxxxx
+IMAGEKIT_URL_ENDPOINT=https://ik.imagekit.io/your_imagekit_id
 ```
 
 Generate a secure session secret:
@@ -121,7 +125,7 @@ Both services must use the same MongoDB settings. The public service also needs 
 - Use new MongoDB, SMTP, admin and session credentials; never reuse exposed credentials.
 - Allow the production server IP in MongoDB Atlas network access.
 - Create the first administrator and remove `ADMIN_PASSWORD` afterward if it is no longer needed.
-- Test enquiry, brochure download, career upload, CMS login, blog publishing and configurator submission.
+- Test enquiry, brochure download, career upload, CMS login, blog publishing and estimator submission.
 - Confirm `/robots.txt`, `/sitemap.xml`, canonical URLs and legacy `.html` redirects.
 - Submit `https://www.bgelevators.com/sitemap.xml` in Google Search Console.
 - Configure backups and monitoring for MongoDB and both Node services.
@@ -137,6 +141,6 @@ Both services must use the same MongoDB settings. The public service also needs 
 | `npm run admin:build` | Build the CMS |
 | `npm run check` | Run public-site verification |
 | `npm run check:blogs` | Validate blog content and links |
-| `npm run check:configurator` | Validate configurator data |
+| `npm run check:configurator` | Validate estimator data |
 
 For detailed CMS instructions, see [docs/admin-guide.md](docs/admin-guide.md).

@@ -11,6 +11,8 @@ import {
   statuses,
 } from "../../../../../shared/configurator.js";
 import ConfiguratorRequestCard from "@/components/ConfiguratorRequestCard";
+import { Pagination } from "@/components/ListTools";
+import { pageSize, requestedPage } from "@/lib/queries";
 export const dynamic = "force-dynamic";
 export default async function ConfiguratorPage({
   searchParams,
@@ -20,7 +22,7 @@ export default async function ConfiguratorPage({
   const actor = await requireAdmin();
   await connectDb();
   const params = await searchParams;
-  const page = Math.max(1, Math.min(100000, Number(params.page) || 1)),
+  const page = requestedPage(params),
     filter = statuses.includes(params.status || "")
       ? { status: params.status }
       : {};
@@ -28,8 +30,8 @@ export default async function ConfiguratorPage({
     ConfiguratorSetting.findOne({ key: "main" }).lean(),
     ConfiguratorRequest.find(filter)
       .sort({ createdAt: -1 })
-      .skip((page - 1) * 20)
-      .limit(20)
+      .skip((page - 1) * pageSize)
+      .limit(pageSize)
       .lean(),
     ConfiguratorRequest.countDocuments(filter),
   ]);
@@ -44,30 +46,30 @@ export default async function ConfiguratorPage({
     <>
       <PageHeader
         eyebrow="WEBSITE EXPERIENCE"
-        title="Elevator Configurator"
-        description="Manage the public configuration experience and review customer project briefs."
+        title="Elevator Estimator"
+        description="Manage the public estimation experience and review customer project briefs."
         action={
           <a
             className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm"
-            href={`${website}/configurator`}
+            href={`${website}/estimator`}
             target="_blank"
             rel="noreferrer"
           >
-            Open configurator ↗
+            Open estimator ↗
           </a>
         }
       />
       <div className="mb-6 flex flex-wrap gap-3">
         <Link
           className={`rounded-lg px-4 py-2 text-sm ${!settingsTab ? "bg-[#006699] text-white" : "bg-white"}`}
-          href="/admin/configurator"
+          href="/admin/estimator"
         >
           Requests ({count})
         </Link>
         {actor.role === "admin" && (
           <Link
             className={`rounded-lg px-4 py-2 text-sm ${settingsTab ? "bg-[#006699] text-white" : "bg-white"}`}
-            href="/admin/configurator?tab=settings"
+            href="/admin/estimator?tab=settings"
           >
             Settings & catalog
           </Link>
@@ -97,42 +99,30 @@ export default async function ConfiguratorPage({
             </label>
             <button className="min-h-11 rounded-lg bg-[#006699] px-5 text-sm font-semibold text-white">Filter</button>
           </form>
-          <div className="space-y-4">
+          <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
             {!items.length && (
-              <div className="rounded-2xl border border-slate-200 bg-white p-8 text-slate-500">
-                No configuration requests yet. New submissions appear here.
+              <div className="p-8 text-slate-500">
+                No estimator requests yet. New submissions appear here.
               </div>
             )}
-            {items.map((item, index) => (
-              <ConfiguratorRequestCard
-                key={item._id}
-                item={item}
-                canEdit={actor.role !== "viewer"}
-                canDelete={actor.role === "admin"}
-                open={index === 0}
-                requestNumber={(page - 1) * 20 + index + 1}
-              />
-            ))}
-          </div>
-          <div className="my-6 flex gap-5 text-sm">
-            {page > 1 && (
-              <Link
-                href={`?page=${page - 1}&status=${encodeURIComponent(params.status || "")}`}
-              >
-                ← Previous
-              </Link>
-            )}
-            <span>
-              Page {page} · {count} requests
-            </span>
-            {page * 20 < count && (
-              <Link
-                href={`?page=${page + 1}&status=${encodeURIComponent(params.status || "")}`}
-              >
-                Next →
-              </Link>
-            )}
-          </div>
+            {!!items.length && <div className="divide-y divide-slate-200">
+              {items.map((item, index) => (
+                <ConfiguratorRequestCard
+                  key={item._id}
+                  item={item}
+                  canEdit={actor.role !== "viewer"}
+                  canDelete={actor.role === "admin"}
+                  requestNumber={(page - 1) * pageSize + index + 1}
+                />
+              ))}
+            </div>}
+            <Pagination
+              path="/admin/estimator"
+              query={params}
+              page={page}
+              total={count}
+            />
+          </section>
         </>
       )}
     </>

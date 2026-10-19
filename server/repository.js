@@ -81,12 +81,14 @@ function models() {
             seoDescription: String,
             status: String,
             publishedAt: Date,
+            showDate: Boolean,
             routePath: String,
             structuredBody: Schema.Types.Mixed,
             structuredHeadings: Schema.Types.Mixed,
             additionalSections: Schema.Types.Mixed,
             importSource: String,
             cover: {
+              url: String,
               data: { type: Buffer, select: false },
               contentType: String,
             },
@@ -190,9 +192,9 @@ export function createMongoRepository(uri, dbName) {
       return models()
         .Blog.find({ status: "published" })
         .select(
-          "slug routePath title excerpt category imageAlt seoTitle seoDescription status publishedAt updatedAt",
+          "slug routePath title excerpt category imageAlt seoTitle seoDescription status publishedAt showDate updatedAt cover.url cover.contentType",
         )
-        .sort({ publishedAt: -1 })
+        .sort({ updatedAt: -1, _id: -1 })
         .lean();
     },
     async getBlog(slug, cover = false) {

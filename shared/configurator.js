@@ -63,12 +63,24 @@ const legacyCabinIds = new Set([
   "HD-KT-2106"
 ]);
 export function resolveConfiguratorSettings(settings = defaults) {
-  const cabins = settings?.catalogs?.wallDesign;
+  const legacyCopy = {
+    "ELEVATOR CONFIGURATOR": defaults.intro,
+    "Plan the dimensions, explore the finishes, and send your configuration to BG Elevators.": defaults.description,
+    "Your configuration has been saved. Our team will contact you to review the project.": defaults.successMessage,
+    "A configuration is a project brief. Final dimensions, compliance and suitability require review by our engineering team.": defaults.reviewNote,
+  };
+  let resolved = settings;
+  for (const key of ["intro", "description", "successMessage", "reviewNote"]) {
+    const replacement = legacyCopy[resolved[key]];
+    if (replacement) resolved = { ...resolved, [key]: replacement };
+  }
+
+  const cabins = resolved?.catalogs?.wallDesign;
   if (!cabins?.length || !cabins.every((item) => legacyCabinIds.has(item.id)))
-    return settings;
+    return resolved;
   return {
-    ...settings,
-    catalogs: { ...settings.catalogs, wallDesign: structuredClone(defaults.catalogs.wallDesign) },
+    ...resolved,
+    catalogs: { ...resolved.catalogs, wallDesign: structuredClone(defaults.catalogs.wallDesign) },
   };
 }
 
@@ -168,7 +180,7 @@ export function validateConfiguration(
   technicalOnly = false,
 ) {
   if (!input || typeof input !== "object" || Array.isArray(input))
-    fail("Invalid configuration.");
+    fail("Invalid estimator details.");
   const state = {};
   for (const key of [
     "shaftWidth",
@@ -327,12 +339,12 @@ export function validateConfiguratorSettings(config) {
         item.image !== undefined &&
         (typeof item.image !== "string" ||
           item.image.length > 1000 ||
-          !/^\/images\/[a-zA-Z0-9_./ -]+$|^\/api\/configurator\/assets\/[a-f0-9]{24}$/.test(
+          !/^\/images\/[a-zA-Z0-9_./ -]+$|^\/api\/configurator\/assets\/[a-f0-9]{24}$|^https:\/\/ik\.imagekit\.io\/[a-zA-Z0-9_./%-]+$/.test(
             item.image,
           ) ||
           item.image.includes(".."))
       )
-        fail("Use a local image path or upload a catalog image.");
+        fail("Use a local image path or a secure ImageKit image URL.");
     }
   }
   if (
