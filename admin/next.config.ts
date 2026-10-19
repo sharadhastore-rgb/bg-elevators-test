@@ -1,8 +1,12 @@
 import type { NextConfig } from "next";
+import path from "node:path";
+
+const repositoryRoot = path.resolve(process.cwd(), "..");
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
-  outputFileTracingRoot: process.cwd(),
+  outputFileTracingRoot: repositoryRoot,
+  turbopack: { root: repositoryRoot },
   distDir: process.env.NEXT_DIST_DIR || ".next",
   experimental: { serverActions: { bodySizeLimit: "13mb" } },
   async headers() {
