@@ -4,13 +4,13 @@ import ConfiguratorEditor from "@/components/ConfiguratorEditor";
 import { requireAdmin } from "@/lib/auth";
 import { connectDb } from "@/lib/db";
 import { ConfiguratorSetting, ConfiguratorRequest } from "@/lib/configurator";
-import { plain, dateTime } from "@/lib/format";
+import { plain } from "@/lib/format";
 import {
   defaultConfigurator,
   resolveConfiguratorSettings,
   statuses,
 } from "../../../../../shared/configurator.js";
-import { updateConfiguratorRequest } from "@/app/admin/configurator-actions";
+import ConfiguratorRequestCard from "@/components/ConfiguratorRequestCard";
 export const dynamic = "force-dynamic";
 export default async function ConfiguratorPage({
   searchParams,
@@ -81,11 +81,11 @@ export default async function ConfiguratorPage({
         />
       ) : (
         <>
-          <form className="mb-5 flex gap-3">
-            <label className="text-sm">
+          <form className="mb-6 flex flex-wrap items-end gap-3 rounded-xl border border-slate-200 bg-white p-4">
+            <label className="grid gap-2 text-xs font-semibold text-slate-500">
               Request status{" "}
               <select
-                className="ml-2 rounded border border-slate-200 bg-white p-2"
+                className="min-h-11 min-w-44 rounded-lg border border-slate-300 bg-white px-3 text-sm text-slate-800"
                 name="status"
                 defaultValue={params.status || ""}
               >
@@ -95,7 +95,7 @@ export default async function ConfiguratorPage({
                 ))}
               </select>
             </label>
-            <button className="rounded bg-white px-3 text-sm">Filter</button>
+            <button className="min-h-11 rounded-lg bg-[#006699] px-5 text-sm font-semibold text-white">Filter</button>
           </form>
           <div className="space-y-4">
             {!items.length && (
@@ -103,93 +103,8 @@ export default async function ConfiguratorPage({
                 No configuration requests yet. New submissions appear here.
               </div>
             )}
-            {items.map((item) => (
-              <details
-                key={item._id}
-                className="rounded-2xl border border-slate-200 bg-white p-5"
-              >
-                <summary className="cursor-pointer">
-                  <strong>{item.customer.name}</strong>
-                  <span className="ml-3 text-sm text-slate-500">
-                    {item.customer.projectName || "Elevator project"} ·{" "}
-                    {item.specification.floorCount} floors ·{" "}
-                    {item.specification.capacity} kg · {item.status} ·{" "}
-                    {dateTime(item.createdAt)}
-                  </span>
-                </summary>
-                <div className="mt-5 grid gap-5 lg:grid-cols-2">
-                  <div>
-                    <h3 className="mb-3 font-semibold">Contact & project</h3>
-                    <dl className="space-y-2 text-sm">
-                      {Object.entries(item.customer).map(([k, v]) => (
-                        <div className="flex flex-wrap gap-3" key={k}>
-                          <dt className="w-24 text-slate-500">{k}</dt>
-                          <dd className="break-all">{String(v) || "—"}</dd>
-                        </div>
-                      ))}
-                    </dl>
-                    <p className="mt-4 text-xs text-slate-500">
-                      Reference {item._id} · catalog revision {item.revision}
-                      <br />
-                      Privacy consent: {item.consent ? "Yes" : "No"} ·
-                      Marketing: {item.marketing ? "Opted in" : "No"}
-                    </p>
-                    {item.drawing?.filename && (
-                      <a
-                        className="mt-3 inline-block text-sm text-sky-700 underline"
-                        href={`/api/configurator/requests/${item._id}/drawing`}
-                      >
-                        Download drawing: {item.drawing.filename}
-                      </a>
-                    )}
-                  </div>
-                  <div>
-                    <h3 className="mb-3 font-semibold">
-                      Submitted specification
-                    </h3>
-                    <dl className="space-y-2 text-sm">
-                      {Object.entries(item.specification).map(([k, v]) => (
-                        <div className="grid grid-cols-2 gap-2" key={k}>
-                          <dt className="break-words text-slate-500">
-                            {k.replace(/([A-Z])/g, " $1")}
-                          </dt>
-                          <dd className="break-words">
-                            {item.selections?.[k]?.label ||
-                              (Array.isArray(v)
-                                ? v.join(", ")
-                                : typeof v === "boolean"
-                                  ? v
-                                    ? "Yes"
-                                    : "No"
-                                  : String(v ?? "—"))}
-                          </dd>
-                        </div>
-                      ))}
-                    </dl>
-                  </div>
-                </div>
-                {actor.role !== "viewer" && (
-                  <form
-                    action={updateConfiguratorRequest}
-                    className="mt-5 flex gap-3"
-                  >
-                    <input type="hidden" name="id" value={item._id} />
-                    <select
-                      aria-label="Request status"
-                      name="status"
-                      defaultValue={item.status}
-                      className="rounded border border-slate-200 p-2"
-                    >
-                      {statuses.map((s) => (
-                        <option key={s}>{s}</option>
-                      ))}
-                    </select>
-                    <button className="rounded bg-[#006699] px-4 py-2 text-sm text-white">
-                      Update status
-                    </button>
-                  </form>
-                )}
-              </details>
+            {items.map((item, index) => (
+              <ConfiguratorRequestCard key={item._id} item={item} canEdit={actor.role !== "viewer"} open={index === 0} />
             ))}
           </div>
           <div className="my-6 flex gap-5 text-sm">
