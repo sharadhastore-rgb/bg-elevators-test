@@ -1,6 +1,5 @@
 import HeroSection from "@/components/homepage/HeroSection";
 import StillnessHero from "@/components/homepage/stillness/StillnessHero";
-import { ArdorOpening } from "@/components/homepage/immersive/ArdorOpening";
 import AboutSection from "@/components/homepage/AboutSection";
 import UspSection from "@/components/homepage/UspSection";
 import FeaturedCollectionStrip from "@/components/homepage/FeaturedCollectionStrip";
@@ -28,7 +27,6 @@ export default function HomePage() {
       <StillnessHero workHref="/products" />
       <HomeLiftShowcaseSection />
       <ProductsSection data={data.productsSection} />
-      <ArdorOpening />
       <SolutionsSection data={data.solutionsSection} />
       <WhyChooseUsSection data={data.whyChooseUsSection} />
       <FeaturedCollectionStrip />

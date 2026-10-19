@@ -8,6 +8,7 @@ import {
   calculateConfiguration,
   validateConfiguration,
   validateConfiguratorSettings,
+  resolveConfiguratorSettings,
 } from "../shared/configurator.js";
 let checks = 0;
 const check = (fn) => {
@@ -17,6 +18,27 @@ const check = (fn) => {
 check(() =>
   assert.equal(validateConfiguratorSettings(config).capacities.length, 7),
 );
+const products = JSON.parse(await readFile(new URL("../src/data/pages/products.json", import.meta.url))).contentSection.items;
+check(() => assert.equal(config.catalogs.wallDesign.length, 10));
+check(() => assert.deepEqual(config.catalogs.wallDesign, products.map((product) => ({
+  id: product.link.slice(1), label: product.heading, description: product.description,
+  image: product.image, enabled: true,
+}))));
+const legacy = structuredClone(config);
+legacy.catalogs.wallDesign = [{ id: "FJ-JXA02", label: "Legacy cabin", enabled: true }];
+legacy.title = "CMS custom title";
+const upgraded = resolveConfiguratorSettings(legacy);
+check(() => assert.deepEqual(upgraded.catalogs.wallDesign, config.catalogs.wallDesign));
+check(() => assert.equal(legacy.catalogs.wallDesign[0].id, "FJ-JXA02"));
+check(() => {
+  const withoutCabins = (value) => { const copy = structuredClone(value); delete copy.catalogs.wallDesign; return copy; };
+  assert.deepEqual(withoutCabins(upgraded), withoutCabins(legacy));
+});
+const edited = structuredClone(upgraded);
+edited.catalogs.wallDesign[0].label = "CMS edited cabin";
+edited.catalogs.wallDesign[0].enabled = false;
+check(() => assert.deepEqual(resolveConfiguratorSettings(validateConfiguratorSettings(edited)), edited));
+check(() => assert.strictEqual(resolveConfiguratorSettings(config), config));
 const valid = {
   ...initialConfiguration(config),
   shaftWidth: 1700,
@@ -161,11 +183,19 @@ try {
   let r = await fetch(`${base}/api/configurator`);
   check(() => assert.equal(r.status, 200));
   check(() => assert.equal(r.headers.get("cache-control"), "no-store"));
+  settings = legacy;
+  r = await fetch(`${base}/api/configurator`);
+  const migratedResponse = await r.json();
+  check(() => assert.deepEqual(migratedResponse.settings.catalogs.wallDesign, config.catalogs.wallDesign));
+  check(() => assert.equal(migratedResponse.settings.title, "CMS custom title"));
+  // Submission also resolves the persisted legacy catalogue without changing the flow.
+
   r = await fetch(`${base}/api/configurator/requests`, {
     method: "POST",
     body: body(),
   });
   check(() => assert.equal(r.status, 201));
+  settings = config;
   check(() => assert.equal(saved[0].specification.totalTravel, 9100));
   check(() => assert.equal(saved[0].selections.capacity.label, "630 kg"));
   r = await fetch(`${base}/api/configurator/requests`, {
@@ -229,5 +259,5 @@ try {
   server.closeAllConnections();
 }
 console.log(
-  `Configurator: ${checks} checks passed; all 148 local catalog images verified.`,
+  `Configurator: ${checks} checks passed; all ${Object.values(config.catalogs).flat().length} local catalog images verified.`,
 );

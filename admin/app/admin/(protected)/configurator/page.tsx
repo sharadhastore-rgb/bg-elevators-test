@@ -7,6 +7,7 @@ import { ConfiguratorSetting, ConfiguratorRequest } from "@/lib/configurator";
 import { plain, dateTime } from "@/lib/format";
 import {
   defaultConfigurator,
+  resolveConfiguratorSettings,
   statuses,
 } from "../../../../../shared/configurator.js";
 import { updateConfiguratorRequest } from "@/app/admin/configurator-actions";
@@ -74,7 +75,7 @@ export default async function ConfiguratorPage({
       </div>
       {settingsTab ? (
         <ConfiguratorEditor
-          settings={current?.settings || defaultConfigurator}
+          settings={resolveConfiguratorSettings(current?.settings || defaultConfigurator)}
           revision={current?.revision || 0}
           website={website}
         />
