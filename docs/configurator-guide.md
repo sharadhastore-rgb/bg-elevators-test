@@ -34,7 +34,7 @@ Reference inspected: https://nec.eu.com/en/configurator and its public `/js/conf
 
 ## Catalog source
 
-The default catalog retains the requested reference's 58 cabin appearances, 23 control panels, 19 ceilings, 42 floors and 6 accessories. Their 148 images were downloaded from the reference's public `/images/configurator/` catalog into `public/images/configurator/`; they do not hotlink to the reference. Source model identifiers and catalog descriptions are retained. These are reference catalog choices, not verified BG Elevators inventory. The CMS can replace them with the company's actual catalog.
+Cabin Appearance uses the 10 products from `src/data/pages/products.json`, preserving their names, descriptions and existing images. The other categories remain unchanged: 23 control panels, 19 ceilings, 42 floors and 6 accessories. Published settings containing only legacy demo cabin IDs are resolved to the new cabin list on both the public API and CMS editor; publishing saves the replacement, and subsequent CMS edits remain authoritative. All old image files are retained. The homepage no longer mounts `ArdorOpening`; its component and assets are retained.
 
 ## Endpoints and database collections
 

@@ -2,6 +2,7 @@ import express from "express";
 import multer from "multer";
 import {
   defaultConfigurator,
+  resolveConfiguratorSettings,
   validateConfiguration,
 } from "../shared/configurator.js";
 const upload = multer({
@@ -20,7 +21,7 @@ export function configuratorRouter(store, limit) {
   router.get("/", async (req, res, next) => {
     try {
       const record = await store.getConfigurator();
-      const settings = record?.settings || defaultConfigurator;
+      const settings = resolveConfiguratorSettings(record?.settings || defaultConfigurator);
       res.set("Cache-Control", "no-store");
       if (!settings.enabled)
         return res
@@ -59,7 +60,7 @@ export function configuratorRouter(store, limit) {
             .status(400)
             .json({ message: "Unable to submit this request." });
         const record = await store.getConfigurator();
-        const settings = record?.settings || defaultConfigurator;
+        const settings = resolveConfiguratorSettings(record?.settings || defaultConfigurator);
         if (!settings.enabled)
           return res
             .status(409)

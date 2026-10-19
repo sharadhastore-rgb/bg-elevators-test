@@ -401,409 +401,73 @@
   "catalogs": {
     "wallDesign": [
       {
-        "id": "FJ-JXA02",
-        "label": "FJ-JXA02",
-        "description": "Stainless steel with mirror etching in bronze color",
-        "image": "/images/configurator/walls/fj-jxa02.webp",
+        "id": "bg-stainless-steel-finish-cabin",
+        "label": "Stainless Steel Cabin",
+        "description": "Elegant and long-lasting cabin design with a sleek stainless steel hairline finish for a premium, clean look.",
+        "image": "/images/Products/ssfc.jpg",
         "enabled": true
       },
       {
-        "id": "FJ-JXA11",
-        "label": "FJ-JXA11",
-        "description": "Stainless steel with fine hairline brushing combined with mirror black titanium coating",
-        "image": "/images/configurator/walls/fj-jxa11.webp",
+        "id": "bg-glass-finish-cabin",
+        "label": "Glass Finish Cabin",
+        "description": "Modern, transparent cabins built with toughened glass for an open, spacious feel—ideal for luxury projects.",
+        "image": "/images/Products/glass-finish-cabin.jpg",
         "enabled": true
       },
       {
-        "id": "FJ-JXA12",
-        "label": "FJ-JXA12",
-        "description": "Combination of stainless steel with a fine brushed surface and mirror finish",
-        "image": "/images/configurator/walls/fj-jxa12.webp",
+        "id": "bg-mirror-finish-cabin",
+        "label": "Mirror Finish Cabin",
+        "description": "Adds a touch of sophistication and space illusion with high-reflective stainless steel mirror panels.",
+        "image": "/images/Products/mirror-finish.jpg",
         "enabled": true
       },
       {
-        "id": "HD-21Z05",
-        "label": "HD-21Z05",
-        "description": "",
-        "image": "/images/configurator/walls/hd-21z05.webp",
+        "id": "ms-powder-coated-finish",
+        "label": "MS Powder coated finish",
+        "description": "A functional, customizable finish that balances style with cost-effectiveness and corrosion resistance.",
+        "image": "/images/Products/ss-elevator-metal-finish.jpg",
         "enabled": true
       },
       {
-        "id": "HD-21Z08",
-        "label": "HD-21Z08",
-        "description": "",
-        "image": "/images/configurator/walls/hd-21z08.webp",
+        "id": "ss-hairline-finish",
+        "label": "SS Hairline finish",
+        "description": "A smooth, brushed stainless steel surface that enhances the elevator’s aesthetics with a matte, modern appeal.",
+        "image": "/images/Products/stainless-steel-elevator.jpg",
         "enabled": true
       },
       {
-        "id": "HD-21Z14",
-        "label": "HD-21Z14",
-        "description": "",
-        "image": "/images/configurator/walls/hd-21z14.webp",
+        "id": "ss-mirror-finish",
+        "label": "SS Mirror finish",
+        "description": "Polished stainless steel interiors that reflect elegance and amplify space perception in enclosed cabins.",
+        "image": "/images/Products/SS-Mirror-Cabin.avif",
         "enabled": true
       },
       {
-        "id": "HD-21Z15",
-        "label": "HD-21Z15",
-        "description": "",
-        "image": "/images/configurator/walls/hd-21z15.webp",
+        "id": "gold-finish",
+        "label": "Gold finish",
+        "description": "Opulent gold-toned cabin interiors designed to enhance the aesthetic appeal of luxury spaces.",
+        "image": "/images/Products/gold-cabin.jpg",
         "enabled": true
       },
       {
-        "id": "HD-21Z20",
-        "label": "HD-21Z20",
-        "description": "",
-        "image": "/images/configurator/walls/hd-21z20.webp",
+        "id": "rose-gold-finish",
+        "label": "Rose gold finish",
+        "description": "A refined, stylish finish with soft metallic pink hue—ideal for contemporary architecture with a touch of glam.",
+        "image": "/images/Products/rose-gold.avif",
         "enabled": true
       },
       {
-        "id": "HD-23Z02",
-        "label": "HD-23Z02",
-        "description": "",
-        "image": "/images/configurator/walls/hd-23z02.webp",
+        "id": "wooden-finish",
+        "label": "Wooden finish",
+        "description": "Warm wood-textured interiors for a premium elevator ambiance, ideal for homes or boutique spaces.",
+        "image": "/images/Products/wooden-finish.avif",
         "enabled": true
       },
       {
-        "id": "HD-23Z03",
-        "label": "HD-23Z03",
-        "description": "",
-        "image": "/images/configurator/walls/hd-23z03.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-23Z12",
-        "label": "HD-23Z12",
-        "description": "",
-        "image": "/images/configurator/walls/hd-23z12.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-23Z14",
-        "label": "HD-23Z14",
-        "description": "",
-        "image": "/images/configurator/walls/hd-23z14.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-23Z17",
-        "label": "HD-23Z17",
-        "description": "",
-        "image": "/images/configurator/walls/hd-23z17.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-BT-2314",
-        "label": "HD-BT-2314",
-        "description": "",
-        "image": "/images/configurator/walls/hd-bt-2314.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-C52Z09",
-        "label": "HD-C52Z09",
-        "description": "",
-        "image": "/images/configurator/walls/hd-c52z09.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-C52Z12",
-        "label": "HD-C52Z12",
-        "description": "",
-        "image": "/images/configurator/walls/hd-c52z12.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-C52Z13",
-        "label": "HD-C52Z13",
-        "description": "",
-        "image": "/images/configurator/walls/hd-c52z13.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-JX12-4",
-        "label": "HD-JX12-4",
-        "description": "",
-        "image": "/images/configurator/walls/hd-jx12-4.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-JX12-11",
-        "label": "HD-JX12-11",
-        "description": "",
-        "image": "/images/configurator/walls/hd-jx12-11.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-KT-2016",
-        "label": "HD-KT-2016",
-        "description": "",
-        "image": "/images/configurator/walls/hd-kt-2016.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-KT-2104",
-        "label": "HD-KT-2104",
-        "description": "",
-        "image": "/images/configurator/walls/hd-kt-2104.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-KT-2107",
-        "label": "HD-KT-2107",
-        "description": "Stainless steel with mirror effect and wood print",
-        "image": "/images/configurator/walls/hd-kt-2107.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-KT-2108",
-        "label": "HD-KT-2108",
-        "description": "Mirror etching on stainless steel",
-        "image": "/images/configurator/walls/hd-kt-2108.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD21Z07",
-        "label": "HD21Z07",
-        "description": "",
-        "image": "/images/configurator/walls/hd21z07.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD23Z04",
-        "label": "HD23Z04",
-        "description": "",
-        "image": "/images/configurator/walls/hd23z04.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA03",
-        "label": "FJ-JXA03",
-        "description": "Stainless steel with gold mirror etching",
-        "image": "/images/configurator/walls/fj-jxa03-913-196x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-JX06",
-        "label": "HD-JX06",
-        "description": "Combination of brushed stainless steel and mirror-etched details",
-        "image": "/images/configurator/walls/hd-jx06-247-196x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-JX12",
-        "label": "HD-JX12",
-        "description": "Stainless steel with fine hairline brushing",
-        "image": "/images/configurator/walls/hd-jx12-602-195x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-JX12-2",
-        "label": "HD-JX12-2",
-        "description": "Stainless steel with fine hairline brushing and mirror etching",
-        "image": "/images/configurator/walls/hd-jx12-2-138-196x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-JX12-1",
-        "label": "HD-JX12-1",
-        "description": "Stainless steel with fine hairline brushing and mirror etching",
-        "image": "/images/configurator/walls/hd-jx12-1-459-195x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA17",
-        "label": "FJ-JXA17",
-        "description": "Stainless steel with wood-grain decorative effect",
-        "image": "/images/configurator/walls/fj-jxa17-698-195x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA18",
-        "label": "FJ-JXA18",
-        "description": "Artistic glass and decorative acrylic",
-        "image": "/images/configurator/walls/fj-jxa18-574-196x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA19",
-        "label": "FJ-JXA19",
-        "description": "Bronze stainless steel with artistic color decoration",
-        "image": "/images/configurator/walls/fj-jxa19-338-195x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA20",
-        "label": "FJ-JXA20",
-        "description": "Wood-grain decoration",
-        "image": "/images/configurator/walls/fj-jxa20-219-195x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA21",
-        "label": "FJ-JXA21",
-        "description": "Stainless steel with mirror effect and etching in gold color",
-        "image": "/images/configurator/walls/fj-jxa21-845-195x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA22",
-        "label": "FJ-JXA22",
-        "description": "Mirror etching in gold color and wood-grain decoration",
-        "image": "/images/configurator/walls/fj-jxa22-312-195x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA23",
-        "label": "FJ-JXA23",
-        "description": "Stainless steel with mirror effect and etching in gold color",
-        "image": "/images/configurator/walls/fj-jxa23-467-195x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-B01",
-        "label": "HD-B01",
-        "description": "Stainless steel with fine hairline brushing",
-        "image": "/images/configurator/walls/hd-b01-380-196x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-B02",
-        "label": "HD-B02",
-        "description": "Painted steel (yellow color)",
-        "image": "/images/configurator/walls/hd-b02-205-196x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-JX03",
-        "label": "HD-JX03",
-        "description": "Stainless steel with fine hairline brushing and mirror etching",
-        "image": "/images/configurator/walls/hd-jx03-445-196x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-JX04",
-        "label": "HD-JX04",
-        "description": "Stainless steel with fine brushing and mirror etching",
-        "image": "/images/configurator/walls/hd-jx04-862-196x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA05",
-        "label": "FJ-JXA05",
-        "description": "Glass and stainless steel with mirror etching",
-        "image": "/images/configurator/walls/fj-jxa05-323-196x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA04",
-        "label": "FJ-JXA04",
-        "description": "Mirror stainless steel in rose gold",
-        "image": "/images/configurator/walls/fj-jxa04-396-196x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-JX05",
-        "label": "HD-JX05",
-        "description": "Stainless steel with fine brushing and mirror etching",
-        "image": "/images/configurator/walls/hd-jx05-207-195x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA06",
-        "label": "FJ-JXA06",
-        "description": "Glass combined with bronze-etched stainless steel",
-        "image": "/images/configurator/walls/fj-jxa06-640-195x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA07",
-        "label": "FJ-JXA07",
-        "description": "Combination of stainless steel with a fine brushed surface and mirror etching",
-        "image": "/images/configurator/walls/fj-jxa07-101-196x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA08",
-        "label": "FJ-JXA08",
-        "description": "Stainless steel with mirror effect in black titanium color",
-        "image": "/images/configurator/walls/fj-jxa08-268-196x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA10",
-        "label": "FJ-JXA10",
-        "description": "Stainless steel with mirror effect and gold etching",
-        "image": "/images/configurator/walls/fj-jxa10-780-196x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-JXA09",
-        "label": "HD-JXA09",
-        "description": "Gold mirror stainless steel with etched elements",
-        "image": "/images/configurator/walls/hd-jxa09-163-195x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-KT-2101",
-        "label": "HD-KT-2101",
-        "description": "Matte stainless steel with fine hairline brushing",
-        "image": "/images/configurator/walls/hd-kt-2101-423-196x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-KT-2102",
-        "label": "HD-KT-2102",
-        "description": "Steel with silver paint",
-        "image": "/images/configurator/walls/hd-kt-2102-383-195x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-KT-2103",
-        "label": "HD-KT-2103",
-        "description": "Steel with champagne gold paint",
-        "image": "/images/configurator/walls/hd-kt-2103-846-196x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA13",
-        "label": "FJ-JXA13",
-        "description": "Combination of stainless steel with fine brushing and mirror etching",
-        "image": "/images/configurator/walls/fj-jxa13-237-196x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA14",
-        "label": "FJ-JXA14",
-        "description": "Combination of stainless steel with fine brushing and mirror etching",
-        "image": "/images/configurator/walls/fj-jxa14-993-195x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA15",
-        "label": "FJ-JXA15",
-        "description": "Wood-effect decoration and gold mirror-etched stainless steel",
-        "image": "/images/configurator/walls/fj-jxa15-379-195x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "FJ-JXA16",
-        "label": "FJ-JXA16",
-        "description": "Stainless steel with mirror effect and bronze etching",
-        "image": "/images/configurator/walls/fj-jxa16-422-196x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-KT-2105",
-        "label": "HD-KT-2105",
-        "description": "Stainless steel with fine hairline brushing and mirror etching",
-        "image": "/images/configurator/walls/hd-kt-2105-674-195x300.webp",
-        "enabled": true
-      },
-      {
-        "id": "HD-KT-2106",
-        "label": "HD-KT-2106",
-        "description": "Stainless steel with fine hairline brushing and mirror etching",
-        "image": "/images/configurator/walls/hd-kt-2106-974-195x300.webp",
+        "id": "glass-door",
+        "label": "Glass door",
+        "description": "Toughened glass doors blend transparency with safety—ideal for modern buildings and views.",
+        "image": "/images/Products/glassdoor.jpg",
         "enabled": true
       }
     ],

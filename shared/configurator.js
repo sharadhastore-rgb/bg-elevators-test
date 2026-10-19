@@ -1,5 +1,77 @@
 import defaults from "./configurator-defaults.json" with { type: "json" };
 export const defaultConfigurator = defaults;
+
+// Upgrade only the old demo cabin catalogue; published CMS product edits stay authoritative.
+const legacyCabinIds = new Set([
+  "FJ-JXA02",
+  "FJ-JXA11",
+  "FJ-JXA12",
+  "HD-21Z05",
+  "HD-21Z08",
+  "HD-21Z14",
+  "HD-21Z15",
+  "HD-21Z20",
+  "HD-23Z02",
+  "HD-23Z03",
+  "HD-23Z12",
+  "HD-23Z14",
+  "HD-23Z17",
+  "HD-BT-2314",
+  "HD-C52Z09",
+  "HD-C52Z12",
+  "HD-C52Z13",
+  "HD-JX12-4",
+  "HD-JX12-11",
+  "HD-KT-2016",
+  "HD-KT-2104",
+  "HD-KT-2107",
+  "HD-KT-2108",
+  "HD21Z07",
+  "HD23Z04",
+  "FJ-JXA03",
+  "HD-JX06",
+  "HD-JX12",
+  "HD-JX12-2",
+  "HD-JX12-1",
+  "FJ-JXA17",
+  "FJ-JXA18",
+  "FJ-JXA19",
+  "FJ-JXA20",
+  "FJ-JXA21",
+  "FJ-JXA22",
+  "FJ-JXA23",
+  "HD-B01",
+  "HD-B02",
+  "HD-JX03",
+  "HD-JX04",
+  "FJ-JXA05",
+  "FJ-JXA04",
+  "HD-JX05",
+  "FJ-JXA06",
+  "FJ-JXA07",
+  "FJ-JXA08",
+  "FJ-JXA10",
+  "HD-JXA09",
+  "HD-KT-2101",
+  "HD-KT-2102",
+  "HD-KT-2103",
+  "FJ-JXA13",
+  "FJ-JXA14",
+  "FJ-JXA15",
+  "FJ-JXA16",
+  "HD-KT-2105",
+  "HD-KT-2106"
+]);
+export function resolveConfiguratorSettings(settings = defaults) {
+  const cabins = settings?.catalogs?.wallDesign;
+  if (!cabins?.length || !cabins.every((item) => legacyCabinIds.has(item.id)))
+    return settings;
+  return {
+    ...settings,
+    catalogs: { ...settings.catalogs, wallDesign: structuredClone(defaults.catalogs.wallDesign) },
+  };
+}
+
 export const enabledItems = (items) =>
   items.filter((item) => item.enabled !== false);
 export const statuses = ["New", "Contacted", "In Progress", "Quoted", "Closed"];

@@ -9,3 +9,5 @@ export function validateConfiguration(
   technicalOnly?: boolean,
 ): any;
 export function validateConfiguratorSettings(config: any): any;
+
+export function resolveConfiguratorSettings(settings?: any): any;
