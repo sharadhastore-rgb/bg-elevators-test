@@ -104,7 +104,14 @@ export default async function ConfiguratorPage({
               </div>
             )}
             {items.map((item, index) => (
-              <ConfiguratorRequestCard key={item._id} item={item} canEdit={actor.role !== "viewer"} open={index === 0} />
+              <ConfiguratorRequestCard
+                key={item._id}
+                item={item}
+                canEdit={actor.role !== "viewer"}
+                canDelete={actor.role === "admin"}
+                open={index === 0}
+                requestNumber={(page - 1) * 20 + index + 1}
+              />
             ))}
           </div>
           <div className="my-6 flex gap-5 text-sm">

@@ -51,13 +51,42 @@ export async function saveConfigurator(
     return { error: e.message || "Unable to publish settings." };
   }
 }
-export async function updateConfiguratorRequest(form: FormData) {
-  await requireRole(["admin", "staff"]);
-  const id = String(form.get("id")),
-    status = String(form.get("status"));
-  if (!/^[a-f0-9]{24}$/i.test(id) || !statuses.includes(status))
-    throw new Error("Invalid request update.");
-  await connectDb();
-  await ConfiguratorRequest.updateOne({ _id: id }, { $set: { status } });
-  revalidatePath("/admin/configurator");
+export async function updateConfiguratorRequest(
+  _state: { error?: string; success?: string },
+  form: FormData,
+): Promise<{ error?: string; success?: string }> {
+  try {
+    await requireRole(["admin", "staff"]);
+    const id = String(form.get("id")),
+      status = String(form.get("status"));
+    if (!/^[a-f0-9]{24}$/i.test(id) || !statuses.includes(status))
+      throw new Error("Invalid request update.");
+    await connectDb();
+    const result = await ConfiguratorRequest.updateOne(
+      { _id: id },
+      { $set: { status } },
+    );
+    if (!result.matchedCount) throw new Error("Request not found.");
+    revalidatePath("/admin/configurator");
+    return { success: `Status updated to ${status}.` };
+  } catch (error: any) {
+    return { error: error.message || "Unable to update the request status." };
+  }
+}
+
+export async function deleteConfiguratorRequest(
+  id: string,
+  _state: { error?: string },
+): Promise<{ error?: string }> {
+  try {
+    await requireRole(["admin"]);
+    if (!/^[a-f0-9]{24}$/i.test(id)) throw new Error("Invalid request.");
+    await connectDb();
+    const result = await ConfiguratorRequest.deleteOne({ _id: id });
+    if (!result.deletedCount) throw new Error("Request not found.");
+    revalidatePath("/admin/configurator");
+    return {};
+  } catch (error: any) {
+    return { error: error.message || "Unable to delete the request." };
+  }
 }

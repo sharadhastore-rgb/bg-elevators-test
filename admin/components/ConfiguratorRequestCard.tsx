@@ -1,7 +1,8 @@
-import { ChevronDown, Download, UserRound, Building2 } from "lucide-react";
+import { ChevronDown, Download, UserRound, Building2, Mail, Phone } from "lucide-react";
 import { dateTime } from "@/lib/format";
-import { updateConfiguratorRequest } from "@/app/admin/configurator-actions";
 import { statuses } from "../../shared/configurator.js";
+import ConfiguratorStatusForm from "@/components/ConfiguratorStatusForm";
+import ConfiguratorRequestDelete from "@/components/ConfiguratorRequestDelete";
 
 const labels: Record<string, string> = {
   name: "Contact name", email: "Email address", phone: "Phone number",
@@ -48,7 +49,7 @@ function Rows({ entries }: { entries: [string, string][] }) {
     </div>)}
   </dl>;
 }
-export default function ConfiguratorRequestCard({ item, canEdit, open }: { item: any; canEdit: boolean; open: boolean }) {
+export default function ConfiguratorRequestCard({ item, canEdit, canDelete, open, requestNumber }: { item: any; canEdit: boolean; canDelete: boolean; open: boolean; requestNumber: number }) {
   const customer = item.customer || {};
   const specification = item.specification || {};
   const known = new Set(groups.flatMap((group) => group.keys));
@@ -56,10 +57,23 @@ export default function ConfiguratorRequestCard({ item, canEdit, open }: { item:
   const statusColor = item.status === "Closed" ? "bg-slate-100 text-slate-600" : item.status === "New" ? "bg-sky-50 text-sky-800" : "bg-amber-50 text-amber-800";
   return <details open={open} className="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
     <summary className="flex cursor-pointer list-none flex-wrap items-center gap-4 p-5 focus-visible:outline-2 focus-visible:outline-sky-600 sm:p-6 [&::-webkit-details-marker]:hidden">
-      <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-sky-50 text-sky-700"><Building2 size={22} aria-hidden="true" /></span>
+      <span className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-sky-100 bg-sky-50 text-sky-700">
+        <Building2 size={21} aria-hidden="true" />
+        <span className="absolute -right-2 -top-2 min-w-6 rounded-full bg-[#006699] px-1.5 py-0.5 text-center text-[10px] font-bold leading-5 text-white shadow-sm">{String(requestNumber).padStart(2, "0")}</span>
+      </span>
       <div className="min-w-0 flex-1 basis-40">
         <h2 className="break-words text-base font-semibold text-slate-900">{customer.projectName || "Elevator project"}</h2>
-        <p className="mt-1 break-words text-sm text-slate-500">{customer.name || "Customer"}{customer.city ? ` · ${customer.city}` : ""}</p>
+        <div className="mt-1 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-slate-500">
+          <span className="break-words">{customer.name || "Customer"}{customer.city ? ` · ${customer.city}` : ""}</span>
+          {customer.email && <a href={`mailto:${customer.email}`} className="inline-flex min-w-0 items-center gap-1.5 hover:text-[#006699]">
+            <Mail size={14} className="shrink-0" aria-hidden="true" />
+            <span className="break-all">{customer.email}</span>
+          </a>}
+          {customer.phone && <a href={`tel:${String(customer.phone).replace(/[^+\d]/g, "")}`} className="inline-flex items-center gap-1.5 hover:text-[#006699]">
+            <Phone size={14} className="shrink-0" aria-hidden="true" />
+            <span>{customer.phone}</span>
+          </a>}
+        </div>
       </div>
       <div className="flex flex-wrap items-center gap-3">
         <span className={`rounded-full px-3 py-1 text-xs font-semibold ${statusColor}`}>{item.status}</span>
@@ -81,6 +95,7 @@ export default function ConfiguratorRequestCard({ item, canEdit, open }: { item:
             <p>Privacy consent: {item.consent ? "Yes" : "No"}<br />Marketing: {item.marketing ? "Opted in" : "Not opted in"}</p>
             <p className="break-all">Request ID: {item._id}<br />Catalogue revision: {item.revision}</p>
           </div>
+          {canDelete && <ConfiguratorRequestDelete id={item._id} name={customer.projectName || customer.name || "this request"} />}
         </section>
         <div className="grid min-w-0 items-start gap-5 md:grid-cols-2">
           {sections.map(({ title, keys }) => {
@@ -93,13 +108,7 @@ export default function ConfiguratorRequestCard({ item, canEdit, open }: { item:
           })}
         </div>
       </div>
-      {canEdit && <form action={updateConfiguratorRequest} className="flex flex-wrap items-end gap-3 border-t border-slate-200 bg-slate-50 px-5 py-4 sm:px-6">
-        <input type="hidden" name="id" value={item._id} />
-        <label className="grid gap-2 text-xs font-semibold text-slate-600">Request status
-          <select name="status" defaultValue={item.status} className="min-h-11 min-w-44 rounded-lg border border-slate-300 bg-white px-3 text-sm font-medium text-slate-800 focus:outline-2 focus:outline-sky-600">{statuses.map((status: string) => <option key={status}>{status}</option>)}</select>
-        </label>
-        <button className="min-h-11 rounded-lg bg-[#006699] px-5 text-sm font-semibold text-white hover:bg-[#005580] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">Update status</button>
-      </form>}
+      {canEdit && <ConfiguratorStatusForm id={item._id} status={item.status} statuses={statuses} />}
     </div>
   </details>;
 }
